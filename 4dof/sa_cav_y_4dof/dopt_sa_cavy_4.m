@@ -70,7 +70,10 @@ filename = strcat(dir,'/',date,'_',num2str(hour(now)),'-', num2str(minute(now)),
 
 diary (filename);
 diary on
-   
+
+system('hostname');
+datestr(now,'dd/mm/yyyy-HH:MM:ss')
+
 % SA para cav_y
 display('\nSimulated Annealing...Discreted\n');
 fprintf('\n\tRestricoes: PSI = %.3f | FI = %.3f\n',psi,fi);
