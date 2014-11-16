@@ -1,0 +1,25 @@
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('pdepatch', 'C:\Program Files\MATLAB\R2012b\toolbox\pde\pdepatch.m', 0)" style="font-weight:bold">pdepatch</a>
+
+
+In <a href="matlab:helpUtils.errorDocCallback('pdepolyGA', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\pdepolyGA.m', 108)" style="font-weight:bold">pdepolyGA</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\pdepolyGA.m',108,0)">line 108</a>)
+pdepatch(pdedl,bt,msb,label,m);
+
+In <a href="matlab:helpUtils.errorDocCallback('cav_y', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\cav_y.m', 78)" style="font-weight:bold">cav_y</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\cav_y.m',78,0)">line 78</a>)
+    pdepolyGA([x1,...
+
+In <a href="matlab:helpUtils.errorDocCallback('d_opt_sa_cavy', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m', 41)" style="font-weight:bold">d_opt_sa_cavy</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',41,0)">line 41</a>)
+matrizs(1,:) = cav_y([HdL x0(1) t1dt0 x0(2)]); %Não mostra a simulação
+} 
+ function [x,fval,exitflag,output] = d_sa_cavt(fun,x0,lb,ub,d,s,optValue)
+|
+{Error: Function definitions are not permitted in this context.
+} 
+d_opt_sa_cavy
+[Warning: The value of local variables may have been changed to match the
+         globals.  Future versions of MATLAB will require that you declare
+         a variable to be global before you use that variable.] 
+[> In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',7,1)">d_opt_sa_cavy at 7</a>] 
+[Warning: The value of local variables may have been changed to match the
+         globals.  Future versions of MATLAB will require that you declare
+         a variable to be global before you use that variable.] 
+[> In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',8,1)">d_opt_sa_cavy at 8</a>] 

@@ -1,0 +1,567 @@
+\nSimulated Annealing...Discreted\n
+
+	 Fitness Limit : -Inf
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  20 150 0.07 1.42 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @tempksa
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+     1          2        2.31793        2.31793            100
+     2          3       0.301335       0.301335            100
+     3          4       0.301335       0.301335            100
+     4          5       0.192855       0.192855            100
+     5          6       0.192855       0.192855            100
+     6          7      0.0881849      0.0881849            100
+     7          8      0.0881849      0.0881849            100
+     8          9      0.0881849      0.0881849            100
+     9         10      0.0881849      0.0881849            100
+    10         11      0.0881849       0.293896            100
+    11         12      0.0881849       0.157361            100
+    12         13      0.0881849        0.13481            100
+    13         14      0.0881849        0.13481            100
+    14         15      0.0881849        0.13481            100
+    15         16      0.0881849       0.126847            100
+    16         17      0.0881849       0.191518            100
+    17         18      0.0881849       0.191518            100
+    18         19      0.0881849       0.191518            100
+    19         20      0.0881849       0.130691            100
+    20         21      0.0881849       0.142609            100
+    21         22      0.0881849        0.38487            100
+    22         23      0.0881849        0.25274            100
+    23         24      0.0881849      0.0901195            100
+    24         25      0.0881849       0.200205            100
+    25         26      0.0881849        0.13099            100
+    26         27      0.0881849        0.13099            100
+    27         28      0.0881849        0.13099            100
+    28         29      0.0881849        0.13099            100
+    29         30      0.0881849         1.1562            100
+    30         31      0.0881849       0.281271            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+    31         32      0.0881849       0.272329            100
+    32         33      0.0881849        2.47196            100
+    33         34      0.0881849         2.1556            100
+    34         35      0.0881849       0.245984            100
+    35         36      0.0881849       0.273845            100
+    36         37      0.0881849        0.35555            100
+    37         38      0.0881849       0.333547            100
+    38         39      0.0881849       0.171908            100
+    39         40      0.0881849       0.171908            100
+    40         41      0.0881849        0.13127            100
+    41         42      0.0881849       0.175692            100
+    42         43      0.0881849       0.175692            100
+    43         44      0.0881849       0.270213            100
+    44         45      0.0881849        1.03481            100
+    45         46      0.0881849       0.274914            100
+    46         47      0.0881849      0.0896614            100
+    47         48      0.0881849      0.0896614            100
+    48         49      0.0881849      0.0896614            100
+    49         50      0.0881849      0.0896614            100
+    50         51      0.0881849        0.15389            100
+    51         52      0.0881849       0.138948            100
+    52         53       0.059806       0.059806            100
+    53         54       0.059806       0.089153            100
+    54         55       0.059806       0.127804            100
+    55         56       0.059806       0.127804            100
+    56         57       0.059806       0.127804            100
+    57         58       0.059806       0.262229            100
+    58         59       0.059806       0.116774            100
+    59         60       0.059806       0.406679            100
+    60         61       0.059806       0.371968            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+    61         62       0.059806       0.371968            100
+    62         63       0.059806       0.294615            100
+    63         64       0.059806       0.294615            100
+    64         65       0.059806        1.22285            100
+    65         66       0.059806       0.316106            100
+    66         67       0.059806      0.0976409            100
+    67         68       0.059806      0.0976409            100
+    68         69       0.059806       0.482443            100
+    69         70       0.059806       0.354689            100
+    70         71       0.059806       0.355539            100
+*   71         72       0.059806        3.04278            100
+    72         73       0.059806        1.35607            100
+    73         74       0.059806       0.338315            100
+    74         75       0.059806        4.54338            100
+    75         76       0.059806      0.0932109            100
+    76         77       0.059806        4.44496            100
+    77         78       0.059806        0.29602            100
+    78         79       0.059806      0.0902215            100
+    79         80       0.059806      0.0840436            100
+    80         81       0.059806       0.232924            100
+[Warning: Unable to complete the meshing step. Please try the alternate mesher version that can be selected in pdetool using the Mesh Parameters dialog or in the initmesh function using the
+'MesherVersion', 'R2013a' option.] 
+    81         82       0.059806       0.232924            100
+    82         83      0.0491269      0.0491269            100
+    83         84      0.0491269      0.0491269            100
+    84         85      0.0491269       0.187776            100
+    85         86      0.0491269       0.597452            100
+    86         87      0.0491269       0.280748            100
+    87         88      0.0491269       0.280748            100
+    88         89      0.0491269       0.121484            100
+    89         90      0.0491269       0.163587            100
+    90         91      0.0491269       0.163587            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+    91         92      0.0491269       0.163587            100
+    92         93      0.0491269      0.0885713            100
+    93         94      0.0491269       0.175239            100
+    94         95      0.0491269       0.422158            100
+    95         96      0.0491269       0.237603            100
+    96         97      0.0491269        3.44012            100
+    97         98      0.0491269       0.182991            100
+    98         99      0.0491269       0.137947            100
+    99        100      0.0491269       0.164267            100
+   100        101      0.0491269      0.0933256            100
+   101        102      0.0491269      0.0933256            100
+   102        103      0.0491269       0.161483            100
+   103        104      0.0491269       0.506049            100
+   104        105      0.0491269       0.314345            100
+   105        106      0.0491269       0.139751            100
+   106        107      0.0491269       0.139751            100
+   107        108      0.0491269       0.139751            100
+   108        109      0.0491269        0.10432            100
+   109        110      0.0491269        0.13011            100
+   110        111      0.0491269        0.12129            100
+   111        112      0.0491269        0.12129            100
+   112        113      0.0491269       0.123036            100
+   113        114      0.0491269        0.36489            100
+   114        115      0.0491269      0.0873011            100
+   115        116      0.0491269       0.755438            100
+   116        117      0.0491269       0.174495            100
+   117        118      0.0491269       0.174495            100
+   118        119      0.0491269       0.161881            100
+   119        120      0.0491269        1.40985            100
+   120        121      0.0491269       0.239656            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   121        122      0.0491269       0.239656            100
+   122        123      0.0491269       0.301145            100
+   123        124      0.0491269       0.302264            100
+   124        125      0.0491269       0.150013            100
+   125        126      0.0491269       0.150013            100
+   126        127      0.0491269       0.150013            100
+   127        128      0.0491269       0.150013            100
+   128        129      0.0491269        0.45622            100
+   129        130      0.0491269       0.185539            100
+   130        131      0.0491269       0.153492            100
+   131        132      0.0491269       0.117998            100
+   132        133      0.0491269       0.117998            100
+[Warning: Unable to complete the meshing step. Please try the alternate mesher version that can be selected in pdetool using the Mesh Parameters dialog or in the initmesh function using the
+'MesherVersion', 'R2013a' option.] 
+   133        134      0.0491269       0.117998            100
+   134        135      0.0491269       0.117998            100
+   135        136      0.0491269       0.117998            100
+   136        137      0.0491269       0.171418            100
+   137        138      0.0491269       0.171418            100
+   138        139      0.0491269       0.313722            100
+   139        140      0.0491269       0.313722            100
+   140        141      0.0491269       0.521808            100
+*  141        142      0.0491269       0.676616            100
+   142        143      0.0491269       0.293297            100
+   143        144      0.0491269       0.147863            100
+   144        145      0.0491269       0.350974            100
+   145        146      0.0491269       0.229322            100
+   146        147      0.0491269        0.17832            100
+   147        148      0.0491269       0.353944            100
+   148        149      0.0491269       0.167988            100
+   149        150      0.0491269       0.127124            100
+   150        151      0.0491269       0.116993            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   151        152      0.0491269       0.116993            100
+   152        153      0.0491269       0.106558            100
+   153        154      0.0491269        0.50977            100
+   154        155      0.0491269       0.177883            100
+   155        156      0.0491269       0.177883            100
+   156        157      0.0491269       0.289012            100
+   157        158      0.0491269         3.4029            100
+   158        159      0.0491269       0.123602            100
+   159        160      0.0491269       0.270812            100
+   160        161      0.0491269       0.592063            100
+   161        162      0.0491269       0.151848            100
+   162        163      0.0491269       0.151848            100
+   163        164      0.0491269        0.13095            100
+   164        165      0.0491269        0.13095            100
+   165        166      0.0491269       0.152771            100
+   166        167      0.0491269       0.182749            100
+   167        168      0.0491269       0.264475            100
+   168        169      0.0491269       0.243722            100
+   169        170      0.0491269       0.206173            100
+   170        171      0.0491269       0.520304            100
+   171        172      0.0491269      0.0932027            100
+   172        173      0.0491269      0.0932027            100
+   173        174      0.0491269      0.0932027            100
+   174        175      0.0491269      0.0521908            100
+   175        176      0.0491269      0.0521908            100
+   176        177      0.0491269        1.29368            100
+   177        178      0.0491269       0.169754            100
+   178        179      0.0491269       0.169754            100
+   179        180      0.0491269       0.169754            100
+   180        181      0.0491269         0.1304            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   181        182      0.0491269         0.1304            100
+   182        183      0.0491269      0.0892873            100
+   183        184      0.0491269        3.20633            100
+   184        185      0.0491269       0.163174            100
+   185        186      0.0491269        0.27071            100
+   186        187      0.0491269       0.089084            100
+   187        188      0.0491269       0.502765            100
+   188        189      0.0491269       0.126227            100
+   189        190      0.0491269       0.126227            100
+   190        191      0.0491269       0.126227            100
+   191        192      0.0491269       0.126415            100
+   192        193      0.0491269        1.14432            100
+   193        194      0.0491269        0.10508            100
+   194        195      0.0491269        0.10508            100
+   195        196      0.0491269       0.432186            100
+   196        197      0.0491269       0.113426            100
+   197        198      0.0491269       0.113426            100
+   198        199      0.0491269      0.0929786            100
+   199        200      0.0491269      0.0929786            100
+   200        201      0.0491269        1.16603            100
+   201        202      0.0491269        1.75963            100
+   202        203      0.0491269        1.27394            100
+   203        204      0.0491269      0.0961191            100
+   204        205      0.0491269      0.0961191            100
+   205        206      0.0491269      0.0961191            100
+   206        207      0.0491269      0.0961191            100
+   207        208      0.0491269       0.212072            100
+   208        209      0.0491269       0.171011            100
+*  209        210      0.0491269       0.659499            100
+   210        211      0.0491269       0.197605            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   211        212      0.0491269        1.71297            100
+   212        213      0.0491269        1.26111            100
+   213        214      0.0491269        1.11513            100
+   214        215      0.0491269       0.404123            100
+   215        216      0.0491269       0.387641            100
+   216        217      0.0491269       0.387641            100
+   217        218      0.0491269       0.277561            100
+[Warning: Unable to complete the meshing step. Please try the alternate mesher version that can be selected in pdetool using the Mesh Parameters dialog or in the initmesh function using the
+'MesherVersion', 'R2013a' option.] 
+   218        219      0.0491269       0.277561            100
+   219        220      0.0491269       0.394588            100
+   220        221      0.0491269       0.130626            100
+   221        222      0.0491269      0.0964447            100
+   222        223      0.0491269       0.202027            100
+   223        224      0.0491269       0.180823            100
+   224        225      0.0491269       0.180823            100
+   225        226      0.0491269       0.341844            100
+   226        227      0.0491269      0.0875201            100
+   227        228      0.0491269      0.0875201            100
+   228        229      0.0491269       0.132845            100
+   229        230      0.0491269      0.0914175            100
+   230        231      0.0411213      0.0411213            100
+   231        232      0.0411213      0.0411213            100
+   232        233      0.0411213      0.0411213            100
+   233        234      0.0411213      0.0411213            100
+   234        235      0.0411213       0.214908            100
+   235        236      0.0411213      0.0751218            100
+   236        237      0.0411213       0.267997            100
+   237        238      0.0411213       0.267997            100
+   238        239      0.0411213        4.54214            100
+   239        240      0.0411213        1.25764            100
+   240        241      0.0411213        0.18133            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   241        242      0.0411213       0.125735            100
+   242        243      0.0411213       0.125735            100
+   243        244      0.0411213       0.298534            100
+   244        245      0.0411213       0.142157            100
+   245        246      0.0411213       0.288884            100
+   246        247      0.0411213        1.24294            100
+   247        248      0.0411213       0.807952            100
+   248        249      0.0411213       0.200726            100
+   249        250      0.0411213       0.178718            100
+   250        251      0.0411213      0.0793039            100
+   251        252      0.0411213      0.0793039            100
+   252        253      0.0411213       0.174974            100
+   253        254      0.0411213      0.0905567            100
+[Warning: Unable to complete the meshing step. Please try the alternate mesher version that can be selected in pdetool using the Mesh Parameters dialog or in the initmesh function using the
+'MesherVersion', 'R2013a' option.] 
+   254        255      0.0411213      0.0905567            100
+   255        256      0.0411213      0.0905567            100
+   256        257      0.0411213      0.0905567            100
+   257        258      0.0411213      0.0911199            100
+   258        259      0.0411213        1.26142            100
+   259        260      0.0411213       0.114121            100
+   260        261      0.0411213       0.262789            100
+   261        262      0.0411213        1.65606            100
+   262        263      0.0411213       0.239254            100
+   263        264      0.0411213        0.13055            100
+   264        265      0.0411213        0.13055            100
+   265        266      0.0411213      0.0887151            100
+   266        267      0.0411213      0.0882898            100
+   267        268      0.0411213      0.0882898            100
+   268        269      0.0411213      0.0882898            100
+   269        270      0.0411213      0.0882898            100
+   270        271      0.0411213      0.0865664            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   271        272      0.0411213      0.0865664            100
+   272        273      0.0411213       0.313348            100
+   273        274      0.0411213       0.127022            100
+   274        275      0.0411213        0.11412            100
+   275        276      0.0411213       0.489513            100
+   276        277      0.0411213       0.236599            100
+*  277        278      0.0411213       0.134149            100
+   278        279      0.0411213       0.536876            100
+   279        280      0.0411213       0.124399            100
+   280        281      0.0411213        1.41678            100
+   281        282      0.0411213         1.8265            100
+   282        283      0.0411213       0.352198            100
+   283        284      0.0411213       0.185045            100
+   284        285      0.0411213        1.47333            100
+   285        286      0.0411213      0.0797727            100
+   286        287      0.0411213      0.0797727            100
+   287        288      0.0411213      0.0797727            100
+   288        289      0.0411213       0.210057            100
+   289        290      0.0411213       0.210057            100
+[Warning: Unable to complete the meshing step. Please try the alternate mesher version that can be selected in pdetool using the Mesh Parameters dialog or in the initmesh function using the
+'MesherVersion', 'R2013a' option.] 
+   290        291      0.0411213       0.210057            100
+   291        292      0.0411213       0.210057            100
+   292        293      0.0411213        0.17109            100
+   293        294      0.0411213       0.132494            100
+   294        295      0.0411213       0.247346            100
+   295        296      0.0411213       0.233382            100
+   296        297      0.0411213       0.134658            100
+   297        298      0.0411213       0.134658            100
+   298        299      0.0411213       0.134658            100
+   299        300      0.0411213       0.131951            100
+   300        301      0.0411213       0.131951            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   301        302      0.0411213      0.0947551            100
+   302        303      0.0411213        4.72091            100
+   303        304      0.0411213       0.113043            100
+   304        305      0.0411213       0.113043            100
+   305        306      0.0411213       0.113043            100
+   306        307      0.0411213       0.303141            100
+   307        308      0.0411213       0.151715            100
+   308        309      0.0411213       0.151715            100
+   309        310      0.0411213       0.191993            100
+   310        311      0.0411213        1.24789            100
+   311        312      0.0411213       0.105041            100
+   312        313      0.0411213       0.105041            100
+   313        314      0.0411213        0.11444            100
+   314        315      0.0411213        0.11444            100
+   315        316      0.0411213        0.11444            100
+   316        317      0.0411213       0.381369            100
+   317        318      0.0411213       0.248829            100
+   318        319      0.0411213       0.248829            100
+   319        320      0.0411213      0.0435345            100
+   320        321      0.0411213      0.0435345            100
+   321        322      0.0411213      0.0435345            100
+   322        323      0.0411213      0.0435345            100
+   323        324      0.0411213       0.231022            100
+   324        325      0.0411213       0.486803            100
+   325        326      0.0411213       0.486803            100
+   326        327      0.0411213         1.3529            100
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226
+  In sa_cav_y_4dof at 6
+  In globaloptim/private/sanewpoint at 25
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 113] 
+[Warning: This functionality is no longer supported under the -nodisplay and -noFigureWindows startup options. For more information, see "Changes to -nodisplay and -noFigureWindows Startup
+Options" in the MATLAB Release Notes. To view the release note in your system browser, run  web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226
+  In sa_cav_y_4dof at 6
+  In globaloptim/private/sanewpoint at 25
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 113] 
+{Error using /
+Matrix dimensions must agree.
+
+Error in acceptancesa (line 36)
+    h = 1/(1+exp(delE/max(optimValues.temperature)));
+
+Error in sanewpoint (line 31)
+    if options.AcceptanceFcn(optimvalues,newx,newfval)
+
+Error in saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+Error in simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+Error in simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+Error in dopt_sa_cavy_4 (line 113)
+%matrizs(2,:) = cav_yd([HdL vetor(1) t1dt0 vetor(2)]);
+
+Caused by:
+    Failure in AnnealingFcn evaluation.
+} 
+global fi;
+global psi;
+fi = 0.05;
+psi = .3;
+cav_y([20 0.5 90 1.53]);
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226] 
+[Warning: This functionality is no longer supported under the -nodisplay and -noFigureWindows startup options. For more information, see "Changes to -nodisplay and -noFigureWindows Startup
+Options" in the MATLAB Release Notes. To view the release note in your system browser, run  web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226] 
+try cav_y([20 0.5 90 1.53]);
+catch error
+ saida = +inf
+end
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226] 
+[Warning: This functionality is no longer supported under the -nodisplay and -noFigureWindows startup options. For more information, see "Changes to -nodisplay and -noFigureWindows Startup
+Options" in the MATLAB Release Notes. To view the release note in your system browser, run  web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226] 
+cav_yg([20 0.5 90 1.53]);
+cav_y([20 0.5 90 1.53])
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226] 
+[Warning: This functionality is no longer supported under the -nodisplay and -noFigureWindows startup options. For more information, see "Changes to -nodisplay and -noFigureWindows Startup
+Options" in the MATLAB Release Notes. To view the release note in your system browser, run  web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226] 
+
+ans =
+
+     []
+
+isempty(cav_y([20 0.5 90 1.53]))
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226] 
+[Warning: This functionality is no longer supported under the -nodisplay and -noFigureWindows startup options. For more information, see "Changes to -nodisplay and -noFigureWindows Startup
+Options" in the MATLAB Release Notes. To view the release note in your system browser, run  web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226] 
+
+ans =
+
+     1
+
+if isempty(cav_y([20 0.5 90 1.53]))
+saida = +inf;
+end
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226] 
+[Warning: This functionality is no longer supported under the -nodisplay and -noFigureWindows startup options. For more information, see "Changes to -nodisplay and -noFigureWindows Startup
+Options" in the MATLAB Release Notes. To view the release note in your system browser, run  web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226] 
+cav_y([20 0.5 90 1.53])
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226] 
+[Warning: This functionality is no longer supported under the -nodisplay and -noFigureWindows startup options. For more information, see "Changes to -nodisplay and -noFigureWindows Startup
+Options" in the MATLAB Release Notes. To view the release note in your system browser, run  web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226] 
+
+ans =
+
+   Inf
+
+clear
+clc
+dopt_sa_cavy_4(.3,.05,@tempboltzexp)
+
+x0 =
+
+   20.0000  180.0000    0.0020    1.3200
+
+
+Geometria invalida para x0 [20.000 180.000 0.002 1.320]

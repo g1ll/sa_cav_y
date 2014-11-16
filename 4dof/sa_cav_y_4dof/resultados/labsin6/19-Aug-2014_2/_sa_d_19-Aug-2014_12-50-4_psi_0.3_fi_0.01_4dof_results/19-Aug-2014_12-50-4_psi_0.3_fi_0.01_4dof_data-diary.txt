@@ -1,0 +1,2085 @@
+\nSimulated Annealing...Discreted\n
+
+	 Fitness Limit : -Inf
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  1 9 0.7 1.34 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @temperatureexp
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+     1          2       0.234927       0.234927          90.25
+     2          3       0.234927       0.234927        85.7375
+     3          4       0.142442       0.142442        81.4506
+     4          5       0.126711       0.126711        77.3781
+     5          6       0.104552       0.104552        73.5092
+     6          7       0.104094       0.104094        69.8337
+     7          8       0.104094       0.134275         66.342
+     8          9       0.104094       0.128215        63.0249
+     9         10       0.104094        6.64617        59.8737
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+    10         11       0.104094        6.64617          56.88
+    11         12       0.104094       0.550871         54.036
+    12         13       0.104094       0.154066        51.3342
+    13         14       0.099577       0.099577        48.7675
+    14         15       0.099577       0.133407        46.3291
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdepatch at 42
+  In pdepolyGA at 108
+  In cav_yg at 77
+  In d_annealing_c4 at 139
+  In globaloptim/private/sanewpoint at 18
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+    15         16       0.099577       0.133407        44.0127
+    16         17       0.099577       0.133407         41.812
+    17         18       0.099577       0.133407        39.7214
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+    18         19       0.099577       0.133407        37.7354
+    19         20       0.099577       0.106228        35.8486
+    20         21       0.099577       0.106228        34.0562
+    21         22      0.0612636      0.0612636        32.3534
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+    22         23      0.0612636      0.0612636        30.7357
+    23         24      0.0612636        1.31817        29.1989
+    24         25      0.0612636        1.31817         27.739
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+    25         26      0.0612636        1.31817         26.352
+    26         27      0.0612636        1.10982        25.0344
+    27         28      0.0612636        1.10982        23.7827
+    28         29      0.0612636       0.919985        22.5936
+    29         30      0.0612636       0.919985        21.4639
+    30         31      0.0612636        1.33228        20.3907
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+    31         32      0.0612636        1.33228        19.3711
+    32         33      0.0612636         1.0261        18.4026
+    33         34      0.0612636        4.50372        17.4825
+    34         35      0.0612636        4.50372        16.6083
+    35         36      0.0612636        1.08948        15.7779
+    36         37      0.0612636        1.08948         14.989
+    37         38      0.0612636       0.243724        14.2396
+    38         39      0.0612636        4.26691        13.5276
+    39         40      0.0612636        3.71334        12.8512
+    40         41      0.0612636        1.10876        12.2087
+    41         42      0.0612636       0.456183        11.5982
+    42         43      0.0612636       0.456183        11.0183
+    43         44      0.0612636       0.456183        10.4674
+    44         45      0.0612636       0.285494        9.94403
+    45         46      0.0612636       0.285494        9.44682
+    46         47      0.0612636       0.285494        8.97448
+    47         48      0.0612636       0.285494        8.52576
+    48         49      0.0612636        1.10882        8.09947
+    49         50      0.0612636        1.10882         7.6945
+    50         51      0.0612636        1.10882        7.30977
+    51         52      0.0612636        1.10882        6.94428
+    52         53      0.0612636       0.452812        6.59707
+    53         54      0.0612636       0.452812        6.26722
+    54         55      0.0612636        2.49393        5.95386
+    55         56      0.0612636        2.49393        5.65616
+    56         57      0.0612636        2.45171        5.37335
+    57         58      0.0612636        2.93723        5.10469
+    58         59      0.0612636       0.864646        4.84945
+    59         60      0.0612636       0.111922        4.60698
+    60         61      0.0612636       0.111922        4.37663
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+    61         62      0.0612636        1.16503         4.1578
+    62         63      0.0612636        1.16503        3.94991
+    63         64      0.0612636       0.948894        3.75241
+    64         65      0.0612636        1.52118        3.56479
+    65         66      0.0612636        1.52118        3.38655
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226
+  In sa_cav_y_4dof at 6
+  In globaloptim/private/sanewpoint at 25
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226
+  In sa_cav_y_4dof at 6
+  In globaloptim/private/sanewpoint at 25
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+    66         67      0.0612636        1.52118        3.21723
+    67         68      0.0323412      0.0323412        3.05636
+    68         69      0.0323412      0.0323412        2.90355
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+    69         70      0.0323412      0.0323412        2.75837
+    70         71      0.0323412      0.0323412        2.62045
+    71         72      0.0323412      0.0323412        2.48943
+    72         73      0.0323412       0.938977        2.36496
+    73         74      0.0323412       0.938977        2.24671
+    74         75      0.0323412        0.62883        2.13437
+    75         76      0.0323412       0.501279        2.02765
+    76         77      0.0323412       0.501279        1.92627
+    77         78      0.0323412       0.501279        1.82996
+    78         79      0.0323412       0.281673        1.73846
+    79         80      0.0323412       0.118941        1.65154
+    80         81      0.0323412      0.0342988        1.56896
+    81         82      0.0323412      0.0689452        1.49051
+    82         83      0.0323412        0.27049        1.41599
+    83         84      0.0323412      0.0569173        1.34519
+    84         85      0.0323412       0.255269        1.27793
+*   85         86     0.00931405     0.00931405             95
+    86         87     0.00931405     0.00931405          90.25
+    87         88     0.00931405       0.134566        85.7375
+    88         89     0.00931405       0.241307        81.4506
+    89         90     0.00931405       0.241307        77.3781
+    90         91     0.00931405       0.170541        73.5092
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+    91         92     0.00931405        0.12499        69.8337
+    92         93     0.00931405        0.12499         66.342
+    93         94     0.00931405        0.12499        63.0249
+    94         95     0.00931405       0.123435        59.8737
+    95         96     0.00931405       0.123435          56.88
+    96         97     0.00931405        5.69138         54.036
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+    97         98     0.00931405        5.69138        51.3342
+    98         99     0.00931405       0.544025        48.7675
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+    99        100     0.00931405       0.544025        46.3291
+   100        101     0.00931405        1.75383        44.0127
+   101        102     0.00931405        1.75383         41.812
+   102        103     0.00931405        3.43398        39.7214
+   103        104     0.00931405       0.428339        37.7354
+   104        105     0.00931405       0.428339        35.8486
+   105        106     0.00931405       0.428339        34.0562
+   106        107     0.00931405        1.42526        32.3534
+   107        108     0.00931405        1.83561        30.7357
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   108        109     0.00931405        1.83561        29.1989
+   109        110     0.00931405       0.620097         27.739
+   110        111     0.00931405         1.0886         26.352
+   111        112     0.00931405        1.09976        25.0344
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   112        113     0.00931405        1.09976        23.7827
+   113        114     0.00931405       0.840933        22.5936
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   114        115     0.00931405       0.840933        21.4639
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   115        116     0.00931405       0.840933        20.3907
+   116        117     0.00931405       0.840933        19.3711
+   117        118     0.00931405       0.115221        18.4026
+   118        119     0.00931405       0.115221        17.4825
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   119        120     0.00931405       0.115221        16.6083
+   120        121     0.00931405       0.115221        15.7779
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   121        122     0.00931405        4.58718         14.989
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   122        123     0.00931405        4.58718        14.2396
+   123        124     0.00931405        4.36486        13.5276
+   124        125     0.00931405        2.38805        12.8512
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   125        126     0.00931405        2.38805        12.2087
+   126        127     0.00931405        2.52302        11.5982
+   127        128     0.00931405        2.52302        11.0183
+   128        129     0.00931405        2.52302        10.4674
+   129        130     0.00931405        2.48056        9.94403
+   130        131     0.00931405        2.48056        9.44682
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   131        132     0.00931405        2.48056        8.97448
+   132        133     0.00931405       0.270489        8.52576
+   133        134     0.00931405       0.270489        8.09947
+   134        135     0.00931405      0.0268686         7.6945
+   135        136     0.00931405      0.0268686        7.30977
+   136        137     0.00931405        4.16195        6.94428
+   137        138     0.00931405        2.49702        6.59707
+   138        139     0.00931405        2.03189        6.26722
+   139        140     0.00931405        2.40859        5.95386
+   140        141     0.00931405        2.98645        5.65616
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   141        142     0.00931405        2.98645        5.37335
+   142        143     0.00931405         3.0393        5.10469
+   143        144     0.00931405       0.618383        4.84945
+   144        145     0.00931405        1.81378        4.60698
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   145        146     0.00931405        1.81378        4.37663
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   146        147     0.00931405        1.81378         4.1578
+   147        148     0.00931405        1.26411        3.94991
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   148        149     0.00931405        1.26411        3.75241
+   149        150     0.00931405        1.26411        3.56479
+   150        151     0.00931405        1.26411        3.38655
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   151        152     0.00931405        1.26411        3.21723
+   152        153     0.00931405        1.26411        3.05636
+   153        154     0.00931405       0.113259        2.90355
+   154        155     0.00931405       0.113259        2.75837
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   155        156     0.00931405       0.113259        2.62045
+   156        157     0.00931405      0.0603241        2.48943
+   157        158     0.00931405      0.0603241        2.36496
+   158        159     0.00931405      0.0603241        2.24671
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   159        160     0.00931405      0.0603241        2.13437
+   160        161     0.00931405      0.0603241        2.02765
+   161        162     0.00931405      0.0603241        1.92627
+   162        163     0.00931405      0.0603241        1.82996
+   163        164     0.00931405       0.401138        1.73846
+   164        165     0.00931405      0.0564122        1.65154
+   165        166     0.00931405      0.0564122        1.56896
+   166        167     0.00931405       0.239444        1.49051
+   167        168     0.00931405        0.03132        1.41599
+   168        169     0.00796967     0.00796967        1.34519
+   169        170     0.00796967       0.109436        1.27793
+   170        171     0.00796967       0.029354        1.21403
+   171        172     0.00755477     0.00755477        1.15333
+   172        173     0.00755477      0.0551303        1.09566
+   173        174     0.00755477      0.0551303        1.04088
+   174        175     0.00549834     0.00549834       0.988836
+   175        176     0.00549834       0.426202       0.939395
+   176        177     0.00549834       0.426202       0.892425
+   177        178     0.00549834       0.426202       0.847804
+   178        179     0.00549834     0.00715713       0.805413
+   179        180     0.00549834     0.00715713       0.765143
+   180        181     0.00549834     0.00715713       0.726886
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   181        182     0.00549834     0.00715713       0.690541
+   182        183     0.00549834       0.425053       0.656014
+   183        184     0.00549834       0.425053       0.623214
+   184        185     0.00549834       0.425053       0.592053
+   185        186     0.00549834       0.190156        0.56245
+   186        187     0.00549834       0.190156       0.534328
+*  187        188     0.00549834     0.00755477             95
+   188        189     0.00549834     0.00755477          90.25
+   189        190     0.00549834       0.995693        85.7375
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   190        191     0.00549834       0.995693        81.4506
+   191        192     0.00549834       0.995693        77.3781
+   192        193     0.00549834       0.120787        73.5092
+   193        194     0.00549834        1.12261        69.8337
+   194        195     0.00549834        0.16115         66.342
+   195        196     0.00549834        0.16115        63.0249
+   196        197     0.00549834        0.16115        59.8737
+   197        198     0.00549834       0.436089          56.88
+   198        199     0.00549834       0.436089         54.036
+   199        200     0.00549834       0.436089        51.3342
+   200        201     0.00549834       0.397327        48.7675
+   201        202     0.00549834       0.397327        46.3291
+   202        203     0.00549834       0.397327        44.0127
+   203        204     0.00549834        2.55668         41.812
+   204        205     0.00549834         2.2236        39.7214
+   205        206     0.00549834        1.45299        37.7354
+   206        207     0.00549834        1.45299        35.8486
+   207        208     0.00549834        1.45299        34.0562
+   208        209     0.00549834        4.95575        32.3534
+   209        210     0.00549834      0.0431048        30.7357
+   210        211     0.00549834      0.0431048        29.1989
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   211        212     0.00549834      0.0431048         27.739
+   212        213     0.00549834       0.127995         26.352
+   213        214     0.00549834       0.127995        25.0344
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   214        215     0.00549834       0.127995        23.7827
+   215        216     0.00549834       0.127995        22.5936
+   216        217     0.00549834        2.25765        21.4639
+   217        218     0.00549834        2.25765        20.3907
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   218        219     0.00549834        2.25765        19.3711
+   219        220     0.00549834        4.15478        18.4026
+   220        221     0.00549834        3.89041        17.4825
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   221        222     0.00549834        3.89041        16.6083
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   222        223     0.00549834        3.89041        15.7779
+   223        224     0.00549834        3.24034         14.989
+   224        225     0.00549834        3.24034        14.2396
+   225        226     0.00549834        2.87521        13.5276
+   226        227     0.00549834         1.5153        12.8512
+   227        228     0.00549834        2.66075        12.2087
+   228        229     0.00549834        4.82186        11.5982
+   229        230     0.00549834        3.69384        11.0183
+   230        231     0.00549834        3.09939        10.4674
+   231        232     0.00549834        3.09939        9.94403
+   232        233     0.00549834        1.10022        9.44682
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   233        234     0.00549834        1.10022        8.97448
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   234        235     0.00549834        1.10022        8.52576
+   235        236     0.00549834      0.0243535        8.09947
+   236        237     0.00549834      0.0243535         7.6945
+   237        238     0.00549834        1.72719        7.30977
+   238        239     0.00549834        1.72719        6.94428
+   239        240     0.00549834        1.72719        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   240        241     0.00549834        1.72719        6.26722
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   241        242     0.00549834       0.889394        5.95386
+   242        243     0.00549834       0.889394        5.65616
+   243        244     0.00549834      0.0194043        5.37335
+   244        245     0.00549834        2.22705        5.10469
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   245        246     0.00549834        2.22705        4.84945
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   246        247     0.00549834        2.22705        4.60698
+   247        248     0.00549834        1.19818        4.37663
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   248        249     0.00549834        1.19818         4.1578
+   249        250     0.00549834       0.190629        3.94991
+   250        251     0.00549834       0.190629        3.75241
+   251        252     0.00549834       0.190629        3.56479
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   252        253     0.00549834       0.190629        3.38655
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   253        254     0.00549834       0.190629        3.21723
+   254        255     0.00549834       0.328398        3.05636
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   255        256     0.00549834       0.328398        2.90355
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   256        257     0.00549834       0.328398        2.75837
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   257        258     0.00549834       0.328398        2.62045
+   258        259     0.00549834       0.621702        2.48943
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   259        260     0.00549834       0.621702        2.36496
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   260        261     0.00549834       0.621702        2.24671
+   261        262     0.00549834       0.626841        2.13437
+   262        263     0.00549834       0.626841        2.02765
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   263        264     0.00549834       0.626841        1.92627
+   264        265     0.00549834       0.626841        1.82996
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   265        266     0.00549834       0.626841        1.73846
+   266        267     0.00549834       0.426202        1.65154
+   267        268     0.00549834      0.0551303        1.56896
+   268        269     0.00549834      0.0551303        1.49051
+   269        270     0.00549834       0.190156        1.41599
+   270        271     0.00549834       0.190156        1.34519
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   271        272     0.00549834     0.00755477        1.27793
+   272        273     0.00549834     0.00755477        1.21403
+   273        274     0.00549834     0.00755477        1.15333
+   274        275     0.00549834     0.00549834        1.09566
+   275        276     0.00549834     0.00549834        1.04088
+   276        277     0.00549834       0.190156       0.988836
+   277        278     0.00549834      0.0564122       0.939395
+   278        279     0.00549834      0.0538596       0.892425
+   279        280     0.00549834      0.0538596       0.847804
+   280        281     0.00549834       0.430665       0.805413
+   281        282     0.00549834       0.430665       0.765143
+   282        283     0.00549834       0.190156       0.726886
+   283        284     0.00549834      0.0551303       0.690541
+   284        285     0.00549834      0.0551303       0.656014
+   285        286     0.00549834     0.00796967       0.623214
+   286        287     0.00549834     0.00796967       0.592053
+   287        288     0.00549834     0.00796967        0.56245
+   288        289     0.00549834     0.00796967       0.534328
+   289        290     0.00549834     0.00755477       0.507611
+   290        291     0.00549834     0.00755477       0.482231
+   291        292     0.00549834     0.00755477       0.458119
+   292        293     0.00549834      0.0551303       0.435213
+   293        294     0.00549834     0.00796967       0.413453
+   294        295     0.00549834     0.00796967        0.39278
+   295        296     0.00549834     0.00796967       0.373141
+   296        297     0.00549834     0.00796967       0.354484
+   297        298     0.00549834     0.00796967        0.33676
+   298        299     0.00549834       0.190156       0.319922
+   299        300     0.00549834       0.190156       0.303926
+*  300        301     0.00549834      0.0551303             95
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   301        302     0.00549834      0.0551303          90.25
+   302        303     0.00549834       0.210167        85.7375
+   303        304     0.00549834       0.134467        81.4506
+   304        305     0.00549834       0.171083        77.3781
+   305        306     0.00549834       0.956892        73.5092
+   306        307     0.00549834        4.45695        69.8337
+   307        308     0.00549834       0.170857         66.342
+   308        309     0.00549834       0.170857        63.0249
+   309        310     0.00549834       0.149446        59.8737
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   310        311     0.00549834       0.149446          56.88
+   311        312     0.00549834        3.66172         54.036
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   312        313     0.00549834        3.66172        51.3342
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   313        314     0.00549834        3.66172        48.7675
+   314        315     0.00549834        3.18971        46.3291
+   315        316     0.00549834        3.18971        44.0127
+   316        317     0.00549834        1.18406         41.812
+   317        318     0.00549834        1.18406        39.7214
+   318        319     0.00549834        0.45921        37.7354
+   319        320     0.00549834        0.45921        35.8486
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   320        321     0.00549834        0.45921        34.0562
+   321        322     0.00549834        0.45921        32.3534
+   322        323     0.00549834        6.59665        30.7357
+   323        324     0.00549834       0.980281        29.1989
+   324        325     0.00549834       0.980281         27.739
+   325        326     0.00549834        3.03268         26.352
+   326        327     0.00549834        3.03268        25.0344
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   327        328     0.00549834        3.03268        23.7827
+   328        329     0.00549834        1.49281        22.5936
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   329        330     0.00549834        1.49281        21.4639
+   330        331     0.00549834        1.49281        20.3907
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   331        332     0.00549834        1.76998        19.3711
+   332        333     0.00549834        1.76998        18.4026
+   333        334     0.00549834        4.37128        17.4825
+   334        335     0.00549834        4.76277        16.6083
+   335        336     0.00549834        2.14824        15.7779
+   336        337     0.00549834        2.14824         14.989
+   337        338     0.00549834        0.87372        14.2396
+   338        339     0.00549834        4.45597        13.5276
+   339        340     0.00549834        3.16594        12.8512
+   340        341     0.00549834        3.16594        12.2087
+   341        342     0.00549834        2.28147        11.5982
+   342        343     0.00549834        5.23672        11.0183
+   343        344     0.00549834       0.914886        10.4674
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   344        345     0.00549834       0.914886        9.94403
+   345        346     0.00549834         1.4741        9.44682
+   346        347     0.00549834         1.4741        8.97448
+   347        348     0.00549834         4.6885        8.52576
+   348        349     0.00549834        1.24909        8.09947
+   349        350     0.00549834        3.24428         7.6945
+   350        351     0.00549834        3.24428        7.30977
+   351        352     0.00549834        3.24428        6.94428
+   352        353     0.00549834        2.23807        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   353        354     0.00549834        2.23807        6.26722
+   354        355     0.00549834        2.15873        5.95386
+   355        356     0.00549834        2.16674        5.65616
+   356        357     0.00549834        1.79251        5.37335
+   357        358     0.00549834        1.79251        5.10469
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   358        359     0.00549834        1.79251        4.84945
+   359        360     0.00549834       0.423955        4.60698
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   360        361     0.00549834       0.423955        4.37663
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   361        362     0.00549834       0.423955         4.1578
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   362        363     0.00549834       0.423955        3.94991
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   363        364     0.00549834       0.423955        3.75241
+   364        365     0.00549834       0.423955        3.56479
+   365        366     0.00549834       0.328398        3.38655
+   366        367     0.00549834       0.620285        3.21723
+   367        368     0.00549834      0.0534384        3.05636
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   368        369     0.00549834      0.0534384        2.90355
+   369        370     0.00549834     0.00796967        2.75837
+   370        371     0.00549834     0.00755477        2.62045
+   371        372     0.00549834     0.00755477        2.48943
+   372        373     0.00549834     0.00755477        2.36496
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   373        374     0.00549834     0.00755477        2.24671
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   374        375     0.00549834     0.00755477        2.13437
+   375        376     0.00549834     0.00755477        2.02765
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   376        377     0.00549834     0.00755477        1.92627
+   377        378     0.00549834     0.00755477        1.82996
+   378        379     0.00549834       0.430665        1.73846
+   379        380     0.00549834     0.00715713        1.65154
+   380        381     0.00549834       0.430665        1.56896
+   381        382     0.00549834     0.00755477        1.49051
+   382        383     0.00549834     0.00549834        1.41599
+   383        384     0.00549834     0.00549834        1.34519
+   384        385     0.00549834     0.00549834        1.27793
+   385        386     0.00549834     0.00549834        1.21403
+   386        387     0.00549834     0.00549834        1.15333
+   387        388     0.00549834      0.0538596        1.09566
+   388        389     0.00549834      0.0538596        1.04088
+   389        390     0.00549834     0.00715713       0.988836
+   390        391     0.00549834     0.00715713       0.939395
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   391        392     0.00549834     0.00715713       0.892425
+   392        393     0.00549834      0.0564122       0.847804
+   393        394     0.00549834      0.0538596       0.805413
+   394        395     0.00549834      0.0538596       0.765143
+   395        396     0.00549834      0.0538596       0.726886
+   396        397     0.00549834      0.0538596       0.690541
+   397        398     0.00549834     0.00549834       0.656014
+   398        399     0.00549834     0.00549834       0.623214
+*  399        400     0.00549834     0.00549834             95
+   400        401     0.00549834       0.404481          90.25
+   401        402     0.00549834       0.132532        85.7375
+   402        403     0.00549834       0.206042        81.4506
+   403        404     0.00549834       0.206042        77.3781
+   404        405     0.00549834        0.17256        73.5092
+   405        406     0.00549834        1.28716        69.8337
+   406        407     0.00549834       0.614577         66.342
+   407        408     0.00549834       0.614577        63.0249
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   408        409     0.00549834       0.614577        59.8737
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   409        410     0.00549834       0.614577          56.88
+   410        411     0.00549834       0.244828         54.036
+   411        412     0.00549834       0.244828        51.3342
+   412        413     0.00549834       0.244828        48.7675
+   413        414     0.00549834       0.244828        46.3291
+   414        415     0.00549834       0.244828        44.0127
+   415        416     0.00549834       0.244828         41.812
+   416        417     0.00549834        1.04866        39.7214
+   417        418     0.00549834        1.04866        37.7354
+   418        419     0.00549834         1.7558        35.8486
+   419        420     0.00549834        3.14079        34.0562
+   420        421     0.00549834        3.14079        32.3534
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   421        422     0.00549834       0.204144        30.7357
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   422        423     0.00549834       0.204144        29.1989
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   423        424     0.00549834       0.204144         27.739
+   424        425     0.00549834       0.204144         26.352
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   425        426     0.00549834       0.204144        25.0344
+   426        427     0.00549834        4.54947        23.7827
+   427        428     0.00549834        3.44134        22.5936
+   428        429     0.00549834        4.87961        21.4639
+   429        430     0.00549834        4.87961        20.3907
+   430        431     0.00549834        1.34459        19.3711
+   431        432     0.00549834        3.79102        18.4026
+   432        433     0.00549834        1.12431        17.4825
+   433        434     0.00549834        1.12431        16.6083
+   434        435     0.00549834        1.12431        15.7779
+   435        436     0.00549834        4.56799         14.989
+   436        437     0.00549834        5.22938        14.2396
+   437        438     0.00549834        3.20206        13.5276
+   438        439     0.00549834        2.88613        12.8512
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   439        440     0.00549834        2.88613        12.2087
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   440        441     0.00549834        2.88613        11.5982
+   441        442     0.00549834        2.88613        11.0183
+   442        443     0.00549834         3.4489        10.4674
+   443        444     0.00549834         3.4489        9.94403
+   444        445     0.00549834         1.8215        9.44682
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   445        446     0.00549834         1.8215        8.97448
+   446        447     0.00549834        4.95316        8.52576
+   447        448     0.00549834        2.50874        8.09947
+   448        449     0.00549834        3.48133         7.6945
+   449        450     0.00549834        4.19491        7.30977
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   450        451     0.00549834        4.19491        6.94428
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   451        452     0.00549834        2.49163        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   452        453     0.00549834        2.49163        6.26722
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   453        454     0.00549834        2.49163        5.95386
+   454        455     0.00549834        2.49163        5.65616
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   455        456     0.00549834        2.49163        5.37335
+   456        457     0.00549834        3.68426        5.10469
+   457        458     0.00549834        1.80404        4.84945
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   458        459     0.00549834        1.80404        4.60698
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   459        460     0.00549834        1.80404        4.37663
+   460        461     0.00549834        1.80404         4.1578
+   461        462     0.00549834       0.620285        3.94991
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   462        463     0.00549834       0.620285        3.75241
+   463        464     0.00549834     0.00931405        3.56479
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   464        465     0.00549834     0.00931405        3.38655
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   465        466     0.00549834     0.00931405        3.21723
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   466        467     0.00549834     0.00931405        3.05636
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   467        468     0.00549834     0.00931405        2.90355
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   468        469     0.00549834     0.00931405        2.75837
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   469        470     0.00549834     0.00931405        2.62045
+   470        471     0.00549834     0.00931405        2.48943
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   471        472     0.00549834     0.00931405        2.36496
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   472        473     0.00549834     0.00931405        2.24671
+   473        474     0.00549834     0.00549834        2.13437
+   474        475     0.00549834     0.00549834        2.02765
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   475        476     0.00549834     0.00549834        1.92627
+   476        477     0.00549834     0.00549834        1.82996
+   477        478     0.00549834     0.00549834        1.73846
+   478        479     0.00549834     0.00549834        1.65154
+   479        480     0.00549834     0.00549834        1.56896
+   480        481     0.00549834       0.190156        1.49051
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   481        482     0.00549834     0.00796967        1.41599
+   482        483     0.00549834     0.00796967        1.34519
+   483        484     0.00549834     0.00715713        1.27793
+   484        485     0.00549834     0.00796967        1.21403
+   485        486     0.00549834     0.00796967        1.15333
+   486        487     0.00549834     0.00796967        1.09566
+   487        488     0.00549834     0.00796967        1.04088
+   488        489     0.00549834     0.00796967       0.988836
+   489        490     0.00549834     0.00796967       0.939395
+   490        491     0.00549834     0.00796967       0.892425
+   491        492     0.00549834     0.00796967       0.847804
+   492        493     0.00549834     0.00796967       0.805413
+   493        494     0.00549834     0.00796967       0.765143
+   494        495     0.00549834     0.00796967       0.726886
+   495        496     0.00549834     0.00755477       0.690541
+   496        497     0.00549834     0.00755477       0.656014
+   497        498     0.00549834     0.00755477       0.623214
+   498        499     0.00549834     0.00755477       0.592053
+   499        500     0.00549834     0.00755477        0.56245
+   500        501     0.00549834     0.00796967       0.534328
+   501        502     0.00549834     0.00796967       0.507611
+   502        503     0.00549834     0.00796967       0.482231
+   503        504     0.00549834     0.00796967       0.458119
+   504        505     0.00549834     0.00796967       0.435213
+   505        506     0.00549834      0.0551303       0.413453
+   506        507     0.00549834      0.0564122        0.39278
+   507        508     0.00549834     0.00549834       0.373141
+   508        509     0.00549834     0.00549834       0.354484
+   509        510     0.00549834     0.00549834        0.33676
+   510        511     0.00549834      0.0551303       0.319922
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   511        512     0.00549834      0.0551303       0.303926
+   512        513     0.00549834      0.0551303       0.288729
+   513        514     0.00549834     0.00715713       0.274293
+   514        515     0.00549834     0.00715713       0.260578
+   515        516     0.00549834       0.425053       0.247549
+   516        517     0.00549834       0.425053       0.235172
+   517        518     0.00549834       0.425053       0.223413
+   518        519     0.00549834     0.00796967       0.212243
+   519        520     0.00549834     0.00796967       0.201631
+   520        521     0.00549834     0.00796967       0.191549
+   521        522     0.00549834     0.00796967       0.181972
+   522        523     0.00549834     0.00796967       0.172873
+   523        524     0.00549834     0.00796967       0.164229
+   524        525     0.00549834     0.00796967       0.156018
+   525        526     0.00549834     0.00796967       0.148217
+   526        527     0.00549834     0.00796967       0.140806
+   527        528     0.00549834     0.00796967       0.133766
+   528        529     0.00549834     0.00796967       0.127078
+   529        530     0.00549834     0.00796967       0.120724
+   530        531     0.00549834     0.00796967       0.114687
+   531        532     0.00549834     0.00796967       0.108953
+   532        533     0.00549834     0.00796967       0.103505
+   533        534     0.00549834     0.00755477      0.0983302
+*  534        535     0.00549834     0.00715713             95
+   535        536     0.00549834     0.00715713          90.25
+   536        537     0.00549834     0.00715713        85.7375
+   537        538     0.00549834     0.00715713        81.4506
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   538        539     0.00549834     0.00715713        77.3781
+   539        540     0.00549834     0.00715713        73.5092
+   540        541     0.00549834     0.00715713        69.8337
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   541        542     0.00549834        1.19469         66.342
+   542        543     0.00549834        0.19843        63.0249
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   543        544     0.00549834        0.19843        59.8737
+   544        545     0.00549834       0.372123          56.88
+   545        546     0.00549834       0.225577         54.036
+   546        547     0.00549834       0.378551        51.3342
+   547        548     0.00549834        1.66913        48.7675
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   548        549     0.00549834        1.66913        46.3291
+   549        550     0.00549834        1.05004        44.0127
+   550        551     0.00549834        1.05004         41.812
+   551        552     0.00549834        2.13543        39.7214
+   552        553     0.00549834        1.65933        37.7354
+   553        554     0.00549834        1.63316        35.8486
+   554        555     0.00549834       0.654073        34.0562
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   555        556     0.00549834       0.654073        32.3534
+   556        557     0.00549834       0.654073        30.7357
+   557        558     0.00549834        3.86169        29.1989
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   558        559     0.00549834        3.86169         27.739
+   559        560     0.00549834        3.04084         26.352
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   560        561     0.00549834        3.04084        25.0344
+   561        562     0.00549834        3.04084        23.7827
+   562        563     0.00549834        3.04084        22.5936
+   563        564     0.00549834        3.04084        21.4639
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   564        565     0.00549834        3.04084        20.3907
+   565        566     0.00549834        3.04084        19.3711
+   566        567     0.00549834        2.37312        18.4026
+   567        568     0.00549834        0.17898        17.4825
+   568        569     0.00549834        0.17898        16.6083
+   569        570     0.00549834        3.87191        15.7779
+   570        571     0.00549834        3.91131         14.989
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   571        572     0.00549834        3.91131        14.2396
+   572        573     0.00549834        3.51992        13.5276
+   573        574     0.00549834        4.55702        12.8512
+   574        575     0.00549834        2.53804        12.2087
+   575        576     0.00549834        2.53804        11.5982
+   576        577     0.00549834        2.53804        11.0183
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   577        578     0.00549834        2.53804        10.4674
+   578        579     0.00549834        6.66368        9.94403
+   579        580     0.00549834        5.87887        9.44682
+   580        581     0.00549834          4.215        8.97448
+   581        582     0.00549834       0.613166        8.52576
+   582        583     0.00549834        2.02613        8.09947
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   583        584     0.00549834        2.02613         7.6945
+   584        585     0.00549834        2.02613        7.30977
+   585        586     0.00549834       0.614034        6.94428
+   586        587     0.00549834       0.614034        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   587        588     0.00549834       0.614034        6.26722
+   588        589     0.00549834        4.19629        5.95386
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   589        590     0.00549834        4.19629        5.65616
+   590        591     0.00549834      0.0070292        5.37335
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   591        592     0.00549834      0.0070292        5.10469
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   592        593     0.00549834      0.0070292        4.84945
+   593        594     0.00549834        2.22705        4.60698
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   594        595     0.00549834        2.22705        4.37663
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   595        596     0.00549834        2.22705         4.1578
+   596        597     0.00549834       0.430665        3.94991
+   597        598     0.00549834       0.430665        3.75241
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   598        599     0.00549834       0.430665        3.56479
+   599        600     0.00549834       0.430665        3.38655
+   600        601     0.00549834        1.19708        3.21723
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   601        602     0.00549834        1.19708        3.05636
+   602        603     0.00549834       0.621702        2.90355
+   603        604     0.00549834       0.190156        2.75837
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   604        605     0.00549834       0.190156        2.62045
+   605        606     0.00549834       0.621702        2.48943
+   606        607     0.00549834       0.621702        2.36496
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   607        608     0.00549834       0.621702        2.24671
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   608        609     0.00549834       0.621702        2.13437
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   609        610     0.00549834       0.621702        2.02765
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   610        611     0.00549834       0.621702        1.92627
+   611        612     0.00549834     0.00796967        1.82996
+   612        613     0.00549834     0.00796967        1.73846
+   613        614     0.00549834     0.00715713        1.65154
+   614        615     0.00549834     0.00715713        1.56896
+   615        616     0.00549834     0.00715713        1.49051
+   616        617     0.00549834     0.00715713        1.41599
+   617        618     0.00549834     0.00715713        1.34519
+   618        619     0.00549834     0.00715713        1.27793
+   619        620     0.00549834     0.00715713        1.21403
+   620        621     0.00549834     0.00715713        1.15333
+   621        622     0.00549834     0.00715713        1.09566
+   622        623     0.00549834     0.00755477        1.04088
+   623        624     0.00549834       0.426202       0.988836
+   624        625     0.00549834      0.0564122       0.939395
+   625        626     0.00549834      0.0564122       0.892425
+   626        627     0.00549834       0.430665       0.847804
+   627        628     0.00549834     0.00715713       0.805413
+   628        629     0.00549834     0.00715713       0.765143
+   629        630     0.00549834     0.00715713       0.726886
+   630        631     0.00549834      0.0564122       0.690541
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   631        632     0.00549834       0.190156       0.656014
+   632        633     0.00549834       0.425053       0.623214
+   633        634     0.00549834       0.425053       0.592053
+   634        635     0.00549834     0.00549834        0.56245
+   635        636     0.00549834     0.00549834       0.534328
+   636        637     0.00549834     0.00549834       0.507611
+   637        638     0.00549834     0.00549834       0.482231
+   638        639     0.00549834     0.00549834       0.458119
+   639        640     0.00549834     0.00549834       0.435213
+   640        641     0.00549834       0.190156       0.413453
+   641        642     0.00549834      0.0551303        0.39278
+   642        643     0.00549834      0.0551303       0.373141
+   643        644     0.00549834      0.0551303       0.354484
+*  644        645     0.00549834     0.00549834             95
+   645        646     0.00549834       0.490296          90.25
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   646        647     0.00549834       0.490296        85.7375
+   647        648     0.00549834       0.414232        81.4506
+   648        649     0.00549834       0.119556        77.3781
+   649        650     0.00549834       0.158615        73.5092
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdepatch at 42
+  In pdepolyGA at 108
+  In cav_yg at 77
+  In d_annealing_c4 at 139
+  In globaloptim/private/sanewpoint at 18
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+   650        651     0.00549834       0.156206        69.8337
+   651        652     0.00549834       0.115924         66.342
+   652        653     0.00549834       0.159135        63.0249
+   653        654     0.00549834       0.159135        59.8737
+   654        655     0.00549834          4.836          56.88
+   655        656     0.00549834       0.931743         54.036
+   656        657     0.00549834       0.931743        51.3342
+   657        658     0.00549834       0.145103        48.7675
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   658        659     0.00549834       0.145103        46.3291
+   659        660     0.00549834        3.38623        44.0127
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   660        661     0.00549834        3.38623         41.812
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   661        662     0.00549834        3.38623        39.7214
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdepatch at 42
+  In pdepolyGA at 108
+  In cav_yg at 77
+  In d_annealing_c4 at 139
+  In globaloptim/private/sanewpoint at 18
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   662        663     0.00549834        3.38623        37.7354
+   663        664     0.00549834        3.38623        35.8486
+   664        665     0.00549834        1.90154        34.0562
+   665        666     0.00549834        1.62557        32.3534
+   666        667     0.00549834        2.12379        30.7357
+   667        668     0.00549834        3.37638        29.1989
+   668        669     0.00549834        3.37638         27.739
+   669        670     0.00549834        3.37638         26.352
+   670        671     0.00549834        2.41526        25.0344
+   671        672     0.00549834        2.41526        23.7827
+   672        673     0.00549834        2.41526        22.5936
+   673        674     0.00549834      0.0618401        21.4639
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   674        675     0.00549834      0.0618401        20.3907
+   675        676     0.00549834      0.0618401        19.3711
+   676        677     0.00549834      0.0618401        18.4026
+   677        678     0.00549834        3.23706        17.4825
+   678        679     0.00549834        3.23706        16.6083
+   679        680     0.00549834        2.68043        15.7779
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   680        681     0.00549834        2.68043         14.989
+   681        682     0.00549834        7.18959        14.2396
+   682        683     0.00549834        6.26052        13.5276
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   683        684     0.00549834        6.26052        12.8512
+   684        685     0.00549834        6.67108        12.2087
+   685        686     0.00549834        4.53523        11.5982
+   686        687     0.00549834        4.53523        11.0183
+   687        688     0.00549834        5.58669        10.4674
+   688        689     0.00549834       0.039593        9.94403
+   689        690     0.00549834        3.28312        9.44682
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   690        691     0.00549834        3.28312        8.97448
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   691        692     0.00549834        0.91759        8.52576
+   692        693     0.00549834        1.40549        8.09947
+   693        694     0.00549834        1.40549         7.6945
+   694        695     0.00549834        2.92775        7.30977
+   695        696     0.00549834        2.92775        6.94428
+   696        697     0.00549834        4.30236        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   697        698     0.00549834        4.30236        6.26722
+   698        699     0.00549834        4.19351        5.95386
+   699        700     0.00549834        4.65953        5.65616
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   700        701     0.00549834        4.65953        5.37335
+   701        702     0.00549834        2.17674        5.10469
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   702        703     0.00549834        2.17674        4.84945
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   703        704     0.00549834        2.17674        4.60698
+   704        705     0.00549834       0.626841        4.37663
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   705        706     0.00549834       0.626841         4.1578
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   706        707     0.00549834       0.626841        3.94991
+   707        708     0.00549834       0.430665        3.75241
+   708        709     0.00549834       0.430665        3.56479
+   709        710     0.00549834       0.430665        3.38655
+   710        711     0.00549834     0.00755477        3.21723
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   711        712     0.00549834     0.00755477        3.05636
+   712        713     0.00549834     0.00755477        2.90355
+   713        714     0.00549834     0.00755477        2.75837
+   714        715     0.00549834     0.00755477        2.62045
+   715        716     0.00549834     0.00755477        2.48943
+   716        717     0.00549834     0.00755477        2.36496
+   717        718     0.00549834     0.00549834        2.24671
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   718        719     0.00549834     0.00549834        2.13437
+   719        720     0.00549834     0.00549834        2.02765
+   720        721     0.00549834     0.00549834        1.92627
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   721        722     0.00549834     0.00549834        1.82996
+   722        723     0.00549834     0.00549834        1.73846
+   723        724     0.00549834     0.00549834        1.65154
+   724        725     0.00549834     0.00549834        1.56896
+   725        726     0.00549834     0.00549834        1.49051
+   726        727     0.00549834     0.00549834        1.41599
+   727        728     0.00549834      0.0538596        1.34519
+   728        729     0.00549834      0.0538596        1.27793
+   729        730     0.00549834      0.0538596        1.21403
+   730        731     0.00549834      0.0538596        1.15333
+   731        732     0.00549834      0.0538596        1.09566
+   732        733     0.00549834      0.0538596        1.04088
+   733        734     0.00549834      0.0538596       0.988836
+   734        735     0.00549834      0.0538596       0.939395
+   735        736     0.00549834      0.0538596       0.892425
+   736        737     0.00549834     0.00715713       0.847804
+   737        738     0.00549834     0.00755477       0.805413
+   738        739     0.00549834     0.00755477       0.765143
+   739        740     0.00549834      0.0538596       0.726886
+   740        741     0.00549834     0.00549834       0.690541
+   741        742     0.00549834      0.0551303       0.656014
+   742        743     0.00549834       0.426202       0.623214
+   743        744     0.00549834     0.00755477       0.592053
+   744        745     0.00549834     0.00755477        0.56245
+   745        746     0.00549834       0.425053       0.534328
+   746        747     0.00549834       0.425053       0.507611
+   747        748     0.00549834      0.0551303       0.482231
+   748        749     0.00549834      0.0551303       0.458119
+   749        750     0.00549834     0.00715713       0.435213
+   750        751     0.00549834     0.00715713       0.413453
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   751        752     0.00549834     0.00715713        0.39278
+   752        753     0.00549834     0.00715713       0.373141
+*  753        754     0.00549834      0.0538596             95
+   754        755     0.00549834      0.0538596          90.25
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   755        756     0.00549834      0.0538596        85.7375
+   756        757     0.00549834        0.51132        81.4506
+   757        758     0.00549834       0.152228        77.3781
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   758        759     0.00549834       0.152228        73.5092
+   759        760     0.00549834       0.152228        69.8337
+   760        761     0.00549834       0.152228         66.342
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   761        762     0.00549834       0.152228        63.0249
+   762        763     0.00549834       0.152228        59.8737
+   763        764     0.00549834       0.141732          56.88
+   764        765     0.00549834       0.141732         54.036
+   765        766     0.00549834       0.117955        51.3342
+   766        767     0.00549834       0.117955        48.7675
+   767        768     0.00549834       0.117955        46.3291
+   768        769     0.00549834       0.117955        44.0127
+   769        770     0.00549834       0.117955         41.812
+   770        771     0.00549834        6.56997        39.7214
+   771        772     0.00549834        6.56997        37.7354
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   772        773     0.00549834        6.56997        35.8486
+   773        774     0.00549834        1.50713        34.0562
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   774        775     0.00549834        1.50713        32.3534
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   775        776     0.00549834        1.50713        30.7357
+   776        777     0.00549834        4.69521        29.1989
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   777        778     0.00549834        4.69521         27.739
+   778        779     0.00549834      0.0374162         26.352
+   779        780     0.00549834        1.58942        25.0344
+   780        781     0.00549834        1.63828        23.7827
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   781        782     0.00549834       0.445663        22.5936
+   782        783     0.00549834       0.445663        21.4639
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   783        784     0.00549834       0.445663        20.3907
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   784        785     0.00549834       0.445663        19.3711
+   785        786     0.00549834        1.77753        18.4026
+   786        787     0.00549834        1.77753        17.4825
+   787        788     0.00549834        1.77753        16.6083
+   788        789     0.00549834        1.77753        15.7779
+   789        790     0.00549834        1.77753         14.989
+   790        791     0.00549834        1.77753        14.2396
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   791        792     0.00549834        1.77753        13.5276
+   792        793     0.00549834       0.909854        12.8512
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   793        794     0.00549834       0.909854        12.2087
+   794        795     0.00549834      0.0505415        11.5982
+   795        796     0.00549834      0.0505415        11.0183
+   796        797     0.00549834         6.6763        10.4674
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   797        798     0.00549834         6.6763        9.94403
+   798        799     0.00549834        2.91694        9.44682
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   799        800     0.00549834        2.91694        8.97448
+   800        801     0.00549834        5.57067        8.52576
+   801        802     0.00549834        5.54099        8.09947
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   802        803     0.00549834        5.54099         7.6945
+   803        804     0.00549834        5.94081        7.30977
+   804        805     0.00549834        3.08109        6.94428
+   805        806     0.00549834        3.00942        6.59707
+   806        807     0.00549834        2.16051        6.26722
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   807        808     0.00549834        2.16051        5.95386
+   808        809     0.00549834      0.0603241        5.65616
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   809        810     0.00549834      0.0603241        5.37335
+   810        811     0.00549834        4.18571        5.10469
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   811        812     0.00549834        1.78738        4.84945
+   812        813     0.00549834        2.25156        4.60698
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   813        814     0.00549834        2.25156        4.37663
+   814        815     0.00549834       0.436089         4.1578
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   815        816     0.00549834       0.436089        3.94991
+   816        817     0.00549834       0.436089        3.75241
+   817        818     0.00549834       0.425053        3.56479
+   818        819     0.00549834      0.0194043        3.38655
+   819        820     0.00549834      0.0603241        3.21723
+   820        821     0.00549834      0.0603241        3.05636
+   821        822     0.00549834      0.0603241        2.90355
+   822        823     0.00549834      0.0603241        2.75837
+   823        824     0.00549834      0.0603241        2.62045
+   824        825     0.00549834       0.626841        2.48943
+   825        826     0.00549834       0.626841        2.36496
+   826        827     0.00549834       0.190156        2.24671
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   827        828     0.00549834       0.190156        2.13437
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   828        829     0.00549834       0.190156        2.02765
+   829        830     0.00549834        1.19708        1.92627
+   830        831     0.00549834       0.190156        1.82996
+   831        832     0.00549834      0.0538596        1.73846
+   832        833     0.00549834      0.0538596        1.65154
+   833        834     0.00549834       0.190156        1.56896
+   834        835     0.00549834      0.0538596        1.49051
+   835        836     0.00549834       0.430665        1.41599
+   836        837     0.00549834       0.430665        1.34519
+   837        838     0.00549834     0.00549834        1.27793
+   838        839     0.00549834     0.00549834        1.21403
+   839        840     0.00549834     0.00549834        1.15333
+   840        841     0.00549834       0.430665        1.09566
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   841        842     0.00549834       0.430665        1.04088
+   842        843     0.00549834      0.0538596       0.988836
+   843        844     0.00549834     0.00715713       0.939395
+   844        845     0.00549834     0.00715713       0.892425
+   845        846     0.00549834     0.00715713       0.847804
+   846        847     0.00549834     0.00715713       0.805413
+   847        848     0.00549834     0.00715713       0.765143
+   848        849     0.00549834     0.00715713       0.726886
+   849        850     0.00549834     0.00715713       0.690541
+   850        851     0.00549834     0.00715713       0.656014
+   851        852     0.00549834     0.00755477       0.623214
+   852        853     0.00549834     0.00755477       0.592053
+   853        854     0.00549834      0.0551303        0.56245
+   854        855     0.00549834      0.0551303       0.534328
+   855        856     0.00549834       0.426202       0.507611
+   856        857     0.00549834       0.426202       0.482231
+   857        858     0.00549834      0.0551303       0.458119
+   858        859     0.00549834      0.0551303       0.435213
+   859        860     0.00549834     0.00715713       0.413453
+   860        861     0.00549834     0.00715713        0.39278
+   861        862     0.00549834     0.00715713       0.373141
+   862        863     0.00549834     0.00715713       0.354484
+   863        864     0.00549834     0.00715713        0.33676
+   864        865     0.00549834       0.425053       0.319922
+   865        866     0.00549834       0.425053       0.303926
+   866        867     0.00549834       0.425053       0.288729
+   867        868     0.00549834       0.190156       0.274293
+*  868        869     0.00549834      0.0551303             95
+   869        870     0.00549834        1.35902          90.25
+   870        871     0.00549834        1.18695        85.7375
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   871        872     0.00549834       0.234557        81.4506
+   872        873     0.00549834       0.234557        77.3781
+   873        874     0.00549834        4.62827        73.5092
+   874        875     0.00549834        0.42279        69.8337
+   875        876     0.00549834        0.26318         66.342
+   876        877     0.00549834        0.18287        63.0249
+   877        878     0.00549834       0.103563        59.8737
+   878        879     0.00549834       0.103563          56.88
+   879        880     0.00549834       0.103563         54.036
+   880        881     0.00549834       0.782715        51.3342
+   881        882     0.00549834       0.758271        48.7675
+   882        883     0.00549834       0.537794        46.3291
+   883        884     0.00549834       0.390632        44.0127
+   884        885     0.00549834       0.401944         41.812
+   885        886     0.00549834        4.97201        39.7214
+   886        887     0.00549834       0.404066        37.7354
+   887        888     0.00549834       0.404066        35.8486
+   888        889     0.00549834       0.404066        34.0562
+   889        890     0.00549834       0.404066        32.3534
+   890        891     0.00549834        6.70187        30.7357
+   891        892     0.00549834        4.43172        29.1989
+   892        893     0.00549834        4.43172         27.739
+   893        894     0.00549834       0.866592         26.352
+   894        895     0.00549834       0.264682        25.0344
+   895        896     0.00549834        1.10625        23.7827
+   896        897     0.00549834        0.17754        22.5936
+   897        898     0.00549834        0.17754        21.4639
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   898        899     0.00549834        0.17754        20.3907
+   899        900     0.00549834        3.85497        19.3711
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   900        901     0.00549834        3.85497        18.4026
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   901        902     0.00549834        5.78383        17.4825
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   902        903     0.00549834        5.78383        16.6083
+   903        904     0.00549834        2.06073        15.7779
+   904        905     0.00549834        6.53081         14.989
+   905        906     0.00549834        4.78388        14.2396
+   906        907     0.00549834        3.29048        13.5276
+   907        908     0.00549834        3.29048        12.8512
+   908        909     0.00549834        1.40969        12.2087
+   909        910     0.00549834        1.40969        11.5982
+   910        911     0.00549834        1.34114        11.0183
+   911        912     0.00549834        1.34114        10.4674
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   912        913     0.00549834        1.34114        9.94403
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   913        914     0.00549834        1.34114        9.44682
+   914        915     0.00549834        1.34114        8.97448
+   915        916     0.00549834        1.34114        8.52576
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   916        917     0.00549834        1.34114        8.09947
+   917        918     0.00549834        1.34114         7.6945
+   918        919     0.00549834        2.01396        7.30977
+   919        920     0.00549834        2.16643        6.94428
+   920        921     0.00549834         2.8702        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   921        922     0.00549834         2.8702        6.26722
+   922        923     0.00549834         2.8702        5.95386
+   923        924     0.00549834        2.63973        5.65616
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   924        925     0.00549834        2.63973        5.37335
+   925        926     0.00549834        2.63973        5.10469
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   926        927     0.00549834        2.63973        4.84945
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   927        928     0.00549834        2.63973        4.60698
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   928        929     0.00549834        2.63973        4.37663
+   929        930     0.00549834        2.63973         4.1578
+   930        931     0.00549834        1.80544        3.94991
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   931        932     0.00549834        1.80544        3.75241
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   932        933     0.00549834        1.80544        3.56479
+   933        934     0.00549834     0.00755477        3.38655
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   934        935     0.00549834     0.00755477        3.21723
+   935        936     0.00549834       0.620285        3.05636
+   936        937     0.00549834       0.425053        2.90355
+   937        938     0.00549834     0.00715713        2.75837
+   938        939     0.00549834     0.00755477        2.62045
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   939        940     0.00549834     0.00755477        2.48943
+   940        941     0.00549834     0.00755477        2.36496
+   941        942     0.00549834     0.00755477        2.24671
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   942        943     0.00549834     0.00755477        2.13437
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   943        944     0.00549834     0.00755477        2.02765
+   944        945     0.00549834     0.00755477        1.92627
+   945        946     0.00549834       0.426202        1.82996
+   946        947     0.00549834       0.426202        1.73846
+   947        948     0.00549834       0.426202        1.65154
+   948        949     0.00549834       0.190156        1.56896
+   949        950     0.00549834     0.00715713        1.49051
+   950        951     0.00549834     0.00715713        1.41599
+   951        952     0.00549834     0.00715713        1.34519
+   952        953     0.00549834     0.00796967        1.27793
+   953        954     0.00549834     0.00796967        1.21403
+   954        955     0.00549834     0.00796967        1.15333
+   955        956     0.00549834     0.00796967        1.09566
+   956        957     0.00549834      0.0551303        1.04088
+   957        958     0.00549834     0.00796967       0.988836
+   958        959     0.00549834     0.00549834       0.939395
+   959        960     0.00549834     0.00796967       0.892425
+   960        961     0.00549834       0.430665       0.847804
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+*  961        962     0.00549834       0.426202             95
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   962        963     0.00549834       0.426202          90.25
+   963        964     0.00549834      0.0777784        85.7375
+   964        965     0.00549834       0.176644        81.4506
+   965        966     0.00549834       0.176644        77.3781
+   966        967     0.00549834       0.176644        73.5092
+   967        968     0.00549834       0.176644        69.8337
+   968        969     0.00549834       0.176644         66.342
+   969        970     0.00549834       0.178895        63.0249
+   970        971     0.00549834       0.162062        59.8737
+   971        972     0.00549834       0.162062          56.88
+   972        973     0.00549834       0.162062         54.036
+   973        974     0.00549834       0.111669        51.3342
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   974        975     0.00549834       0.111669        48.7675
+   975        976     0.00549834       0.111669        46.3291
+   976        977     0.00549834       0.111669        44.0127
+   977        978     0.00549834        3.33201         41.812
+   978        979     0.00549834       0.999622        39.7214
+   979        980     0.00549834        1.46511        37.7354
+   980        981     0.00549834       0.584622        35.8486
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   981        982     0.00549834       0.584622        34.0562
+   982        983     0.00549834       0.584622        32.3534
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   983        984     0.00549834       0.584622        30.7357
+   984        985     0.00549834       0.584622        29.1989
+   985        986     0.00549834       0.584622         27.739
+   986        987     0.00549834       0.584622         26.352
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   987        988     0.00549834       0.584622        25.0344
+   988        989     0.00549834       0.584622        23.7827
+   989        990     0.00549834        1.06785        22.5936
+   990        991     0.00549834        1.06785        21.4639
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+   991        992     0.00549834        4.75163        20.3907
+   992        993     0.00549834        3.06143        19.3711
+   993        994     0.00549834        3.52583        18.4026
+   994        995     0.00549834       0.441922        17.4825
+   995        996     0.00549834       0.220972        16.6083
+   996        997     0.00549834       0.220972        15.7779
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+   997        998     0.00549834       0.220972         14.989
+   998        999     0.00549834        2.72902        14.2396
+   999       1000     0.00549834        3.76383        13.5276
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1000       1001     0.00549834        3.76383        12.8512
+  1001       1002     0.00549834        3.76383        12.2087
+  1002       1003     0.00549834        3.76383        11.5982
+  1003       1004     0.00549834        3.76383        11.0183
+  1004       1005     0.00549834        2.70915        10.4674
+  1005       1006     0.00549834        5.26127        9.94403
+  1006       1007     0.00549834        1.39208        9.44682
+  1007       1008     0.00549834        3.27414        8.97448
+  1008       1009     0.00549834        3.27414        8.52576
+  1009       1010     0.00549834        3.27414        8.09947
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1010       1011     0.00549834        3.27414         7.6945
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1011       1012     0.00549834        3.27414        7.30977
+  1012       1013     0.00549834        2.29485        6.94428
+  1013       1014     0.00549834        3.02573        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1014       1015     0.00549834        3.02573        6.26722
+  1015       1016     0.00549834       0.877124        5.95386
+  1016       1017     0.00549834        4.19379        5.65616
+  1017       1018     0.00549834        1.73248        5.37335
+  1018       1019     0.00549834        1.73248        5.10469
+  1019       1020     0.00549834        1.73248        4.84945
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1020       1021     0.00549834        1.73248        4.60698
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1021       1022     0.00549834        1.73248        4.37663
+  1022       1023     0.00549834       0.890509         4.1578
+  1023       1024     0.00549834        2.22387        3.94991
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1024       1025     0.00549834        2.22387        3.75241
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1025       1026     0.00549834        2.22387        3.56479
+  1026       1027     0.00549834       0.620285        3.38655
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1027       1028     0.00549834       0.620285        3.21723
+  1028       1029     0.00549834     0.00931405        3.05636
+  1029       1030     0.00549834     0.00796967        2.90355
+  1030       1031     0.00549834     0.00796967        2.75837
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1031       1032     0.00549834     0.00796967        2.62045
+  1032       1033     0.00549834     0.00715713        2.48943
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1033       1034     0.00549834     0.00715713        2.36496
+  1034       1035     0.00549834     0.00715713        2.24671
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1035       1036     0.00549834     0.00715713        2.13437
+  1036       1037     0.00549834     0.00715713        2.02765
+  1037       1038     0.00549834       0.328398        1.92627
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1038       1039     0.00549834       0.328398        1.82996
+  1039       1040     0.00549834       0.621702        1.73846
+  1040       1041     0.00549834       0.621702        1.65154
+  1041       1042     0.00549834      0.0551303        1.56896
+  1042       1043     0.00549834      0.0538596        1.49051
+  1043       1044     0.00549834     0.00755477        1.41599
+  1044       1045     0.00549834     0.00755477        1.34519
+  1045       1046     0.00549834      0.0564122        1.27793
+  1046       1047     0.00549834      0.0564122        1.21403
+  1047       1048     0.00549834       0.425053        1.15333
+  1048       1049     0.00549834      0.0551303        1.09566
+  1049       1050     0.00549834      0.0551303        1.04088
+  1050       1051     0.00549834      0.0551303       0.988836
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+  1051       1052     0.00549834      0.0538596       0.939395
+  1052       1053     0.00549834      0.0538596       0.892425
+  1053       1054     0.00549834     0.00715713       0.847804
+  1054       1055     0.00549834     0.00549834       0.805413
+  1055       1056     0.00549834     0.00549834       0.765143
+  1056       1057     0.00549834     0.00715713       0.726886
+  1057       1058     0.00549834      0.0551303       0.690541
+  1058       1059     0.00549834      0.0551303       0.656014
+  1059       1060     0.00549834      0.0551303       0.623214
+  1060       1061     0.00549834      0.0551303       0.592053
+  1061       1062     0.00549834       0.426202        0.56245
+  1062       1063     0.00549834      0.0538596       0.534328
+  1063       1064     0.00549834      0.0538596       0.507611
+  1064       1065     0.00549834      0.0538596       0.482231
+  1065       1066     0.00549834      0.0538596       0.458119
+  1066       1067     0.00549834      0.0538596       0.435213
+  1067       1068     0.00549834      0.0538596       0.413453
+  1068       1069     0.00549834      0.0538596        0.39278
+  1069       1070     0.00549834      0.0538596       0.373141
+  1070       1071     0.00549834      0.0538596       0.354484
+  1071       1072     0.00549834      0.0538596        0.33676
+  1072       1073     0.00549834     0.00715713       0.319922
+  1073       1074     0.00549834     0.00715713       0.303926
+* 1074       1075     0.00549834     0.00755477             95
+  1075       1076     0.00549834        0.30851          90.25
+  1076       1077     0.00549834      0.0980813        85.7375
+  1077       1078     0.00549834      0.0980813        81.4506
+  1078       1079     0.00549834      0.0980813        77.3781
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdepatch at 42
+  In pdepolyGA at 108
+  In cav_yg at 77
+  In d_annealing_c4 at 139
+  In globaloptim/private/sanewpoint at 18
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+  1079       1080     0.00549834      0.0980813        73.5092
+  1080       1081     0.00549834       0.132218        69.8337
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+  1081       1082     0.00549834       0.132218         66.342
+  1082       1083     0.00549834       0.391001        63.0249
+  1083       1084     0.00549834       0.241691        59.8737
+  1084       1085     0.00549834       0.241691          56.88
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1085       1086     0.00549834       0.241691         54.036
+  1086       1087     0.00549834       0.241691        51.3342
+  1087       1088     0.00549834       0.241691        48.7675
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1088       1089     0.00549834       0.241691        46.3291
+  1089       1090     0.00549834       0.241691        44.0127
+[Warning: Matrix is singular to working precision.] 
+[> In assempde at 262
+  In pdetoolGA at 3674
+  In cav_y at 226
+  In sa_cav_y_4dof at 6
+  In globaloptim/private/sanewpoint at 25
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 26
+  In dialog at 37
+  In msgbox at 214
+  In errordlg at 48
+  In pdetool at 5486
+  In pdetoolGA at 3695
+  In cav_y at 226
+  In sa_cav_y_4dof at 6
+  In globaloptim/private/sanewpoint at 25
+  In globaloptim/private/saengine at 30
+  In globaloptim/private/simulanneal at 51
+  In simulannealbnd at 122
+  In d_sa_cav_y4 at 20
+  In dopt_sa_cavy_4 at 107
+  In initmat1 at 4
+  In run at 64] 
+  1090       1091     0.00549834       0.241691         41.812
+  1091       1092     0.00549834       0.241691        39.7214
+  1092       1093     0.00549834       0.241691        37.7354
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1093       1094     0.00549834       0.241691        35.8486
+  1094       1095     0.00549834       0.241691        34.0562
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1095       1096     0.00549834       0.241691        32.3534
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1096       1097     0.00549834       0.241691        30.7357
+  1097       1098     0.00549834       0.241691        29.1989
+  1098       1099     0.00549834       0.241691         27.739
+  1099       1100     0.00549834       0.241691         26.352
+  1100       1101     0.00549834       0.241691        25.0344
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1101       1102     0.00549834       0.241691        23.7827
+  1102       1103     0.00549834         3.2073        22.5936
+  1103       1104     0.00549834        2.93594        21.4639
+  1104       1105     0.00549834        2.93594        20.3907
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1105       1106     0.00549834        2.93594        19.3711
+  1106       1107     0.00549834        2.93594        18.4026
+  1107       1108     0.00549834        2.93594        17.4825
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1108       1109     0.00549834        2.93594        16.6083
+  1109       1110     0.00549834        2.80548        15.7779
+  1110       1111     0.00549834        2.38703         14.989
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+  1111       1112     0.00549834        4.48929        14.2396
+  1112       1113     0.00549834        1.84853        13.5276
+  1113       1114     0.00549834        3.45519        12.8512
+  1114       1115     0.00549834        2.98724        12.2087
+  1115       1116     0.00549834        5.83991        11.5982
+  1116       1117     0.00549834       0.828337        11.0183
+  1117       1118     0.00549834        2.00749        10.4674
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1118       1119     0.00549834        2.00749        9.94403
+  1119       1120     0.00549834       0.402961        9.44682
+  1120       1121     0.00549834       0.402961        8.97448
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1121       1122     0.00549834       0.402961        8.52576
+  1122       1123     0.00549834       0.402961        8.09947
+  1123       1124     0.00549834       0.402961         7.6945
+  1124       1125     0.00549834        2.75901        7.30977
+  1125       1126     0.00549834        5.22597        6.94428
+  1126       1127     0.00549834        2.24935        6.59707
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1127       1128     0.00549834        2.24935        6.26722
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1128       1129     0.00549834        2.24935        5.95386
+  1129       1130     0.00549834      0.0564122        5.65616
+  1130       1131     0.00549834      0.0564122        5.37335
+  1131       1132     0.00549834      0.0564122        5.10469
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1132       1133     0.00549834      0.0564122        4.84945
+  1133       1134     0.00549834       0.423955        4.60698
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1134       1135     0.00549834       0.423955        4.37663
+  1135       1136     0.00549834      0.0551303         4.1578
+  1136       1137     0.00549834      0.0551303        3.94991
+  1137       1138     0.00549834     0.00715713        3.75241
+  1138       1139     0.00549834     0.00715713        3.56479
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1139       1140     0.00549834     0.00715713        3.38655
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1140       1141     0.00549834     0.00715713        3.21723
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+  1141       1142     0.00549834     0.00549834        3.05636
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1142       1143     0.00549834     0.00549834        2.90355
+  1143       1144     0.00549834     0.00549834        2.75837
+  1144       1145     0.00549834     0.00549834        2.62045
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1145       1146     0.00549834     0.00549834        2.48943
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1146       1147     0.00549834     0.00549834        2.36496
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1147       1148     0.00549834     0.00549834        2.24671
+  1148       1149     0.00549834     0.00549834        2.13437
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1149       1150     0.00549834     0.00549834        2.02765
+  1150       1151     0.00549834     0.00549834        1.92627
+[Warning: Unable to complete the meshing step. Please try the alternate mesher
+version that can be selected in pdetool using the Mesh Parameters dialog or in
+the initmesh function using the 'MesherVersion', 'R2013a' option.] 
+  1151       1152     0.00549834     0.00549834        1.82996
+  1152       1153     0.00549834     0.00549834        1.73846
+  1153       1154     0.00549834     0.00549834        1.65154
+  1154       1155     0.00549834     0.00549834        1.56896
+  1155       1156     0.00549834     0.00549834        1.49051
+  1156       1157     0.00549834      0.0538596        1.41599
+  1157       1158     0.00549834      0.0538596        1.34519
+  1158       1159     0.00549834      0.0538596        1.27793
+  1159       1160     0.00549834      0.0538596        1.21403
+  1160       1161     0.00549834      0.0538596        1.15333
+  1161       1162     0.00549834      0.0538596        1.09566
+  1162       1163     0.00549834      0.0538596        1.04088
+  1163       1164     0.00549834      0.0564122       0.988836
+  1164       1165     0.00549834      0.0564122       0.939395
+  1165       1166     0.00549834      0.0564122       0.892425
+  1166       1167     0.00549834       0.190156       0.847804
+  1167       1168     0.00549834       0.190156       0.805413
+  1168       1169     0.00549834     0.00715713       0.765143
+  1169       1170     0.00549834      0.0538596       0.726886
+  1170       1171     0.00549834     0.00796967       0.690541
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+  1171       1172     0.00549834     0.00796967       0.656014
+  1172       1173     0.00549834     0.00796967       0.623214
+  1173       1174     0.00549834     0.00796967       0.592053
+  1174       1175     0.00549834     0.00796967        0.56245
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+   22.0000   15.0000    0.7000    1.5600
+
+
+	 HdL: 22.000  t1dt0: 15.000  L1dL0: 0.700  Alpha: 1.560

@@ -1,0 +1,768 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.5 1.16 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 10 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.1600
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.140908       0.140908             55
+
+ Iter 0 | Best F(x) 0.141 | F(x)  0.141 | Temperatura 10.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.500 alpha 1.160 | Novos valores: L1/L0 1.000 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    1.0000   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+     1          2      0.0927007      0.0927007        77.9665
+
+ Iter 1 | Best F(x) 0.093 | F(x)  0.093 | Temperatura 11.664 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.500 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+     2          3      0.0927007       0.125862        50.0632
+
+ Iter 2 | Best F(x) 0.093 | F(x)  0.126 | Temperatura 9.102 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.100 alpha 1.170
+-------------
+
+vet_4_dof =
+
+    1.0000    0.1000   11.0000    1.1700
+
+
+init_temp =
+
+   100    10
+
+     3          4      0.0927007       0.232254        39.6741
+
+ Iter 3 | Best F(x) 0.093 | F(x)  0.232 | Temperatura 7.213 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.500 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+     4          5      0.0927007       0.122706        34.1734
+
+ Iter 4 | Best F(x) 0.093 | F(x)  0.123 | Temperatura 6.213 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.003 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+     5          6      0.0927007       0.122706        30.6961
+
+ Iter 5 | Best F(x) 0.093 | F(x)  0.123 | Temperatura 5.581 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.002 alpha 1.200
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020   11.0000    1.2000
+
+
+init_temp =
+
+   100    10
+
+     6          7      0.0927007       0.290145        28.2644
+
+ Iter 6 | Best F(x) 0.093 | F(x)  0.290 | Temperatura 5.139 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.020 alpha 1.240
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.2400
+
+
+init_temp =
+
+   100    10
+
+     7          8      0.0927007       0.266316        26.4494
+
+ Iter 7 | Best F(x) 0.093 | F(x)  0.266 | Temperatura 4.809 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.003 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+     8          9      0.0927007       0.266316        25.0316
+
+ Iter 8 | Best F(x) 0.093 | F(x)  0.266 | Temperatura 4.551 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.005 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+     9         10      0.0927007       0.282286        23.8862
+
+ Iter 9 | Best F(x) 0.093 | F(x)  0.282 | Temperatura 4.343 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.007 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    10         11      0.0927007       0.282286        22.9368
+
+ Iter 10 | Best F(x) 0.093 | F(x)  0.282 | Temperatura 4.170 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.007 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+    11         12      0.0927007       0.282261        22.1336
+
+ Iter 11 | Best F(x) 0.093 | F(x)  0.282 | Temperatura 4.024 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.070 alpha 1.240
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.2400
+
+
+init_temp =
+
+   100    10
+
+    12         13      0.0927007       0.228322        21.4429
+
+ Iter 12 | Best F(x) 0.093 | F(x)  0.228 | Temperatura 3.899 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.010 alpha 1.200
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.2000
+
+
+init_temp =
+
+   100    10
+
+    13         14      0.0927007       0.228322        20.8408
+
+ Iter 13 | Best F(x) 0.093 | F(x)  0.228 | Temperatura 3.789 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.2400
+
+
+init_temp =
+
+   100    10
+
+    14         15      0.0927007       0.228322        20.3098
+
+ Iter 14 | Best F(x) 0.093 | F(x)  0.228 | Temperatura 3.693 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 1.000 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    1.0000   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+    15         16      0.0927007      0.0935019        19.8371
+
+ Iter 15 | Best F(x) 0.093 | F(x)  0.094 | Temperatura 3.607 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.100 alpha 1.240
+-------------
+
+vet_4_dof =
+
+    1.0000    0.1000   11.0000    1.2400
+
+
+init_temp =
+
+   100    10
+
+    16         17      0.0927007      0.0935019        19.4126
+
+ Iter 16 | Best F(x) 0.093 | F(x)  0.094 | Temperatura 3.530 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.007 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+    17         18      0.0927007       0.280425        19.0287
+
+ Iter 17 | Best F(x) 0.093 | F(x)  0.280 | Temperatura 3.460 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.020 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+    18         19      0.0927007       0.268591        18.6793
+
+ Iter 18 | Best F(x) 0.093 | F(x)  0.269 | Temperatura 3.396 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.030 alpha 1.200
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300   11.0000    1.2000
+
+
+init_temp =
+
+   100    10
+
+    19         20      0.0927007       0.266972        18.3595
+
+ Iter 19 | Best F(x) 0.093 | F(x)  0.267 | Temperatura 3.338 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.300 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    20         21      0.0927007       0.156338        18.0652
+
+ Iter 20 | Best F(x) 0.093 | F(x)  0.156 | Temperatura 3.285 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.005 alpha 1.200
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050   11.0000    1.2000
+
+
+init_temp =
+
+   100    10
+
+    21         22      0.0927007         0.2875        17.7933
+
+ Iter 21 | Best F(x) 0.093 | F(x)  0.288 | Temperatura 3.235 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.070 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+    22         23      0.0927007       0.231395        17.5411
+
+ Iter 22 | Best F(x) 0.093 | F(x)  0.231 | Temperatura 3.189 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.010 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+    23         24      0.0927007       0.231395        17.3062
+
+ Iter 23 | Best F(x) 0.093 | F(x)  0.231 | Temperatura 3.147 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.070 alpha 1.200
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.2000
+
+
+init_temp =
+
+   100    10
+
+    24         25      0.0927007        0.24003        17.0867
+
+ Iter 24 | Best F(x) 0.093 | F(x)  0.240 | Temperatura 3.107 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.020 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    25         26      0.0927007        0.24003         16.881
+
+ Iter 25 | Best F(x) 0.093 | F(x)  0.240 | Temperatura 3.069 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.003 alpha 1.200
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.2000
+
+
+init_temp =
+
+   100    10
+
+    26         27      0.0927007        0.24003        16.6877
+
+ Iter 26 | Best F(x) 0.093 | F(x)  0.240 | Temperatura 3.034 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 1.000 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    1.0000   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+    27         28      0.0927007      0.0930964        16.5056
+
+ Iter 27 | Best F(x) 0.093 | F(x)  0.093 | Temperatura 3.001 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.001 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+    28         29      0.0927007      0.0930964        16.3087
+
+ Iter 28 | Best F(x) 0.093 | F(x)  0.093 | Temperatura 2.920 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.100 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.1000   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+    29         30      0.0927007      0.0930964        16.0877
+
+ Iter 29 | Best F(x) 0.093 | F(x)  0.093 | Temperatura 2.774 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.050 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0500   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    30         31      0.0927007       0.250161        15.8779
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 30 | Best F(x) 0.093 | F(x)  0.250 | Temperatura 2.635 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.010 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    31         32      0.0927007       0.281321        15.6787
+
+ Iter 31 | Best F(x) 0.093 | F(x)  0.281 | Temperatura 2.503 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.010 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    32         33      0.0927007       0.281321        15.4891
+
+ Iter 32 | Best F(x) 0.093 | F(x)  0.281 | Temperatura 2.378 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.030 alpha 1.230
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300   11.0000    1.2300
+
+
+init_temp =
+
+   100    10
+
+    33         34      0.0927007       0.260131        15.3086
+
+ Iter 33 | Best F(x) 0.093 | F(x)  0.260 | Temperatura 2.259 | k = 34
+ 
+ Iter 34 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.020 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+    34         35      0.0927007       0.270747        15.1365
+
+ Iter 34 | Best F(x) 0.093 | F(x)  0.271 | Temperatura 2.146 | k = 35
+ 
+ Iter 35 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.007 alpha 1.200
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.2000
+
+
+init_temp =
+
+   100    10
+
+    35         36      0.0927007       0.270747        14.9723
+
+ Iter 35 | Best F(x) 0.093 | F(x)  0.271 | Temperatura 2.039 | k = 36
+ 
+ Iter 36 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.007 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    36         37      0.0927007       0.284007        14.8155
+
+ Iter 36 | Best F(x) 0.093 | F(x)  0.284 | Temperatura 1.937 | k = 37
+ 
+ Iter 37 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.002 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    37         38      0.0927007       0.288523        14.6655
+
+ Iter 37 | Best F(x) 0.093 | F(x)  0.289 | Temperatura 1.840 | k = 38
+ 
+ Iter 38 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.001 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+    38         39      0.0927007       0.287811         14.522
+
+ Iter 38 | Best F(x) 0.093 | F(x)  0.288 | Temperatura 1.748 | k = 39
+ 
+ Iter 39 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.030 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300   11.0000    1.2100
+
+
+init_temp =
+
+   100    10
+
+    39         40      0.0927007       0.264684        14.3847
+
+ Iter 39 | Best F(x) 0.093 | F(x)  0.265 | Temperatura 1.661 | k = 40
+ 
+ Iter 40 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.070 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+    40         41      0.0927007       0.234424         14.253
+
+ Iter 40 | Best F(x) 0.093 | F(x)  0.234 | Temperatura 1.578 | k = 41
+ 
+ Iter 41 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.010 alpha 1.220
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.2200
+
+
+init_temp =
+
+   100    10
+
+    41         42      0.0927007       0.234424        14.1268
+
+ Iter 41 | Best F(x) 0.093 | F(x)  0.234 | Temperatura 1.499 | k = 42
+ 
+ Iter 42 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.210 | Novos valores: L1/L0 0.005 alpha 1.210
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050   11.0000    1.2100
+
+{Operation terminated by user during jigglemesh (line 107)
+
+
+In pdetoolGA (line 3219)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In cav_y (line 194)
+    pdetoolGA('jiggle')
+
+In sa_cav_y_2dof (line 13)
+       saida =cav_y(vetor);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y2 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy (line 108)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+clc
+exit

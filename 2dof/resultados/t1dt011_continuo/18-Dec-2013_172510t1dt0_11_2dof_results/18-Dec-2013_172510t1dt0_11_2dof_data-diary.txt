@@ -1,0 +1,80 @@
+
+Simulated Annealing...
+ Discreted
+
+optValue =
+
+  -Inf
+
+[Warning: cannot use bounds with custom data type: ignoring bounds.] 
+[> In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulannealcommon.m',79,1)">globaloptim\private\simulannealcommon at 79</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m',44,1)">globaloptim\private\simulanneal at 44</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m',122,1)">simulannealbnd at 122</a>
+  In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m',8,1)">d_sa_cav_y at 8</a>
+  In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',51,1)">d_opt_sa_cavy at 51</a>] 
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.001 1 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 300
+	options.Display = 'diagnose'
+	options.DisplayInterval = 1 
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.319246       0.319246            100
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+{In an assignment  A(I) = B, the number of elements in B and I must be the same.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('discrete_annealing', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\discrete_annealing.m', 18)" style="font-weight:bold">discrete_annealing</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\discrete_annealing.m',18,0)">line 18</a>)
+        schedule(c) = schedule(c) - perturbacao;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('sanewpoint', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\sanewpoint.m', 18)" style="font-weight:bold">sanewpoint</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\sanewpoint.m',18,0)">line 18</a>)
+     newx(:) = options.AnnealingFcn(optimvalues,problem);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('saengine', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\saengine.m', 30)" style="font-weight:bold">saengine</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\saengine.m',30,0)">line 30</a>)
+    solverData = sanewpoint(solverData,problem,options);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('simulanneal', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m', 51)" style="font-weight:bold">simulanneal</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m',51,0)">line 51</a>)
+solverData = saengine(solverData,problem,options);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('simulannealbnd', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m', 122)" style="font-weight:bold">simulannealbnd</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m',122,0)">line 122</a>)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('d_sa_cav_y', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m', 8)" style="font-weight:bold">d_sa_cav_y</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m',8,0)">line 8</a>)
+[x,fval,exitflag,output] = ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('d_opt_sa_cavy', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m', 51)" style="font-weight:bold">d_opt_sa_cavy</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',51,0)">line 51</a>)
+vetor = d_sa_cav_y(fun,x0,lb,lu,d,s,optValue);
+
+Caused by:
+    Failure in AnnealingFcn evaluation.
+} 
+d_opt_sa_cavy
+[Warning: The value of local variables may have been changed to match the
+         globals.  Future versions of MATLAB will require that you declare
+         a variable to be global before you use that variable.] 
+[> In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',7,1)">d_opt_sa_cavy at 7</a>] 
+[Warning: The value of local variables may have been changed to match the
+         globals.  Future versions of MATLAB will require that you declare
+         a variable to be global before you use that variable.] 
+[> In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',8,1)">d_opt_sa_cavy at 8</a>] 

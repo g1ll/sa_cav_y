@@ -1,0 +1,59 @@
+
+options = 
+
+          AnnealingFcn: @discrete_annealing2
+        TemperatureFcn: @temperatureboltz
+         AcceptanceFcn: @acceptancesa
+                TolFun: []
+        StallIterLimit: 150
+           MaxFunEvals: []
+             TimeLimit: []
+               MaxIter: []
+        ObjectiveLimit: 0.0612
+               Display: 'diagnose'
+       DisplayInterval: 1
+             HybridFcn: []
+        HybridInterval: []
+              PlotFcns: []
+          PlotInterval: []
+            OutputFcns: []
+    InitialTemperature: 100
+      ReannealInterval: 150
+              DataType: 'custom'
+
+
+resultados =
+
+   1.0e+03 *
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+    0.0230    0.0000    0.0015    0.0001    0.1760    0.9904
+    0.0240    0.0000    0.0015    0.0001    0.3000    1.5921
+    0.0250    0.0000    0.0015    0.0001    0.2090    1.2311
+    0.0260    0.0000    0.0015    0.0001    0.2980    1.7342
+    0.0270    0.0001    0.0015    0.0001    0.1500    0.8274
+    0.0280    0.0000    0.0015    0.0001    0.2570    1.4028
+    0.0290    0.0000    0.0015    0.0001    0.1430    0.7910
+    0.0300    0.0000    0.0015    0.0001    0.1520    0.8641
+

@@ -1,0 +1,57 @@
+
+options = 
+
+          AnnealingFcn: @discrete_annealing2
+        TemperatureFcn: @tempboltzexp
+         AcceptanceFcn: @acceptancesa
+                TolFun: []
+        StallIterLimit: 100
+           MaxFunEvals: []
+             TimeLimit: []
+               MaxIter: []
+        ObjectiveLimit: 0.0612
+               Display: 'diagnose'
+       DisplayInterval: 1
+             HybridFcn: []
+        HybridInterval: []
+              PlotFcns: []
+          PlotInterval: []
+            OutputFcns: []
+    InitialTemperature: 100
+      ReannealInterval: 100
+              DataType: 'custom'
+
+
+resultados =
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+   26.0000    0.0070    1.5500    0.0611  105.0000  580.1793
+   27.0000    0.1000    1.4900    0.0691  140.0000  674.2073
+   28.0000    0.0070    1.5500    0.0611   74.0000  411.9863
+   29.0000    0.0030    1.5500    0.0652  140.0000  685.8539
+   30.0000    0.0070    1.5500    0.0611  111.0000  573.7829
+

@@ -1,0 +1,147 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.05 1.48 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @tempksa
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 10 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+vet_4_dof =
+
+    1.0000    0.0500   11.0000    1.4800
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.105196       0.105196             55
+
+ Iter 0 | Best F(x) 0.105 | F(x)  0.105 | Temperatura 10.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.480 | Novos valores: L1/L0 0.070 alpha 1.420
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.4200
+
+     1          2       0.105196       0.105196             55
+
+ Iter 1 | Best F(x) 0.105 | F(x)  0.105 | Temperatura 10.000 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.480 | Novos valores: L1/L0 0.010 alpha 1.430
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.4300
+
+     2          3       0.105196       0.214748             55
+
+ Iter 2 | Best F(x) 0.105 | F(x)  0.215 | Temperatura 10.000 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.480 | Novos valores: L1/L0 0.007 alpha 1.530
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.5300
+
+     3          4       0.103879       0.103879             55
+
+ Iter 3 | Best F(x) 0.104 | F(x)  0.104 | Temperatura 10.000 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.530 | Novos valores: L1/L0 0.700 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.7000   11.0000    1.5400
+
+     4          5       0.103879       0.103879             55
+
+ Iter 4 | Best F(x) 0.104 | F(x)  0.104 | Temperatura 10.000 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.530 | Novos valores: L1/L0 0.030 alpha 1.500
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300   11.0000    1.5000
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('jigglemesh', '/usr/local/MATLAB/R2013a/toolbox/pde/jigglemesh.m', 106)" style="font-weight:bold">jigglemesh</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/pde/jigglemesh.m',106,0)">line 106</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('pdetoolGA', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/pdetoolGA.m', 3219)" style="font-weight:bold">pdetoolGA</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/pdetoolGA.m',3219,0)">line 3219</a>)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In <a href="matlab:helpUtils.errorDocCallback('cav_y', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/cav_y.m', 194)" style="font-weight:bold">cav_y</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/cav_y.m',194,0)">line 194</a>)
+    pdetoolGA('jiggle')
+
+In <a href="matlab:helpUtils.errorDocCallback('sa_cav_y_2dof', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/sa_cav_y_2dof.m', 13)" style="font-weight:bold">sa_cav_y_2dof</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/sa_cav_y_2dof.m',13,0)">line 13</a>)
+       saida =cav_y(vetor);
+
+In <a href="matlab:helpUtils.errorDocCallback('sanewpoint', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/sanewpoint.m', 25)" style="font-weight:bold">sanewpoint</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/sanewpoint.m',25,0)">line 25</a>)
+newfval = problem.objective(newx);
+
+In <a href="matlab:helpUtils.errorDocCallback('saengine', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saengine.m', 30)" style="font-weight:bold">saengine</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saengine.m',30,0)">line 30</a>)
+    solverData = sanewpoint(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulanneal', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/simulanneal.m', 51)" style="font-weight:bold">simulanneal</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/simulanneal.m',51,0)">line 51</a>)
+solverData = saengine(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulannealbnd', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/simulannealbnd.m', 122)" style="font-weight:bold">simulannealbnd</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/simulannealbnd.m',122,0)">line 122</a>)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In <a href="matlab:helpUtils.errorDocCallback('d_sa_cav_y2', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/d_sa_cav_y2.m', 20)" style="font-weight:bold">d_sa_cav_y2</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/d_sa_cav_y2.m',20,0)">line 20</a>)
+[x,fval,exitflag,output] = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('dopt_sa_cavy', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/dopt_sa_cavy.m', 108)" style="font-weight:bold">dopt_sa_cavy</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/dopt_sa_cavy.m',108,0)">line 108</a>)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+clear
+clc
+model = {@teste @teste1}
+
+model = 
+
+    @teste    @teste1
+
+nome = func2str(model{1});
+nome
+
+nome =
+
+teste
+
+nome = func2str(model{2});
+nome
+
+nome =
+
+teste1
+
+dopt_sa_cavy(11,@tempksa)
+
+x0 =
+
+    1.0000    1.0400
+
+
+vet_4_dof =
+
+    1.0000    1.0000   11.0000    1.0400
+

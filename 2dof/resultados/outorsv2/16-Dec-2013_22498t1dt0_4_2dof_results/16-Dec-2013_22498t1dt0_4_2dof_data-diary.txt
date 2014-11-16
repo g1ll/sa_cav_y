@@ -1,0 +1,65 @@
+
+Valores Encontrados:
+
+	Tmax: 0.224808.3
+	H: 1.000
+	L: 1.000
+	t1: 0.194
+	t0: 0.048
+	L1: 0.000
+	L0: 0.474
+	alfa1: 1.000
+
+
+Simulated Annealing...
+ Double Vector
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.001 1 ]
+Modified options:
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 10
+	options.Display = 'diagnose'
+	options.DisplayInterval = 1 
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.224808       0.224808            100
+     1          2       0.188349       0.188349             50
+     2          3       0.117085       0.117085        33.3333
+     3          4       0.117085       0.121032             25
+     4          5       0.115038       0.115038             20
+     5          6      0.0987526      0.0987526        16.6667
+     6          7      0.0987526      0.0987526        14.2857
+     7          8      0.0984222      0.0984222           12.5
+     8          9      0.0984222      0.0984222        11.1111
+     9         10      0.0944423      0.0944423             10
+    10         11      0.0944423      0.0945394        9.09091
+    11         12      0.0944423       0.095093        8.33333
+    12         13      0.0944423       0.095093        7.69231
+    13         14      0.0944423       0.176513        7.14286
+    14         15      0.0944423       0.159134        6.66667
+    15         16      0.0944423       0.159134           6.25
+    16         17      0.0944423       0.115334        5.88235
+    17         18      0.0944423       0.122781        5.55556
+    18         19      0.0944423       0.122781        5.26316
+    19         20      0.0944423       0.118962              5
+Optimization terminated: change in best function value less than options.TolFun.
+{Undefined function 'printf' for input arguments of type 'char'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('opt_sa_cavy', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\opt_sa_cavy.m', 49)" style="font-weight:bold">opt_sa_cavy</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\opt_sa_cavy.m',49,0)">line 49</a>)
+printf(' \n\tHdL: %.3f  L1dL0: %.3f  t1dt0: %.3f  Alpha:
+%.3f',HdL,vetor(1),t1dt0,vetor(2));
+} 
+opt_sa_cavy
+[Warning: The value of local variables may have been changed to match the
+         globals.  Future versions of MATLAB will require that you declare
+         a variable to be global before you use that variable.] 
+[> In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\opt_sa_cavy.m',7,1)">opt_sa_cavy at 7</a>] 
+[Warning: The value of local variables may have been changed to match the
+         globals.  Future versions of MATLAB will require that you declare
+         a variable to be global before you use that variable.] 
+[> In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\opt_sa_cavy.m',8,1)">opt_sa_cavy at 8</a>] 

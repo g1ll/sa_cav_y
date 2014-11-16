@@ -1,0 +1,4869 @@
+Simulated Annealing...Discreted
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.03 1.47 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing2
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 100
+	options.InitialTemperature = 100
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.142503       0.142503            100
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.300
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.270 ; steplen = 0.270 : lu = 1.470|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.200
+
+ Iter 0 | Best F(x) 0.143 | F(x)  0.143 | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.030 alpha 1.200
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  144.269504
+
+Controle temp boltz  144.269504
+     1          2       0.142503       0.142503         144.27
+ 
+		| pL = -0.010 ; steplen = 0.010 : lu = 0.433
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.050 ; steplen = 0.050 : lu = 2.121|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.050
+	Schedule Alpha = 1.420
+
+ Iter 1 | Best F(x) 0.143 | F(x)  0.143 | Temperatura 144.270 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.020 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  91.023923
+
+Controle temp boltz  91.023923
+     2          3       0.142503       0.142503        91.0239
+ 
+		| pL = -0.027 ; steplen = 0.027 : lu = 0.273
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.027
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.110 ; steplen = 0.110 : lu = 1.338|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.110
+	Schedule Alpha = 1.360
+
+ Iter 2 | Best F(x) 0.143 | F(x)  0.143 | Temperatura 91.024 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.003 alpha 1.360
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  72.134752
+
+Controle temp boltz  72.134752
+     3          4       0.142503       0.142503        72.1348
+ 
+		| pL = 0.070 ; steplen = 0.070 : lu = 0.216
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = 0.070
+	Schedule L1/L0 = 0.100
+ 
+		| pA = -0.360 ; steplen = 0.360 : lu = 1.060|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.360
+	Schedule Alpha = 1.110
+
+ Iter 3 | Best F(x) 0.143 | F(x)  0.143 | Temperatura 72.135 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.100 alpha 1.110
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  62.133493
+
+Controle temp boltz  62.133493
+     4          5       0.142503       0.247379        62.1335
+ 
+		| pL = -0.027 ; steplen = 0.027 : lu = 0.186
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.027
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.450 ; steplen = 0.450 : lu = 0.913|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.450
+	Schedule Alpha = 1.020
+
+ Iter 4 | Best F(x) 0.143 | F(x)  0.247 | Temperatura 62.133 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.003 alpha 1.020
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  55.811063
+
+Controle temp boltz  55.811063
+     5          6       0.142503       0.247379        55.8111
+ 
+		| pL = -0.027 ; steplen = 0.027 : lu = 0.167
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.027
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.280 ; steplen = 0.280 : lu = 0.820|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.280
+	Schedule Alpha = 1.190
+
+ Iter 5 | Best F(x) 0.143 | F(x)  0.247 | Temperatura 55.811 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.003 alpha 1.190
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  51.389834
+
+Controle temp boltz  51.389834
+     6          7       0.142503       0.290849        51.3898
+ 
+		| pL = -0.025 ; steplen = 0.025 : lu = 0.154
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.025
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.190 ; steplen = 0.190 : lu = 0.755|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.190
+	Schedule Alpha = 1.280
+
+ Iter 6 | Best F(x) 0.143 | F(x)  0.291 | Temperatura 51.390 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.005 alpha 1.280
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  48.089835
+
+Controle temp boltz  48.089835
+     7          8       0.142503       0.272667        48.0898
+ 
+		| pL = -0.020 ; steplen = 0.020 : lu = 0.144
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.290 ; steplen = 0.290 : lu = 0.707|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.180
+
+ Iter 7 | Best F(x) 0.143 | F(x)  0.273 | Temperatura 48.090 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.010 alpha 1.180
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  45.511961
+
+Controle temp boltz  45.511961
+     8          9       0.142503       0.272667         45.512
+ 
+		| pL = -0.027 ; steplen = 0.027 : lu = 0.137
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.027
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.350 ; steplen = 0.350 : lu = 0.669|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.120
+
+ Iter 8 | Best F(x) 0.143 | F(x)  0.273 | Temperatura 45.512 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.003 alpha 1.120
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  43.429448
+
+Controle temp boltz  43.429448
+     9         10       0.142503       0.272667        43.4294
+ 
+		| pL = 0.070 ; steplen = 0.070 : lu = 0.130
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = 0.070
+	Schedule L1/L0 = 0.100
+ 
+		| pA = -0.380 ; steplen = 0.380 : lu = 0.638|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.380
+	Schedule Alpha = 1.090
+
+ Iter 9 | Best F(x) 0.143 | F(x)  0.273 | Temperatura 43.429 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.100 alpha 1.090
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  41.703239
+
+Controle temp boltz  41.703239
+    10         11       0.142503        0.25192        41.7032
+ 
+		| pL = 0.020 ; steplen = 0.020 : lu = 0.125
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.110 ; steplen = 0.110 : lu = 0.613|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.110
+	Schedule Alpha = 1.360
+
+ Iter 10 | Best F(x) 0.143 | F(x)  0.252 | Temperatura 41.703 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.050 alpha 1.360
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  40.242960
+
+Controle temp boltz  40.242960
+    11         12       0.142503       0.196874         40.243
+ 
+		| pL = -0.029 ; steplen = 0.029 : lu = 0.121
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.029
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.190 ; steplen = 0.190 : lu = 0.592|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = -0.190
+	Schedule Alpha = 1.280
+
+ Iter 11 | Best F(x) 0.143 | F(x)  0.197 | Temperatura 40.243 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.001 alpha 1.280
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  38.987125
+
+Controle temp boltz  38.987125
+    12         13       0.142503       0.196874        38.9871
+ 
+		| pL = -0.020 ; steplen = 0.020 : lu = 0.117
+	Schedule atual L1/L0 = 0.030
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.010
+ 
+		| pA = 0.080 ; steplen = 0.080 : lu = 0.573|
+	Schedule atual Alpha = 1.470
+	Perturbacao Alpha = 0.080
+	Schedule Alpha = 1.550
+
+ Iter 12 | Best F(x) 0.143 | F(x)  0.197 | Temperatura 38.987 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.470 | Novos valores: L1/L0 0.010 alpha 1.550
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  37.892318
+
+Controle temp boltz  37.892318
+    13         14      0.0637975      0.0637975        37.8923
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.038
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = 0.020 ; steplen = 0.020 : lu = 0.587|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = 0.020
+	Schedule Alpha = 1.570
+
+ Iter 13 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 37.892 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.570
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  36.926937
+
+Controle temp boltz  36.926937
+    14         15      0.0637975      0.0637975        36.9269
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.037
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.572|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.390
+
+ Iter 14 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 36.927 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.390
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  36.067376
+
+Controle temp boltz  36.067376
+    15         16      0.0637975      0.0637975        36.0674
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.036
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.480 ; steplen = 0.480 : lu = 0.559|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.480
+	Schedule Alpha = 1.070
+
+ Iter 15 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 36.067 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.070
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  35.295612
+
+Controle temp boltz  35.295612
+    16         17      0.0637975      0.0637975        35.2956
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.035
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.320 ; steplen = 0.320 : lu = 0.547|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.230
+
+ Iter 16 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 35.296 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  34.597626
+
+Controle temp boltz  34.597626
+    17         18      0.0637975      0.0637975        34.5976
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.035
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.280 ; steplen = 0.280 : lu = 0.536|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.280
+	Schedule Alpha = 1.270
+
+ Iter 17 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 34.598 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.270
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  33.962327
+
+Controle temp boltz  33.962327
+    18         19      0.0637975      0.0637975        33.9623
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.034
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.050 ; steplen = 0.050 : lu = 0.526|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.050
+	Schedule Alpha = 1.500
+
+ Iter 18 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 33.962 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.500
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  33.380820
+
+Controle temp boltz  33.380820
+    19         20      0.0637975      0.0637975        33.3808
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.033
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.220 ; steplen = 0.220 : lu = 0.517|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.330
+
+ Iter 19 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 33.381 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.330
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  32.845874
+
+Controle temp boltz  32.845874
+    20         21      0.0637975      0.0637975        32.8459
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.033
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.460 ; steplen = 0.460 : lu = 0.509|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.460
+	Schedule Alpha = 1.090
+
+ Iter 20 | Best F(x) 0.064 | F(x)  0.064 | Temperatura 32.846 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.090
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  32.351545
+
+Controle temp boltz  32.351545
+    21         22      0.0637975       0.294084        32.3515
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.032
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.480 ; steplen = 0.480 : lu = 0.501|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.480
+	Schedule Alpha = 1.070
+
+ Iter 21 | Best F(x) 0.064 | F(x)  0.294 | Temperatura 32.352 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.070
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  31.892899
+
+Controle temp boltz  31.892899
+    22         23      0.0637975       0.294084        31.8929
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.032
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.494|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.390
+
+	Alpha  e L1dL0 iguais  [  0.001   1.390 ] = [  0.001   1.390 ]
+ Sorteando novas solucoes...
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.032
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.410 ; steplen = 0.410 : lu = 0.494|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.410
+	Schedule Alpha = 1.140
+
+ Iter 22 | Best F(x) 0.064 | F(x)  0.294 | Temperatura 31.893 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.140
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  31.465798
+
+Controle temp boltz  31.465798
+    23         24      0.0637975       0.300023        31.4658
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.031
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.150 ; steplen = 0.150 : lu = 0.488|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.400
+
+ Iter 23 | Best F(x) 0.064 | F(x)  0.300 | Temperatura 31.466 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.400
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  31.066747
+
+Controle temp boltz  31.066747
+    24         25      0.0637975       0.235458        31.0667
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.031
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.060 ; steplen = 0.060 : lu = 0.482|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.060
+	Schedule Alpha = 1.490
+
+ Iter 24 | Best F(x) 0.064 | F(x)  0.235 | Temperatura 31.067 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.490
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  30.692768
+
+Controle temp boltz  30.692768
+    25         26      0.0637975       0.185321        30.6928
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.031
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.340 ; steplen = 0.340 : lu = 0.476|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.210
+
+ Iter 25 | Best F(x) 0.064 | F(x)  0.185 | Temperatura 30.693 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.210
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  30.341308
+
+Controle temp boltz  30.341308
+    26         27      0.0637975       0.285777        30.3413
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.030
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.210 ; steplen = 0.210 : lu = 0.470|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.210
+	Schedule Alpha = 1.340
+
+ Iter 26 | Best F(x) 0.064 | F(x)  0.286 | Temperatura 30.341 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.340
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  30.010163
+
+Controle temp boltz  30.010163
+    27         28      0.0637975       0.262889        30.0102
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.030
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.330 ; steplen = 0.330 : lu = 0.465|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.330
+	Schedule Alpha = 1.220
+
+ Iter 27 | Best F(x) 0.064 | F(x)  0.263 | Temperatura 30.010 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.220
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  29.697420
+
+Controle temp boltz  29.697420
+    28         29      0.0637975       0.282261        29.6974
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.030
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.360 ; steplen = 0.360 : lu = 0.460|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.360
+	Schedule Alpha = 1.190
+
+ Iter 28 | Best F(x) 0.064 | F(x)  0.282 | Temperatura 29.697 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.190
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  29.401410
+
+Controle temp boltz  29.401410
+    29         30      0.0637975       0.282261        29.4014
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.029
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.210 ; steplen = 0.210 : lu = 0.456|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.210
+	Schedule Alpha = 1.340
+
+ Iter 29 | Best F(x) 0.064 | F(x)  0.282 | Temperatura 29.401 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.340
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  29.120668
+
+Controle temp boltz  29.120668
+    30         31      0.0637975        0.25582        29.1207
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.029
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.200 ; steplen = 0.200 : lu = 0.451|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.200
+	Schedule Alpha = 1.350
+
+ Iter 30 | Best F(x) 0.064 | F(x)  0.256 | Temperatura 29.121 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.350
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.853901
+
+Controle temp boltz  28.853901
+    31         32      0.0637975        0.25582        28.8539
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.029
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.220 ; steplen = 0.220 : lu = 0.447|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.330
+
+ Iter 31 | Best F(x) 0.064 | F(x)  0.256 | Temperatura 28.854 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.330
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.599967
+
+Controle temp boltz  28.599967
+    32         33      0.0637975       0.254607           28.6
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.029
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.230 ; steplen = 0.230 : lu = 0.443|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.320
+
+ Iter 32 | Best F(x) 0.064 | F(x)  0.255 | Temperatura 28.600 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.320
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.357849
+
+Controle temp boltz  28.357849
+    33         34      0.0637975       0.263733        28.3578
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.028
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.430 ; steplen = 0.430 : lu = 0.440|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.430
+	Schedule Alpha = 1.120
+
+ Iter 33 | Best F(x) 0.064 | F(x)  0.264 | Temperatura 28.358 | k = 34
+ 
+ Iter 34 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.120
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.126641
+
+Controle temp boltz  28.126641
+    34         35      0.0637975       0.301318        28.1266
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.028
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.180 ; steplen = 0.180 : lu = 0.436|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.370
+
+ Iter 34 | Best F(x) 0.064 | F(x)  0.301 | Temperatura 28.127 | k = 35
+ 
+ Iter 35 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.370
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.905531
+
+Controle temp boltz  27.905531
+    35         36      0.0637975       0.249782        27.9055
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.028
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.310 ; steplen = 0.310 : lu = 0.433|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.240
+
+ Iter 35 | Best F(x) 0.064 | F(x)  0.250 | Temperatura 27.906 | k = 36
+ 
+ Iter 36 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.240
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.693789
+
+Controle temp boltz  27.693789
+    36         37      0.0637975       0.249782        27.6938
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.028
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.140 ; steplen = 0.140 : lu = 0.429|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.140
+	Schedule Alpha = 1.410
+
+ Iter 36 | Best F(x) 0.064 | F(x)  0.250 | Temperatura 27.694 | k = 37
+ 
+ Iter 37 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.410
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.490758
+
+Controle temp boltz  27.490758
+    37         38      0.0637975       0.238982        27.4908
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.027
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.426|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.420
+
+ Iter 37 | Best F(x) 0.064 | F(x)  0.239 | Temperatura 27.491 | k = 38
+ 
+ Iter 38 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.295842
+
+Controle temp boltz  27.295842
+    38         39      0.0637975       0.238982        27.2958
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.027
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.230 ; steplen = 0.230 : lu = 0.423|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.320
+
+ Iter 38 | Best F(x) 0.064 | F(x)  0.239 | Temperatura 27.296 | k = 39
+ 
+ Iter 39 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.320
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.108503
+
+Controle temp boltz  27.108503
+    39         40      0.0637975       0.257305        27.1085
+ 
+		| pL = 0.020 ; steplen = 0.020 : lu = 0.027
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.030
+ 
+		| pA = 0.000 ; steplen = 0.000 : lu = 0.420|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = 0.000
+	Schedule Alpha = 1.550
+
+ Iter 39 | Best F(x) 0.064 | F(x)  0.257 | Temperatura 27.109 | k = 40
+ 
+ Iter 40 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.030 alpha 1.550
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  26.928251
+
+Controle temp boltz  26.928251
+    40         41      0.0637975       0.257305        26.9283
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.027
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.090 ; steplen = 0.090 : lu = 0.417|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.460
+
+ Iter 40 | Best F(x) 0.064 | F(x)  0.257 | Temperatura 26.928 | k = 41
+ 
+ Iter 41 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.460
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  26.754639
+
+Controle temp boltz  26.754639
+    41         42      0.0637975       0.217869        26.7546
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.027
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.415|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.390
+
+ Iter 41 | Best F(x) 0.064 | F(x)  0.218 | Temperatura 26.755 | k = 42
+ 
+ Iter 42 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.390
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  26.587259
+
+Controle temp boltz  26.587259
+    42         43      0.0637975       0.217869        26.5873
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.027
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.360 ; steplen = 0.360 : lu = 0.412|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.360
+	Schedule Alpha = 1.190
+
+ Iter 42 | Best F(x) 0.064 | F(x)  0.218 | Temperatura 26.587 | k = 43
+ 
+ Iter 43 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.190
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  26.425737
+
+Controle temp boltz  26.425737
+    43         44      0.0637975       0.291678        26.4257
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.026
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.390 ; steplen = 0.390 : lu = 0.410|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.390
+	Schedule Alpha = 1.160
+
+ Iter 43 | Best F(x) 0.064 | F(x)  0.292 | Temperatura 26.426 | k = 44
+ 
+ Iter 44 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.160
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  26.269731
+
+Controle temp boltz  26.269731
+    44         45      0.0637975       0.291678        26.2697
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.026
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.330 ; steplen = 0.330 : lu = 0.407|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.330
+	Schedule Alpha = 1.220
+
+ Iter 44 | Best F(x) 0.064 | F(x)  0.292 | Temperatura 26.270 | k = 45
+ 
+ Iter 45 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.220
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  26.118926
+
+Controle temp boltz  26.118926
+    45         46      0.0637975       0.284104        26.1189
+ 
+		| pL = 0.020 ; steplen = 0.020 : lu = 0.026
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.370 ; steplen = 0.370 : lu = 0.405|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.370
+	Schedule Alpha = 1.180
+
+ Iter 45 | Best F(x) 0.064 | F(x)  0.284 | Temperatura 26.119 | k = 46
+ 
+ Iter 46 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.030 alpha 1.180
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.973030
+
+Controle temp boltz  25.973030
+    46         47      0.0637975       0.271163         25.973
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.026
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.320 ; steplen = 0.320 : lu = 0.403|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.230
+
+ Iter 46 | Best F(x) 0.064 | F(x)  0.271 | Temperatura 25.973 | k = 47
+ 
+ Iter 47 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.831777
+
+Controle temp boltz  25.831777
+    47         48      0.0637975       0.268591        25.8318
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.026
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.120 ; steplen = 0.120 : lu = 0.400|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.430
+
+ Iter 47 | Best F(x) 0.064 | F(x)  0.269 | Temperatura 25.832 | k = 48
+ 
+ Iter 48 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.430
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.694917
+
+Controle temp boltz  25.694917
+    48         49      0.0637975       0.229925        25.6949
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.026
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.240 ; steplen = 0.240 : lu = 0.398|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.240
+	Schedule Alpha = 1.310
+
+ Iter 48 | Best F(x) 0.064 | F(x)  0.230 | Temperatura 25.695 | k = 49
+ 
+ Iter 49 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.310
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.562222
+
+Controle temp boltz  25.562222
+    49         50      0.0637975       0.271196        25.5622
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.026
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.300 ; steplen = 0.300 : lu = 0.396|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.300
+	Schedule Alpha = 1.250
+
+ Iter 49 | Best F(x) 0.064 | F(x)  0.271 | Temperatura 25.562 | k = 50
+ 
+ Iter 50 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.250
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.433478
+
+Controle temp boltz  25.433478
+    50         51      0.0637975       0.273648        25.4335
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.260 ; steplen = 0.260 : lu = 0.394|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.290
+
+ Iter 50 | Best F(x) 0.064 | F(x)  0.274 | Temperatura 25.433 | k = 51
+ 
+ Iter 51 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.290
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.308487
+
+Controle temp boltz  25.308487
+    51         52      0.0637975        0.27295        25.3085
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.300 ; steplen = 0.300 : lu = 0.392|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.300
+	Schedule Alpha = 1.250
+
+ Iter 51 | Best F(x) 0.064 | F(x)  0.273 | Temperatura 25.308 | k = 52
+ 
+ Iter 52 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.250
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.187065
+
+Controle temp boltz  25.187065
+    52         53      0.0637975        0.27295        25.1871
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.140 ; steplen = 0.140 : lu = 0.390|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.140
+	Schedule Alpha = 1.410
+
+ Iter 52 | Best F(x) 0.064 | F(x)  0.273 | Temperatura 25.187 | k = 53
+ 
+ Iter 53 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.410
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  25.069040
+
+Controle temp boltz  25.069040
+    53         54      0.0637975       0.240975         25.069
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = 0.020 ; steplen = 0.020 : lu = 0.389|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = 0.020
+	Schedule Alpha = 1.570
+
+ Iter 53 | Best F(x) 0.064 | F(x)  0.241 | Temperatura 25.069 | k = 54
+ 
+ Iter 54 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.954251
+
+Controle temp boltz  24.954251
+    54         55      0.0637975       0.240975        24.9543
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.070 ; steplen = 0.070 : lu = 0.387|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.070
+	Schedule Alpha = 1.480
+
+ Iter 54 | Best F(x) 0.064 | F(x)  0.241 | Temperatura 24.954 | k = 55
+ 
+ Iter 55 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.480
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.842550
+
+Controle temp boltz  24.842550
+    55         56      0.0637975       0.199026        24.8425
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.370 ; steplen = 0.370 : lu = 0.385|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.370
+	Schedule Alpha = 1.180
+
+ Iter 55 | Best F(x) 0.064 | F(x)  0.199 | Temperatura 24.843 | k = 56
+ 
+ Iter 56 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.180
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.733795
+
+Controle temp boltz  24.733795
+    56         57      0.0637975       0.289017        24.7338
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.170 ; steplen = 0.170 : lu = 0.383|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.380
+
+ Iter 56 | Best F(x) 0.064 | F(x)  0.289 | Temperatura 24.734 | k = 57
+ 
+ Iter 57 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.380
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.627855
+
+Controle temp boltz  24.627855
+    57         58      0.0637975       0.251585        24.6279
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.320 ; steplen = 0.320 : lu = 0.382|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.230
+
+ Iter 57 | Best F(x) 0.064 | F(x)  0.252 | Temperatura 24.628 | k = 58
+ 
+ Iter 58 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.524606
+
+Controle temp boltz  24.524606
+    58         59      0.0637975       0.282286        24.5246
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.380|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.420
+
+	Alpha  e L1dL0 iguais  [  0.001   1.420 ] = [  0.001   1.420 ]
+ Sorteando novas solucoes...
+ 
+		| pL = -0.007 ; steplen = 0.007 : lu = 0.025
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.007
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.310 ; steplen = 0.310 : lu = 0.380|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.240
+
+ Iter 58 | Best F(x) 0.064 | F(x)  0.282 | Temperatura 24.525 | k = 59
+ 
+ Iter 59 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.240
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.423934
+
+Controle temp boltz  24.423934
+    59         60      0.0637975       0.282286        24.4239
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.379|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.420
+
+ Iter 59 | Best F(x) 0.064 | F(x)  0.282 | Temperatura 24.424 | k = 60
+ 
+ Iter 60 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.325728
+
+Controle temp boltz  24.325728
+    60         61      0.0637975       0.230449        24.3257
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.377|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.420
+
+	Alpha  e L1dL0 iguais  [  0.001   1.420 ] = [  0.001   1.420 ]
+ Sorteando novas solucoes...
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.320 ; steplen = 0.320 : lu = 0.377|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.230
+
+ Iter 60 | Best F(x) 0.064 | F(x)  0.230 | Temperatura 24.326 | k = 61
+ 
+ Iter 61 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.229887
+
+Controle temp boltz  24.229887
+    61         62      0.0637975       0.286157        24.2299
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.220 ; steplen = 0.220 : lu = 0.376|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.330
+
+	Alpha  e L1dL0 iguais  [  0.010   1.330 ] = [  0.010   1.330 ]
+ Sorteando novas solucoes...
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.330 ; steplen = 0.330 : lu = 0.376|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.330
+	Schedule Alpha = 1.220
+
+ Iter 61 | Best F(x) 0.064 | F(x)  0.286 | Temperatura 24.230 | k = 62
+ 
+ Iter 62 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.220
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.136314
+
+Controle temp boltz  24.136314
+    62         63      0.0637975       0.279446        24.1363
+ 
+		| pL = 0.020 ; steplen = 0.020 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.300 ; steplen = 0.300 : lu = 0.374|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.300
+	Schedule Alpha = 1.250
+
+ Iter 62 | Best F(x) 0.064 | F(x)  0.279 | Temperatura 24.136 | k = 63
+ 
+ Iter 63 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.030 alpha 1.250
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  24.044917
+
+Controle temp boltz  24.044917
+    63         64      0.0637975       0.255233        24.0449
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = 0.000 ; steplen = 0.000 : lu = 0.373|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = 0.000
+	Schedule Alpha = 1.550
+
+ Iter 63 | Best F(x) 0.064 | F(x)  0.255 | Temperatura 24.045 | k = 64
+ 
+ Iter 64 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.550
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.955612
+
+Controle temp boltz  23.955612
+    64         65      0.0637975      0.0694463        23.9556
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.150 ; steplen = 0.150 : lu = 0.371|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.400
+
+ Iter 64 | Best F(x) 0.064 | F(x)  0.069 | Temperatura 23.956 | k = 65
+ 
+ Iter 65 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.400
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.868315
+
+Controle temp boltz  23.868315
+    65         66      0.0637975       0.230068        23.8683
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.030 ; steplen = 0.030 : lu = 0.370|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.030
+	Schedule Alpha = 1.520
+
+ Iter 65 | Best F(x) 0.064 | F(x)  0.230 | Temperatura 23.868 | k = 66
+ 
+ Iter 66 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.520
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.782951
+
+Controle temp boltz  23.782951
+    66         67      0.0637975        0.14392         23.783
+ 
+		| pL = 0.020 ; steplen = 0.020 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.220 ; steplen = 0.220 : lu = 0.369|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.330
+
+ Iter 66 | Best F(x) 0.064 | F(x)  0.144 | Temperatura 23.783 | k = 67
+ 
+ Iter 67 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.030 alpha 1.330
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.699447
+
+Controle temp boltz  23.699447
+    67         68      0.0637975       0.230832        23.6994
+ 
+		| pL = -0.009 ; steplen = 0.009 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.009
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.310 ; steplen = 0.310 : lu = 0.367|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.240
+
+ Iter 67 | Best F(x) 0.064 | F(x)  0.231 | Temperatura 23.699 | k = 68
+ 
+ Iter 68 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.240
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.617734
+
+Controle temp boltz  23.617734
+    68         69      0.0637975       0.284467        23.6177
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.050 ; steplen = 0.050 : lu = 0.366|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.050
+	Schedule Alpha = 1.500
+
+ Iter 68 | Best F(x) 0.064 | F(x)  0.284 | Temperatura 23.618 | k = 69
+ 
+ Iter 69 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.500
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.537746
+
+Controle temp boltz  23.537746
+    69         70      0.0637975       0.149132        23.5377
+ 
+		| pL = -0.008 ; steplen = 0.008 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.008
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.310 ; steplen = 0.310 : lu = 0.365|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.240
+
+	Alpha  e L1dL0 iguais  [  0.002   1.240 ] = [  0.002   1.240 ]
+ Sorteando novas solucoes...
+ 
+		| pL = 0.020 ; steplen = 0.020 : lu = 0.024
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.330 ; steplen = 0.330 : lu = 0.365|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.330
+	Schedule Alpha = 1.220
+
+ Iter 69 | Best F(x) 0.064 | F(x)  0.149 | Temperatura 23.538 | k = 70
+ 
+ Iter 70 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.030 alpha 1.220
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.459421
+
+Controle temp boltz  23.459421
+    70         71      0.0637975       0.149132        23.4594
+ 
+		| pL = 0.020 ; steplen = 0.020 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.360 ; steplen = 0.360 : lu = 0.364|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.360
+	Schedule Alpha = 1.190
+
+ Iter 70 | Best F(x) 0.064 | F(x)  0.149 | Temperatura 23.459 | k = 71
+ 
+ Iter 71 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.030 alpha 1.190
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.382700
+
+Controle temp boltz  23.382700
+    71         72      0.0637975       0.269115        23.3827
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.200 ; steplen = 0.200 : lu = 0.362|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.200
+	Schedule Alpha = 1.350
+
+ Iter 71 | Best F(x) 0.064 | F(x)  0.269 | Temperatura 23.383 | k = 72
+ 
+ Iter 72 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.350
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.307527
+
+Controle temp boltz  23.307527
+    72         73      0.0637975       0.252865        23.3075
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.340 ; steplen = 0.340 : lu = 0.361|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.210
+
+ Iter 72 | Best F(x) 0.064 | F(x)  0.253 | Temperatura 23.308 | k = 73
+ 
+ Iter 73 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.210
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.233849
+
+Controle temp boltz  23.233849
+    73         74      0.0637975       0.272722        23.2338
+ 
+		| pL = -0.005 ; steplen = 0.005 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.080 ; steplen = 0.080 : lu = 0.360|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.080
+	Schedule Alpha = 1.470
+
+ Iter 73 | Best F(x) 0.064 | F(x)  0.273 | Temperatura 23.234 | k = 74
+ 
+ Iter 74 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.470
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.161616
+
+Controle temp boltz  23.161616
+    74         75      0.0637975       0.198665        23.1616
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.320 ; steplen = 0.320 : lu = 0.359|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.230
+
+ Iter 74 | Best F(x) 0.064 | F(x)  0.199 | Temperatura 23.162 | k = 75
+ 
+ Iter 75 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.090778
+
+Controle temp boltz  23.090778
+    75         76      0.0637975       0.277556        23.0908
+ 
+		| pL = -0.003 ; steplen = 0.003 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.320 ; steplen = 0.320 : lu = 0.358|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.230
+
+	Alpha  e L1dL0 iguais  [  0.007   1.230 ] = [  0.007   1.230 ]
+ Sorteando novas solucoes...
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.090 ; steplen = 0.090 : lu = 0.358|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.460
+
+ Iter 75 | Best F(x) 0.064 | F(x)  0.278 | Temperatura 23.091 | k = 76
+ 
+ Iter 76 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.460
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  23.021289
+
+Controle temp boltz  23.021289
+    76         77      0.0637975       0.193788        23.0213
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.340 ; steplen = 0.340 : lu = 0.357|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.210
+
+ Iter 76 | Best F(x) 0.064 | F(x)  0.194 | Temperatura 23.021 | k = 77
+ 
+ Iter 77 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.210
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.953106
+
+Controle temp boltz  22.953106
+    77         78      0.0637975       0.193788        22.9531
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.340 ; steplen = 0.340 : lu = 0.356|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.210
+
+ Iter 77 | Best F(x) 0.064 | F(x)  0.194 | Temperatura 22.953 | k = 78
+ 
+ Iter 78 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.210
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.886187
+
+Controle temp boltz  22.886187
+    78         79      0.0637975       0.272801        22.8862
+ 
+		| pL = -0.000 ; steplen = 0.000 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = -0.000
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.270 ; steplen = 0.270 : lu = 0.355|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.280
+
+ Iter 78 | Best F(x) 0.064 | F(x)  0.273 | Temperatura 22.886 | k = 79
+ 
+ Iter 79 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.280
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.820491
+
+Controle temp boltz  22.820491
+    79         80      0.0637975       0.267185        22.8205
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.250 ; steplen = 0.250 : lu = 0.354|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.250
+	Schedule Alpha = 1.300
+
+ Iter 79 | Best F(x) 0.064 | F(x)  0.267 | Temperatura 22.820 | k = 80
+ 
+ Iter 80 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.300
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.755981
+
+Controle temp boltz  22.755981
+    80         81      0.0637975        0.25137         22.756
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.090 ; steplen = 0.090 : lu = 0.353|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.460
+
+ Iter 80 | Best F(x) 0.064 | F(x)  0.251 | Temperatura 22.756 | k = 81
+ 
+ Iter 81 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.460
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.692619
+
+Controle temp boltz  22.692619
+    81         82      0.0637975        0.17114        22.6926
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.023
+	Schedule atual L1/L0 = 0.010
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.010 ; steplen = 0.010 : lu = 0.352|
+	Schedule atual Alpha = 1.550
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.540
+
+ Iter 81 | Best F(x) 0.064 | F(x)  0.171 | Temperatura 22.693 | k = 82
+ 
+ Iter 82 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.020 alpha 1.540
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.630370
+
+Controle temp boltz  22.630370
+    82         83      0.0622485      0.0622485        22.6304
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.045
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.070 ; steplen = 0.070 : lu = 0.349|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.070
+	Schedule Alpha = 1.470
+
+ Iter 82 | Best F(x) 0.062 | F(x)  0.062 | Temperatura 22.630 | k = 83
+ 
+ Iter 83 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.470
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.569202
+
+Controle temp boltz  22.569202
+    83         84      0.0622485      0.0622485        22.5692
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.045
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.230 ; steplen = 0.230 : lu = 0.348|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.310
+
+ Iter 83 | Best F(x) 0.062 | F(x)  0.062 | Temperatura 22.569 | k = 84
+ 
+ Iter 84 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.310
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.509082
+
+Controle temp boltz  22.509082
+    84         85      0.0622485       0.269886        22.5091
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.045
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.250 ; steplen = 0.250 : lu = 0.347|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.250
+	Schedule Alpha = 1.290
+
+ Iter 84 | Best F(x) 0.062 | F(x)  0.270 | Temperatura 22.509 | k = 85
+ 
+ Iter 85 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.290
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.449978
+
+Controle temp boltz  22.449978
+    85         86      0.0622485       0.268263          22.45
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.045
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.270 ; steplen = 0.270 : lu = 0.346|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.270
+
+ Iter 85 | Best F(x) 0.062 | F(x)  0.268 | Temperatura 22.450 | k = 86
+ 
+ Iter 86 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.270
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.391862
+
+Controle temp boltz  22.391862
+    86         87      0.0622485       0.268263        22.3919
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.045
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.050 ; steplen = 0.050 : lu = 0.345|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.050
+	Schedule Alpha = 1.490
+
+ Iter 86 | Best F(x) 0.062 | F(x)  0.268 | Temperatura 22.392 | k = 87
+ 
+ Iter 87 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.490
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.334706
+
+Controle temp boltz  22.334706
+    87         88      0.0622485       0.185321        22.3347
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.045
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.010 ; steplen = 0.010 : lu = 0.344|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.530
+
+ Iter 87 | Best F(x) 0.062 | F(x)  0.185 | Temperatura 22.335 | k = 88
+ 
+ Iter 88 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.530
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.278481
+
+Controle temp boltz  22.278481
+    88         89      0.0622485       0.126738        22.2785
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.045
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = 0.010 ; steplen = 0.010 : lu = 0.343|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = 0.010
+	Schedule Alpha = 1.550
+
+ Iter 88 | Best F(x) 0.062 | F(x)  0.127 | Temperatura 22.278 | k = 89
+ 
+ Iter 89 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.550
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.223162
+
+Controle temp boltz  22.223162
+    89         90      0.0622485      0.0651665        22.2232
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.320 ; steplen = 0.320 : lu = 0.342|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.220
+
+ Iter 89 | Best F(x) 0.062 | F(x)  0.065 | Temperatura 22.223 | k = 90
+ 
+ Iter 90 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.220
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.168724
+
+Controle temp boltz  22.168724
+    90         91      0.0622485       0.287811        22.1687
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.260 ; steplen = 0.260 : lu = 0.341|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.280
+
+ Iter 90 | Best F(x) 0.062 | F(x)  0.288 | Temperatura 22.169 | k = 91
+ 
+ Iter 91 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.280
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.115143
+
+Controle temp boltz  22.115143
+    91         92      0.0622485       0.229688        22.1151
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.260 ; steplen = 0.260 : lu = 0.341|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.280
+
+ Iter 91 | Best F(x) 0.062 | F(x)  0.230 | Temperatura 22.115 | k = 92
+ 
+ Iter 92 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.280
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.062395
+
+Controle temp boltz  22.062395
+    92         93      0.0622485       0.276072        22.0624
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.120 ; steplen = 0.120 : lu = 0.340|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.420
+
+ Iter 92 | Best F(x) 0.062 | F(x)  0.276 | Temperatura 22.062 | k = 93
+ 
+ Iter 93 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  22.010458
+
+Controle temp boltz  22.010458
+    93         94      0.0622485       0.239008        22.0105
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.290 ; steplen = 0.290 : lu = 0.339|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.250
+
+ Iter 93 | Best F(x) 0.062 | F(x)  0.239 | Temperatura 22.010 | k = 94
+ 
+ Iter 94 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.250
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.959311
+
+Controle temp boltz  21.959311
+    94         95      0.0622485       0.239008        21.9593
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.338|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.380
+
+ Iter 94 | Best F(x) 0.062 | F(x)  0.239 | Temperatura 21.959 | k = 95
+ 
+ Iter 95 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.380
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.908933
+
+Controle temp boltz  21.908933
+    95         96      0.0622485       0.251585        21.9089
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.200 ; steplen = 0.200 : lu = 0.337|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.200
+	Schedule Alpha = 1.340
+
+ Iter 95 | Best F(x) 0.062 | F(x)  0.252 | Temperatura 21.909 | k = 96
+ 
+ Iter 96 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.340
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.859304
+
+Controle temp boltz  21.859304
+    96         97      0.0622485       0.238841        21.8593
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.240 ; steplen = 0.240 : lu = 0.337|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.240
+	Schedule Alpha = 1.300
+
+ Iter 96 | Best F(x) 0.062 | F(x)  0.239 | Temperatura 21.859 | k = 97
+ 
+ Iter 97 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.300
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.810406
+
+Controle temp boltz  21.810406
+    97         98      0.0622485       0.238841        21.8104
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.220 ; steplen = 0.220 : lu = 0.336|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.320
+
+ Iter 97 | Best F(x) 0.062 | F(x)  0.239 | Temperatura 21.810 | k = 98
+ 
+ Iter 98 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.030 alpha 1.320
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.762218
+
+Controle temp boltz  21.762218
+    98         99      0.0622485       0.234348        21.7622
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.260 ; steplen = 0.260 : lu = 0.335|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.280
+
+	Alpha  e L1dL0 iguais  [  0.002   1.280 ] = [  0.002   1.280 ]
+ Sorteando novas solucoes...
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.044
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.280 ; steplen = 0.280 : lu = 0.335|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.280
+	Schedule Alpha = 1.260
+
+ Iter 98 | Best F(x) 0.062 | F(x)  0.234 | Temperatura 21.762 | k = 99
+ 
+ Iter 99 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.260
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.714724
+
+Controle temp boltz  21.714724
+    99        100      0.0622485        0.27879        21.7147
+ 
+		| pL = -0.010 ; steplen = 0.010 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.010
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.100 ; steplen = 0.100 : lu = 0.334|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.440
+
+ Iter 99 | Best F(x) 0.062 | F(x)  0.279 | Temperatura 21.715 | k = 100
+ 
+ Iter 100 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.440
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.667907
+
+Controle temp boltz  21.667907
+   100        101      0.0622485       0.208553        21.6679
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.090 ; steplen = 0.090 : lu = 0.334|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.450
+
+ Iter 100 | Best F(x) 0.062 | F(x)  0.209 | Temperatura 21.668 | k = 101
+ 
+ Iter 101 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.450
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.621749
+
+Controle temp boltz  21.621749
+   101        102      0.0622485       0.180101        21.6217
+ 
+		| pL = -0.010 ; steplen = 0.010 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.010
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.040 ; steplen = 0.040 : lu = 0.333|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.040
+	Schedule Alpha = 1.500
+
+ Iter 101 | Best F(x) 0.062 | F(x)  0.180 | Temperatura 21.622 | k = 102
+ 
+ Iter 102 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.500
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.576235
+
+Controle temp boltz  21.576235
+   102        103      0.0622485       0.149132        21.5762
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.150 ; steplen = 0.150 : lu = 0.332|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.390
+
+ Iter 102 | Best F(x) 0.062 | F(x)  0.149 | Temperatura 21.576 | k = 103
+ 
+ Iter 103 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.390
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.531349
+
+Controle temp boltz  21.531349
+   103        104      0.0622485       0.149132        21.5313
+ 
+		| pL = -0.010 ; steplen = 0.010 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.010
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.260 ; steplen = 0.260 : lu = 0.332|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.280
+
+ Iter 103 | Best F(x) 0.062 | F(x)  0.149 | Temperatura 21.531 | k = 104
+ 
+ Iter 104 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.280
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.487076
+
+Controle temp boltz  21.487076
+   104        105      0.0622485       0.149132        21.4871
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.310 ; steplen = 0.310 : lu = 0.331|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.230
+
+ Iter 104 | Best F(x) 0.062 | F(x)  0.149 | Temperatura 21.487 | k = 105
+ 
+ Iter 105 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.443402
+
+Controle temp boltz  21.443402
+   105        106      0.0622485       0.149132        21.4434
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.330|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.410
+
+ Iter 105 | Best F(x) 0.062 | F(x)  0.149 | Temperatura 21.443 | k = 106
+ 
+ Iter 106 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.410
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.400313
+
+Controle temp boltz  21.400313
+   106        107      0.0622485       0.149132        21.4003
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.170 ; steplen = 0.170 : lu = 0.330|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.370
+
+ Iter 106 | Best F(x) 0.062 | F(x)  0.149 | Temperatura 21.400 | k = 107
+ 
+ Iter 107 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.370
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.357795
+
+Controle temp boltz  21.357795
+   107        108      0.0622485       0.149132        21.3578
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.070 ; steplen = 0.070 : lu = 0.329|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.070
+	Schedule Alpha = 1.470
+
+ Iter 107 | Best F(x) 0.062 | F(x)  0.149 | Temperatura 21.358 | k = 108
+ 
+ Iter 108 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.470
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.315836
+
+Controle temp boltz  21.315836
+   108        109      0.0622485       0.198665        21.3158
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.210 ; steplen = 0.210 : lu = 0.328|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.210
+	Schedule Alpha = 1.330
+
+ Iter 108 | Best F(x) 0.062 | F(x)  0.199 | Temperatura 21.316 | k = 109
+ 
+ Iter 109 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.330
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.274421
+
+Controle temp boltz  21.274421
+   109        110      0.0622485       0.258524        21.2744
+ 
+		| pL = -0.010 ; steplen = 0.010 : lu = 0.043
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.010
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.120 ; steplen = 0.120 : lu = 0.328|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.420
+
+ Iter 109 | Best F(x) 0.062 | F(x)  0.259 | Temperatura 21.274 | k = 110
+ 
+ Iter 110 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.233540
+
+Controle temp boltz  21.233540
+   110        111      0.0622485       0.220333        21.2335
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.090 ; steplen = 0.090 : lu = 0.327|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.450
+
+ Iter 110 | Best F(x) 0.062 | F(x)  0.220 | Temperatura 21.234 | k = 111
+ 
+ Iter 111 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.450
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.193181
+
+Controle temp boltz  21.193181
+   111        112      0.0622485       0.218827        21.1932
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = 0.030 ; steplen = 0.030 : lu = 0.326|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = 0.030
+	Schedule Alpha = 1.570
+
+ Iter 111 | Best F(x) 0.062 | F(x)  0.219 | Temperatura 21.193 | k = 112
+ 
+ Iter 112 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.570
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.153331
+
+Controle temp boltz  21.153331
+   112        113      0.0622485       0.218827        21.1533
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.240 ; steplen = 0.240 : lu = 0.326|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.240
+	Schedule Alpha = 1.300
+
+ Iter 112 | Best F(x) 0.062 | F(x)  0.219 | Temperatura 21.153 | k = 113
+ 
+ Iter 113 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.300
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.113980
+
+Controle temp boltz  21.113980
+   113        114      0.0622485       0.273192         21.114
+ 
+		| pL = -0.010 ; steplen = 0.010 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.010
+	Schedule L1/L0 = 0.010
+ 
+		| pA = -0.270 ; steplen = 0.270 : lu = 0.325|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.270
+
+ Iter 113 | Best F(x) 0.062 | F(x)  0.273 | Temperatura 21.114 | k = 114
+ 
+ Iter 114 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.270
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.075117
+
+Controle temp boltz  21.075117
+   114        115      0.0622485       0.269393        21.0751
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.270 ; steplen = 0.270 : lu = 0.325|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.270
+
+ Iter 114 | Best F(x) 0.062 | F(x)  0.269 | Temperatura 21.075 | k = 115
+ 
+ Iter 115 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.270
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  21.036731
+
+Controle temp boltz  21.036731
+   115        116      0.0622485       0.279169        21.0367
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.324|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.380
+
+ Iter 115 | Best F(x) 0.062 | F(x)  0.279 | Temperatura 21.037 | k = 116
+ 
+ Iter 116 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.380
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.998813
+
+Controle temp boltz  20.998813
+   116        117      0.0622485       0.246507        20.9988
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.180 ; steplen = 0.180 : lu = 0.323|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.360
+
+ Iter 116 | Best F(x) 0.062 | F(x)  0.247 | Temperatura 20.999 | k = 117
+ 
+ Iter 117 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.360
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.961352
+
+Controle temp boltz  20.961352
+   117        118      0.0622485       0.196874        20.9614
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.180 ; steplen = 0.180 : lu = 0.323|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.360
+
+ Iter 117 | Best F(x) 0.062 | F(x)  0.197 | Temperatura 20.961 | k = 118
+ 
+ Iter 118 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.360
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.924339
+
+Controle temp boltz  20.924339
+   118        119      0.0622485       0.257567        20.9243
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.240 ; steplen = 0.240 : lu = 0.322|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.240
+	Schedule Alpha = 1.300
+
+ Iter 118 | Best F(x) 0.062 | F(x)  0.258 | Temperatura 20.924 | k = 119
+ 
+ Iter 119 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.300
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.887764
+
+Controle temp boltz  20.887764
+   119        120      0.0622485       0.222629        20.8878
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.150 ; steplen = 0.150 : lu = 0.322|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.390
+
+ Iter 119 | Best F(x) 0.062 | F(x)  0.223 | Temperatura 20.888 | k = 120
+ 
+ Iter 120 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.390
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.851620
+
+Controle temp boltz  20.851620
+   120        121      0.0622485       0.222629        20.8516
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = 0.030 ; steplen = 0.030 : lu = 0.321|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = 0.030
+	Schedule Alpha = 1.570
+
+ Iter 120 | Best F(x) 0.062 | F(x)  0.223 | Temperatura 20.852 | k = 121
+ 
+ Iter 121 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.815895
+
+Controle temp boltz  20.815895
+   121        122      0.0622485       0.222629        20.8159
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.030 ; steplen = 0.030 : lu = 0.321|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.030
+	Schedule Alpha = 1.510
+
+ Iter 121 | Best F(x) 0.062 | F(x)  0.223 | Temperatura 20.816 | k = 122
+ 
+ Iter 122 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.030 alpha 1.510
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.780584
+
+Controle temp boltz  20.780584
+   122        123      0.0622485      0.0918009        20.7806
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.042
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.170 ; steplen = 0.170 : lu = 0.320|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.370
+
+ Iter 122 | Best F(x) 0.062 | F(x)  0.092 | Temperatura 20.781 | k = 123
+ 
+ Iter 123 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.370
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.745676
+
+Controle temp boltz  20.745676
+   123        124      0.0622485      0.0918009        20.7457
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.150 ; steplen = 0.150 : lu = 0.319|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.390
+
+ Iter 123 | Best F(x) 0.062 | F(x)  0.092 | Temperatura 20.746 | k = 124
+ 
+ Iter 124 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.390
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.711164
+
+Controle temp boltz  20.711164
+   124        125      0.0622485       0.248344        20.7112
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.100 ; steplen = 0.100 : lu = 0.319|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.440
+
+ Iter 124 | Best F(x) 0.062 | F(x)  0.248 | Temperatura 20.711 | k = 125
+ 
+ Iter 125 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.440
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.677041
+
+Controle temp boltz  20.677041
+   125        126      0.0622485       0.188137         20.677
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.190 ; steplen = 0.190 : lu = 0.318|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.190
+	Schedule Alpha = 1.350
+
+ Iter 125 | Best F(x) 0.062 | F(x)  0.188 | Temperatura 20.677 | k = 126
+ 
+ Iter 126 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.350
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.643298
+
+Controle temp boltz  20.643298
+   126        127      0.0622485       0.188137        20.6433
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.318|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.410
+
+ Iter 126 | Best F(x) 0.062 | F(x)  0.188 | Temperatura 20.643 | k = 127
+ 
+ Iter 127 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.410
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.609929
+
+Controle temp boltz  20.609929
+   127        128      0.0622485       0.239001        20.6099
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.150 ; steplen = 0.150 : lu = 0.317|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.390
+
+ Iter 127 | Best F(x) 0.062 | F(x)  0.239 | Temperatura 20.610 | k = 128
+ 
+ Iter 128 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.390
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.576926
+
+Controle temp boltz  20.576926
+   128        129      0.0622485       0.248344        20.5769
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.090 ; steplen = 0.090 : lu = 0.317|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.450
+
+ Iter 128 | Best F(x) 0.062 | F(x)  0.248 | Temperatura 20.577 | k = 129
+ 
+ Iter 129 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.450
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  20.544282
+
+Controle temp boltz  20.544282
+   129        130      0.0622485       0.208752        20.5443
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.300 ; steplen = 0.300 : lu = 0.316|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.300
+	Schedule Alpha = 1.240
+
+ Iter 129 | Best F(x) 0.062 | F(x)  0.209 | Temperatura 20.544 | k = 130
+ 
+ Iter 130 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.240
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 20.390683
+
+Controle temp exp 20.390683
+   130        131      0.0622485       0.208752        20.3907
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.041
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.220 ; steplen = 0.220 : lu = 0.314|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.320
+
+ Iter 130 | Best F(x) 0.062 | F(x)  0.209 | Temperatura 20.391 | k = 131
+ 
+ Iter 131 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.320
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 19.371148
+
+Controle temp exp 19.371148
+   131        132      0.0622485       0.208752        19.3711
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.039
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.230 ; steplen = 0.230 : lu = 0.298|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.310
+
+ Iter 131 | Best F(x) 0.062 | F(x)  0.209 | Temperatura 19.371 | k = 132
+ 
+ Iter 132 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.310
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 18.402591
+
+Controle temp exp 18.402591
+   132        133      0.0622485       0.263627        18.4026
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.037
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.220 ; steplen = 0.220 : lu = 0.283|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.320
+
+ Iter 132 | Best F(x) 0.062 | F(x)  0.264 | Temperatura 18.403 | k = 133
+ 
+ Iter 133 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.320
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 17.482461
+
+Controle temp exp 17.482461
+   133        134      0.0622485       0.267823        17.4825
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.035
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.170 ; steplen = 0.170 : lu = 0.269|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.370
+
+ Iter 133 | Best F(x) 0.062 | F(x)  0.268 | Temperatura 17.482 | k = 134
+ 
+ Iter 134 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.370
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 16.608338
+
+Controle temp exp 16.608338
+   134        135      0.0622485       0.246602        16.6083
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.033
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.180 ; steplen = 0.180 : lu = 0.256|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.360
+
+ Iter 134 | Best F(x) 0.062 | F(x)  0.247 | Temperatura 16.608 | k = 135
+ 
+ Iter 135 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.360
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 15.777921
+
+Controle temp exp 15.777921
+   135        136      0.0622485       0.259195        15.7779
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.032
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.180 ; steplen = 0.180 : lu = 0.243|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.360
+
+ Iter 135 | Best F(x) 0.062 | F(x)  0.259 | Temperatura 15.778 | k = 136
+ 
+ Iter 136 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.360
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 14.989025
+
+Controle temp exp 14.989025
+   136        137      0.0622485       0.259195         14.989
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.030
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.231|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.380
+
+ Iter 136 | Best F(x) 0.062 | F(x)  0.259 | Temperatura 14.989 | k = 137
+ 
+ Iter 137 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.380
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 14.239574
+
+Controle temp exp 14.239574
+   137        138      0.0622485       0.249907        14.2396
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.028
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.219|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.380
+
+ Iter 137 | Best F(x) 0.062 | F(x)  0.250 | Temperatura 14.240 | k = 138
+ 
+ Iter 138 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.030 alpha 1.380
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 13.527595
+
+Controle temp exp 13.527595
+   138        139      0.0622485       0.209312        13.5276
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.027
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.150 ; steplen = 0.150 : lu = 0.208|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.390
+
+ Iter 138 | Best F(x) 0.062 | F(x)  0.209 | Temperatura 13.528 | k = 139
+ 
+ Iter 139 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.390
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 12.851216
+
+Controle temp exp 12.851216
+   139        140      0.0622485       0.248344        12.8512
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.026
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.198|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.410
+
+ Iter 139 | Best F(x) 0.062 | F(x)  0.248 | Temperatura 12.851 | k = 140
+ 
+ Iter 140 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.410
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 12.208655
+
+Controle temp exp 12.208655
+   140        141      0.0622485       0.231107        12.2087
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.024
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.070 ; steplen = 0.070 : lu = 0.188|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.070
+	Schedule Alpha = 1.470
+
+ Iter 140 | Best F(x) 0.062 | F(x)  0.231 | Temperatura 12.209 | k = 141
+ 
+ Iter 141 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.470
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 11.598222
+
+Controle temp exp 11.598222
+   141        142      0.0622485       0.160949        11.5982
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.023
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = 0.020 ; steplen = 0.020 : lu = 0.179|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = 0.020
+	Schedule Alpha = 1.560
+
+ Iter 141 | Best F(x) 0.062 | F(x)  0.161 | Temperatura 11.598 | k = 142
+ 
+ Iter 142 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 11.018311
+
+Controle temp exp 11.018311
+   142        143      0.0622485       0.160949        11.0183
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.022
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.170|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.410
+
+ Iter 142 | Best F(x) 0.062 | F(x)  0.161 | Temperatura 11.018 | k = 143
+ 
+ Iter 143 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.410
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 10.467395
+
+Controle temp exp 10.467395
+   143        144      0.0622485       0.160949        10.4674
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.021
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.140 ; steplen = 0.140 : lu = 0.161|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.140
+	Schedule Alpha = 1.400
+
+ Iter 143 | Best F(x) 0.062 | F(x)  0.161 | Temperatura 10.467 | k = 144
+ 
+ Iter 144 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.400
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 9.944026
+
+Controle temp exp 9.944026
+   144        145      0.0622485       0.243034        9.94403
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.020
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.030 ; steplen = 0.030 : lu = 0.153|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.030
+	Schedule Alpha = 1.510
+
+ Iter 144 | Best F(x) 0.062 | F(x)  0.243 | Temperatura 9.944 | k = 145
+ 
+ Iter 145 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.510
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp exp 16045.862872
+
+Controle temp exp 16045.862872
+*  145        146      0.0622485       0.109116        16045.9
+ 
+		| pL = 0.480 ; steplen = 0.480 : lu = 32.092
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.480
+	Schedule L1/L0 = 0.500
+ 
+		| pA = -0.210 ; steplen = 0.210 : lu = 247.106|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.210
+	Schedule Alpha = 1.330
+
+ Iter 145 | Best F(x) 0.062 | F(x)  0.109 | Temperatura 16045.863 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.500 alpha 1.330
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  144.269504
+
+Controle temp boltz  144.269504
+   146        147      0.0622485      0.0861854         144.27
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.289
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.090 ; steplen = 0.090 : lu = 2.222|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.450
+
+ Iter 146 | Best F(x) 0.062 | F(x)  0.086 | Temperatura 144.270 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.450
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  91.023923
+
+Controle temp boltz  91.023923
+   147        148      0.0622485      0.0861854        91.0239
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.182
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.470 ; steplen = 0.470 : lu = 1.402|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.470
+	Schedule Alpha = 1.070
+
+ Iter 147 | Best F(x) 0.062 | F(x)  0.086 | Temperatura 91.024 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.070
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  72.134752
+
+Controle temp boltz  72.134752
+   148        149      0.0622485       0.308357        72.1348
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.144
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.170 ; steplen = 0.170 : lu = 1.111|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.370
+
+ Iter 148 | Best F(x) 0.062 | F(x)  0.308 | Temperatura 72.135 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.370
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  62.133493
+
+Controle temp boltz  62.133493
+   149        150      0.0622485       0.191586        62.1335
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.124
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.400 ; steplen = 0.400 : lu = 0.957|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.400
+	Schedule Alpha = 1.140
+
+ Iter 149 | Best F(x) 0.062 | F(x)  0.192 | Temperatura 62.133 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.140
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  55.811063
+
+Controle temp boltz  55.811063
+   150        151      0.0622485       0.296898        55.8111
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.112
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.440 ; steplen = 0.440 : lu = 0.859|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.440
+	Schedule Alpha = 1.100
+
+ Iter 150 | Best F(x) 0.062 | F(x)  0.297 | Temperatura 55.811 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.100
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  51.389834
+
+Controle temp boltz  51.389834
+   151        152      0.0622485       0.304908        51.3898
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.103
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.160 ; steplen = 0.160 : lu = 0.791|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.380
+
+ Iter 151 | Best F(x) 0.062 | F(x)  0.305 | Temperatura 51.390 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.380
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  48.089835
+
+Controle temp boltz  48.089835
+   152        153      0.0622485       0.243157        48.0898
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.096
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.510 ; steplen = 0.510 : lu = 0.741|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.510
+	Schedule Alpha = 1.030
+
+ Iter 152 | Best F(x) 0.062 | F(x)  0.243 | Temperatura 48.090 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.030
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  45.511961
+
+Controle temp boltz  45.511961
+   153        154      0.0622485       0.312716         45.512
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.091
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.430 ; steplen = 0.430 : lu = 0.701|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.430
+	Schedule Alpha = 1.110
+
+ Iter 153 | Best F(x) 0.062 | F(x)  0.313 | Temperatura 45.512 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.110
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  43.429448
+
+Controle temp boltz  43.429448
+   154        155      0.0622485       0.272351        43.4294
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.087
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.530 ; steplen = 0.530 : lu = 0.669|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.530
+	Schedule Alpha = 1.010
+
+ Iter 154 | Best F(x) 0.062 | F(x)  0.272 | Temperatura 43.429 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.010
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  41.703239
+
+Controle temp boltz  41.703239
+   155        156      0.0622485        0.29041        41.7032
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.083
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.230 ; steplen = 0.230 : lu = 0.642|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.310
+
+ Iter 155 | Best F(x) 0.062 | F(x)  0.290 | Temperatura 41.703 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.310
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  40.242960
+
+Controle temp boltz  40.242960
+   156        157      0.0622485       0.263627         40.243
+ 
+		| pL = 0.010 ; steplen = 0.010 : lu = 0.080
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.010
+	Schedule L1/L0 = 0.030
+ 
+		| pA = -0.340 ; steplen = 0.340 : lu = 0.620|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.200
+
+ Iter 156 | Best F(x) 0.062 | F(x)  0.264 | Temperatura 40.243 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.030 alpha 1.200
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  38.987125
+
+Controle temp boltz  38.987125
+   157        158      0.0622485       0.263627        38.9871
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.078
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.010 ; steplen = 0.010 : lu = 0.600|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.530
+
+ Iter 157 | Best F(x) 0.062 | F(x)  0.264 | Temperatura 38.987 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.530
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  37.892318
+
+Controle temp boltz  37.892318
+   158        159      0.0622485       0.110673        37.8923
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.076
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.130 ; steplen = 0.130 : lu = 0.584|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.410
+
+ Iter 158 | Best F(x) 0.062 | F(x)  0.111 | Temperatura 37.892 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.410
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  36.926937
+
+Controle temp boltz  36.926937
+   159        160      0.0622485       0.110673        36.9269
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.074
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.070 ; steplen = 0.070 : lu = 0.569|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.070
+	Schedule Alpha = 1.470
+
+ Iter 159 | Best F(x) 0.062 | F(x)  0.111 | Temperatura 36.927 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.470
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  36.067376
+
+Controle temp boltz  36.067376
+   160        161      0.0622485       0.198665        36.0674
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.072
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = -0.390 ; steplen = 0.390 : lu = 0.555|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.390
+	Schedule Alpha = 1.150
+
+ Iter 160 | Best F(x) 0.062 | F(x)  0.199 | Temperatura 36.067 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.150
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  35.295612
+
+Controle temp boltz  35.295612
+   161        162      0.0622485       0.198665        35.2956
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.071
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.530 ; steplen = 0.530 : lu = 0.544|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.530
+	Schedule Alpha = 1.010
+
+ Iter 161 | Best F(x) 0.062 | F(x)  0.199 | Temperatura 35.296 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.010
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  34.597626
+
+Controle temp boltz  34.597626
+   162        163      0.0622485        0.31543        34.5976
+ 
+		| pL = 0.050 ; steplen = 0.050 : lu = 0.069
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.050
+	Schedule L1/L0 = 0.070
+ 
+		| pA = -0.120 ; steplen = 0.120 : lu = 0.533|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.420
+
+ Iter 162 | Best F(x) 0.062 | F(x)  0.315 | Temperatura 34.598 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.070 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  33.962327
+
+Controle temp boltz  33.962327
+   163        164      0.0622485       0.140306        33.9623
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.068
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.030 ; steplen = 0.030 : lu = 0.523|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.030
+	Schedule Alpha = 1.510
+
+ Iter 163 | Best F(x) 0.062 | F(x)  0.140 | Temperatura 33.962 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.510
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  33.380820
+
+Controle temp boltz  33.380820
+   164        165      0.0622485       0.140306        33.3808
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.067
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.240 ; steplen = 0.240 : lu = 0.514|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.240
+	Schedule Alpha = 1.300
+
+ Iter 164 | Best F(x) 0.062 | F(x)  0.140 | Temperatura 33.381 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.300
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  32.845874
+
+Controle temp boltz  32.845874
+   165        166      0.0622485       0.266033        32.8459
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.066
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = -0.370 ; steplen = 0.370 : lu = 0.506|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.370
+	Schedule Alpha = 1.170
+
+ Iter 165 | Best F(x) 0.062 | F(x)  0.266 | Temperatura 32.846 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.170
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  32.351545
+
+Controle temp boltz  32.351545
+   166        167      0.0622485       0.293889        32.3515
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.065
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.180 ; steplen = 0.180 : lu = 0.498|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.360
+
+ Iter 166 | Best F(x) 0.062 | F(x)  0.294 | Temperatura 32.352 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.360
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  31.892899
+
+Controle temp boltz  31.892899
+   167        168      0.0622485       0.252931        31.8929
+ 
+		| pL = -0.018 ; steplen = 0.018 : lu = 0.064
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.018
+	Schedule L1/L0 = 0.002
+ 
+		| pA = -0.140 ; steplen = 0.140 : lu = 0.491|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.140
+	Schedule Alpha = 1.400
+
+ Iter 167 | Best F(x) 0.062 | F(x)  0.253 | Temperatura 31.893 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.400
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  31.465798
+
+Controle temp boltz  31.465798
+   168        169      0.0622485        0.24477        31.4658
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.063
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.330 ; steplen = 0.330 : lu = 0.485|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.330
+	Schedule Alpha = 1.210
+
+ Iter 168 | Best F(x) 0.062 | F(x)  0.245 | Temperatura 31.466 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.210
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  31.066747
+
+Controle temp boltz  31.066747
+   169        170      0.0622485        0.24477        31.0667
+ 
+		| pL = -0.013 ; steplen = 0.013 : lu = 0.062
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.013
+	Schedule L1/L0 = 0.007
+ 
+		| pA = -0.390 ; steplen = 0.390 : lu = 0.478|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.390
+	Schedule Alpha = 1.150
+
+ Iter 169 | Best F(x) 0.062 | F(x)  0.245 | Temperatura 31.067 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.150
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  30.692768
+
+Controle temp boltz  30.692768
+   170        171      0.0622485       0.293736        30.6928
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.061
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.310 ; steplen = 0.310 : lu = 0.473|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.230
+
+ Iter 170 | Best F(x) 0.062 | F(x)  0.294 | Temperatura 30.693 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  30.341308
+
+Controle temp boltz  30.341308
+   171        172      0.0622485       0.282286        30.3413
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.061
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.460 ; steplen = 0.460 : lu = 0.467|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.460
+	Schedule Alpha = 1.080
+
+ Iter 171 | Best F(x) 0.062 | F(x)  0.282 | Temperatura 30.341 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.080
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  30.010163
+
+Controle temp boltz  30.010163
+   172        173      0.0622485       0.305646        30.0102
+ 
+		| pL = 0.050 ; steplen = 0.050 : lu = 0.060
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.050
+	Schedule L1/L0 = 0.070
+ 
+		| pA = -0.420 ; steplen = 0.420 : lu = 0.462|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.420
+	Schedule Alpha = 1.120
+
+ Iter 172 | Best F(x) 0.062 | F(x)  0.306 | Temperatura 30.010 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.070 alpha 1.120
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  29.697420
+
+Controle temp boltz  29.697420
+   173        174      0.0622485       0.259523        29.6974
+ 
+		| pL = 0.050 ; steplen = 0.050 : lu = 0.059
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.050
+	Schedule L1/L0 = 0.070
+ 
+		| pA = -0.020 ; steplen = 0.020 : lu = 0.457|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.020
+	Schedule Alpha = 1.520
+
+ Iter 173 | Best F(x) 0.062 | F(x)  0.260 | Temperatura 29.697 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.070 alpha 1.520
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  29.401410
+
+Controle temp boltz  29.401410
+   174        175      0.0622485      0.0720129        29.4014
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.059
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.020 ; steplen = 0.020 : lu = 0.453|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.020
+	Schedule Alpha = 1.520
+
+ Iter 174 | Best F(x) 0.062 | F(x)  0.072 | Temperatura 29.401 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.520
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  29.120668
+
+Controle temp boltz  29.120668
+   175        176      0.0622485      0.0720129        29.1207
+ 
+		| pL = 0.030 ; steplen = 0.030 : lu = 0.058
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.120 ; steplen = 0.120 : lu = 0.448|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.420
+
+ Iter 175 | Best F(x) 0.062 | F(x)  0.072 | Temperatura 29.121 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.853901
+
+Controle temp boltz  28.853901
+   176        177      0.0622485      0.0720129        28.8539
+ 
+		| pL = 0.000 ; steplen = 0.000 : lu = 0.058
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.020
+ 
+		| pA = -0.350 ; steplen = 0.350 : lu = 0.444|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.190
+
+ Iter 176 | Best F(x) 0.062 | F(x)  0.072 | Temperatura 28.854 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.190
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.599967
+
+Controle temp boltz  28.599967
+   177        178      0.0622485       0.276912           28.6
+ 
+		| pL = -0.017 ; steplen = 0.017 : lu = 0.057
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.017
+	Schedule L1/L0 = 0.003
+ 
+		| pA = 0.000 ; steplen = 0.000 : lu = 0.440|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = 0.000
+	Schedule Alpha = 1.540
+
+ Iter 177 | Best F(x) 0.062 | F(x)  0.277 | Temperatura 28.600 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.540
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.357849
+
+Controle temp boltz  28.357849
+   178        179      0.0622485      0.0919112        28.3578
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.057
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.310 ; steplen = 0.310 : lu = 0.437|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.230
+
+ Iter 178 | Best F(x) 0.062 | F(x)  0.092 | Temperatura 28.358 | k = 34
+ 
+ Iter 34 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.230
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  28.126641
+
+Controle temp boltz  28.126641
+   179        180      0.0622485      0.0919112        28.1266
+ 
+		| pL = 0.050 ; steplen = 0.050 : lu = 0.056
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = 0.050
+	Schedule L1/L0 = 0.070
+ 
+		| pA = -0.120 ; steplen = 0.120 : lu = 0.433|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.420
+
+ Iter 179 | Best F(x) 0.062 | F(x)  0.092 | Temperatura 28.127 | k = 35
+ 
+ Iter 35 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.070 alpha 1.420
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.905531
+
+Controle temp boltz  27.905531
+   180        181      0.0622485       0.140306        27.9055
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ 
+		| pL = -0.019 ; steplen = 0.019 : lu = 0.056
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.019
+	Schedule L1/L0 = 0.001
+ 
+		| pA = 0.000 ; steplen = 0.000 : lu = 0.430|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = 0.000
+	Schedule Alpha = 1.540
+
+ Iter 180 | Best F(x) 0.062 | F(x)  0.140 | Temperatura 27.906 | k = 36
+ 
+ Iter 36 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.540
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.693789
+
+Controle temp boltz  27.693789
+   181        182      0.0622485      0.0997227        27.6938
+ 
+		| pL = -0.015 ; steplen = 0.015 : lu = 0.055
+	Schedule atual L1/L0 = 0.020
+	Pertubacao L1/L0 = -0.015
+	Schedule L1/L0 = 0.005
+ 
+		| pA = -0.250 ; steplen = 0.250 : lu = 0.426|
+	Schedule atual Alpha = 1.540
+	Perturbacao Alpha = -0.250
+	Schedule Alpha = 1.290
+
+ Iter 181 | Best F(x) 0.062 | F(x)  0.100 | Temperatura 27.694 | k = 37
+ 
+ Iter 37 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.290
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  27.490758
+
+Controle temp boltz  27.490758
+   182        183      0.0622485       0.270559        27.4908
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+    0.0200    1.5400
+
+
+	 HdL: 1.000  L1dL0: 0.020  t1dt0: 11.000  Alpha: 1.540

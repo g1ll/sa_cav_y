@@ -1,0 +1,56 @@
+\nSimulated Annealing...Discreted\n
+
+	 Fitness Limit : -Inf
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  1 9 0.7 1.34 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @temperatureboltz
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.109676       0.109676            100
+     1          2       0.109676       0.135468         144.27
+     2          3       0.109676       0.177858        91.0239
+{Operation terminated by user during cav_yg (line 37)
+
+
+In d_annealing_c4 (line 139)
+			cav_yg([schedule(1) schedule(3) schedule(2) schedule(4)]);
+
+In sanewpoint (line 18)
+     newx(:) = options.AnnealingFcn(optimvalues,problem);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy_4 (line 107)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+
+In initmat2 (line 4)
+dopt_sa_cavy_4(.3,.1,@temperatureboltz,50)
+
+In run (line 64)
+evalin('caller', [script ';']);
+} 
+clear
+clc
+exit

@@ -1,0 +1,118 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.3 1.56 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1              1              1            100
+
+ Iter 0 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.030
+-------------
+     1          2       0.194367       0.194367             50
+
+ Iter 1 | Best F(x) 0.194 | F(x)  0.194 | Temperatura 50.000 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.090
+-------------
+     2          3       0.186708       0.186708        33.3333
+
+ Iter 2 | Best F(x) 0.187 | F(x)  0.187 | Temperatura 33.333 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.090 | Novos valores: L1/L0 0.003 alpha 1.150
+-------------
+     3          4       0.169771       0.169771             25
+
+ Iter 3 | Best F(x) 0.170 | F(x)  0.170 | Temperatura 25.000 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.003 alpha 1.150 | Novos valores: L1/L0 0.007 alpha 1.220
+-------------
+     4          5       0.146112       0.146112             20
+
+ Iter 4 | Best F(x) 0.146 | F(x)  0.146 | Temperatura 20.000 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.220 | Novos valores: L1/L0 0.010 alpha 1.270
+-------------
+     5          6       0.127258       0.127258        16.6667
+
+ Iter 5 | Best F(x) 0.127 | F(x)  0.127 | Temperatura 16.667 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.270 | Novos valores: L1/L0 0.007 alpha 1.180
+-------------
+     6          7       0.127258       0.127258        14.2857
+
+ Iter 6 | Best F(x) 0.127 | F(x)  0.127 | Temperatura 14.286 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.270 | Novos valores: L1/L0 0.030 alpha 1.300
+-------------
+     7          8       0.113073       0.113073           12.5
+
+ Iter 7 | Best F(x) 0.113 | F(x)  0.113 | Temperatura 12.500 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.030 alpha 1.300 | Novos valores: L1/L0 0.700 alpha 1.250
+-------------
+{Operation terminated by user during assempde (line 262)
+
+
+In pdetoolGA (line 3674)
+            eval('u=assempde(bl,p,e,t,c,a,f);');
+
+In cav_y (line 226)
+    pdetoolGA('solve')
+
+In sa_cav_y_2dof (line 13)
+       saida =cav_y(vetor);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y2 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy (line 108)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+dopt_sa_cavy(3,@temperaturefast)
+
+x0 =
+
+    0.3000    1.5600
+
+
+x0 =
+
+    0.3000    1.5600
+
+
+Geometria inv�lida para x0 [ 0.300 1.560]

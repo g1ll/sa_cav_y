@@ -1,0 +1,1595 @@
+Simulated Annealing...Discreted
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.001 1 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 150
+	options.Display = 'diagnose'
+	options.DisplayInterval = 1 
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.319246       0.319246            100
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.000 alpha 1.020
+-------------
+     1          2       0.319246       0.319246             50
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.002 alpha 1.030
+-------------
+     2          3       0.314626       0.314626        33.3333
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.002 alpha 1.030 | Novos valores: L1/L0 0.000 alpha 1.050
+-------------
+     3          4       0.314626       0.314626             25
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.002 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.070
+-------------
+     4          5       0.307047       0.307047             20
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.005 alpha 1.070 | Novos valores: L1/L0 0.005 alpha 1.160
+-------------
+     5          6       0.293769       0.293769        16.6667
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.005 alpha 1.160 | Novos valores: L1/L0 0.008 alpha 1.230
+-------------
+     6          7       0.279476       0.279476        14.2857
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.008 alpha 1.230 | Novos valores: L1/L0 0.012 alpha 1.310
+-------------
+     7          8       0.257572       0.257572           12.5
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.012 alpha 1.310 | Novos valores: L1/L0 0.006 alpha 1.390
+-------------
+     8          9       0.241244       0.241244        11.1111
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.006 alpha 1.390 | Novos valores: L1/L0 -0.003 alpha 1.390
+-------------
+     9         10       0.241244       0.241244             10
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.006 alpha 1.390 | Novos valores: L1/L0 0.006 alpha 1.460
+-------------
+    10         11        0.20403        0.20403        9.09091
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.006 alpha 1.460 | Novos valores: L1/L0 0.014 alpha 1.500
+-------------
+    11         12       0.138299       0.138299        8.33333
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.014 alpha 1.500 | Novos valores: L1/L0 0.013 alpha 1.530
+-------------
+    12         13      0.0876029      0.0876029        7.69231
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.013 alpha 1.560
+-------------
+    13         14      0.0876029      0.0876029        7.14286
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.015 alpha 1.610
+-------------
+    14         15      0.0876029      0.0876029        6.66667
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.013 alpha 1.610
+-------------
+    15         16      0.0876029      0.0876029           6.25
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.019 alpha 1.580
+-------------
+    16         17      0.0876029      0.0876029        5.88235
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.006 alpha 1.620
+-------------
+    17         18      0.0876029      0.0876029        5.55556
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.015 alpha 1.590
+-------------
+    18         19      0.0876029      0.0876029        5.26316
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.004 alpha 1.610
+-------------
+    19         20      0.0876029      0.0876029              5
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.016 alpha 1.560
+-------------
+    20         21      0.0876029      0.0876029         4.7619
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.013 alpha 1.530 | Novos valores: L1/L0 0.018 alpha 1.540
+-------------
+    21         22       0.063247       0.063247        4.54545
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.018 alpha 1.540 | Novos valores: L1/L0 0.025 alpha 1.560
+-------------
+    22         23       0.063247       0.063247        4.34783
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.018 alpha 1.540 | Novos valores: L1/L0 0.021 alpha 1.540
+-------------
+    23         24       0.062834       0.062834        4.16667
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.021 alpha 1.540 | Novos valores: L1/L0 0.014 alpha 1.600
+-------------
+    24         25       0.062834       0.062834              4
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.021 alpha 1.540 | Novos valores: L1/L0 0.019 alpha 1.550
+-------------
+    25         26       0.062834       0.062834        3.84615
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.021 alpha 1.540 | Novos valores: L1/L0 0.024 alpha 1.560
+-------------
+    26         27       0.062834       0.062834         3.7037
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.021 alpha 1.540 | Novos valores: L1/L0 0.024 alpha 1.570
+-------------
+    27         28       0.062834       0.062834        3.57143
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.021 alpha 1.540 | Novos valores: L1/L0 0.015 alpha 1.530
+-------------
+    28         29       0.062834       0.083356        3.44828
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.015 alpha 1.530 | Novos valores: L1/L0 0.018 alpha 1.600
+-------------
+    29         30       0.062834       0.083356        3.33333
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.015 alpha 1.530 | Novos valores: L1/L0 0.008 alpha 1.620
+-------------
+    30         31       0.062834       0.083356        3.22581
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.015 alpha 1.530 | Novos valores: L1/L0 0.024 alpha 1.570
+-------------
+    31         32       0.062834       0.083356          3.125
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.015 alpha 1.530 | Novos valores: L1/L0 0.015 alpha 1.540
+-------------
+    32         33       0.062834      0.0656822         3.0303
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.015 alpha 1.610
+-------------
+    33         34       0.062834      0.0656822        2.94118
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.015 alpha 1.600
+-------------
+    34         35       0.062834      0.0656822        2.85714
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.013 alpha 1.560
+-------------
+    35         36       0.062834      0.0656822        2.77778
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.019 alpha 1.620
+-------------
+    36         37       0.062834      0.0656822         2.7027
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.024 alpha 1.580
+-------------
+    37         38       0.062834      0.0656822        2.63158
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.009 alpha 1.590
+-------------
+    38         39       0.062834      0.0656822         2.5641
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.012 alpha 1.570
+-------------
+    39         40       0.062834      0.0656822            2.5
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.011 alpha 1.570
+-------------
+    40         41       0.062834      0.0656822        2.43902
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.006 alpha 1.610
+-------------
+    41         42       0.062834      0.0656822        2.38095
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.016 alpha 1.600
+-------------
+    42         43       0.062834      0.0656822        2.32558
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.620
+-------------
+    43         44       0.062834      0.0656822        2.27273
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.015 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.550
+-------------
+    44         45      0.0611349      0.0611349        2.22222
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.000 alpha 1.560
+-------------
+    45         46      0.0611349      0.0611349        2.17391
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.630
+-------------
+    46         47      0.0611349      0.0611349        2.12766
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+    47         48      0.0611349      0.0611349        2.08333
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.580
+-------------
+    48         49      0.0611349      0.0611349        2.04082
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.006 alpha 1.620
+-------------
+    49         50      0.0611349      0.0611349              2
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.016 alpha 1.560
+-------------
+    50         51      0.0611349      0.0611349        1.96078
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.600
+-------------
+    51         52      0.0611349      0.0611349        1.92308
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.610
+-------------
+    52         53      0.0611349      0.0611349        1.88679
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.013 alpha 1.570
+-------------
+    53         54      0.0611349      0.0611349        1.85185
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.016 alpha 1.590
+-------------
+    54         55      0.0611349      0.0611349        1.81818
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.006 alpha 1.560
+-------------
+    55         56      0.0611349      0.0611349        1.78571
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.580
+-------------
+    56         57      0.0611349      0.0611349        1.75439
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.011 alpha 1.570
+-------------
+    57         58      0.0611349      0.0611349        1.72414
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 -0.002 alpha 1.560
+-------------
+    58         59      0.0611349      0.0611349        1.69492
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.610
+-------------
+    59         60      0.0611349      0.0611349        1.66667
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.011 alpha 1.610
+-------------
+    60         61      0.0611349      0.0611349        1.63934
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.016 alpha 1.550
+-------------
+    61         62      0.0611349      0.0611349         1.6129
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.009 alpha 1.610
+-------------
+    62         63      0.0611349      0.0611349         1.5873
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.610
+-------------
+    63         64      0.0611349      0.0611349         1.5625
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.590
+-------------
+    64         65      0.0611349      0.0611349        1.53846
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.011 alpha 1.540
+-------------
+    65         66      0.0611349      0.0711446        1.51515
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.009 alpha 1.610
+-------------
+    66         67      0.0611349      0.0711446        1.49254
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.610
+-------------
+    67         68      0.0611349      0.0711446        1.47059
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.004 alpha 1.600
+-------------
+    68         69      0.0611349      0.0711446        1.44928
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.015 alpha 1.550
+-------------
+    69         70      0.0611349      0.0711446        1.42857
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.590
+-------------
+    70         71      0.0611349      0.0711446        1.40845
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.014 alpha 1.590
+-------------
+    71         72      0.0611349      0.0711446        1.38889
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.550
+-------------
+    72         73      0.0611349      0.0624859        1.36986
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.600
+-------------
+    73         74      0.0611349      0.0624859        1.35135
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.004 alpha 1.550
+-------------
+    74         75      0.0611349      0.0624859        1.33333
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 -0.002 alpha 1.620
+-------------
+    75         76      0.0611349      0.0624859        1.31579
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.490
+-------------
+    76         77      0.0611349      0.0624859         1.2987
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.600
+-------------
+    77         78      0.0611349      0.0624859        1.28205
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.009 alpha 1.630
+-------------
+    78         79      0.0611349      0.0624859        1.26582
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+    79         80      0.0611349      0.0624859           1.25
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.590
+-------------
+    80         81      0.0611349      0.0624859        1.23457
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.600
+-------------
+    81         82      0.0611349      0.0624859        1.21951
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.011 alpha 1.570
+-------------
+    82         83      0.0611349      0.0624859        1.20482
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.610
+-------------
+    83         84      0.0611349      0.0624859        1.19048
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.006 alpha 1.620
+-------------
+    84         85      0.0611349      0.0624859        1.17647
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.570
+-------------
+    85         86      0.0611349      0.0624859        1.16279
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.000 alpha 1.630
+-------------
+    86         87      0.0611349      0.0624859        1.14943
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.550
+-------------
+    87         88      0.0611349      0.0624859        1.13636
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 -0.002 alpha 1.590
+-------------
+    88         89      0.0611349      0.0624859         1.1236
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.600
+-------------
+    89         90      0.0611349      0.0624859        1.11111
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.580
+-------------
+    90         91      0.0611349      0.0624859         1.0989
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.009 alpha 1.570
+-------------
+    91         92      0.0611349      0.0624859        1.08696
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.004 alpha 1.630
+-------------
+    92         93      0.0611349      0.0624859        1.07527
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 -0.003 alpha 1.520
+-------------
+    93         94      0.0611349      0.0624859        1.06383
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.550
+-------------
+    94         95      0.0611349      0.0619128        1.05263
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.016 alpha 1.640
+-------------
+    95         96      0.0611349      0.0619128        1.04167
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.017 alpha 1.610
+-------------
+    96         97      0.0611349      0.0619128        1.03093
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.015 alpha 1.570
+-------------
+    97         98      0.0611349      0.0619128        1.02041
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.620
+-------------
+    98         99      0.0611349      0.0619128         1.0101
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.580
+-------------
+    99        100      0.0611349      0.0619128              1
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.550
+-------------
+   100        101      0.0611349      0.0619128       0.990099
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.015 alpha 1.610
+-------------
+   101        102      0.0611349      0.0619128       0.980392
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.004 alpha 1.580
+-------------
+   102        103      0.0611349      0.0619128       0.970874
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.640
+-------------
+   103        104      0.0611349      0.0619128       0.961538
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.630
+-------------
+   104        105      0.0611349      0.0619128       0.952381
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.008 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.490
+-------------
+   105        106      0.0611349       0.168885       0.943396
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.008 alpha 1.490 | Novos valores: L1/L0 0.007 alpha 1.550
+-------------
+   106        107      0.0611349      0.0611349       0.934579
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.550
+-------------
+   107        108      0.0611349      0.0611349       0.925926
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 -0.002 alpha 1.580
+-------------
+   108        109      0.0611349      0.0611349       0.917431
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 -0.002 alpha 1.550
+-------------
+   109        110      0.0611349      0.0611349       0.909091
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.013 alpha 1.640
+-------------
+   110        111      0.0611349      0.0611349       0.900901
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.011 alpha 1.570
+-------------
+   111        112      0.0611349      0.0611349       0.892857
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.016 alpha 1.570
+-------------
+   112        113      0.0611349      0.0611349       0.884956
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+   113        114      0.0611349      0.0611349       0.877193
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.580
+-------------
+   114        115      0.0611349      0.0611349       0.869565
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.012 alpha 1.570
+-------------
+   115        116      0.0611349      0.0611349       0.862069
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.630
+-------------
+   116        117      0.0611349      0.0611349       0.854701
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.013 alpha 1.600
+-------------
+   117        118      0.0611349      0.0611349       0.847458
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.016 alpha 1.610
+-------------
+   118        119      0.0611349      0.0611349       0.840336
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.009 alpha 1.630
+-------------
+   119        120      0.0611349      0.0611349       0.833333
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.590
+-------------
+   120        121      0.0611349      0.0611349       0.826446
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.560
+-------------
+   121        122      0.0611349      0.0611349       0.819672
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.012 alpha 1.580
+-------------
+   122        123      0.0611349      0.0611349       0.813008
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 -0.001 alpha 1.560
+-------------
+   123        124      0.0611349      0.0611349       0.806452
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.580
+-------------
+   124        125      0.0611349      0.0611349            0.8
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.620
+-------------
+   125        126      0.0611349      0.0611349       0.793651
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.013 alpha 1.610
+-------------
+   126        127      0.0611349      0.0611349       0.787402
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.004 alpha 1.600
+-------------
+   127        128      0.0611349      0.0611349        0.78125
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.000 alpha 1.590
+-------------
+   128        129      0.0611349      0.0611349       0.775194
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.016 alpha 1.550
+-------------
+   129        130      0.0611349      0.0611349       0.769231
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.003 alpha 1.600
+-------------
+   130        131      0.0611349      0.0611349       0.763359
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 -0.002 alpha 1.590
+-------------
+   131        132      0.0611349      0.0611349       0.757576
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.012 alpha 1.560
+-------------
+   132        133      0.0611349      0.0611349        0.75188
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.620
+-------------
+   133        134      0.0611349      0.0611349       0.746269
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.600
+-------------
+   134        135      0.0611349      0.0611349       0.740741
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.640
+-------------
+   135        136      0.0611349      0.0611349       0.735294
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.007 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.550
+-------------
+   136        137      0.0611349      0.0694465       0.729927
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+   137        138      0.0611349      0.0694465       0.724638
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.001 alpha 1.550
+-------------
+   138        139      0.0611349      0.0694465       0.719424
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.004 alpha 1.560
+-------------
+   139        140      0.0611349      0.0694465       0.714286
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.001 alpha 1.500
+-------------
+   140        141      0.0611349      0.0694465        0.70922
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.640
+-------------
+   141        142      0.0611349      0.0694465       0.704225
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.003 alpha 1.610
+-------------
+   142        143      0.0611349      0.0694465       0.699301
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+   143        144      0.0611349      0.0694465       0.694444
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.005 alpha 1.600
+-------------
+   144        145      0.0611349      0.0694465       0.689655
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.001 alpha 1.590
+-------------
+   145        146      0.0611349      0.0694465       0.684932
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.470
+-------------
+   146        147      0.0611349      0.0694465       0.680272
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.004 alpha 1.630
+-------------
+   147        148      0.0611349      0.0694465       0.675676
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.002 alpha 1.560
+-------------
+   148        149      0.0611349      0.0694465       0.671141
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.008 alpha 1.590
+-------------
+   149        150      0.0611349      0.0694465       0.666667
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.002 alpha 1.600
+-------------
+   150        151      0.0611349      0.0694465       0.662252
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+   151        152      0.0611349      0.0694465       0.657895
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.640
+-------------
+   152        153      0.0611349      0.0694465       0.653595
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 -0.001 alpha 1.570
+-------------
+   153        154      0.0611349      0.0694465       0.649351
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.001 alpha 1.550 | Novos valores: L1/L0 0.006 alpha 1.500
+-------------
+   154        155      0.0611349       0.161958       0.645161
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.006 alpha 1.500 | Novos valores: L1/L0 0.008 alpha 1.580
+-------------
+   155        156      0.0611349       0.161958       0.641026
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.006 alpha 1.500 | Novos valores: L1/L0 0.015 alpha 1.590
+-------------
+   156        157      0.0611349       0.161958       0.636943
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.006 alpha 1.500 | Novos valores: L1/L0 -0.002 alpha 1.470
+-------------
+   157        158      0.0611349       0.161958       0.632911
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.006 alpha 1.500 | Novos valores: L1/L0 0.013 alpha 1.590
+-------------
+   158        159      0.0611349       0.161958       0.628931
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.006 alpha 1.500 | Novos valores: L1/L0 0.011 alpha 1.500
+-------------
+   159        160      0.0611349       0.146313          0.625
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.011 alpha 1.500 | Novos valores: L1/L0 0.013 alpha 1.560
+-------------
+   160        161      0.0611349       0.146313       0.621118
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.011 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.590
+-------------
+   161        162      0.0611349       0.146313       0.617284
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.011 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.580
+-------------
+   162        163      0.0611349       0.146313       0.613497
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.011 alpha 1.500 | Novos valores: L1/L0 0.018 alpha 1.520
+-------------
+   163        164      0.0611349      0.0961356       0.609756
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.025 alpha 1.570
+-------------
+   164        165      0.0611349      0.0961356       0.606061
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.018 alpha 1.520
+-------------
+   165        166      0.0611349      0.0961356        0.60241
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.024 alpha 1.560
+-------------
+   166        167      0.0611349      0.0961356       0.598802
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.024 alpha 1.580
+-------------
+   167        168      0.0611349      0.0961356       0.595238
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.018 alpha 1.590
+-------------
+   168        169      0.0611349      0.0961356       0.591716
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.013 alpha 1.470
+-------------
+   169        170      0.0611349      0.0961356       0.588235
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.027 alpha 1.570
+-------------
+   170        171      0.0611349      0.0961356       0.584795
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.024 alpha 1.550
+-------------
+   171        172      0.0611349      0.0961356       0.581395
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.018 alpha 1.520 | Novos valores: L1/L0 0.025 alpha 1.530
+-------------
+   172        173      0.0611349      0.0689725       0.578035
+
+	Pertubação:
+		 L1/L0 = 0.007000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.025 alpha 1.530 | Novos valores: L1/L0 0.032 alpha 1.580
+-------------
+   173        174      0.0611349      0.0689725       0.574713
+
+	Pertubação:
+		 L1/L0 = 0.001000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.025 alpha 1.530 | Novos valores: L1/L0 0.024 alpha 1.550
+-------------
+   174        175      0.0611349      0.0689725       0.571429
+
+	Pertubação:
+		 L1/L0 = 0.009000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.025 alpha 1.530 | Novos valores: L1/L0 0.016 alpha 1.470
+-------------
+   175        176      0.0611349       0.170045       0.568182
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.016 alpha 1.470 | Novos valores: L1/L0 0.011 alpha 1.470
+-------------
+   176        177      0.0611349       0.182323       0.564972
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.000000
+	Valor atual: L1/L0 0.011 alpha 1.470 | Novos valores: L1/L0 0.011 alpha 1.470
+-------------
+   177        178      0.0611349       0.182323       0.561798
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.011 alpha 1.470 | Novos valores: L1/L0 0.011 alpha 1.540
+-------------
+   178        179      0.0611349      0.0711446       0.558659
+
+	Pertubação:
+		 L1/L0 = 0.006000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.017 alpha 1.620
+-------------
+   179        180      0.0611349      0.0711446       0.555556
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.580
+-------------
+   180        181      0.0611349      0.0711446       0.552486
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.070000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.014 alpha 1.610
+-------------
+   181        182      0.0611349      0.0711446       0.549451
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.040000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.006 alpha 1.580
+-------------
+   182        183      0.0611349      0.0711446       0.546448
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.011 alpha 1.590
+-------------
+   183        184      0.0611349      0.0711446       0.543478
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.013 alpha 1.560
+-------------
+   184        185      0.0611349      0.0711446       0.540541
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.010000
+	Valor atual: L1/L0 0.011 alpha 1.540 | Novos valores: L1/L0 0.009 alpha 1.550
+-------------
+   185        186      0.0611349      0.0628704       0.537634
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.060000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.009 alpha 1.610
+-------------
+   186        187      0.0611349      0.0628704       0.534759
+
+	Pertubação:
+		 L1/L0 = 0.002000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.011 alpha 1.640
+-------------
+   187        188      0.0611349      0.0628704       0.531915
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.017 alpha 1.600
+-------------
+   188        189      0.0611349      0.0628704       0.529101
+
+	Pertubação:
+		 L1/L0 = 0.000000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.009 alpha 1.570
+-------------
+   189        190      0.0611349      0.0628704       0.526316
+
+	Pertubação:
+		 L1/L0 = 0.005000
+	Pertubação:
+		 Alpha = 0.020000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.004 alpha 1.570
+-------------
+   190        191      0.0611349      0.0628704        0.52356
+
+	Pertubação:
+		 L1/L0 = 0.003000
+	Pertubação:
+		 Alpha = 0.090000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.012 alpha 1.460
+-------------
+   191        192      0.0611349      0.0628704       0.520833
+
+	Pertubação:
+		 L1/L0 = 0.008000
+	Pertubação:
+		 Alpha = 0.050000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.600
+-------------
+   192        193      0.0611349      0.0628704       0.518135
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.030000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.580
+-------------
+   193        194      0.0611349      0.0628704       0.515464
+
+	Pertubação:
+		 L1/L0 = 0.004000
+	Pertubação:
+		 Alpha = 0.080000
+	Valor atual: L1/L0 0.009 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.630
+-------------
+   194        195      0.0611349      0.0628704       0.512821
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+    0.0070    1.5500
+
+ 
+	HdL: 1.000  L1dL0: 0.007  t1dt0: 11.000  Alpha: 1.550

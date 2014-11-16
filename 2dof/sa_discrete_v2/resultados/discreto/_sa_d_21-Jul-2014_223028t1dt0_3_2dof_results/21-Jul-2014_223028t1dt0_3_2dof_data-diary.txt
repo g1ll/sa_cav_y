@@ -1,0 +1,95 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.3 1.56 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+
+ Iter 0 | Best F(x) Inf | F(x)  Inf | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.190
+-------------
+     1          2       0.157098       0.157098             50
+
+ Iter 1 | Best F(x) 0.157 | F(x)  0.157 | Temperatura 50.000 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.002 alpha 1.190 | Novos valores: L1/L0 0.005 alpha 1.040
+-------------
+     2          3       0.157098       0.157098        33.3333
+
+ Iter 2 | Best F(x) 0.157 | F(x)  0.157 | Temperatura 33.333 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.002 alpha 1.190 | Novos valores: L1/L0 0.007 alpha 1.010
+-------------
+     3          4       0.157098       0.209332             25
+
+ Iter 3 | Best F(x) 0.157 | F(x)  0.209 | Temperatura 25.000 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.002 alpha 1.190 | Novos valores: L1/L0 0.300 alpha 1.220
+-------------
+{Operation terminated by user during pdetriq (line 29)
+
+
+In jigglemesh (line 116)
+    q=pdetriq(p,t);
+
+In pdetoolGA (line 3219)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In cav_y (line 193)
+    pdetoolGA('jiggle')
+
+In sa_cav_y_2dof (line 13)
+       saida =cav_y(vetor);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y2 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy (line 108)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+clear fi;
+clear psi;
+dopt_sa_cavy(3,@temperaturefast)
+
+x0 =
+
+    0.3000    1.5600
+
+
+x0 =
+
+    0.3000    1.5600
+
+
+Geometria inv�lida para x0 [ 0.300 1.560]

@@ -1,0 +1,4194 @@
+Simulated Annealing...Discreted
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.01 1.26 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing2
+	options.TemperatureFcn = @temperatureexp
+	options.StallIterLimit = 300
+	options.Display = 'diagnose'
+	options.DisplayInterval = 1 
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.271588       0.271588            100
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = 0.490000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.260000
+	Perturbação Alpha = 0.140000
+	Schedule Alpha = 1.400000
+	Valor atual: L1/L0 0.010 alpha 1.260 | Novos valores: L1/L0 0.500 alpha 1.400
+-------------
+     1          2      0.0901793      0.0901793          90.25
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.400000
+	Perturbação Alpha = 0.080000
+	Schedule Alpha = 1.480000
+	Valor atual: L1/L0 0.500 alpha 1.400 | Novos valores: L1/L0 0.010 alpha 1.480
+-------------
+     2          3      0.0901793      0.0901793        85.7375
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.400000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.500 alpha 1.400 | Novos valores: L1/L0 0.010 alpha 1.120
+-------------
+     3          4      0.0901793      0.0901793        81.4506
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.400000
+	Perturbação Alpha = 0.140000
+	Schedule Alpha = 1.540000
+	Valor atual: L1/L0 0.500 alpha 1.400 | Novos valores: L1/L0 0.005 alpha 1.540
+-------------
+     4          5      0.0852272      0.0852272        77.3781
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.540000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.005 alpha 1.540 | Novos valores: L1/L0 1.000 alpha 1.260
+-------------
+     5          6      0.0852272      0.0852272        73.5092
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.540000
+	Perturbação Alpha = -0.370000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.005 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.170
+-------------
+     6          7      0.0852272      0.0852272        69.8337
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.540000
+	Perturbação Alpha = -0.150000
+	Schedule Alpha = 1.390000
+	Valor atual: L1/L0 0.005 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.390
+-------------
+     7          8      0.0852272      0.0852272         66.342
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.540000
+	Perturbação Alpha = -0.070000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 0.005 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.470
+-------------
+     8          9      0.0852272      0.0852272        63.0249
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.540000
+	Perturbação Alpha = -0.390000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.005 alpha 1.540 | Novos valores: L1/L0 0.001 alpha 1.150
+-------------
+     9         10      0.0852272       0.298532        59.8737
+
+	Schedule atual L1/L0 = 0.001000
+	Pertubação L1/L0 = 0.299000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.150000
+	Perturbação Alpha = 0.270000
+	Schedule Alpha = 1.420000
+	Valor atual: L1/L0 0.001 alpha 1.150 | Novos valores: L1/L0 0.300 alpha 1.420
+-------------
+    10         11      0.0810617      0.0810617          56.88
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.420000
+	Perturbação Alpha = -0.290000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.300 alpha 1.420 | Novos valores: L1/L0 0.300 alpha 1.130
+-------------
+    11         12      0.0810617      0.0810617         54.036
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.290000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.420000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.300000
+	Valor atual: L1/L0 0.300 alpha 1.420 | Novos valores: L1/L0 0.010 alpha 1.300
+-------------
+    12         13      0.0810617      0.0810617        51.3342
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.293000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.420000
+	Perturbação Alpha = -0.360000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.300 alpha 1.420 | Novos valores: L1/L0 0.007 alpha 1.060
+-------------
+    13         14      0.0810617      0.0810617        48.7675
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.420000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.100000
+	Valor atual: L1/L0 0.300 alpha 1.420 | Novos valores: L1/L0 0.300 alpha 1.100
+-------------
+    14         15      0.0810617         0.1897        46.3291
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.295000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.100000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.300 alpha 1.100 | Novos valores: L1/L0 0.005 alpha 1.120
+-------------
+    15         16      0.0810617       0.299848        44.0127
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.120000
+	Perturbação Alpha = 0.230000
+	Schedule Alpha = 1.350000
+	Valor atual: L1/L0 0.005 alpha 1.120 | Novos valores: L1/L0 0.300 alpha 1.350
+-------------
+    16         17      0.0810617       0.100819         41.812
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.295000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.080000
+	Schedule Alpha = 1.270000
+	Valor atual: L1/L0 0.300 alpha 1.350 | Novos valores: L1/L0 0.005 alpha 1.270
+-------------
+    17         18      0.0810617       0.274711        39.7214
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.270000
+	Perturbação Alpha = -0.170000
+	Schedule Alpha = 1.100000
+	Valor atual: L1/L0 0.005 alpha 1.270 | Novos valores: L1/L0 0.001 alpha 1.100
+-------------
+    18         19      0.0810617       0.305631        37.7354
+
+	Schedule atual L1/L0 = 0.001000
+	Pertubação L1/L0 = 0.004000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.100000
+	Perturbação Alpha = 0.090000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.001 alpha 1.100 | Novos valores: L1/L0 0.005 alpha 1.190
+-------------
+    19         20      0.0810617       0.289158        35.8486
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.190000
+	Perturbação Alpha = 0.380000
+	Schedule Alpha = 1.570000
+	Valor atual: L1/L0 0.005 alpha 1.190 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+    20         21      0.0810617       0.289158        34.0562
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.190000
+	Perturbação Alpha = -0.080000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.005 alpha 1.190 | Novos valores: L1/L0 0.010 alpha 1.110
+-------------
+    21         22      0.0810617       0.289158        32.3534
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.190000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.005 alpha 1.190 | Novos valores: L1/L0 0.050 alpha 1.210
+-------------
+    22         23      0.0810617       0.250156        30.7357
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.040000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.210000
+	Perturbação Alpha = 0.330000
+	Schedule Alpha = 1.540000
+	Valor atual: L1/L0 0.050 alpha 1.210 | Novos valores: L1/L0 0.010 alpha 1.540
+-------------
+    23         24      0.0729504      0.0729504        29.1989
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = 0.490000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.540000
+	Perturbação Alpha = -0.390000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.500 alpha 1.150
+-------------
+    24         25      0.0729504       0.143737         27.739
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.150000
+	Perturbação Alpha = 0.080000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.500 alpha 1.150 | Novos valores: L1/L0 0.500 alpha 1.230
+-------------
+    25         26      0.0729504       0.119473         26.352
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.230000
+	Perturbação Alpha = 0.150000
+	Schedule Alpha = 1.380000
+	Valor atual: L1/L0 0.500 alpha 1.230 | Novos valores: L1/L0 0.005 alpha 1.380
+-------------
+    26         27      0.0729504       0.119473        25.0344
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.230000
+	Perturbação Alpha = 0.110000
+	Schedule Alpha = 1.340000
+	Valor atual: L1/L0 0.500 alpha 1.230 | Novos valores: L1/L0 0.300 alpha 1.340
+-------------
+    27         28      0.0729504       0.105264        23.7827
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.340000
+	Perturbação Alpha = -0.150000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.300 alpha 1.340 | Novos valores: L1/L0 0.300 alpha 1.190
+-------------
+    28         29      0.0729504       0.162903        22.5936
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.190000
+	Perturbação Alpha = 0.290000
+	Schedule Alpha = 1.480000
+	Valor atual: L1/L0 0.300 alpha 1.190 | Novos valores: L1/L0 0.300 alpha 1.480
+-------------
+    29         30      0.0729504       0.162903        21.4639
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.295000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.190000
+	Perturbação Alpha = -0.160000
+	Schedule Alpha = 1.030000
+	Valor atual: L1/L0 0.300 alpha 1.190 | Novos valores: L1/L0 0.005 alpha 1.030
+-------------
+    30         31      0.0729504       0.312716        20.3907
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.030000
+	Perturbação Alpha = 0.040000
+	Schedule Alpha = 1.070000
+	Valor atual: L1/L0 0.005 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.070
+-------------
+    31         32      0.0729504       0.307047        19.3711
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.070000
+	Perturbação Alpha = -0.010000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.005 alpha 1.070 | Novos valores: L1/L0 0.005 alpha 1.060
+-------------
+    32         33      0.0729504       0.307047        18.4026
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.070000
+	Perturbação Alpha = 0.060000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.005 alpha 1.070 | Novos valores: L1/L0 0.300 alpha 1.130
+-------------
+    33         34      0.0729504       0.181126        17.4825
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.130000
+	Perturbação Alpha = 0.330000
+	Schedule Alpha = 1.460000
+	Valor atual: L1/L0 0.300 alpha 1.130 | Novos valores: L1/L0 0.300 alpha 1.460
+-------------
+    34         35      0.0729504      0.0871943        16.6083
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.295000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.460000
+	Perturbação Alpha = -0.340000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.300 alpha 1.460 | Novos valores: L1/L0 0.005 alpha 1.120
+-------------
+    35         36      0.0729504        0.29987        15.7779
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.120000
+	Perturbação Alpha = 0.080000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.005 alpha 1.120 | Novos valores: L1/L0 0.005 alpha 1.200
+-------------
+    36         37      0.0729504       0.287516         14.989
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.110000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.200 | Novos valores: L1/L0 0.050 alpha 1.090
+-------------
+    37         38      0.0729504       0.276273        14.2396
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.040000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.090000
+	Perturbação Alpha = 0.180000
+	Schedule Alpha = 1.270000
+	Valor atual: L1/L0 0.050 alpha 1.090 | Novos valores: L1/L0 0.010 alpha 1.270
+-------------
+    38         39      0.0729504       0.269393        13.5276
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = -0.005000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.270000
+	Perturbação Alpha = 0.050000
+	Schedule Alpha = 1.320000
+	Valor atual: L1/L0 0.010 alpha 1.270 | Novos valores: L1/L0 0.005 alpha 1.320
+-------------
+    39         40      0.0729504       0.263733        12.8512
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 0.005 alpha 1.320 | Novos valores: L1/L0 0.005 alpha 1.010
+-------------
+    40         41      0.0729504       0.263733        12.2087
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = -0.010000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.320 | Novos valores: L1/L0 0.005 alpha 1.310
+-------------
+    41         42      0.0729504       0.266107        11.5982
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.310000
+	Perturbação Alpha = 0.050000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.005 alpha 1.310 | Novos valores: L1/L0 0.500 alpha 1.360
+-------------
+    42         43      0.0729504      0.0864678        11.0183
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.260000
+	Schedule Alpha = 1.100000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.005 alpha 1.100
+-------------
+    43         44      0.0729504      0.0864678        10.4674
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.290000
+	Schedule Alpha = 1.070000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.070
+-------------
+    44         45      0.0729504      0.0864678        9.94403
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.499000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.001 alpha 1.050
+-------------
+    45         46      0.0729504      0.0864678        9.44682
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.110000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.300 alpha 1.470
+-------------
+    46         47      0.0729504      0.0864678        8.97448
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 1.000 alpha 1.170
+-------------
+    47         48      0.0729504      0.0977668        8.52576
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.950000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.170000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 1.000 alpha 1.170 | Novos valores: L1/L0 0.050 alpha 1.190
+-------------
+    48         49      0.0729504      0.0977668        8.09947
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.999000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.170000
+	Perturbação Alpha = 0.190000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 1.000 alpha 1.170 | Novos valores: L1/L0 0.001 alpha 1.360
+-------------
+    49         50      0.0729504      0.0977668         7.6945
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.500000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.170000
+	Perturbação Alpha = 0.270000
+	Schedule Alpha = 1.440000
+	Valor atual: L1/L0 1.000 alpha 1.170 | Novos valores: L1/L0 0.500 alpha 1.440
+-------------
+    50         51      0.0729504      0.0977668        7.30977
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.170000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 1.000 alpha 1.170 | Novos valores: L1/L0 1.000 alpha 1.050
+-------------
+    51         52      0.0729504      0.0977668        6.94428
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.995000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.170000
+	Perturbação Alpha = -0.080000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 1.000 alpha 1.170 | Novos valores: L1/L0 0.005 alpha 1.090
+-------------
+    52         53      0.0729504       0.304197        6.59707
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.090000
+	Perturbação Alpha = 0.080000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.005 alpha 1.090 | Novos valores: L1/L0 0.005 alpha 1.170
+-------------
+    53         54      0.0729504       0.292309        6.26722
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.170000
+	Perturbação Alpha = 0.060000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.005 alpha 1.170 | Novos valores: L1/L0 0.007 alpha 1.230
+-------------
+    54         55      0.0729504       0.280345        5.95386
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = 0.493000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.230000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 0.007 alpha 1.230 | Novos valores: L1/L0 0.500 alpha 1.010
+-------------
+    55         56      0.0729504       0.178236        5.65616
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.010000
+	Perturbação Alpha = 0.520000
+	Schedule Alpha = 1.530000
+	Valor atual: L1/L0 0.500 alpha 1.010 | Novos valores: L1/L0 0.300 alpha 1.530
+-------------
+    56         57      0.0729504       0.178236        5.37335
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.010000
+	Perturbação Alpha = 0.120000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.500 alpha 1.010 | Novos valores: L1/L0 0.300 alpha 1.130
+-------------
+    57         58      0.0729504       0.178236        5.10469
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.010000
+	Perturbação Alpha = 0.150000
+	Schedule Alpha = 1.160000
+	Valor atual: L1/L0 0.500 alpha 1.010 | Novos valores: L1/L0 0.050 alpha 1.160
+-------------
+    58         59      0.0729504       0.262006        4.84945
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.045000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.160000
+	Perturbação Alpha = -0.030000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.050 alpha 1.160 | Novos valores: L1/L0 0.005 alpha 1.130
+-------------
+    59         60      0.0729504       0.298407        4.60698
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.130000
+	Perturbação Alpha = 0.110000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.130 | Novos valores: L1/L0 1.000 alpha 1.240
+-------------
+    60         61      0.0729504       0.093918        4.37663
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.990000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.240000
+	Perturbação Alpha = 0.060000
+	Schedule Alpha = 1.300000
+	Valor atual: L1/L0 1.000 alpha 1.240 | Novos valores: L1/L0 0.010 alpha 1.300
+-------------
+    61         62      0.0729504       0.262508         4.1578
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = -0.005000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.300000
+	Perturbação Alpha = -0.150000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.010 alpha 1.300 | Novos valores: L1/L0 0.005 alpha 1.150
+-------------
+    62         63      0.0729504       0.262508        3.94991
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = 0.040000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.300000
+	Perturbação Alpha = -0.110000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.010 alpha 1.300 | Novos valores: L1/L0 0.050 alpha 1.190
+-------------
+    63         64      0.0729504       0.255147        3.75241
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.190000
+	Perturbação Alpha = 0.040000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.050 alpha 1.190 | Novos valores: L1/L0 0.050 alpha 1.230
+-------------
+    64         65      0.0729504       0.244804        3.56479
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.230000
+	Perturbação Alpha = -0.030000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.050 alpha 1.230 | Novos valores: L1/L0 0.001 alpha 1.200
+-------------
+    65         66      0.0729504        0.29104        3.38655
+
+	Schedule atual L1/L0 = 0.001000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.170000
+	Schedule Alpha = 1.370000
+	Valor atual: L1/L0 0.001 alpha 1.200 | Novos valores: L1/L0 0.001 alpha 1.370
+-------------
+    66         67      0.0729504       0.256332        3.21723
+
+	Schedule atual L1/L0 = 0.001000
+	Pertubação L1/L0 = 0.049000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.370000
+	Perturbação Alpha = -0.270000
+	Schedule Alpha = 1.100000
+	Valor atual: L1/L0 0.001 alpha 1.370 | Novos valores: L1/L0 0.050 alpha 1.100
+-------------
+    67         68      0.0729504       0.274367        3.05636
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.045000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.100000
+	Perturbação Alpha = 0.090000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.050 alpha 1.100 | Novos valores: L1/L0 0.005 alpha 1.190
+-------------
+    68         69      0.0729504       0.289158        2.90355
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.190000
+	Perturbação Alpha = 0.220000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.005 alpha 1.190 | Novos valores: L1/L0 0.005 alpha 1.410
+-------------
+    69         70      0.0729504       0.234947        2.75837
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.410000
+	Perturbação Alpha = -0.100000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.410 | Novos valores: L1/L0 0.007 alpha 1.310
+-------------
+    70         71      0.0729504       0.234947        2.62045
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.410000
+	Perturbação Alpha = -0.030000
+	Schedule Alpha = 1.380000
+	Valor atual: L1/L0 0.005 alpha 1.410 | Novos valores: L1/L0 0.500 alpha 1.380
+-------------
+    71         72      0.0729504      0.0882065        2.48943
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.380000
+	Perturbação Alpha = -0.210000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.500 alpha 1.380 | Novos valores: L1/L0 0.010 alpha 1.170
+-------------
+    72         73      0.0729504      0.0882065        2.36496
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.499000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.380000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.500 alpha 1.380 | Novos valores: L1/L0 0.001 alpha 1.260
+-------------
+    73         74      0.0729504      0.0882065        2.24671
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.380000
+	Perturbação Alpha = 0.080000
+	Schedule Alpha = 1.460000
+	Valor atual: L1/L0 0.500 alpha 1.380 | Novos valores: L1/L0 1.000 alpha 1.460
+-------------
+    74         75      0.0729504      0.0882065        2.13437
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.380000
+	Perturbação Alpha = -0.300000
+	Schedule Alpha = 1.080000
+	Valor atual: L1/L0 0.500 alpha 1.380 | Novos valores: L1/L0 0.005 alpha 1.080
+-------------
+    75         76      0.0729504       0.305616        2.02765
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.080000
+	Perturbação Alpha = 0.350000
+	Schedule Alpha = 1.430000
+	Valor atual: L1/L0 0.005 alpha 1.080 | Novos valores: L1/L0 0.010 alpha 1.430
+-------------
+    76         77      0.0729504       0.214748        1.92627
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = 0.990000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.430000
+	Perturbação Alpha = -0.150000
+	Schedule Alpha = 1.280000
+	Valor atual: L1/L0 0.010 alpha 1.430 | Novos valores: L1/L0 1.000 alpha 1.280
+-------------
+    77         78      0.0729504      0.0957367        1.82996
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = 0.070000
+	Schedule Alpha = 1.350000
+	Valor atual: L1/L0 1.000 alpha 1.280 | Novos valores: L1/L0 0.007 alpha 1.350
+-------------
+    78         79      0.0729504      0.0957367        1.73846
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = -0.040000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 1.000 alpha 1.280 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+    79         80      0.0729504      0.0957367        1.65154
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = 0.290000
+	Schedule Alpha = 1.570000
+	Valor atual: L1/L0 1.000 alpha 1.280 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+    80         81      0.0729504      0.0957367        1.56896
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.995000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = 0.130000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 1.000 alpha 1.280 | Novos valores: L1/L0 0.005 alpha 1.410
+-------------
+    81         82      0.0729504      0.0957367        1.49051
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.990000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = -0.050000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 1.000 alpha 1.280 | Novos valores: L1/L0 0.010 alpha 1.230
+-------------
+    82         83      0.0729504       0.277556        1.41599
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.230000
+	Perturbação Alpha = 0.100000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.010 alpha 1.230 | Novos valores: L1/L0 0.010 alpha 1.330
+-------------
+    83         84      0.0729504       0.254604        1.34519
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = -0.003000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.330000
+	Perturbação Alpha = -0.060000
+	Schedule Alpha = 1.270000
+	Valor atual: L1/L0 0.010 alpha 1.330 | Novos valores: L1/L0 0.007 alpha 1.270
+-------------
+    84         85      0.0729504       0.254604        1.27793
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = -0.003000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.330000
+	Perturbação Alpha = 0.000000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.010 alpha 1.330 | Novos valores: L1/L0 0.007 alpha 1.330
+-------------
+    85         86      0.0729504       0.254604        1.21403
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = 0.990000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.330000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.010 alpha 1.330 | Novos valores: L1/L0 1.000 alpha 1.050
+-------------
+    86         87      0.0729504       0.123391        1.15333
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.995000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.050000
+	Perturbação Alpha = 0.100000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 1.000 alpha 1.050 | Novos valores: L1/L0 0.005 alpha 1.150
+-------------
+    87         88      0.0729504       0.123391        1.09566
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.050000
+	Perturbação Alpha = 0.140000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 1.000 alpha 1.050 | Novos valores: L1/L0 0.007 alpha 1.190
+-------------
+    88         89      0.0729504       0.123391        1.04088
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.050000
+	Perturbação Alpha = -0.040000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 1.000 alpha 1.050 | Novos valores: L1/L0 0.007 alpha 1.010
+-------------
+    89         90      0.0729504       0.314138       0.988836
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = 0.493000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.010000
+	Perturbação Alpha = 0.280000
+	Schedule Alpha = 1.290000
+	Valor atual: L1/L0 0.007 alpha 1.010 | Novos valores: L1/L0 0.500 alpha 1.290
+-------------
+    90         91      0.0729504       0.099408       0.939395
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.290000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.270000
+	Valor atual: L1/L0 0.500 alpha 1.290 | Novos valores: L1/L0 0.010 alpha 1.270
+-------------
+    91         92      0.0729504       0.269396       0.892425
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = -0.003000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.270000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.010 alpha 1.270 | Novos valores: L1/L0 0.007 alpha 1.050
+-------------
+    92         93      0.0729504       0.308509       0.847804
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = -0.002000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.050000
+	Perturbação Alpha = 0.160000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.007 alpha 1.050 | Novos valores: L1/L0 0.005 alpha 1.210
+-------------
+    93         94      0.0729504       0.285777       0.805413
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.210000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.210 | Novos valores: L1/L0 1.000 alpha 1.090
+-------------
+    94         95      0.0729504        0.11507       0.765143
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.500000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.090000
+	Perturbação Alpha = 0.360000
+	Schedule Alpha = 1.450000
+	Valor atual: L1/L0 1.000 alpha 1.090 | Novos valores: L1/L0 0.500 alpha 1.450
+-------------
+    95         96      0.0729504        0.11507       0.726886
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.500000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.090000
+	Perturbação Alpha = 0.300000
+	Schedule Alpha = 1.390000
+	Valor atual: L1/L0 1.000 alpha 1.090 | Novos valores: L1/L0 0.500 alpha 1.390
+-------------
+    96         97      0.0729504      0.0891575       0.690541
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.390000
+	Perturbação Alpha = -0.330000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.500 alpha 1.390 | Novos valores: L1/L0 1.000 alpha 1.060
+-------------
+    97         98      0.0729504       0.121325       0.656014
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.060000
+	Perturbação Alpha = 0.060000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 1.000 alpha 1.060 | Novos valores: L1/L0 0.007 alpha 1.120
+-------------
+    98         99      0.0729504       0.121325       0.623214
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.060000
+	Perturbação Alpha = 0.070000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 1.000 alpha 1.060 | Novos valores: L1/L0 0.007 alpha 1.130
+-------------
+    99        100      0.0729504       0.296879       0.592053
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = 0.003000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.130000
+	Perturbação Alpha = 0.150000
+	Schedule Alpha = 1.280000
+	Valor atual: L1/L0 0.007 alpha 1.130 | Novos valores: L1/L0 0.010 alpha 1.280
+-------------
+   100        101      0.0729504       0.267185        0.56245
+
+	Schedule atual L1/L0 = 0.010000
+	Pertubação L1/L0 = -0.005000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.300000
+	Valor atual: L1/L0 0.010 alpha 1.280 | Novos valores: L1/L0 0.005 alpha 1.300
+-------------
+   101        102      0.0729504       0.268404       0.534328
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.300000
+	Perturbação Alpha = -0.230000
+	Schedule Alpha = 1.070000
+	Valor atual: L1/L0 0.005 alpha 1.300 | Novos valores: L1/L0 0.007 alpha 1.070
+-------------
+   102        103      0.0729504       0.305697       0.507611
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = 0.293000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.070000
+	Perturbação Alpha = 0.300000
+	Schedule Alpha = 1.370000
+	Valor atual: L1/L0 0.007 alpha 1.070 | Novos valores: L1/L0 0.300 alpha 1.370
+-------------
+   103        104      0.0729504      0.0919075       0.482231
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.700000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.370000
+	Perturbação Alpha = 0.100000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 0.300 alpha 1.370 | Novos valores: L1/L0 1.000 alpha 1.470
+-------------
+   104        105      0.0729504      0.0919075       0.458119
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.200000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.370000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.300 alpha 1.370 | Novos valores: L1/L0 0.500 alpha 1.050
+-------------
+   105        106      0.0729504      0.0919075       0.435213
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.700000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.370000
+	Perturbação Alpha = -0.010000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.300 alpha 1.370 | Novos valores: L1/L0 1.000 alpha 1.360
+-------------
+   106        107      0.0729504      0.0919075       0.413453
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.299000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.370000
+	Perturbação Alpha = 0.140000
+	Schedule Alpha = 1.510000
+	Valor atual: L1/L0 0.300 alpha 1.370 | Novos valores: L1/L0 0.001 alpha 1.510
+-------------
+   107        108      0.0729504      0.0919075        0.39278
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.293000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.370000
+	Perturbação Alpha = 0.040000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.300 alpha 1.370 | Novos valores: L1/L0 0.007 alpha 1.410
+-------------
+   108        109      0.0729504      0.0919075       0.373141
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.299000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.370000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.300 alpha 1.370 | Novos valores: L1/L0 0.001 alpha 1.060
+-------------
+   109        110      0.0729504       0.311183       0.354484
+
+	Schedule atual L1/L0 = 0.001000
+	Pertubação L1/L0 = 0.049000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.060000
+	Perturbação Alpha = 0.380000
+	Schedule Alpha = 1.440000
+	Valor atual: L1/L0 0.001 alpha 1.060 | Novos valores: L1/L0 0.050 alpha 1.440
+-------------
+   110        111      0.0729504       0.143681        0.33676
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.950000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.440000
+	Perturbação Alpha = -0.080000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.050 alpha 1.440 | Novos valores: L1/L0 1.000 alpha 1.360
+-------------
+   111        112      0.0729504       0.143681       0.319922
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.250000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.440000
+	Perturbação Alpha = -0.200000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.050 alpha 1.440 | Novos valores: L1/L0 0.300 alpha 1.240
+-------------
+   112        113      0.0729504       0.145859       0.303926
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.295000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.240000
+	Perturbação Alpha = 0.310000
+	Schedule Alpha = 1.550000
+	Valor atual: L1/L0 0.300 alpha 1.240 | Novos valores: L1/L0 0.005 alpha 1.550
+-------------
+   113        114      0.0624864      0.0624864       0.288729
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.530000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.020
+-------------
+   114        115      0.0624864      0.0624864       0.274293
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.420000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.130
+-------------
+   115        116      0.0624864       0.268392       0.260578
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.450000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.130000
+	Perturbação Alpha = -0.040000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.050 alpha 1.130 | Novos valores: L1/L0 0.500 alpha 1.090
+-------------
+   116        117      0.0624864        0.15968       0.247549
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.090000
+	Perturbação Alpha = 0.230000
+	Schedule Alpha = 1.320000
+	Valor atual: L1/L0 0.500 alpha 1.090 | Novos valores: L1/L0 0.050 alpha 1.320
+-------------
+   117        118      0.0624864       0.214964       0.235172
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.043000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.040000
+	Valor atual: L1/L0 0.050 alpha 1.320 | Novos valores: L1/L0 0.007 alpha 1.040
+-------------
+   118        119      0.0624864       0.214964       0.223413
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.043000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = -0.030000
+	Schedule Alpha = 1.290000
+	Valor atual: L1/L0 0.050 alpha 1.320 | Novos valores: L1/L0 0.007 alpha 1.290
+-------------
+   119        120      0.0624864       0.268263       0.212243
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = 0.003000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.290000
+	Perturbação Alpha = -0.100000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.007 alpha 1.290 | Novos valores: L1/L0 0.010 alpha 1.190
+-------------
+   120        121      0.0624864       0.268263       0.201631
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = 0.493000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.290000
+	Perturbação Alpha = 0.110000
+	Schedule Alpha = 1.400000
+	Valor atual: L1/L0 0.007 alpha 1.290 | Novos valores: L1/L0 0.500 alpha 1.400
+-------------
+   121        122      0.0624864      0.0901793       0.191549
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.400000
+	Perturbação Alpha = 0.120000
+	Schedule Alpha = 1.520000
+	Valor atual: L1/L0 0.500 alpha 1.400 | Novos valores: L1/L0 0.050 alpha 1.520
+-------------
+   122        123      0.0624864      0.0653934       0.181972
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.043000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.520000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.050 alpha 1.520 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+   123        124      0.0624864       0.278518       0.172873
+
+	Schedule atual L1/L0 = 0.007000
+	Pertubação L1/L0 = 0.293000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.240000
+	Perturbação Alpha = 0.090000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.007 alpha 1.240 | Novos valores: L1/L0 0.300 alpha 1.330
+-------------
+   124        125      0.0624864       0.109694       0.164229
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.295000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.330000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.300 alpha 1.330 | Novos valores: L1/L0 0.005 alpha 1.110
+-------------
+   125        126      0.0624864       0.109694       0.156018
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.200000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.330000
+	Perturbação Alpha = -0.160000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.300 alpha 1.330 | Novos valores: L1/L0 0.500 alpha 1.170
+-------------
+   126        127      0.0624864       0.109694       0.148217
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = -0.293000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.330000
+	Perturbação Alpha = 0.060000
+	Schedule Alpha = 1.390000
+	Valor atual: L1/L0 0.300 alpha 1.330 | Novos valores: L1/L0 0.007 alpha 1.390
+-------------
+   127        128      0.0624864       0.109694       0.140806
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.330000
+	Perturbação Alpha = 0.110000
+	Schedule Alpha = 1.440000
+	Valor atual: L1/L0 0.300 alpha 1.330 | Novos valores: L1/L0 0.300 alpha 1.440
+-------------
+   128        129      0.0624864      0.0838389       0.133766
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.440000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.320000
+	Valor atual: L1/L0 0.300 alpha 1.440 | Novos valores: L1/L0 0.300 alpha 1.320
+-------------
+   129        130      0.0624864       0.114065       0.127078
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = 0.200000
+	Schedule Alpha = 1.520000
+	Valor atual: L1/L0 0.300 alpha 1.320 | Novos valores: L1/L0 0.300 alpha 1.520
+-------------
+   130        131      0.0624864       0.114065       0.120724
+
+	Schedule atual L1/L0 = 0.300000
+	Pertubação L1/L0 = 0.700000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = 0.000000
+	Schedule Alpha = 1.320000
+	Valor atual: L1/L0 0.300 alpha 1.320 | Novos valores: L1/L0 1.000 alpha 1.320
+-------------
+   131        132      0.0624864       0.097935       0.114687
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.500000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = 0.160000
+	Schedule Alpha = 1.480000
+	Valor atual: L1/L0 1.000 alpha 1.320 | Novos valores: L1/L0 0.500 alpha 1.480
+-------------
+   132        133      0.0624864       0.097935       0.108953
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.990000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = 0.150000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 1.000 alpha 1.320 | Novos valores: L1/L0 0.010 alpha 1.470
+-------------
+   133        134      0.0624864       0.097935       0.103505
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.950000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = -0.040000
+	Schedule Alpha = 1.280000
+	Valor atual: L1/L0 1.000 alpha 1.320 | Novos valores: L1/L0 0.050 alpha 1.280
+-------------
+   134        135      0.0624864       0.229669      0.0983302
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.250000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = 0.250000
+	Schedule Alpha = 1.530000
+	Valor atual: L1/L0 0.050 alpha 1.280 | Novos valores: L1/L0 0.300 alpha 1.530
+-------------
+   135        136      0.0624864       0.229669      0.0934136
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.280000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.050 alpha 1.280 | Novos valores: L1/L0 0.001 alpha 1.060
+-------------
+   136        137      0.0624864       0.311143       0.088743
+
+	Schedule atual L1/L0 = 0.001000
+	Pertubação L1/L0 = 0.999000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.060000
+	Perturbação Alpha = 0.140000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.001 alpha 1.060 | Novos valores: L1/L0 1.000 alpha 1.200
+-------------
+   137        138      0.0624864      0.0923162      0.0843058
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.160000
+	Schedule Alpha = 1.040000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.007 alpha 1.040
+-------------
+   138        139      0.0624864      0.0923162      0.0800905
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.995000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.040000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.005 alpha 1.240
+-------------
+   139        140      0.0624864      0.0923162       0.076086
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.999000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.360000
+	Schedule Alpha = 1.560000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.001 alpha 1.560
+-------------
+   140        141      0.0624864      0.0923162      0.0722817
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.995000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.170000
+	Schedule Alpha = 1.030000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.005 alpha 1.030
+-------------
+   141        142      0.0624864      0.0923162      0.0686676
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.999000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.070000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.001 alpha 1.130
+-------------
+   142        143      0.0624864      0.0923162      0.0652342
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.700000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.080000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.300 alpha 1.120
+-------------
+   143        144      0.0624864      0.0923162      0.0619725
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.950000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.310000
+	Schedule Alpha = 1.510000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.050 alpha 1.510
+-------------
+   144        145      0.0624864      0.0721039      0.0588739
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.270000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.240
+-------------
+   145        146      0.0624864      0.0721039      0.0559302
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.040000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.470
+-------------
+   146        147      0.0624864      0.0721039      0.0531337
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.043000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.420000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.090
+-------------
+   147        148      0.0624864      0.0721039       0.050477
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.160000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.160
+-------------
+   148        149      0.0624864      0.0721039      0.0479532
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.950000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.490000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 1.000 alpha 1.490
+-------------
+   149        150      0.0624864      0.0721039      0.0455555
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.043000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.110
+-------------
+   150        151      0.0624864      0.0721039      0.0432777
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.050000
+	Schedule Alpha = 1.460000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.460
+-------------
+   151        152      0.0624864      0.0721039      0.0411138
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.045000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.260000
+	Schedule Alpha = 1.250000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.250
+-------------
+   152        153      0.0624864      0.0721039      0.0390581
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.500000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.010
+-------------
+   153        154      0.0624864      0.0721039      0.0371052
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.250000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.160000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.300 alpha 1.160
+-------------
+   154        155      0.0624864      0.0721039        0.03525
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.045000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.490000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.490
+-------------
+   155        156      0.0624864      0.0721039      0.0334875
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.050 alpha 1.110
+-------------
+   156        157      0.0624864      0.0721039      0.0318131
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = -0.049000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.300000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.210
+-------------
+   157        158      0.0624864      0.0721039      0.0302224
+
+	Schedule atual L1/L0 = 0.050000
+	Pertubação L1/L0 = 0.950000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.510000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 1.000 alpha 1.200
+-------------
+   158        159      0.0624864      0.0923162      0.0287113
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.950000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.180000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.050 alpha 1.020
+-------------
+   159        160      0.0624864      0.0923162      0.0272758
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.995000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.110000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.005 alpha 1.090
+-------------
+   160        161      0.0624864      0.0923162       0.025912
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.999000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.270000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.001 alpha 1.470
+-------------
+   161        162      0.0624864      0.0923162      0.0246164
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.700000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.160000
+	Schedule Alpha = 1.040000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.300 alpha 1.040
+-------------
+   162        163      0.0624864      0.0923162      0.0233856
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.990000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.270000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.010 alpha 1.470
+-------------
+   163        164      0.0624864      0.0923162      0.0222163
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.999000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.080000
+	Schedule Alpha = 1.280000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.001 alpha 1.280
+-------------
+   164        165      0.0624864      0.0923162      0.0211055
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.993000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.060000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.007 alpha 1.140
+-------------
+   165        166      0.0624864      0.0923162      0.0200502
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.999000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = -0.060000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.001 alpha 1.140
+-------------
+   166        167      0.0624864      0.0923162      0.0190477
+
+	Schedule atual L1/L0 = 1.000000
+	Pertubação L1/L0 = -0.500000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.200000
+	Perturbação Alpha = 0.160000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 1.000 alpha 1.200 | Novos valores: L1/L0 0.500 alpha 1.360
+-------------
+   167        168      0.0624864      0.0864678      0.0180953
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.050000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.500 alpha 1.310
+-------------
+   168        169      0.0624864      0.0864678      0.0171905
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.170000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.010 alpha 1.190
+-------------
+   169        170      0.0624864      0.0864678       0.016331
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.180000
+	Schedule Alpha = 1.540000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.300 alpha 1.540
+-------------
+   170        171      0.0624864      0.0864678      0.0155145
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.010 alpha 1.120
+-------------
+   171        172      0.0624864      0.0864678      0.0147387
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.100000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 1.000 alpha 1.260
+-------------
+   172        173      0.0624864      0.0864678      0.0140018
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.090000
+	Schedule Alpha = 1.450000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.005 alpha 1.450
+-------------
+   173        174      0.0624864      0.0864678      0.0133017
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.210000
+	Schedule Alpha = 1.570000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 1.000 alpha 1.570
+-------------
+   174        175      0.0624864      0.0864678      0.0126366
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.210000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.005 alpha 1.150
+-------------
+   175        176      0.0624864      0.0864678      0.0120048
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.300000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.500 alpha 1.060
+-------------
+   176        177      0.0624864      0.0864678      0.0114045
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.120000
+	Schedule Alpha = 1.480000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.500 alpha 1.480
+-------------
+   177        178      0.0624864      0.0864678      0.0108343
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.380000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.500 alpha 1.380
+-------------
+   178        179      0.0624864      0.0882065      0.0102926
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.380000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.500 alpha 1.380 | Novos valores: L1/L0 0.050 alpha 1.360
+-------------
+   179        180      0.0624864      0.0882065     0.00977798
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.380000
+	Perturbação Alpha = -0.250000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.500 alpha 1.380 | Novos valores: L1/L0 0.005 alpha 1.130
+-------------
+   180        181      0.0624864      0.0882065     0.00928908
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.380000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.500 alpha 1.380 | Novos valores: L1/L0 0.500 alpha 1.360
+-------------
+   181        182      0.0624864      0.0864678     0.00882462
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.340000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 1.000 alpha 1.340
+-------------
+   182        183      0.0624864      0.0864678     0.00838339
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.100000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.260
+-------------
+   183        184      0.0624864      0.0864678     0.00796422
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.050000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.005 alpha 1.410
+-------------
+   184        185      0.0624864      0.0864678     0.00756601
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.180000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.300 alpha 1.180
+-------------
+   185        186      0.0624864      0.0864678     0.00718771
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.005 alpha 1.170
+-------------
+   186        187      0.0624864      0.0864678     0.00682833
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.010 alpha 1.050
+-------------
+   187        188      0.0624864      0.0864678     0.00648691
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.050000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.050 alpha 1.410
+-------------
+   188        189      0.0624864      0.0864678     0.00616256
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.140000
+	Schedule Alpha = 1.220000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.005 alpha 1.220
+-------------
+   189        190      0.0624864      0.0864678     0.00585444
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.040000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.300 alpha 1.040
+-------------
+   190        191      0.0624864      0.0864678     0.00556171
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+   191        192      0.0624864      0.0864678     0.00528363
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.210000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.010 alpha 1.150
+-------------
+   192        193      0.0624864      0.0864678     0.00501945
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.170
+-------------
+   193        194      0.0624864      0.0864678     0.00476847
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.090000
+	Schedule Alpha = 1.450000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.010 alpha 1.450
+-------------
+   194        195      0.0624864      0.0864678     0.00453005
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.100000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.300 alpha 1.260
+-------------
+   195        196      0.0624864      0.0864678     0.00430355
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = 0.000000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.360
+-------------
+   196        197      0.0624864      0.0864678     0.00408837
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.170000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.300 alpha 1.190
+-------------
+   197        198      0.0624864      0.0864678     0.00388395
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.499000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.001 alpha 1.170
+-------------
+   198        199      0.0624864      0.0864678     0.00368975
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.250000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.005 alpha 1.110
+-------------
+   199        200      0.0624864      0.0864678     0.00350527
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.110000
+	Schedule Alpha = 1.250000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 1.000 alpha 1.250
+-------------
+   200        201      0.0624864      0.0864678        0.00333
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.270000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.500 alpha 1.090
+-------------
+   201        202      0.0624864      0.0864678      0.0031635
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.230000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.130
+-------------
+   202        203      0.0624864      0.0864678     0.00300533
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.330000
+	Schedule Alpha = 1.030000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.030
+-------------
+   203        204      0.0624864      0.0864678     0.00285506
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.130000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 1.000 alpha 1.230
+-------------
+   204        205      0.0624864      0.0864678     0.00271231
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.500 alpha 1.050
+-------------
+   205        206      0.0624864      0.0864678     0.00257669
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.180000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.007 alpha 1.180
+-------------
+   206        207      0.0624864      0.0864678     0.00244786
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.360000
+	Perturbação Alpha = -0.040000
+	Schedule Alpha = 1.320000
+	Valor atual: L1/L0 0.500 alpha 1.360 | Novos valores: L1/L0 0.500 alpha 1.320
+-------------
+   207        208      0.0624864      0.0893859     0.00232547
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.080000
+	Valor atual: L1/L0 0.500 alpha 1.320 | Novos valores: L1/L0 0.007 alpha 1.080
+-------------
+   208        209      0.0624864      0.0893859     0.00220919
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.320000
+	Perturbação Alpha = 0.030000
+	Schedule Alpha = 1.350000
+	Valor atual: L1/L0 0.500 alpha 1.320 | Novos valores: L1/L0 0.500 alpha 1.350
+-------------
+   209        210      0.0624864      0.0856633     0.00209873
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.499000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.000000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.001 alpha 1.000
+-------------
+   210        211      0.0624864      0.0856633      0.0019938
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.170000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.300 alpha 1.180
+-------------
+   211        212      0.0624864      0.0856633     0.00189411
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.500000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.160000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 1.000 alpha 1.190
+-------------
+   212        213      0.0624864      0.0856633      0.0017994
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.499000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.070000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.001 alpha 1.070
+-------------
+   213        214      0.0624864      0.0856633     0.00170943
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.110000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.050 alpha 1.240
+-------------
+   214        215      0.0624864      0.0856633     0.00162396
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.140000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.005 alpha 1.210
+-------------
+   215        216      0.0624864      0.0856633     0.00154276
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.290000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.007 alpha 1.060
+-------------
+   216        217      0.0624864      0.0856633     0.00146562
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.160000
+	Schedule Alpha = 1.510000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.010 alpha 1.510
+-------------
+   217        218      0.0624864      0.0856633     0.00139234
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.130000
+	Schedule Alpha = 1.220000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.005 alpha 1.220
+-------------
+   218        219      0.0624864      0.0856633     0.00132272
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.270000
+	Schedule Alpha = 1.080000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.300 alpha 1.080
+-------------
+   219        220      0.0624864      0.0856633     0.00125659
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.080000
+	Schedule Alpha = 1.430000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.050 alpha 1.430
+-------------
+   220        221      0.0624864      0.0856633     0.00119376
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.490000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.040000
+	Schedule Alpha = 1.390000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.010 alpha 1.390
+-------------
+   221        222      0.0624864      0.0856633     0.00113407
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.080000
+	Schedule Alpha = 1.270000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.050 alpha 1.270
+-------------
+   222        223      0.0624864      0.0856633     0.00107737
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.493000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.050000
+	Schedule Alpha = 1.400000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.007 alpha 1.400
+-------------
+   223        224      0.0624864      0.0856633      0.0010235
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.200000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.000000
+	Schedule Alpha = 1.350000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.300 alpha 1.350
+-------------
+   224        225      0.0624864      0.0856633    0.000972324
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.140000
+	Schedule Alpha = 1.490000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.050 alpha 1.490
+-------------
+   225        226      0.0624864      0.0856633    0.000923708
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = 0.000000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.180000
+	Schedule Alpha = 1.530000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.500 alpha 1.530
+-------------
+   226        227      0.0624864      0.0856633    0.000877523
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.450000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = -0.260000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.050 alpha 1.090
+-------------
+   227        228      0.0624864      0.0856633    0.000833647
+
+	Schedule atual L1/L0 = 0.500000
+	Pertubação L1/L0 = -0.495000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.350000
+	Perturbação Alpha = 0.200000
+	Schedule Alpha = 1.550000
+	Valor atual: L1/L0 0.500 alpha 1.350 | Novos valores: L1/L0 0.005 alpha 1.550
+-------------
+   228        229      0.0624864      0.0624864    0.000791964
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.230
+-------------
+   229        230      0.0624864      0.0624864    0.000752366
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.360000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.190
+-------------
+   230        231      0.0624864      0.0624864    0.000714748
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.510000
+	Schedule Alpha = 1.040000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.040
+-------------
+   231        232      0.0624864      0.0624864     0.00067901
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.430000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.120
+-------------
+   232        233      0.0624864      0.0624864     0.00064506
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.140000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.410
+-------------
+   233        234      0.0624864      0.0624864    0.000612807
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.060000
+	Schedule Alpha = 1.490000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.490
+-------------
+   234        235      0.0624864      0.0624864    0.000582167
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.040000
+	Schedule Alpha = 1.510000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.510
+-------------
+   235        236      0.0624864      0.0624864    0.000553058
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.440000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.110
+-------------
+   236        237      0.0624864      0.0624864    0.000525405
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.310
+-------------
+   237        238      0.0624864      0.0624864    0.000499135
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.110000
+	Schedule Alpha = 1.440000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.440
+-------------
+   238        239      0.0624864      0.0624864    0.000474178
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.530000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.530
+-------------
+   239        240      0.0624864      0.0624864    0.000450469
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.360
+-------------
+   240        241      0.0624864      0.0624864    0.000427946
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.140000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.410
+-------------
+   241        242      0.0624864      0.0624864    0.000406549
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.140000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.410
+-------------
+   242        243      0.0624864      0.0624864    0.000386221
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.460000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.090
+-------------
+   243        244      0.0624864      0.0624864     0.00036691
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.440000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.110
+-------------
+   244        245      0.0624864      0.0624864    0.000348565
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.520000
+	Schedule Alpha = 1.030000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.030
+-------------
+   245        246      0.0624864      0.0624864    0.000331136
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.530000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.020
+-------------
+   246        247      0.0624864      0.0624864     0.00031458
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.060000
+	Schedule Alpha = 1.490000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.490
+-------------
+   247        248      0.0624864      0.0624864    0.000298851
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.330000
+	Schedule Alpha = 1.220000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.220
+-------------
+   248        249      0.0624864      0.0624864    0.000283908
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.310
+-------------
+   249        250      0.0624864      0.0624864    0.000269713
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.360
+-------------
+   250        251      0.0624864      0.0624864    0.000256227
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.150
+-------------
+   251        252      0.0624864      0.0624864    0.000243416
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.570000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.570
+-------------
+   252        253      0.0624864      0.0624864    0.000231245
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.200
+-------------
+   253        254      0.0624864      0.0624864    0.000219683
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.420000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.130
+-------------
+   254        255      0.0624864      0.0624864    0.000208699
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.310
+-------------
+   255        256      0.0624864      0.0624864    0.000198264
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.500000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.050
+-------------
+   256        257      0.0624864      0.0624864     0.00018835
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.300000
+	Schedule Alpha = 1.250000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.250
+-------------
+   257        258      0.0624864      0.0624864    0.000178933
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.080000
+	Schedule Alpha = 1.470000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.470
+-------------
+   258        259      0.0624864      0.0624864    0.000169986
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.460000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.090
+-------------
+   259        260      0.0624864      0.0624864    0.000161487
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.070000
+	Schedule Alpha = 1.480000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.480
+-------------
+   260        261      0.0624864      0.0624864    0.000153413
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.200
+-------------
+   261        262      0.0624864      0.0624864    0.000145742
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.240
+-------------
+   262        263      0.0624864      0.0624864    0.000138455
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.330
+-------------
+   263        264      0.0624864      0.0624864    0.000131532
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.370000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.180
+-------------
+   264        265      0.0624864      0.0624864    0.000124956
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.410000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.140
+-------------
+   265        266      0.0624864      0.0624864    0.000118708
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.460000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.090
+-------------
+   266        267      0.0624864      0.0624864    0.000112772
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.370000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.180
+-------------
+   267        268      0.0624864      0.0624864    0.000107134
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.410000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.140
+-------------
+   268        269      0.0624864      0.0624864    0.000101777
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.360
+-------------
+   269        270      0.0624864      0.0624864    9.66882e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.480000
+	Schedule Alpha = 1.070000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.070
+-------------
+   270        271      0.0624864      0.0624864    9.18538e-05
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.380000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.170
+-------------
+   271        272      0.0624864      0.0624864    8.72611e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.530000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.020
+-------------
+   272        273      0.0624864      0.0624864     8.2898e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+   273        274      0.0624864      0.0624864    7.87531e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.370000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.180
+-------------
+   274        275      0.0624864      0.0624864    7.48155e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.430000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.120
+-------------
+   275        276      0.0624864      0.0624864    7.10747e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.290000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.260
+-------------
+   276        277      0.0624864      0.0624864     6.7521e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.010000
+	Schedule Alpha = 1.540000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.540
+-------------
+   277        278      0.0624864      0.0624864    6.41449e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.260000
+	Schedule Alpha = 1.290000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.290
+-------------
+   278        279      0.0624864      0.0624864    6.09377e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.500000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.050
+-------------
+   279        280      0.0624864      0.0624864    5.78908e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.020000
+	Schedule Alpha = 1.530000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.530
+-------------
+   280        281      0.0624864      0.0624864    5.49963e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.330
+-------------
+   281        282      0.0624864      0.0624864    5.22464e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.260000
+	Schedule Alpha = 1.290000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.290
+-------------
+   282        283      0.0624864      0.0624864    4.96341e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.290000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.260
+-------------
+   283        284      0.0624864      0.0624864    4.71524e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.340000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.210
+-------------
+   284        285      0.0624864      0.0624864    4.47948e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.460000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.090
+-------------
+   285        286      0.0624864      0.0624864    4.25551e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.420000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.130
+-------------
+   286        287      0.0624864      0.0624864    4.04273e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.150000
+	Schedule Alpha = 1.400000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.400
+-------------
+   287        288      0.0624864      0.0624864    3.84059e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.540000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.010
+-------------
+   288        289      0.0624864      0.0624864    3.64856e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.500000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.050
+-------------
+   289        290      0.0624864      0.0624864    3.46614e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.060000
+	Schedule Alpha = 1.490000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.490
+-------------
+   290        291      0.0624864      0.0624864    3.29283e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.210000
+	Schedule Alpha = 1.340000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.340
+-------------
+   291        292      0.0624864      0.0624864    3.12819e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.310
+-------------
+   292        293      0.0624864      0.0624864    2.97178e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.130000
+	Schedule Alpha = 1.420000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.420
+-------------
+   293        294      0.0624864      0.0624864    2.82319e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.310
+-------------
+   294        295      0.0624864      0.0624864    2.68203e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.370000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.180
+-------------
+   295        296      0.0624864      0.0624864    2.54793e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.390000
+	Schedule Alpha = 1.160000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.160
+-------------
+   296        297      0.0624864      0.0624864    2.42053e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.440000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.110
+-------------
+   297        298      0.0624864      0.0624864    2.29951e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.270000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.270
+-------------
+   298        299      0.0624864      0.0624864    2.18453e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.150
+-------------
+   299        300      0.0624864      0.0624864     2.0753e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.540000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.010
+-------------
+   300        301      0.0624864      0.0624864    1.97154e-05
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.230
+-------------
+   301        302      0.0624864      0.0624864    1.87296e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.140000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.410
+-------------
+   302        303      0.0624864      0.0624864    1.77931e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.410000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.140
+-------------
+   303        304      0.0624864      0.0624864    1.69035e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.310
+-------------
+   304        305      0.0624864      0.0624864    1.60583e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.480000
+	Schedule Alpha = 1.070000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.070
+-------------
+   305        306      0.0624864      0.0624864    1.52554e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.450000
+	Schedule Alpha = 1.100000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.100
+-------------
+   306        307      0.0624864      0.0624864    1.44926e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.340000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.210
+-------------
+   307        308      0.0624864      0.0624864     1.3768e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = 0.000000
+	Schedule Alpha = 1.550000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.550
+-------------
+   308        309      0.0624864      0.0624864    1.30796e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.360
+-------------
+   309        310      0.0624864      0.0624864    1.24256e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.230
+-------------
+   310        311      0.0624864      0.0624864    1.18043e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.310
+-------------
+   311        312      0.0624864      0.0624864    1.12141e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.150
+-------------
+   312        313      0.0624864      0.0624864    1.06534e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.420000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.130
+-------------
+   313        314      0.0624864      0.0624864    1.01207e-05
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.200
+-------------
+   314        315      0.0624864      0.0624864     9.6147e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.280000
+	Schedule Alpha = 1.270000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.270
+-------------
+   315        316      0.0624864      0.0624864    9.13396e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.250000
+	Schedule Alpha = 1.300000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.300
+-------------
+   316        317      0.0624864      0.0624864    8.67727e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.180000
+	Schedule Alpha = 1.370000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.370
+-------------
+   317        318      0.0624864      0.0624864     8.2434e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.380000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.170
+-------------
+   318        319      0.0624864      0.0624864    7.83123e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+   319        320      0.0624864      0.0624864    7.43967e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.390000
+	Schedule Alpha = 1.160000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.160
+-------------
+   320        321      0.0624864      0.0624864    7.06769e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.260000
+	Schedule Alpha = 1.290000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.290
+-------------
+   321        322      0.0624864      0.0624864     6.7143e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.330
+-------------
+   322        323      0.0624864      0.0624864    6.37859e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.210000
+	Schedule Alpha = 1.340000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.340
+-------------
+   323        324      0.0624864      0.0624864    6.05966e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.430000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.430
+-------------
+   324        325      0.0624864      0.0624864    5.75668e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.180000
+	Schedule Alpha = 1.370000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.370
+-------------
+   325        326      0.0624864      0.0624864    5.46884e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.310
+-------------
+   326        327      0.0624864      0.0624864     5.1954e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.460000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.090
+-------------
+   327        328      0.0624864      0.0624864    4.93563e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.250000
+	Schedule Alpha = 1.300000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.300
+-------------
+   328        329      0.0624864      0.0624864    4.68885e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.230000
+	Schedule Alpha = 1.320000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.320
+-------------
+   329        330      0.0624864      0.0624864    4.45441e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.470000
+	Schedule Alpha = 1.080000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.080
+-------------
+   330        331      0.0624864      0.0624864    4.23169e-06
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.520000
+	Schedule Alpha = 1.030000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.030
+-------------
+   331        332      0.0624864      0.0624864     4.0201e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.430000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.120
+-------------
+   332        333      0.0624864      0.0624864     3.8191e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.150
+-------------
+   333        334      0.0624864      0.0624864    3.62814e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.410000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.140
+-------------
+   334        335      0.0624864      0.0624864    3.44673e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.240
+-------------
+   335        336      0.0624864      0.0624864     3.2744e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.230
+-------------
+   336        337      0.0624864      0.0624864    3.11068e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.540000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.010
+-------------
+   337        338      0.0624864      0.0624864    2.95514e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.490000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.060
+-------------
+   338        339      0.0624864      0.0624864    2.80739e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.150
+-------------
+   339        340      0.0624864      0.0624864    2.66702e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.110000
+	Schedule Alpha = 1.440000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.440
+-------------
+   340        341      0.0624864      0.0624864    2.53367e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.140000
+	Schedule Alpha = 1.410000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.410
+-------------
+   341        342      0.0624864      0.0624864    2.40698e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = 0.010000
+	Schedule Alpha = 1.560000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.560
+-------------
+   342        343      0.0624864      0.0624864    2.28663e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.120000
+	Schedule Alpha = 1.430000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.430
+-------------
+   343        344      0.0624864      0.0624864     2.1723e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.150000
+	Schedule Alpha = 1.400000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.400
+-------------
+   344        345      0.0624864      0.0624864    2.06369e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.530000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.020
+-------------
+   345        346      0.0624864      0.0624864     1.9605e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.410000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.140
+-------------
+   346        347      0.0624864      0.0624864    1.86248e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.310
+-------------
+   347        348      0.0624864      0.0624864    1.76935e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.300000
+	Schedule Alpha = 1.250000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.250
+-------------
+   348        349      0.0624864      0.0624864    1.68089e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.240
+-------------
+   349        350      0.0624864      0.0624864    1.59684e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.170000
+	Schedule Alpha = 1.380000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.380
+-------------
+   350        351      0.0624864      0.0624864      1.517e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.530000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.020
+-------------
+   351        352      0.0624864      0.0624864    1.44115e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.240
+-------------
+   352        353      0.0624864      0.0624864    1.36909e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.430000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.120
+-------------
+   353        354      0.0624864      0.0624864    1.30064e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.500000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.050
+-------------
+   354        355      0.0624864      0.0624864    1.23561e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.320000
+	Schedule Alpha = 1.230000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.230
+-------------
+   355        356      0.0624864      0.0624864    1.17383e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.130000
+	Schedule Alpha = 1.420000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.420
+-------------
+   356        357      0.0624864      0.0624864    1.11513e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.400000
+	Schedule Alpha = 1.150000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.150
+-------------
+   357        358      0.0624864      0.0624864    1.05938e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.340000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.210
+-------------
+   358        359      0.0624864      0.0624864    1.00641e-06
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.200
+-------------
+   359        360      0.0624864      0.0624864    9.56088e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.430000
+	Schedule Alpha = 1.120000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.120
+-------------
+   360        361      0.0624864      0.0624864    9.08284e-07
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.420000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.130
+-------------
+   361        362      0.0624864      0.0624864    8.62869e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.530000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.020
+-------------
+   362        363      0.0624864      0.0624864    8.19726e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.200000
+	Schedule Alpha = 1.350000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.350
+-------------
+   363        364      0.0624864      0.0624864     7.7874e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.260000
+	Schedule Alpha = 1.290000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.290
+-------------
+   364        365      0.0624864      0.0624864    7.39803e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.480000
+	Schedule Alpha = 1.070000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.070
+-------------
+   365        366      0.0624864      0.0624864    7.02813e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.100000
+	Schedule Alpha = 1.450000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.450
+-------------
+   366        367      0.0624864      0.0624864    6.67672e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.030000
+	Schedule Alpha = 1.520000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.520
+-------------
+   367        368      0.0624864      0.0624864    6.34288e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = 0.010000
+	Schedule Alpha = 1.560000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.560
+-------------
+   368        369      0.0624864      0.0624864    6.02574e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.510000
+	Schedule Alpha = 1.040000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.040
+-------------
+   369        370      0.0624864      0.0624864    5.72445e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.070000
+	Schedule Alpha = 1.480000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.480
+-------------
+   370        371      0.0624864      0.0624864    5.43823e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.490000
+	Schedule Alpha = 1.060000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.060
+-------------
+   371        372      0.0624864      0.0624864    5.16632e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.570000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+   372        373      0.0624864      0.0624864      4.908e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.210000
+	Schedule Alpha = 1.340000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.340
+-------------
+   373        374      0.0624864      0.0624864     4.6626e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.250000
+	Schedule Alpha = 1.300000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.300
+-------------
+   374        375      0.0624864      0.0624864    4.42947e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.540000
+	Schedule Alpha = 1.010000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.010
+-------------
+   375        376      0.0624864      0.0624864      4.208e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.460000
+	Schedule Alpha = 1.090000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.090
+-------------
+   376        377      0.0624864      0.0624864     3.9976e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.360
+-------------
+   377        378      0.0624864      0.0624864    3.79772e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.180000
+	Schedule Alpha = 1.370000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.370
+-------------
+   378        379      0.0624864      0.0624864    3.60783e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.290000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.260
+-------------
+   379        380      0.0624864      0.0624864    3.42744e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.440000
+	Schedule Alpha = 1.110000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.110
+-------------
+   380        381      0.0624864      0.0624864    3.25607e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.550000
+	Schedule Alpha = 1.000000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.000
+-------------
+   381        382      0.0624864      0.0624864    3.09327e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.090000
+	Schedule Alpha = 1.460000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.460
+-------------
+   382        383      0.0624864      0.0624864     2.9386e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.380000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.170
+-------------
+   383        384      0.0624864      0.0624864    2.79167e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.370000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.180
+-------------
+   384        385      0.0624864      0.0624864    2.65209e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.310
+-------------
+   385        386      0.0624864      0.0624864    2.51948e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.230000
+	Schedule Alpha = 1.320000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.320
+-------------
+   386        387      0.0624864      0.0624864    2.39351e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.090000
+	Schedule Alpha = 1.460000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.460
+-------------
+   387        388      0.0624864      0.0624864    2.27383e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.004000
+	Schedule L1/L0 = 0.001000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.001 alpha 1.330
+-------------
+   388        389      0.0624864      0.0624864    2.16014e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.370000
+	Schedule Alpha = 1.180000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.180
+-------------
+   389        390      0.0624864      0.0624864    2.05214e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = 0.020000
+	Schedule Alpha = 1.570000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.570
+-------------
+   390        391      0.0624864      0.0624864    1.94953e-07
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.240000
+	Schedule Alpha = 1.310000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.310
+-------------
+   391        392      0.0624864      0.0624864    1.85205e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.530000
+	Schedule Alpha = 1.020000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.020
+-------------
+   392        393      0.0624864      0.0624864    1.75945e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.200000
+	Schedule Alpha = 1.350000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.350
+-------------
+   393        394      0.0624864      0.0624864    1.67148e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.500000
+	Schedule Alpha = 1.050000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.050
+-------------
+   394        395      0.0624864      0.0624864     1.5879e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.410000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.140
+-------------
+   395        396      0.0624864      0.0624864    1.50851e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.170000
+	Schedule Alpha = 1.380000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.380
+-------------
+   396        397      0.0624864      0.0624864    1.43308e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.360000
+	Schedule Alpha = 1.190000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.190
+-------------
+   397        398      0.0624864      0.0624864    1.36143e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.420000
+	Schedule Alpha = 1.130000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.130
+-------------
+   398        399      0.0624864      0.0624864    1.29336e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.190000
+	Schedule Alpha = 1.360000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.360
+-------------
+   399        400      0.0624864      0.0624864    1.22869e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.350000
+	Schedule Alpha = 1.200000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.200
+-------------
+   400        401      0.0624864      0.0624864    1.16725e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.380000
+	Schedule Alpha = 1.170000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.170
+-------------
+   401        402      0.0624864      0.0624864    1.10889e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.210000
+	Schedule Alpha = 1.340000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.340
+-------------
+   402        403      0.0624864      0.0624864    1.05345e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+   403        404      0.0624864      0.0624864    1.00078e-07
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.220000
+	Schedule Alpha = 1.330000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.330
+-------------
+   404        405      0.0624864      0.0624864    9.50736e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.410000
+	Schedule Alpha = 1.140000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.140
+-------------
+   405        406      0.0624864      0.0624864      9.032e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.045000
+	Schedule L1/L0 = 0.050000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.160000
+	Schedule Alpha = 1.390000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.050 alpha 1.390
+-------------
+   406        407      0.0624864      0.0624864     8.5804e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.005000
+	Schedule L1/L0 = 0.010000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.520000
+	Schedule Alpha = 1.030000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.030
+-------------
+   407        408      0.0624864      0.0624864    8.15138e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.250000
+	Schedule Alpha = 1.300000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.300
+-------------
+   408        409      0.0624864      0.0624864    7.74381e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.295000
+	Schedule L1/L0 = 0.300000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.130000
+	Schedule Alpha = 1.420000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.300 alpha 1.420
+-------------
+   409        410      0.0624864      0.0624864    7.35662e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.002000
+	Schedule L1/L0 = 0.007000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.310000
+	Schedule Alpha = 1.240000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+   410        411      0.0624864      0.0624864    6.98879e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.495000
+	Schedule L1/L0 = 0.500000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.340000
+	Schedule Alpha = 1.210000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.500 alpha 1.210
+-------------
+   411        412      0.0624864      0.0624864    6.63935e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = 0.995000
+	Schedule L1/L0 = 1.000000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.290000
+	Schedule Alpha = 1.260000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 1.000 alpha 1.260
+-------------
+   412        413      0.0624864      0.0624864    6.30738e-08
+
+	Schedule atual L1/L0 = 0.005000
+	Pertubação L1/L0 = -0.000000
+	Schedule L1/L0 = 0.005000
+	Schedule atual Alpha = 1.550000
+	Perturbação Alpha = -0.520000
+	Schedule Alpha = 1.030000
+	Valor atual: L1/L0 0.005 alpha 1.550 | Novos valores: L1/L0 0.005 alpha 1.030
+-------------
+   413        414      0.0624864      0.0624864    5.99201e-08
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+    0.0050    1.5500
+
+ 
+	HdL: 1.000  L1dL0: 0.005  t1dt0: 11.000  Alpha: 1.550

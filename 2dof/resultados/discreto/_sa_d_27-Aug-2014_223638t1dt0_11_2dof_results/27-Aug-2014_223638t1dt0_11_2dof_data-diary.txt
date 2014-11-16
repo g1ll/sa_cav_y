@@ -1,0 +1,75 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.02 1.33 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @tempksa
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 10 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.3300
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.242246       0.242246             55
+
+ Iter 0 | Best F(x) 0.242 | F(x)  0.242 | Temperatura 10.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.330 | Novos valores: L1/L0 0.500 alpha 1.340
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.3400
+
+{Attempted to access x(3); index out of bounds because numel(x)=2.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('tempksa', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/tempksa.m', 13)" style="font-weight:bold">tempksa</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/tempksa.m',13,0)">line 13</a>)
+    logsa = [ iter x(1) x(2) x(3) x(4) fx];
+
+Error in <a href="matlab:helpUtils.errorDocCallback('saupdates', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saupdates.m', 23)" style="font-weight:bold">saupdates</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saupdates.m',23,0)">line 23</a>)
+    solverData.temp = max(eps,options.TemperatureFcn(optimvalues,options));
+
+Error in <a href="matlab:helpUtils.errorDocCallback('saengine', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saengine.m', 35)" style="font-weight:bold">saengine</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saengine.m',35,0)">line 35</a>)
+    solverData = saupdates(solverData,problem,options);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('simulanneal', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/simulanneal.m', 51)" style="font-weight:bold">simulanneal</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/simulanneal.m',51,0)">line 51</a>)
+solverData = saengine(solverData,problem,options);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('simulannealbnd', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/simulannealbnd.m', 122)" style="font-weight:bold">simulannealbnd</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/simulannealbnd.m',122,0)">line 122</a>)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('d_sa_cav_y2', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/d_sa_cav_y2.m', 20)" style="font-weight:bold">d_sa_cav_y2</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/d_sa_cav_y2.m',20,0)">line 20</a>)
+[x,fval,exitflag,output] = ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('dopt_sa_cavy', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/dopt_sa_cavy.m', 108)" style="font-weight:bold">dopt_sa_cavy</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/dopt_sa_cavy.m',108,0)">line 108</a>)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+
+Caused by:
+    Failure in TemperatureFcn evaluation.
+} 
+clear
+clc
+dopt_sa_cavy(11,@tempksa)
+
+x0 =
+
+    0.0500    1.4800
+
+
+vet_4_dof =
+
+    1.0000    0.0500   11.0000    1.4800
+

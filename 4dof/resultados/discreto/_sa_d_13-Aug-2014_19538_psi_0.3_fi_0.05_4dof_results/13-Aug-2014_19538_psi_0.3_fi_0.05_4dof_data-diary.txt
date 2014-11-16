@@ -1,0 +1,48 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  7 17 0.001 1.07 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+{Error: File: /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/4dof/sa_cav_y_4dof/sa_cav_y_4dof.m Line: 6 Column: 34
+Unexpected MATLAB expression.
+
+Error in samakedata (line 21)
+    solverData.currentfval = problem.objective(reshapeinput(problem.x0,solverData.currentx));
+
+Error in simulannealcommon (line 111)
+solverData = samakedata(solverData,problem,options);
+
+Error in simulanneal (line 44)
+[x,fval,exitflag,output,solverData,problem,options] = ...
+
+Error in simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+Error in dopt_sa_cavy_4 (line 109)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+
+Caused by:
+    Failure in initial user-supplied objective function evaluation.
+} 
+dopt_sa_cavy_4(0.3,0.05,@tempboltzexp)
+
+x0 =
+
+   10.0000   12.0000    0.3000    1.3400
+
+
+Geometria inv�lida para x0 [ 10.000 12.000 0.300 1.340]

@@ -1,0 +1,189 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.3 1.56 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+
+ Iter 0 | Best F(x) Inf | F(x)  Inf | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.030
+-------------
+     1          2       0.166069       0.166069             50
+
+ Iter 1 | Best F(x) 0.166 | F(x)  0.166 | Temperatura 50.000 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.080
+-------------
+     2          3       0.166069       0.166069        33.3333
+
+ Iter 2 | Best F(x) 0.166 | F(x)  0.166 | Temperatura 33.333 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.040
+-------------
+     3          4       0.166069       0.166069             25
+
+ Iter 3 | Best F(x) 0.166 | F(x)  0.166 | Temperatura 25.000 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.180
+-------------
+{Operation terminated by user during pdeasmc (line 45)
+
+
+In assema (line 112)
+    ks1=pdeasmc(it1,it2,it3,np,ar,x,y,sd,u,ux,uy,time,g1x,g1y,g2x,g2y,g3x,g3y,c);
+
+In assempde (line 184)
+  [K,M,F]=assema(p,t,c,a,f);
+
+In pdetoolGA (line 3674)
+            eval('u=assempde(bl,p,e,t,c,a,f);');
+
+In cav_y (line 226)
+    pdetoolGA('solve')
+
+In sa_cav_y_2dof (line 13)
+       saida =cav_y(vetor);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y2 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy (line 108)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+clear
+clc
+!vim dopt_sa_cavy.m
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;51r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[51;1H"dopt_sa_cavy.m" [dos] 132L, 3447C[>c[1;1H[1m[36mfunction[m opt = dopt_sa_cavy(valuet1dt0,modeltemp)
+[1m[36m% Otimizando a simulacao de cavidade Y com  SA 2DOF [m[3;6Hclc
+
+[1m[32mglobal[m i[1m[31m;[m
+[1m[33mif[m isreal(i)
+   clc
+[1m[33melse[m
+    i=[1m[35m0[m[1m[31m;[m
+    t = tic()[1m[31m;[m
+[1m[33mend[m
+
+
+format short
+[1m[32mglobal[m logsa[1m[31m;[m
+[1m[32mglobal[m tmax_min[1m[31m;[m
+[1m[32mglobal[m mintmax[1m[31m;[m
+
+logsa =[1m[36m[][m[1m[31m;[m
+
+[1m[32mglobal[m fi[1m[31m;[m
+[1m[32mglobal[m psi[1m[31m;[m
+[1m[32mglobal[m HdL[1m[31m;[m
+[1m[32mglobal[m t1dt0[1m[31m;[m
+
+
+[1m[32mglobal[m vetor[1m[31m;[m
+[1m[32mglobal[m salpha_c[1m[31m;[m
+
+
+[1m[36m%estrutura de diretorios[m
+
+[1m[32mglobal[m folder[1m[31m;[m
+[1m[32mglobal[m folderz[1m[31m;[m
+[1m[32mglobal[m folderg[1m[31m;[m
+[1m[32mglobal[m folderw[1m[31m;[m
+
+salpha_c = [1m[35m0[m[1m[31m;[m
+
+[1m[36m% Definindo restricoes de area  e parametros[m
+fi = [1m[35m0.05[m[1m[31m;[m
+psi = [1m[35m0.3[m[1m[31m;[m
+
+[1m[36m%Valores de HdL e t1dt0 fixados[m
+HdL = [1m[35m1.0[m[1m[31m;[m
+t1dt0 = valuet1dt0[1m[31m;[m[50;1H[1m[36m%Configuracao para 2 graus de liberdade L1dL0 e alfa[m[51;175H1,1[10CTopo[1;1H[?12l[?25h[?25l[51;175H2[2;1H[?12l[?25h[?25l[51;175H3[3;1H[?12l[?25h[?25l[51;175H4[4;1H[?12l[?25h[?25l[51;175H5[5;1H[?12l[?25h[?25l[51;175H6[6;1H[?12l[?25h[?25l[51;175H7[7;1H[?12l[?25h[?25l[51;175H8[8;1H[?12l[?25h[?25l[51;175H9[9;1H[?12l[?25h[?25l[51;175H10,1[10;1H[?12l[?25h[?25l[51;176H1[11;1H[?12l[?25h[?25l[51;176H2[12;1H[?12l[?25h[?25l[51;176H3[13;1H[?12l[?25h[?25l[51;176H4[14;1H[?12l[?25h[?25l[51;176H5[15;1H[?12l[?25h[?25l[51;176H6[16;1H[?12l[?25h[?25l[51;176H7[17;1H[?12l[?25h[?25l[51;176H8,0-1[18;1H[?12l[?25h[?25l[51;176H9,1  [19;1H[?12l[?25h[?25l[51;175H20,0-1[20;1H[?12l[?25h[?25l[51;176H1,1  [21;1H[?12l[?25h[?25l[51;176H2[22;1H[?12l[?25h[?25l[51;176H3[23;1H[?12l[?25h[?25l[51;176H4[24;1H[?12l[?25h[?25l[51;176H5,0-1[25;1H[?12l[?25h[?25l[51;176H6[26;1H[?12l[?25h[?25l[51;176H7,1  [27;1H[?12l[?25h[?25l[51;176H8[28;1H[?12l[?25h[?25l[51;176H9,0-1[29;1H[?12l[?25h[?25l[51;175H30[30;1H[?12l[?25h[?25l[51;176H1,1  [31;1H[?12l[?25h[?25l[51;176H2,0-1[32;1H[?12l[?25h[?25l[51;176H3,1  [33;1H[?12l[?25h[?25l[51;176H4[34;1H[?12l[?25h[?25l[51;176H5[35;1H[?12l[?25h[?25l[51;176H6[36;1H[?12l[?25h[?25l[51;176H7,0-1[37;1H[?12l[?25h[?25l[51;176H8,1  [38;1H[?12l[?25h[?25l[51;176H9,0-1[39;1H[?12l[?25h[?25l[51;175H40,1  [40;1H[?12l[?25h[?25l[51;176H1[41;1H[?12l[?25h[?25l[51;176H2[42;1H[?12l[?25h[?25l[51;176H3,0-1[43;1H[?12l[?25h[?25l[51;176H4,1  [44;1H[?12l[?25h[?25l[51;176H5[45;1H[?12l[?25h[?25l[51;176H6[46;1H[?12l[?25h[?25l[51;176H7,0-1[47;1H[?12l[?25h[?25l[51;176H8[48;1H[?12l[?25h[?25l[51;176H9[49;1H[?12l[?25h[?25l[51;175H50,1  [50;1H[?12l[?25h[?25l[1;50r[50;1H
+[1;51r[51;1H[K[51;175H51,0-1[9C1%[50;1H[?12l[?25h[?25l[51;175H[K[51;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[51;1H[K[51;1H[?1l>[?12l[?25h[?1049l!vim var_exec_sa.m
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;51r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[51;1H"var_exec_sa.m" [dos] 45L, 1132C[>c[1;1H[1m[36m% Bateria de testes[m
+[1m[32mglobal[m vetor
+[1m[32mglobal[m i[1m[31m;[m
+[1m[32mglobal[m options[1m[31m;[m
+[1m[32mglobal[m n_iter[1m[31m;[m
+[1m[32mglobal[m tmax_min[1m[31m;[m
+[1m[32mglobal[m t1dt0[1m[31m;[m
+[1m[32mglobal[m modeltemp[1m[31m;[m
+[1m[32mglobal[m popt[1m[31m;[m
+[1m[32mglobal[m mintmax[1m[31m;[m
+
+[1m[36m%estrutura de diretorio[m
+[1m[32mglobal[m folder[1m[31m;[m
+[1m[32mglobal[m folderz[1m[31m;[m
+[1m[32mglobal[m folderg[1m[31m;[m
+[1m[32mglobal[m folderw[1m[31m;[m
+
+
+format short[1m[31m;[m
+
+n_exec = [1m[35m30[m[1m[31m;[m
+d = clock()[1m[31m;[m
+ds = strcat(num2str(d([1m[35m1[m)),[1m[35m'-'[m,num2str(d([1m[35m2[m)),[1m[35m'-'[m,num2str(d([1m[35m3[m)),[1m[35m':'[m,num2str(d([1m[35m4[m)),[1m[35m':'[m,num2str(d([1m[35m5[m)),[1m[35m':'[m,num2str(d([1m[35m6[m)))[1m[31m;[m
+[1m[33mif[m isempty(folder)[25;9Hfilename2 = strcat([1m[35m'resultados/discreto/'[m,ds,[1m[35m'_testes_'[m,num2str(n_exec))[1m[31m;[m
+[1m[33melse[m[27;9Hfilename2 = strcat([1m[35m'resultados/discreto/'[m,folder,[1m[35m'/'[m,folderz,[1m[35m'/'[m,folderw,[1m[35m'/'[m,folderg,[1m[35m'/'[m,ds,[1m[35m'_testes_'[m,num2str(n_exec))[1m[31m;[m
+[1m[33mend[m
+resultados = [1m[33mzeros[m(n_exec,[1m[35m6[m)[1m[31m;[m
+[1m[33mfor[m i=[1m[35m1[m:[1m[35m1[m:n_exec
+    clc[1m[31m;[m
+    t2 = tic()[1m[31m;[m
+    fprintf([1m[35m'Teste %d\n'[m,i)[1m[31m;[m
+    dopt_sa_cavy(t1dt0,modeltemp)[1m[31m;[m
+    resultados(i,:) = [1m[36m[[mi vetor([1m[35m1[m) vetor([1m[35m2[m) tmax_min n_iter toc(t2)[1m[36m][m[1m[31m;[m
+[1m[33mend[m
+nopt=([1m[33msum[m(resultados(:,[1m[35m4[m) [1m[33m<=[m mintmax))[1m[31m;[m
+popt = nopt[1m[33m*[m[1m[35m100[m[1m[33m/[mn_exec[1m[31m;[m
+resultados = [1m[36m[[mresultados[1m[31m;[m [1m[35m0[m [1m[35m0[m n_exec nopt popt [1m[35m0[m[1m[36m][m
+diary(strcat(filename2,[1m[35m'.txt'[m))[1m[31m;[m
+diary on
+display(options)[1m[31m;[m
+display(resultados)[1m[31m;[m
+csvwrite(strcat(filename2,[1m[35m'.csv'[m),resultados)[1m[31m;[m
+diary off
+[1m[34m~                                                                                                                                                                                               [47;1H~                                                                                                                                                                                               [48;1H~                                                                                                                                                                                               [49;1H~                                                                                                                                                                                               [50;1H~                                                                                                                                                                                               [m[51;175H1,1[10CTudo[1;1H[?12l[?25h[?25l[51;175H2[2;1H[?12l[?25h[?25l[51;175H3[3;1H[?12l[?25h[?25l[51;175H4[4;1H[?12l[?25h[?25l[51;175H5[5;1H[?12l[?25h[?25l[51;175H6[6;1H[?12l[?25h[?25l[51;175H7[7;1H[?12l[?25h[?25l[51;175H8[8;1H[?12l[?25h[?25l[51;175H9[9;1H[?12l[?25h[?25l[51;175H10,1[10;1H[?12l[?25h[?25l[51;176H1,0-1[11;1H[?12l[?25h[?25l[51;176H2,1  [12;1H[?12l[?25h[?25l[51;176H3[13;1H[?12l[?25h[?25l[51;176H4[14;1H[?12l[?25h[?25l[51;176H5[15;1H[?12l[?25h[?25l[51;176H6[16;1H[?12l[?25h[?25l[51;176H7,0-1[17;1H[?12l[?25h[?25l[51;176H8[18;1H[?12l[?25h[?25l[51;176H9,1  [19;1H[?12l[?25h[?25l[51;175H20,0-1[20;1H[?12l[?25h[?25l[51;176H1,1  [21;1H[?12l[?25h[?25l[51;176H2[22;1H[?12l[?25h[?25l[51;176H3[23;1H[?12l[?25h[?25l[51;176H4[24;1H[?12l[?25h[?25l[51;176H5,1-8[25;8H[?12l[?25h[?25l[51;176H6,1  [26;1H[?12l[?25h[?25l[51;176H7,1-8[27;8H[?12l[?25h[?25l[51;176H8,1  [28;1H[?12l[?25h[?25l[51;176H9[29;1H[?12l[?25h[?25l[51;175H30[30;1H[?12l[?25h[?25l[51;176H1[31;1H[?12l[?25h[?25l[51;176H2[32;1H[?12l[?25h[?25l[51;176H3[33;1H[?12l[?25h[?25l[51;178H28[33;28H[?12l[?25h[?25l[51;176H4,34[34;34H[?12l[?25h[?25l[51;1H[K[51;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[51;1H[K[51;1H[?1l>[?12l[?25h[?1049lclc
+dopt_sa_cavy(3,@temperaturefast)
+
+x0 =
+
+    0.3000    1.5600
+
+
+x0 =
+
+    0.3000    1.5600
+
+
+Geometria inv�lida para x0 [ 0.300 1.560]

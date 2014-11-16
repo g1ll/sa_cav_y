@@ -1,0 +1,962 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.3 1.56 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.5600
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+
+ Iter 0 | Best F(x) Inf | F(x)  Inf | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.360
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.3600
+
+     1          2            Inf            Inf             50
+
+ Iter 1 | Best F(x) Inf | F(x)  Inf | Temperatura 50.000 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.310
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100    3.0000    1.3100
+
+     2          3            Inf            Inf        33.3333
+
+ Iter 2 | Best F(x) Inf | F(x)  Inf | Temperatura 33.333 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.400
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.4000
+
+     3          4            Inf            Inf             25
+
+ Iter 3 | Best F(x) Inf | F(x)  Inf | Temperatura 25.000 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.460
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020    3.0000    1.4600
+
+     4          5            Inf            Inf             20
+
+ Iter 4 | Best F(x) Inf | F(x)  Inf | Temperatura 20.000 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0500    3.0000    1.5400
+
+     5          6            Inf            Inf        16.6667
+
+ Iter 5 | Best F(x) Inf | F(x)  Inf | Temperatura 16.667 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.510
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.5100
+
+     6          7            Inf            Inf        14.2857
+
+ Iter 6 | Best F(x) Inf | F(x)  Inf | Temperatura 14.286 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 1.000 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    1.0000    3.0000    1.5600
+
+     7          8            Inf            Inf           12.5
+
+ Iter 7 | Best F(x) Inf | F(x)  Inf | Temperatura 12.500 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.510
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.5100
+
+     8          9            Inf            Inf        11.1111
+
+ Iter 8 | Best F(x) Inf | F(x)  Inf | Temperatura 11.111 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070    3.0000    1.5700
+
+     9         10            Inf            Inf             10
+
+ Iter 9 | Best F(x) Inf | F(x)  Inf | Temperatura 10.000 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.5600
+
+    10         11            Inf            Inf        9.09091
+
+ Iter 10 | Best F(x) Inf | F(x)  Inf | Temperatura 9.091 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050    3.0000    1.5400
+
+    11         12            Inf            Inf        8.33333
+
+ Iter 11 | Best F(x) Inf | F(x)  Inf | Temperatura 8.333 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100    3.0000    1.5400
+
+    12         13            Inf            Inf        7.69231
+
+ Iter 12 | Best F(x) Inf | F(x)  Inf | Temperatura 7.692 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100    3.0000    1.5500
+
+    13         14            Inf            Inf        7.14286
+
+ Iter 13 | Best F(x) Inf | F(x)  Inf | Temperatura 7.143 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700    3.0000    1.5400
+
+    14         15            Inf            Inf        6.66667
+
+ Iter 14 | Best F(x) Inf | F(x)  Inf | Temperatura 6.667 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.5400
+
+    15         16            Inf            Inf           6.25
+
+ Iter 15 | Best F(x) Inf | F(x)  Inf | Temperatura 6.250 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.5700
+
+    16         17            Inf            Inf        5.88235
+
+ Iter 16 | Best F(x) Inf | F(x)  Inf | Temperatura 5.882 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020    3.0000    1.5600
+
+    17         18            Inf            Inf        5.55556
+
+ Iter 17 | Best F(x) Inf | F(x)  Inf | Temperatura 5.556 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020    3.0000    1.5400
+
+    18         19            Inf            Inf        5.26316
+
+ Iter 18 | Best F(x) Inf | F(x)  Inf | Temperatura 5.263 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200    3.0000    1.5500
+
+    19         20            Inf            Inf              5
+
+ Iter 19 | Best F(x) Inf | F(x)  Inf | Temperatura 5.000 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300    3.0000    1.5600
+
+    20         21            Inf            Inf         4.7619
+
+ Iter 20 | Best F(x) Inf | F(x)  Inf | Temperatura 4.762 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100    3.0000    1.5600
+
+    21         22            Inf            Inf        4.54545
+
+ Iter 21 | Best F(x) Inf | F(x)  Inf | Temperatura 4.545 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070    3.0000    1.5500
+
+    22         23            Inf            Inf        4.34783
+
+ Iter 22 | Best F(x) Inf | F(x)  Inf | Temperatura 4.348 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100    3.0000    1.5700
+
+    23         24            Inf            Inf        4.16667
+
+ Iter 23 | Best F(x) Inf | F(x)  Inf | Temperatura 4.167 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070    3.0000    1.5600
+
+    24         25            Inf            Inf              4
+
+ Iter 24 | Best F(x) Inf | F(x)  Inf | Temperatura 4.000 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300    3.0000    1.5400
+
+    25         26            Inf            Inf        3.84615
+
+ Iter 25 | Best F(x) Inf | F(x)  Inf | Temperatura 3.846 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700    3.0000    1.5500
+
+    26         27            Inf            Inf         3.7037
+
+ Iter 26 | Best F(x) Inf | F(x)  Inf | Temperatura 3.704 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.1000    3.0000    1.5500
+
+    27         28            Inf            Inf        3.57143
+
+ Iter 27 | Best F(x) Inf | F(x)  Inf | Temperatura 3.571 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300    3.0000    1.5500
+
+    28         29            Inf            Inf        3.44828
+
+ Iter 28 | Best F(x) Inf | F(x)  Inf | Temperatura 3.448 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300    3.0000    1.5700
+
+    29         30            Inf            Inf        3.33333
+
+ Iter 29 | Best F(x) Inf | F(x)  Inf | Temperatura 3.333 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.700 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.7000    3.0000    1.5500
+
+    30         31            Inf            Inf        3.22581
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 30 | Best F(x) Inf | F(x)  Inf | Temperatura 3.226 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0500    3.0000    1.5700
+
+    31         32            Inf            Inf          3.125
+
+ Iter 31 | Best F(x) Inf | F(x)  Inf | Temperatura 3.125 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.5500
+
+    32         33            Inf            Inf         3.0303
+
+ Iter 32 | Best F(x) Inf | F(x)  Inf | Temperatura 3.030 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.5700
+
+    33         34            Inf            Inf        2.94118
+
+ Iter 33 | Best F(x) Inf | F(x)  Inf | Temperatura 2.941 | k = 34
+ 
+ Iter 34 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050    3.0000    1.5600
+
+    34         35            Inf            Inf        2.85714
+
+ Iter 34 | Best F(x) Inf | F(x)  Inf | Temperatura 2.857 | k = 35
+ 
+ Iter 35 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050    3.0000    1.5700
+
+    35         36            Inf            Inf        2.77778
+
+ Iter 35 | Best F(x) Inf | F(x)  Inf | Temperatura 2.778 | k = 36
+ 
+ Iter 36 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.5600
+
+    36         37            Inf            Inf         2.7027
+
+ Iter 36 | Best F(x) Inf | F(x)  Inf | Temperatura 2.703 | k = 37
+ 
+ Iter 37 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020    3.0000    1.5700
+
+    37         38            Inf            Inf        2.63158
+
+ Iter 37 | Best F(x) Inf | F(x)  Inf | Temperatura 2.632 | k = 38
+ 
+ Iter 38 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010    3.0000    1.5500
+
+    38         39            Inf            Inf         2.5641
+
+ Iter 38 | Best F(x) Inf | F(x)  Inf | Temperatura 2.564 | k = 39
+ 
+ Iter 39 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050    3.0000    1.5500
+
+    39         40            Inf            Inf            2.5
+
+ Iter 39 | Best F(x) Inf | F(x)  Inf | Temperatura 2.500 | k = 40
+ 
+ Iter 40 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700    3.0000    1.5600
+
+    40         41            Inf            Inf        2.43902
+
+ Iter 40 | Best F(x) Inf | F(x)  Inf | Temperatura 2.439 | k = 41
+ 
+ Iter 41 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700    3.0000    1.5700
+
+    41         42            Inf            Inf        2.38095
+
+ Iter 41 | Best F(x) Inf | F(x)  Inf | Temperatura 2.381 | k = 42
+ 
+ Iter 42 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.1000    3.0000    1.5600
+
+    42         43            Inf            Inf        2.32558
+
+ Iter 42 | Best F(x) Inf | F(x)  Inf | Temperatura 2.326 | k = 43
+ 
+ Iter 43 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000    3.0000    1.5500
+
+    43         44            Inf            Inf        2.27273
+
+ Iter 43 | Best F(x) Inf | F(x)  Inf | Temperatura 2.273 | k = 44
+ 
+ Iter 44 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200    3.0000    1.5700
+
+    44         45            Inf            Inf        2.22222
+
+ Iter 44 | Best F(x) Inf | F(x)  Inf | Temperatura 2.222 | k = 45
+ 
+ Iter 45 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010    3.0000    1.5700
+
+    45         46            Inf            Inf        2.17391
+
+ Iter 45 | Best F(x) Inf | F(x)  Inf | Temperatura 2.174 | k = 46
+ 
+ Iter 46 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 1.000 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    1.0000    3.0000    1.5700
+
+    46         47            Inf            Inf        2.12766
+
+ Iter 46 | Best F(x) Inf | F(x)  Inf | Temperatura 2.128 | k = 47
+ 
+ Iter 47 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.700 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.7000    3.0000    1.5600
+
+    47         48            Inf            Inf        2.08333
+
+ Iter 47 | Best F(x) Inf | F(x)  Inf | Temperatura 2.083 | k = 48
+ 
+ Iter 48 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200    3.0000    1.5600
+
+    48         49            Inf            Inf        2.04082
+
+ Iter 48 | Best F(x) Inf | F(x)  Inf | Temperatura 2.041 | k = 49
+ 
+ Iter 49 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020    3.0000    1.5500
+
+    49         50            Inf            Inf              2
+
+ Iter 49 | Best F(x) Inf | F(x)  Inf | Temperatura 2.000 | k = 50
+ 
+ Iter 50 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0500    3.0000    1.5600
+
+    50         51            Inf            Inf        1.96078
+
+ Iter 50 | Best F(x) Inf | F(x)  Inf | Temperatura 1.961 | k = 51
+ 
+ Iter 51 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.5500
+
+    51         52            Inf            Inf        1.92308
+
+ Iter 51 | Best F(x) Inf | F(x)  Inf | Temperatura 1.923 | k = 52
+ 
+ Iter 52 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.700 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.7000    3.0000    1.5700
+
+    52         53            Inf            Inf        1.88679
+
+ Iter 52 | Best F(x) Inf | F(x)  Inf | Temperatura 1.887 | k = 53
+ 
+ Iter 53 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.1000    3.0000    1.5700
+
+    53         54            Inf            Inf        1.85185
+
+ Iter 53 | Best F(x) Inf | F(x)  Inf | Temperatura 1.852 | k = 54
+ 
+ Iter 54 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010    3.0000    1.5600
+
+    54         55            Inf            Inf        1.81818
+
+ Iter 54 | Best F(x) Inf | F(x)  Inf | Temperatura 1.818 | k = 55
+ 
+ Iter 55 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.550
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0500    3.0000    1.5500
+
+    55         56            Inf            Inf        1.78571
+
+ Iter 55 | Best F(x) Inf | F(x)  Inf | Temperatura 1.786 | k = 56
+ 
+ Iter 56 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010    3.0000    1.5700
+
+    56         57            Inf            Inf        1.75439
+
+ Iter 56 | Best F(x) Inf | F(x)  Inf | Temperatura 1.754 | k = 57
+ 
+ Iter 57 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000    3.0000    1.5600
+
+    57         58            Inf            Inf        1.72414
+
+ Iter 57 | Best F(x) Inf | F(x)  Inf | Temperatura 1.724 | k = 58
+ 
+ Iter 58 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100    3.0000    1.5600
+
+    58         59            Inf            Inf        1.69492
+
+ Iter 58 | Best F(x) Inf | F(x)  Inf | Temperatura 1.695 | k = 59
+ 
+ Iter 59 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020    3.0000    1.5600
+
+    59         60            Inf            Inf        1.66667
+
+ Iter 59 | Best F(x) Inf | F(x)  Inf | Temperatura 1.667 | k = 60
+ 
+ Iter 60 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100    3.0000    1.5600
+
+    60         61            Inf            Inf        1.63934
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 60 | Best F(x) Inf | F(x)  Inf | Temperatura 1.639 | k = 61
+ 
+ Iter 61 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.5600
+
+    61         62            Inf            Inf         1.6129
+
+ Iter 61 | Best F(x) Inf | F(x)  Inf | Temperatura 1.613 | k = 62
+ 
+ Iter 62 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010    3.0000    1.5600
+
+    62         63            Inf            Inf         1.5873
+
+ Iter 62 | Best F(x) Inf | F(x)  Inf | Temperatura 1.587 | k = 63
+ 
+ Iter 63 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030    3.0000    1.5600
+
+    63         64            Inf            Inf         1.5625
+
+ Iter 63 | Best F(x) Inf | F(x)  Inf | Temperatura 1.562 | k = 64
+ 
+ Iter 64 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000    3.0000    1.5600
+
+    64         65            Inf            Inf        1.53846
+
+ Iter 64 | Best F(x) Inf | F(x)  Inf | Temperatura 1.538 | k = 65
+ 
+ Iter 65 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200    3.0000    1.5600
+
+    65         66            Inf            Inf        1.51515
+
+ Iter 65 | Best F(x) Inf | F(x)  Inf | Temperatura 1.515 | k = 66
+ 
+ Iter 66 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.5600
+
+    66         67            Inf            Inf        1.49254
+
+ Iter 66 | Best F(x) Inf | F(x)  Inf | Temperatura 1.493 | k = 67
+ 
+ Iter 67 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010    3.0000    1.5600
+
+    67         68            Inf            Inf        1.47059
+
+ Iter 67 | Best F(x) Inf | F(x)  Inf | Temperatura 1.471 | k = 68
+ 
+ Iter 68 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700    3.0000    1.5600
+
+    68         69            Inf            Inf        1.44928
+
+ Iter 68 | Best F(x) Inf | F(x)  Inf | Temperatura 1.449 | k = 69
+ 
+ Iter 69 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0010    3.0000    1.5600
+
+    69         70            Inf            Inf        1.42857
+
+ Iter 69 | Best F(x) Inf | F(x)  Inf | Temperatura 1.429 | k = 70
+ 
+ Iter 70 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050    3.0000    1.5600
+
+    70         71            Inf            Inf        1.40845
+
+ Iter 70 | Best F(x) Inf | F(x)  Inf | Temperatura 1.408 | k = 71
+ 
+ Iter 71 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.1000    3.0000    1.5600
+
+{Operation terminated by user during allchildRootHelper (after line 8)
+
+
+In allchild (line 31)
+rootobj = allchildRootHelper(HandleList);
+
+In pdeinitGA (line 8)
+pde_fig=findobj(allchild(0),'flat','Tag','PDETool');
+
+In cav_y (line 68)
+    [pde_fig,ax]=pdeinitGA;
+
+In sa_cav_y_2dof (line 13)
+       saida =cav_y(vetor);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y2 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy (line 106)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+!vim ../pdetool/
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;51r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[51;1H"../pdetool/" Nome de arquivo inválido[>c[1;1H[1m[4m[36m" ============================================================================[m[4m                                                                                                                  [m[2;1H[1m[36m" Netrw Directory Listing                                        (netrw v149)
+"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool
+"   Sorted by[m[1m[33m      name[m
+[1m[36m"   Sort sequence:[m[1m[33m [\/]$[m[1m[36m,[m[1m[33m\<core\%(\.\d\+\)\=\>[m[1m[36m,[m[1m[33m\.h$[m[1m[36m,[m[1m[33m\.c$[m[1m[36m,[m[1m[33m\.cpp$[m[1m[36m,[m[1m[33m\~\=\*$[m[1m[36m,[m[1m[33m*[m[1m[36m,[m[1m[33m\.o$[m[1m[36m,[m[1m[33m\.obj$[m[1m[36m,[m[1m[33m\.info$[m[1m[36m,[m[1m[33m\.swp$[m[1m[36m,[m[1m[33m\.bak$[m[1m[36m,[m[1m[33m\~$[m
+[1m[36m"   Quick Help: [m<F1[1m[36m>[m[1m[31m:[mhelp  [1m[36m-[m[1m[31m:[mgo up dir  [1m[36mD[m[1m[31m:[mdelete  [1m[36mR[m[1m[31m:[mrename  [1m[36ms[m[1m[31m:[msort-by  [1m[36mx[m[1m[31m:[mexec
+[1m[36m" ============================================================================
+../
+./[m
+09-Jun-2014_185648mesh_test_cav_y.csv
+09-Jun-2014_185648mesh_test_cav_y.ods
+09-Jun-2014_205735mesh_test_cav_y.csv
+10-Jun-2014_2431mesh_test_cav_y.csv
+cav_y.m
+cav_yd.m
+cav_ym.m
+cavy_mesh_test.m
+meshteste.m
+pdeinitGA.m
+pdepolyGA.m
+pdetoolGA.m
+.swp
+[1m[34m~                                                                                                                                                                                               [24;1H~                                                                                                                                                                                               [25;1H~                                                                                                                                                                                               [26;1H~                                                                                                                                                                                               [27;1H~                                                                                                                                                                                               [28;1H~                                                                                                                                                                                               [29;1H~                                                                                                                                                                                               [30;1H~                                                                                                                                                                                               [31;1H~                                                                                                                                                                                               [32;1H~                                                                                                                                                                                               [33;1H~                                                                                                                                                                                               [34;1H~                                                                                                                                                                                               [35;1H~                                                                                                                                                                                               [36;1H~                                                                                                                                                                                               [37;1H~                                                                                                                                                                                               [38;1H~                                                                                                                                                                                               [39;1H~                                                                                                                                                                                               [40;1H~                                                                                                                                                                                               [41;1H~                                                                                                                                                                                               [42;1H~                                                                                                                                                                                               [43;1H~                                                                                                                                                                                               [44;1H~                                                                                                                                                                                               [45;1H~                                                                                                                                                                                               [46;1H~                                                                                                                                                                                               [47;1H~                                                                                                                                                                                               [48;1H~                                                                                                                                                                                               [49;1H~                                                                                                                                                                                               [50;1H~                                                                                                                                                                                               [m[51;175H1,1[10CTudo[1;1H[?12l[?25h[?25l[1m[36m" ============================================================================[m[1;79H[K[2;1H[1m[4m[36m" Netrw Directory Listing                                        (netrw v149)[m[4m                                                                                                                   [m[51;175H2[2;1H[?12l[?25h[?25l[1m[36m" Netrw Directory Listing                                        (netrw v149)[m[2;78H[K[3;1H[1m[4m[36m"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool[m[4m                                                                                                 [m[51;175H3[3;1H[?12l[?25h[?25l[1m[36m"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool[m[3;96H[K[4;1H[1m[4m[36m"   Sorted by[m[1m[4m[33m      name[m[4m                                                                                                                                                                         [m[51;175H4[4;1H[?12l[?25h[?25l[1m[36m"   Sorted by[m[1m[33m      name[m[4;24H[K[5;1H[1m[4m[36m"   Sort sequence:[m[1m[4m[33m [\/]$[m[1m[4m[36m,[m[1m[4m[33m\<core\%(\.\d\+\)\=\>[m[1m[4m[36m,[m[1m[4m[33m\.h$[m[1m[4m[36m,[m[1m[4m[33m\.c$[m[1m[4m[36m,[m[1m[4m[33m\.cpp$[m[1m[4m[36m,[m[1m[4m[33m\~\=\*$[m[1m[4m[36m,[m[1m[4m[33m*[m[1m[4m[36m,[m[1m[4m[33m\.o$[m[1m[4m[36m,[m[1m[4m[33m\.obj$[m[1m[4m[36m,[m[1m[4m[33m\.info$[m[1m[4m[36m,[m[1m[4m[33m\.swp$[m[1m[4m[36m,[m[1m[4m[33m\.bak$[m[1m[4m[36m,[m[1m[4m[33m\~$[m[4m                                                                                 [m[51;175H5[5;1H[?12l[?25h[?25l[1m[36m"   Sort sequence:[m[1m[33m [\/]$[m[1m[36m,[m[1m[33m\<core\%(\.\d\+\)\=\>[m[1m[36m,[m[1m[33m\.h$[m[1m[36m,[m[1m[33m\.c$[m[1m[36m,[m[1m[33m\.cpp$[m[1m[36m,[m[1m[33m\~\=\*$[m[1m[36m,[m[1m[33m*[m[1m[36m,[m[1m[33m\.o$[m[1m[36m,[m[1m[33m\.obj$[m[1m[36m,[m[1m[33m\.info$[m[1m[36m,[m[1m[33m\.swp$[m[1m[36m,[m[1m[33m\.bak$[m[1m[36m,[m[1m[33m\~$[m[5;112H[K[6;1H[1m[4m[36m"   Quick Help: [m[4m<F1[m[1m[4m[36m>[m[1m[4m[31m:[m[4mhelp  [m[1m[4m[36m-[m[1m[4m[31m:[m[4mgo up dir  [m[1m[4m[36mD[m[1m[4m[31m:[m[4mdelete  [m[1m[4m[36mR[m[1m[4m[31m:[m[4mrename  [m[1m[4m[36ms[m[1m[4m[31m:[m[4msort-by  [m[1m[4m[36mx[m[1m[4m[31m:[m[4mexec                                                                                                                   [m[51;175H6[6;1H[?12l[?25h[?25l[1m[36m"   Quick Help: [m<F1[1m[36m>[m[1m[31m:[mhelp  [1m[36m-[m[1m[31m:[mgo up dir  [1m[36mD[m[1m[31m:[mdelete  [1m[36mR[m[1m[31m:[mrename  [1m[36ms[m[1m[31m:[msort-by  [1m[36mx[m[1m[31m:[mexec[6;78H[K[7;1H[1m[4m[36m" ============================================================================[m[4m                                                                                                                  [m[51;175H7[7;1H[?12l[?25h[?25l[1m[36m" ============================================================================[m[7;79H[K[8;1H[1m[4m[36m../[m[4m                                                                                                                                                                                             [m[51;175H8[8;1H[?12l[?25h[?25l[1m[36m../[m[8;4H[K[9;1H[1m[4m[36m./[m[4m                                                                                                                                                                                              [m[51;175H9[9;1H[?12l[?25h[?25l[1m[36m./[m[9;3H[K[10;1H[4m09-Jun-2014_185648mesh_test_cav_y.csv                                                                                                                                                           [m[51;175H10,1[10;1H[?12l[?25h[?25l[9;1H[1m[4m[36m./[m[4m                                                                                                                                                                                              [m[10;1H09-Jun-2014_185648mesh_test_cav_y.csv[10;38H[K[51;175H9,1 [9;1H[?12l[?25h[?25l[22;1H[1m[34m~                                                                                                                                                                                               [9;1H[?12l[?25h[?25l[m[8;1H[1m[4m[36m../[m[4m                                                                                                                                                                                             [m[9;1H[1m[36m./[m[9;3H[K[51;175H8[8;1H[?12l[?25h[?25l[3;88H[K[10;1H[1m[36mpdetool/[m[10;9H[K[11;1H[1m[36mresultados/[m[11;12H[K[12;1H[1m[36msa_discrete_v2/[m[12;16H[K[13;1H[1m[34m~                                                                                                                                                                                               [14;1H~                                                                                                                                                                                               [15;1H~                                                                                                                                                                                               [16;1H~                                                                                                                                                                                               [17;1H~                                                                                                                                                                                               [18;1H~                                                                                                                                                                                               [19;1H~                                                                                                                                                                                               [20;1H~                                                                                                                                                                                               [21;1H~                                                                                                                                                                                               [8;1H[?12l[?25h[?25l[m[1m[36m../[m[8;4H[K[9;1H[1m[4m[36m./[m[4m                                                                                                                                                                                              [m[51;175H9[9;1H[?12l[?25h[?25l[1m[36m./[m[9;3H[K[10;1H[1m[4m[36mpdetool/[m[4m                                                                                                                                                                                        [m[51;175H10,1[10;1H[?12l[?25h[?25l[1m[36mpdetool/[m[10;9H[K[11;1H[1m[4m[36mresultados/[m[4m                                                                                                                                                                                     [m[51;176H1[11;1H[?12l[?25h[?25l[1m[36mresultados/[m[11;12H[K[12;1H[1m[4m[36msa_discrete_v2/[m[4m                                                                                                                                                                                 [m[51;176H2[12;1H[?12l[?25h[?25l[3;88H[1m[36m/sa_discrete_v2[10;1Hresultados/[m
+d_annealing_c2.m
+[4md_sa_cav_y2.m   [m
+dopt_sa_cavy.m[13;15H[K[14;1Hinitmat.m[14;10H[K[15;1Hsa_cav_y_2dof.m[15;16H[K[16;1Htempboltzexp.m[16;15H[K[17;1Htestes_sa.m[17;12H[K[18;1Hvar_exec_sa.m[18;14H[K[19;1H.swp[19;5H[K[20;1Htestes_sa.m~[20;13H[K[12;1H[?12l[?25h[?25ld_sa_cav_y2.m[12;14H[K[13;1H[4mdopt_sa_cavy.m                                                                                                                                                                                  [m[51;176H3[13;1H[?12l[?25h[?25l[12;1H[4md_sa_cav_y2.m                                                                                                                                                                                   [m[13;1Hdopt_sa_cavy.m[13;15H[K[51;176H2[12;1H[?12l[?25h[?25ld_sa_cav_y2.m[12;14H[K[13;1H[4mdopt_sa_cavy.m                                                                                                                                                                                  [m[51;176H3[13;1H[?12l[?25h[?25ldopt_sa_cavy.m[13;15H[K[14;1H[4minitmat.m                                                                                                                                                                                       [m[51;176H4[14;1H[?12l[?25h[?25linitmat.m[14;10H[K[15;1H[4msa_cav_y_2dof.m                                                                                                                                                                                 [m[51;176H5[15;1H[?12l[?25h[?25l[51;2H/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/sa_cav_y_2dof.m"[51;175H[K[51;118H[dos] 19L, 358C[1;1H[1m[36mfunction[m saida= sa_cav_y_2dof( vet_2_dof )[1;43H[K[2;1H[1m[36m%DRIVER_SA_CAV_Y Summary of this function goes here[m[2;52H[K[3;1H[1m[36m%   Detailed explanation goes here[m[3;35H[K[4;1H[K[5;1H[1m[36m%fixando os Valores HdL = 1, t1dt0[m[5;35H[K[6;1H[1m[32mglobal[m HdL[1m[31m;[m[6;12H[K[7;1H[1m[32mglobal[m t1dt0[1m[31m;[m[7;14H[K[8;1H[K[9;1Hsaida = inf[1m[31m;[m[10;1H[K[11;1H[1m[33mtry[m      [11;10H[K[12;1H        vetor=[1m[36m[[mHdL vet_2_dof([1m[35m1[m) t1dt0 vet_2_dof([1m[35m2[m)[1m[36m][m[1m[31m;[m
+       saida =cav_y(vetor)[1m[31m;[m
+ [1m[33mcatch[m [1m[36merror[m
+     saida = Inf[1m[31m;[m[15;18H[K[16;1H[1m[33mend[m[16;4H[K[17;1H[K[18;1H[1m[33mend[m[18;4H[K[19;1H[K[20;1H[1m[34m~                                                                                                                                                                                               [m[51;175H1,1[10CTudo[1;1H[?12l[?25h[?25l[51;175H2[2;1H[?12l[?25h[?25l[51;175H3[3;1H[?12l[?25h[?25l[51;175H4,0-1[4;1H[?12l[?25h[?25l[51;175H5,1  [5;1H[?12l[?25h[?25l[51;175H6[6;1H[?12l[?25h[?25l[51;175H7[7;1H[?12l[?25h[?25l[51;175H8,0-1[8;1H[?12l[?25h[?25l[51;175H9,1  [9;1H[?12l[?25h[?25l[51;175H10,0-1[10;1H[?12l[?25h[?25l[51;176H1,1  [11;1H[?12l[?25h[?25l[51;176H2[12;1H[?12l[?25h[?25l[51;176H3[13;1H[?12l[?25h[?25l[51;176H4[14;1H[?12l[?25h[?25l[51;176H5[15;1H[?12l[?25h[?25l[51;176H6[16;1H[?12l[?25h[?25l[51;176H7,0-1[17;1H[?12l[?25h[?25l[51;176H6,3  [16;3H[?12l[?25h[?25l[51;176H5,17[15;17H[?12l[?25h[?25l[51;1H[1m-- INSERÇÃO --[m[51;15H[K[51;175H15,18[8CTudo[15;18H[?12l[?25h[?25l[51;179H7[15;17H[?12l[?25h[?25l[1m[31m;[m[15;17H[K[51;179H6[15;16H[?12l[?25h[?25l[1m[31m;[m[15;16H[K[51;179H5[15;15H[?12l[?25h[?25l[1m[31m;[m[15;15H[K[51;179H4[15;14H[?12l[?25h[?25l[1m[35m1[m[1m[31m;[m[51;179H5[15;15H[?12l[?25h[51;1H[K[15;14H[?25l[51;175H15,14[8CTudo[15;14H[?12l[?25h[?25l[51;175H[K[51;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/sa_cav_y_2dof.m" [dos] 19L, 356C gravado(s)
+[?1l>[?12l[?25h[?1049ldopt_sa_cavy(3,@temperaturefast)
+
+x0 =
+
+    0.3000    1.5600
+
+
+x0 =
+
+    0.3000    1.5600
+
+
+vet_4_dof =
+
+    1.0000    0.3000    3.0000    1.5600
+
+
+Geometria inv�lida para x0 [ 0.300 1.560]

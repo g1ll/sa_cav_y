@@ -1,0 +1,60 @@
+\nSimulated Annealing...Discreted\n
+
+	 Fitness Limit : -Inf
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  0.5 40 0.005 1.23 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+
+p_memory =
+
+     0     0     0     0
+
+{Undefined function or variable "contgeo".
+
+Error in d_annealing_c4 (line 138)
+		    if ~isreal(contgeo)
+
+Error in sanewpoint (line 18)
+     newx(:) = options.AnnealingFcn(optimvalues,problem);
+
+Error in saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+Error in simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+Error in simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+Error in dopt_sa_cavy_4 (line 101)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+
+Caused by:
+    Failure in AnnealingFcn evaluation.
+} 
+dopt_sa_cavy_4(.3,.05,@tempboltzexp)
+
+x0 =
+
+    2.0000   60.0000    0.1000    1.2600
+
+
+Geometria invalida para x0 [2.000 60.000 0.100 1.260]

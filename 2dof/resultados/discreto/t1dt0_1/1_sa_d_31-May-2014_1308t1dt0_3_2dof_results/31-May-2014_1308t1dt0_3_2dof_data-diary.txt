@@ -1,0 +1,165 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.7 1.04 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing2
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 100
+	options.InitialTemperature = 100
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.130139       0.130139            100
+ 
+		| pL = -0.650 ; steplen = 0.650 : stepmax = 7.000
+	Schedule atual L1/L0 = 0.700
+	Pertubacao L1/L0 = -0.650
+	Schedule L1/L0 = 0.050
+ 
+		| pA = -0.020 ; steplen = 0.020 : stepmax = 0.104|
+	Schedule atual Alpha = 1.040
+	Perturbacao Alpha = -0.020
+	Schedule Alpha = 1.020
+
+ Iter 0 | Best F(x) 0.130 | F(x)  0.130 | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.700 alpha 1.040 | Novos valores: L1/L0 0.050 alpha 1.020
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  144.269504
+
+Controle temp boltz  144.269504
+     1          2       0.130139       0.130139         144.27
+ 
+		| pL = -0.695 ; steplen = 0.695 : stepmax = 10.099
+	Schedule atual L1/L0 = 0.700
+	Pertubacao L1/L0 = -0.695
+	Schedule L1/L0 = 0.005
+ 
+		| pA = 0.000 ; steplen = 0.000 : stepmax = 0.150|
+	Schedule atual Alpha = 1.040
+	Perturbacao Alpha = 0.000
+	Schedule Alpha = 1.040
+
+ Iter 1 | Best F(x) 0.130 | F(x)  0.130 | Temperatura 144.270 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.700 alpha 1.040 | Novos valores: L1/L0 0.005 alpha 1.040
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  91.023923
+
+Controle temp boltz  91.023923
+     2          3       0.130139       0.201693        91.0239
+ 
+		| pL = -0.697 ; steplen = 0.697 : stepmax = 6.372
+	Schedule atual L1/L0 = 0.700
+	Pertubacao L1/L0 = -0.697
+	Schedule L1/L0 = 0.003
+ 
+		| pA = 0.420 ; steplen = 0.420 : stepmax = 0.947|
+	Schedule atual Alpha = 1.040
+	Perturbacao Alpha = 0.420
+	Schedule Alpha = 1.460
+
+ Iter 2 | Best F(x) 0.130 | F(x)  0.202 | Temperatura 91.024 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.700 alpha 1.040 | Novos valores: L1/L0 0.003 alpha 1.460
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  72.134752
+
+Controle temp boltz  72.134752
+     3          4       0.130139       0.201693        72.1348
+ 
+		| pL = 0.300 ; steplen = 0.300 : stepmax = 5.049
+	Schedule atual L1/L0 = 0.700
+	Pertubacao L1/L0 = 0.300
+	Schedule L1/L0 = 1.000
+ 
+		| pA = 0.230 ; steplen = 0.230 : stepmax = 0.750|
+	Schedule atual Alpha = 1.040
+	Perturbacao Alpha = 0.230
+	Schedule Alpha = 1.270
+
+ Iter 3 | Best F(x) 0.130 | F(x)  0.202 | Temperatura 72.135 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.700 alpha 1.040 | Novos valores: L1/L0 1.000 alpha 1.270
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  62.133493
+
+Controle temp boltz  62.133493
+     4          5       0.101593       0.101593        62.1335
+ 
+		| pL = -0.995 ; steplen = 0.995 : stepmax = 6.213
+	Schedule atual L1/L0 = 1.000
+	Pertubacao L1/L0 = -0.995
+	Schedule L1/L0 = 0.005
+ 
+		| pA = 0.290 ; steplen = 0.290 : stepmax = 0.789|
+	Schedule atual Alpha = 1.270
+	Perturbacao Alpha = 0.290
+	Schedule Alpha = 1.560
+
+ Iter 4 | Best F(x) 0.102 | F(x)  0.102 | Temperatura 62.133 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.270 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+
+init_temp =
+
+   100
+
+
+Controle temp boltz  55.811063
+
+Controle temp boltz  55.811063
+     5          6       0.101593       0.101593        55.8111
+ 
+		| pL = -0.990 ; steplen = 0.990 : stepmax = 5.581
+	Schedule atual L1/L0 = 1.000
+	Pertubacao L1/L0 = -0.990
+	Schedule L1/L0 = 0.010
+ 
+		| pA = 0.060 ; steplen = 0.060 : stepmax = 0.709|
+	Schedule atual Alpha = 1.270
+	Perturbacao Alpha = 0.060
+	Schedule Alpha = 1.330
+
+ Iter 5 | Best F(x) 0.102 | F(x)  0.102 | Temperatura 55.811 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.270 | Novos valores: L1/L0 0.

@@ -1,0 +1,3094 @@
+Simulated Annealing...Discreted
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.3 1.21 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing2
+	options.TemperatureFcn = @temperatureboltz
+	options.StallIterLimit = 100
+	options.InitialTemperature = 50
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.156338       0.156338             50
+ pL -0.293 -
+	Schedule atual L1/L0 = 0.300
+	Pertubacao L1/L0 = -0.293
+	Schedule L1/L0 = 0.007
+ pA -0.020 -
+	Schedule atual Alpha = 1.210
+	Perturbacao Alpha = -0.020
+	Schedule Alpha = 1.190
+
+ Iter 0 | Best F(x) 0.156 | F(x)  0.156 | Temperatura 50.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.210 | Novos valores: L1/L0 0.007 alpha 1.190
+-------------
+     1          2       0.156338       0.156338        72.1348
+ pL -0.295 -
+	Schedule atual L1/L0 = 0.300
+	Pertubacao L1/L0 = -0.295
+	Schedule L1/L0 = 0.005
+ pA 0.300 -
+	Schedule atual Alpha = 1.210
+	Perturbacao Alpha = 0.300
+	Schedule Alpha = 1.510
+
+ Iter 1 | Best F(x) 0.156 | F(x)  0.156 | Temperatura 72.135 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.210 | Novos valores: L1/L0 0.005 alpha 1.510
+-------------
+     2          3       0.150021       0.150021         45.512
+ pL 0.295 - pL 0.015 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = 0.015
+	Schedule L1/L0 = 0.020
+ pA -0.350 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.160
+
+ Iter 2 | Best F(x) 0.150 | F(x)  0.150 | Temperatura 45.512 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.020 alpha 1.160
+-------------
+     3          4       0.150021       0.150021        36.0674
+ pL 0.995 - pL 0.495 - pL 0.015 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = 0.015
+	Schedule L1/L0 = 0.020
+ pA -0.320 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.190
+
+ Iter 3 | Best F(x) 0.150 | F(x)  0.150 | Temperatura 36.067 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.020 alpha 1.190
+-------------
+     4          5       0.150021       0.150021        31.0667
+ pL -0.003 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.002
+ pA -0.100 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.410
+
+ Iter 4 | Best F(x) 0.150 | F(x)  0.150 | Temperatura 31.067 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.410
+-------------
+     5          6       0.150021       0.150021        27.9055
+ pL -0.002 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = -0.002
+	Schedule L1/L0 = 0.003
+ pA 0.060 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = 0.060
+	Schedule Alpha = 1.570
+
+ Iter 5 | Best F(x) 0.150 | F(x)  0.150 | Temperatura 27.906 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.570
+-------------
+     6          7       0.150021       0.150021        25.6949
+ pL 0.005 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = 0.005
+	Schedule L1/L0 = 0.010
+ pA -0.060 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.060
+	Schedule Alpha = 1.450
+
+ Iter 6 | Best F(x) 0.150 | F(x)  0.150 | Temperatura 25.695 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.450
+-------------
+     7          8       0.150021        0.20166        24.0449
+ pL 0.295 - pL -0.004 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = -0.004
+	Schedule L1/L0 = 0.001
+ pA -0.110 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.110
+	Schedule Alpha = 1.400
+
+ Iter 7 | Best F(x) 0.150 | F(x)  0.202 | Temperatura 24.045 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.400
+-------------
+     8          9       0.150021        0.20166         22.756
+ pL 0.995 - pL 0.995 - pL -0.002 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = -0.002
+	Schedule L1/L0 = 0.003
+ pA -0.230 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.280
+
+ Iter 8 | Best F(x) 0.150 | F(x)  0.202 | Temperatura 22.756 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.280
+-------------
+     9         10       0.150021        0.20166        21.7147
+ pL -0.003 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = -0.003
+	Schedule L1/L0 = 0.002
+ pA -0.450 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.450
+	Schedule Alpha = 1.060
+
+ Iter 9 | Best F(x) 0.150 | F(x)  0.202 | Temperatura 21.715 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.060
+-------------
+    10         11       0.150021        0.20166        20.8516
+ pL 0.295 - pL 0.002 -
+	Schedule atual L1/L0 = 0.005
+	Pertubacao L1/L0 = 0.002
+	Schedule L1/L0 = 0.007
+ pA 0.010 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = 0.010
+	Schedule Alpha = 1.520
+
+ Iter 10 | Best F(x) 0.150 | F(x)  0.202 | Temperatura 20.852 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 0.005 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.520
+-------------
+    11         12        0.12531        0.12531        20.1215
+ pL 0.693 - pL 0.043 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.043
+	Schedule L1/L0 = 0.050
+ pA -0.460 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.460
+	Schedule Alpha = 1.060
+
+ Iter 11 | Best F(x) 0.125 | F(x)  0.125 | Temperatura 20.121 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.050 alpha 1.060
+-------------
+    12         13        0.12531        0.12531        19.4936
+ pL -0.005 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.002
+ pA -0.410 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.410
+	Schedule Alpha = 1.110
+
+ Iter 12 | Best F(x) 0.125 | F(x)  0.125 | Temperatura 19.494 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.002 alpha 1.110
+-------------
+    13         14        0.12531        0.12531        18.9462
+ pL -0.005 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = -0.005
+	Schedule L1/L0 = 0.002
+ pA -0.430 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.430
+	Schedule Alpha = 1.090
+
+ Iter 13 | Best F(x) 0.125 | F(x)  0.125 | Temperatura 18.946 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.002 alpha 1.090
+-------------
+    14         15        0.12531        0.12531        18.4635
+ pL 0.043 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.043
+	Schedule L1/L0 = 0.050
+ pA -0.160 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.360
+
+ Iter 14 | Best F(x) 0.125 | F(x)  0.125 | Temperatura 18.463 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.050 alpha 1.360
+-------------
+    15         16        0.12531       0.196874        18.0337
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.007
+ pA -0.350 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.170
+
+ Iter 15 | Best F(x) 0.125 | F(x)  0.197 | Temperatura 18.034 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.007 alpha 1.170
+-------------
+    16         17        0.12531       0.290678        17.6478
+ pL -0.004 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = -0.004
+	Schedule L1/L0 = 0.003
+ pA -0.480 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.480
+	Schedule Alpha = 1.040
+
+ Iter 16 | Best F(x) 0.125 | F(x)  0.291 | Temperatura 17.648 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.003 alpha 1.040
+-------------
+    17         18        0.12531       0.290678        17.2988
+ pL 0.023 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.023
+	Schedule L1/L0 = 0.030
+ pA -0.160 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.360
+
+ Iter 17 | Best F(x) 0.125 | F(x)  0.291 | Temperatura 17.299 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.030 alpha 1.360
+-------------
+    18         19        0.12531       0.218754        16.9812
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.007
+ pA -0.510 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.510
+	Schedule Alpha = 1.010
+
+ Iter 18 | Best F(x) 0.125 | F(x)  0.219 | Temperatura 16.981 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.007 alpha 1.010
+-------------
+    19         20        0.12531       0.314138        16.6904
+ pL 0.023 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.023
+	Schedule L1/L0 = 0.030
+ pA -0.220 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.300
+
+ Iter 19 | Best F(x) 0.125 | F(x)  0.314 | Temperatura 16.690 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.030 alpha 1.300
+-------------
+    20         21        0.12531       0.241035        16.4229
+ pL 0.063 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.063
+	Schedule L1/L0 = 0.070
+ pA -0.170 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.350
+
+ Iter 20 | Best F(x) 0.125 | F(x)  0.241 | Temperatura 16.423 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.070 alpha 1.350
+-------------
+    21         22        0.12531       0.184057        16.1758
+ pL 0.993 - pL -0.002 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = -0.002
+	Schedule L1/L0 = 0.005
+ pA -0.400 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.400
+	Schedule Alpha = 1.120
+
+ Iter 21 | Best F(x) 0.125 | F(x)  0.184 | Temperatura 16.176 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.005 alpha 1.120
+-------------
+    22         23        0.12531       0.184057        15.9464
+ pL 0.043 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.043
+	Schedule L1/L0 = 0.050
+ pA -0.100 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.420
+
+ Iter 22 | Best F(x) 0.125 | F(x)  0.184 | Temperatura 15.946 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.050 alpha 1.420
+-------------
+    23         24        0.12531       0.159131        15.7329
+ pL 0.003 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.003
+	Schedule L1/L0 = 0.010
+ pA -0.130 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.390
+
+ Iter 23 | Best F(x) 0.125 | F(x)  0.159 | Temperatura 15.733 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.010 alpha 1.390
+-------------
+    24         25        0.12531       0.159131        15.5334
+ pL -0.006 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = -0.006
+	Schedule L1/L0 = 0.001
+ pA -0.280 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.280
+	Schedule Alpha = 1.240
+
+ Iter 24 | Best F(x) 0.125 | F(x)  0.159 | Temperatura 15.533 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.001 alpha 1.240
+-------------
+    25         26        0.12531       0.159131        15.3464
+ pL 0.063 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.063
+	Schedule L1/L0 = 0.070
+ pA -0.380 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.380
+	Schedule Alpha = 1.140
+
+ Iter 25 | Best F(x) 0.125 | F(x)  0.159 | Temperatura 15.346 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.070 alpha 1.140
+-------------
+    26         27        0.12531       0.159131        15.1707
+ pL 0.693 - pL 0.093 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.093
+	Schedule L1/L0 = 0.100
+ pA -0.150 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.370
+
+ Iter 26 | Best F(x) 0.125 | F(x)  0.159 | Temperatura 15.171 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.100 alpha 1.370
+-------------
+    27         28        0.12531       0.151777        15.0051
+ pL -0.004 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = -0.004
+	Schedule L1/L0 = 0.003
+ pA -0.370 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.370
+	Schedule Alpha = 1.150
+
+ Iter 27 | Best F(x) 0.125 | F(x)  0.152 | Temperatura 15.005 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.003 alpha 1.150
+-------------
+    28         29        0.12531       0.151777        14.8487
+ pL 0.993 - pL 0.093 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.093
+	Schedule L1/L0 = 0.100
+ pA -0.410 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.410
+	Schedule Alpha = 1.110
+
+ Iter 28 | Best F(x) 0.125 | F(x)  0.152 | Temperatura 14.849 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.100 alpha 1.110
+-------------
+    29         30        0.12531       0.247379        14.7007
+ pL 0.043 -
+	Schedule atual L1/L0 = 0.007
+	Pertubacao L1/L0 = 0.043
+	Schedule L1/L0 = 0.050
+ pA -0.010 -
+	Schedule atual Alpha = 1.520
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.510
+
+ Iter 29 | Best F(x) 0.125 | F(x)  0.247 | Temperatura 14.701 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 0.007 alpha 1.520 | Novos valores: L1/L0 0.050 alpha 1.510
+-------------
+    30         31      0.0721039      0.0721039        14.5603
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.340 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.170
+
+ Iter 30 | Best F(x) 0.072 | F(x)  0.072 | Temperatura 14.560 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.170
+-------------
+    31         32      0.0721039      0.0721039         14.427
+ pL -0.045 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.045
+	Schedule L1/L0 = 0.005
+ pA 0.010 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = 0.010
+	Schedule Alpha = 1.520
+
+ Iter 31 | Best F(x) 0.072 | F(x)  0.072 | Temperatura 14.427 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.520
+-------------
+    32         33      0.0721039       0.132233           14.3
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.010
+ pA -0.150 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.360
+
+ Iter 32 | Best F(x) 0.072 | F(x)  0.132 | Temperatura 14.300 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.360
+-------------
+    33         34      0.0721039       0.245435        14.1789
+ pL -0.047 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.047
+	Schedule L1/L0 = 0.003
+ pA -0.500 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.500
+	Schedule Alpha = 1.010
+
+ Iter 33 | Best F(x) 0.072 | F(x)  0.245 | Temperatura 14.179 | k = 34
+ 
+ Iter 34 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.010
+-------------
+    34         35      0.0721039       0.245435        14.0633
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.010
+ pA -0.010 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.500
+
+ Iter 34 | Best F(x) 0.072 | F(x)  0.245 | Temperatura 14.063 | k = 35
+ 
+ Iter 35 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.500
+-------------
+    35         36      0.0721039       0.149132        13.9528
+ pL -0.045 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.045
+	Schedule L1/L0 = 0.005
+ pA -0.500 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.500
+	Schedule Alpha = 1.010
+
+ Iter 35 | Best F(x) 0.072 | F(x)  0.149 | Temperatura 13.953 | k = 36
+ 
+ Iter 36 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.010
+-------------
+    36         37      0.0721039        0.31543        13.8469
+ pL 0.050 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.050
+	Schedule L1/L0 = 0.100
+ pA -0.380 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.380
+	Schedule Alpha = 1.130
+
+ Iter 36 | Best F(x) 0.072 | F(x)  0.315 | Temperatura 13.847 | k = 37
+ 
+ Iter 37 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.100 alpha 1.130
+-------------
+    37         38      0.0721039       0.242628        13.7454
+ pL -0.045 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.045
+	Schedule L1/L0 = 0.005
+ pA -0.500 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.500
+	Schedule Alpha = 1.010
+
+	Alpha  e L1dL0 iguais  [  0.005   1.010 ] = [  0.005   1.010 ]
+ Sorteando novas solucoes...
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.010
+ pA -0.500 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.500
+	Schedule Alpha = 1.010
+
+ Iter 37 | Best F(x) 0.072 | F(x)  0.243 | Temperatura 13.745 | k = 38
+ 
+ Iter 38 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.010
+-------------
+    38         39      0.0721039       0.312366        13.6479
+ pL 0.250 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.250
+	Schedule L1/L0 = 0.300
+ pA -0.040 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.040
+	Schedule Alpha = 1.470
+
+ Iter 38 | Best F(x) 0.072 | F(x)  0.312 | Temperatura 13.648 | k = 39
+ 
+ Iter 39 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.300 alpha 1.470
+-------------
+    39         40      0.0721039       0.312366        13.5543
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.450 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.450
+	Schedule Alpha = 1.060
+
+ Iter 39 | Best F(x) 0.072 | F(x)  0.312 | Temperatura 13.554 | k = 40
+ 
+ Iter 40 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.060
+-------------
+    40         41      0.0721039        0.31045        13.4641
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.100 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.410
+
+ Iter 40 | Best F(x) 0.072 | F(x)  0.310 | Temperatura 13.464 | k = 41
+ 
+ Iter 41 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.410
+-------------
+    41         42      0.0721039       0.192359        13.3773
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.290 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.220
+
+ Iter 41 | Best F(x) 0.072 | F(x)  0.192 | Temperatura 13.377 | k = 42
+ 
+ Iter 42 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.220
+-------------
+    42         43      0.0721039        0.26246        13.2936
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.230 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.280
+
+ Iter 42 | Best F(x) 0.072 | F(x)  0.262 | Temperatura 13.294 | k = 43
+ 
+ Iter 43 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.280
+-------------
+    43         44      0.0721039        0.26246        13.2129
+ pL -0.045 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.045
+	Schedule L1/L0 = 0.005
+ pA -0.140 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.140
+	Schedule Alpha = 1.370
+
+ Iter 43 | Best F(x) 0.072 | F(x)  0.262 | Temperatura 13.213 | k = 44
+ 
+ Iter 44 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.370
+-------------
+    44         45      0.0721039       0.249782        13.1349
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.010
+ pA -0.050 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.050
+	Schedule Alpha = 1.460
+
+ Iter 44 | Best F(x) 0.072 | F(x)  0.250 | Temperatura 13.135 | k = 45
+ 
+ Iter 45 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.460
+-------------
+    45         46      0.0721039       0.193788        13.0595
+ pL 0.450 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.450
+	Schedule L1/L0 = 0.500
+ pA 0.000 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = 0.000
+	Schedule Alpha = 1.510
+
+ Iter 45 | Best F(x) 0.072 | F(x)  0.194 | Temperatura 13.059 | k = 46
+ 
+ Iter 46 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.500 alpha 1.510
+-------------
+    46         47      0.0721039       0.193788        12.9865
+ pL -0.047 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.047
+	Schedule L1/L0 = 0.003
+ pA -0.350 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.160
+
+ Iter 46 | Best F(x) 0.072 | F(x)  0.194 | Temperatura 12.987 | k = 47
+ 
+ Iter 47 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.160
+-------------
+    47         48      0.0721039       0.193788        12.9159
+ pL -0.045 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.045
+	Schedule L1/L0 = 0.005
+ pA -0.320 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.190
+
+ Iter 47 | Best F(x) 0.072 | F(x)  0.194 | Temperatura 12.916 | k = 48
+ 
+ Iter 48 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.190
+-------------
+    48         49      0.0721039       0.193788        12.8475
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.150 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.360
+
+ Iter 48 | Best F(x) 0.072 | F(x)  0.194 | Temperatura 12.847 | k = 49
+ 
+ Iter 49 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.360
+-------------
+    49         50      0.0721039       0.193788        12.7811
+ pL 0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.070
+ pA -0.370 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.370
+	Schedule Alpha = 1.140
+
+	Alpha  e L1dL0 iguais  [  0.070   1.140 ] = [  0.070   1.140 ]
+ Sorteando novas solucoes...
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.310 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.200
+
+ Iter 49 | Best F(x) 0.072 | F(x)  0.194 | Temperatura 12.781 | k = 50
+ 
+ Iter 50 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.200
+-------------
+    50         51      0.0721039       0.193788        12.7167
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.050
+ pA -0.450 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.450
+	Schedule Alpha = 1.060
+
+ Iter 50 | Best F(x) 0.072 | F(x)  0.194 | Temperatura 12.717 | k = 51
+ 
+ Iter 51 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.050 alpha 1.060
+-------------
+    51         52      0.0721039       0.193788        12.6542
+ pL -0.045 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.045
+	Schedule L1/L0 = 0.005
+ pA -0.130 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.380
+
+ Iter 51 | Best F(x) 0.072 | F(x)  0.194 | Temperatura 12.654 | k = 52
+ 
+ Iter 52 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.380
+-------------
+    52         53      0.0721039       0.246507        12.5935
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.330 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.330
+	Schedule Alpha = 1.180
+
+ Iter 52 | Best F(x) 0.072 | F(x)  0.247 | Temperatura 12.594 | k = 53
+ 
+ Iter 53 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.180
+-------------
+    53         54      0.0721039       0.289017        12.5345
+ pL -0.047 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.047
+	Schedule L1/L0 = 0.003
+ pA -0.400 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.400
+	Schedule Alpha = 1.110
+
+ Iter 53 | Best F(x) 0.072 | F(x)  0.289 | Temperatura 12.535 | k = 54
+ 
+ Iter 54 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.110
+-------------
+    54         55      0.0721039        0.30276        12.4771
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.120 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.390
+
+ Iter 54 | Best F(x) 0.072 | F(x)  0.303 | Temperatura 12.477 | k = 55
+ 
+ Iter 55 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.390
+-------------
+    55         56      0.0721039       0.239472        12.4213
+ pL -0.030 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.030
+	Schedule L1/L0 = 0.020
+ pA -0.490 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.490
+	Schedule Alpha = 1.020
+
+ Iter 55 | Best F(x) 0.072 | F(x)  0.239 | Temperatura 12.421 | k = 56
+ 
+ Iter 56 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.020 alpha 1.020
+-------------
+    56         57      0.0721039       0.304887        12.3669
+ pL 0.250 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.250
+	Schedule L1/L0 = 0.300
+ pA -0.100 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.410
+
+ Iter 56 | Best F(x) 0.072 | F(x)  0.305 | Temperatura 12.367 | k = 57
+ 
+ Iter 57 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.300 alpha 1.410
+-------------
+    57         58      0.0721039      0.0798264        12.3139
+ pL 0.950 - pL 0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.070
+ pA -0.170 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.340
+
+ Iter 57 | Best F(x) 0.072 | F(x)  0.080 | Temperatura 12.314 | k = 58
+ 
+ Iter 58 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.070 alpha 1.340
+-------------
+    58         59      0.0721039       0.189114        12.2623
+ pL 0.450 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.450
+	Schedule L1/L0 = 0.500
+ pA -0.090 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.420
+
+ Iter 58 | Best F(x) 0.072 | F(x)  0.189 | Temperatura 12.262 | k = 59
+ 
+ Iter 59 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.500 alpha 1.420
+-------------
+    59         60      0.0721039      0.0924949         12.212
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.320 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.190
+
+ Iter 59 | Best F(x) 0.072 | F(x)  0.092 | Temperatura 12.212 | k = 60
+ 
+ Iter 60 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.190
+-------------
+    60         61      0.0721039       0.287415        12.1629
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.330 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.330
+	Schedule Alpha = 1.180
+
+ Iter 60 | Best F(x) 0.072 | F(x)  0.287 | Temperatura 12.163 | k = 61
+ 
+ Iter 61 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.180
+-------------
+    61         62      0.0721039       0.271163        12.1149
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.430 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.430
+	Schedule Alpha = 1.080
+
+ Iter 61 | Best F(x) 0.072 | F(x)  0.271 | Temperatura 12.115 | k = 62
+ 
+ Iter 62 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.080
+-------------
+    62         63      0.0721039       0.271163        12.0682
+ pL 0.950 - pL -0.045 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.045
+	Schedule L1/L0 = 0.005
+ pA -0.310 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.200
+
+ Iter 62 | Best F(x) 0.072 | F(x)  0.271 | Temperatura 12.068 | k = 63
+ 
+ Iter 63 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.005 alpha 1.200
+-------------
+    63         64      0.0721039       0.271163        12.0225
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.260 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.250
+
+ Iter 63 | Best F(x) 0.072 | F(x)  0.271 | Temperatura 12.022 | k = 64
+ 
+ Iter 64 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.250
+-------------
+    64         65      0.0721039       0.271163        11.9778
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.050
+ pA -0.290 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.220
+
+ Iter 64 | Best F(x) 0.072 | F(x)  0.271 | Temperatura 11.978 | k = 65
+ 
+ Iter 65 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.050 alpha 1.220
+-------------
+    65         66      0.0721039       0.247589        11.9342
+ pL 0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.070
+ pA 0.050 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = 0.050
+	Schedule Alpha = 1.560
+
+ Iter 65 | Best F(x) 0.072 | F(x)  0.248 | Temperatura 11.934 | k = 66
+ 
+ Iter 66 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.070 alpha 1.560
+-------------
+    66         67      0.0721039       0.247589        11.8915
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.050
+ pA -0.240 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.240
+	Schedule Alpha = 1.270
+
+ Iter 66 | Best F(x) 0.072 | F(x)  0.248 | Temperatura 11.891 | k = 67
+ 
+ Iter 67 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.050 alpha 1.270
+-------------
+    67         68      0.0721039       0.232978        11.8497
+ pL 0.950 - pL 0.250 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.250
+	Schedule L1/L0 = 0.300
+ pA -0.380 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.380
+	Schedule Alpha = 1.130
+
+ Iter 67 | Best F(x) 0.072 | F(x)  0.233 | Temperatura 11.850 | k = 68
+ 
+ Iter 68 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.300 alpha 1.130
+-------------
+    68         69      0.0721039       0.181126        11.8089
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.400 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.400
+	Schedule Alpha = 1.110
+
+ Iter 68 | Best F(x) 0.072 | F(x)  0.181 | Temperatura 11.809 | k = 69
+ 
+ Iter 69 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.110
+-------------
+    69         70      0.0721039       0.181126        11.7689
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.010
+ pA -0.170 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.340
+
+ Iter 69 | Best F(x) 0.072 | F(x)  0.181 | Temperatura 11.769 | k = 70
+ 
+ Iter 70 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.340
+-------------
+    70         71      0.0721039       0.181126        11.7297
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.400 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.400
+	Schedule Alpha = 1.110
+
+ Iter 70 | Best F(x) 0.072 | F(x)  0.181 | Temperatura 11.730 | k = 71
+ 
+ Iter 71 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.110
+-------------
+    71         72      0.0721039       0.181126        11.6913
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.480 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.480
+	Schedule Alpha = 1.030
+
+ Iter 71 | Best F(x) 0.072 | F(x)  0.181 | Temperatura 11.691 | k = 72
+ 
+ Iter 72 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.030
+-------------
+    72         73      0.0721039       0.181126        11.6538
+ pL -0.047 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.047
+	Schedule L1/L0 = 0.003
+ pA -0.220 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.290
+
+ Iter 72 | Best F(x) 0.072 | F(x)  0.181 | Temperatura 11.654 | k = 73
+ 
+ Iter 73 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.290
+-------------
+    73         74      0.0721039       0.181126        11.6169
+ pL -0.047 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.047
+	Schedule L1/L0 = 0.003
+ pA -0.430 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.430
+	Schedule Alpha = 1.080
+
+ Iter 73 | Best F(x) 0.072 | F(x)  0.181 | Temperatura 11.617 | k = 74
+ 
+ Iter 74 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.080
+-------------
+    74         75      0.0721039       0.306961        11.5808
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.050
+ pA -0.120 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.390
+
+ Iter 74 | Best F(x) 0.072 | F(x)  0.307 | Temperatura 11.581 | k = 75
+ 
+ Iter 75 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.050 alpha 1.390
+-------------
+    75         76      0.0721039       0.180001        11.5454
+ pL 0.450 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.450
+	Schedule L1/L0 = 0.500
+ pA -0.220 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.290
+
+ Iter 75 | Best F(x) 0.072 | F(x)  0.180 | Temperatura 11.545 | k = 76
+ 
+ Iter 76 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.500 alpha 1.290
+-------------
+    76         77      0.0721039      0.0994088        11.5106
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.470 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.470
+	Schedule Alpha = 1.040
+
+ Iter 76 | Best F(x) 0.072 | F(x)  0.099 | Temperatura 11.511 | k = 77
+ 
+ Iter 77 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.040
+-------------
+    77         78      0.0721039      0.0994088        11.4766
+ pL 0.950 - pL -0.049 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.049
+	Schedule L1/L0 = 0.001
+ pA -0.180 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.330
+
+ Iter 77 | Best F(x) 0.072 | F(x)  0.099 | Temperatura 11.477 | k = 78
+ 
+ Iter 78 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.330
+-------------
+    78         79      0.0721039      0.0994088        11.4431
+ pL 0.450 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.450
+	Schedule L1/L0 = 0.500
+ pA -0.130 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.380
+
+ Iter 78 | Best F(x) 0.072 | F(x)  0.099 | Temperatura 11.443 | k = 79
+ 
+ Iter 79 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.500 alpha 1.380
+-------------
+    79         80      0.0721039      0.0882065        11.4102
+ pL -0.030 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.030
+	Schedule L1/L0 = 0.020
+ pA -0.210 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.210
+	Schedule Alpha = 1.300
+
+ Iter 79 | Best F(x) 0.072 | F(x)  0.088 | Temperatura 11.410 | k = 80
+ 
+ Iter 80 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.020 alpha 1.300
+-------------
+    80         81      0.0721039      0.0882065         11.378
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.450 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.450
+	Schedule Alpha = 1.060
+
+ Iter 80 | Best F(x) 0.072 | F(x)  0.088 | Temperatura 11.378 | k = 81
+ 
+ Iter 81 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.060
+-------------
+    81         82      0.0721039      0.0882065        11.3463
+ pL 0.950 - pL 0.650 - pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.080 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.080
+	Schedule Alpha = 1.430
+
+ Iter 81 | Best F(x) 0.072 | F(x)  0.088 | Temperatura 11.346 | k = 82
+ 
+ Iter 82 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.430
+-------------
+    82         83      0.0721039       0.178589        11.3152
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.260 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.250
+
+ Iter 82 | Best F(x) 0.072 | F(x)  0.179 | Temperatura 11.315 | k = 83
+ 
+ Iter 83 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.250
+-------------
+    83         84      0.0721039       0.178589        11.2846
+ pL 0.250 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.250
+	Schedule L1/L0 = 0.300
+ pA -0.410 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.410
+	Schedule Alpha = 1.100
+
+ Iter 83 | Best F(x) 0.072 | F(x)  0.179 | Temperatura 11.285 | k = 84
+ 
+ Iter 84 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.300 alpha 1.100
+-------------
+    84         85      0.0721039       0.178589        11.2545
+ pL -0.048 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.048
+	Schedule L1/L0 = 0.002
+ pA -0.160 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.350
+
+ Iter 84 | Best F(x) 0.072 | F(x)  0.179 | Temperatura 11.255 | k = 85
+ 
+ Iter 85 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.002 alpha 1.350
+-------------
+    85         86      0.0721039       0.260278         11.225
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.200 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.200
+	Schedule Alpha = 1.310
+
+ Iter 85 | Best F(x) 0.072 | F(x)  0.260 | Temperatura 11.225 | k = 86
+ 
+ Iter 86 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.310
+-------------
+    86         87      0.0721039       0.237838        11.1959
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.050
+ pA -0.020 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.020
+	Schedule Alpha = 1.490
+
+ Iter 86 | Best F(x) 0.072 | F(x)  0.238 | Temperatura 11.196 | k = 87
+ 
+ Iter 87 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.050 alpha 1.490
+-------------
+    87         88      0.0721039      0.0940317        11.1674
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.010
+ pA -0.390 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.390
+	Schedule Alpha = 1.120
+
+ Iter 87 | Best F(x) 0.072 | F(x)  0.094 | Temperatura 11.167 | k = 88
+ 
+ Iter 88 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.120
+-------------
+    88         89      0.0721039       0.296252        11.1392
+ pL -0.047 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.047
+	Schedule L1/L0 = 0.003
+ pA 0.010 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = 0.010
+	Schedule Alpha = 1.520
+
+ Iter 88 | Best F(x) 0.072 | F(x)  0.296 | Temperatura 11.139 | k = 89
+ 
+ Iter 89 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.003 alpha 1.520
+-------------
+    89         90      0.0721039       0.139858        11.1116
+ pL 0.250 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.250
+	Schedule L1/L0 = 0.300
+ pA -0.400 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.400
+	Schedule Alpha = 1.110
+
+ Iter 89 | Best F(x) 0.072 | F(x)  0.140 | Temperatura 11.112 | k = 90
+ 
+ Iter 90 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.300 alpha 1.110
+-------------
+    90         91      0.0721039       0.139858        11.0844
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ pL 0.950 - pL 0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.070
+ pA -0.310 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.200
+
+ Iter 90 | Best F(x) 0.072 | F(x)  0.140 | Temperatura 11.084 | k = 91
+ 
+ Iter 91 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.070 alpha 1.200
+-------------
+    91         92      0.0721039       0.240013        11.0576
+ pL 0.650 - pL -0.040 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.010
+ pA -0.310 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.200
+
+ Iter 91 | Best F(x) 0.072 | F(x)  0.240 | Temperatura 11.058 | k = 92
+ 
+ Iter 92 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.010 alpha 1.200
+-------------
+    92         93      0.0721039       0.240013        11.0312
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.270 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.240
+
+ Iter 92 | Best F(x) 0.072 | F(x)  0.240 | Temperatura 11.031 | k = 93
+ 
+ Iter 93 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.240
+-------------
+    93         94      0.0721039       0.278518        11.0052
+ pL 0.950 - pL 0.950 - pL 0.250 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.250
+	Schedule L1/L0 = 0.300
+ pA -0.300 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.300
+	Schedule Alpha = 1.210
+
+ Iter 93 | Best F(x) 0.072 | F(x)  0.279 | Temperatura 11.005 | k = 94
+ 
+ Iter 94 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.300 alpha 1.210
+-------------
+    94         95      0.0721039       0.156338        10.9797
+ pL -0.049 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.049
+	Schedule L1/L0 = 0.001
+ pA -0.090 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.420
+
+ Iter 94 | Best F(x) 0.072 | F(x)  0.156 | Temperatura 10.980 | k = 95
+ 
+ Iter 95 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.001 alpha 1.420
+-------------
+    95         96      0.0721039       0.239008        10.9545
+ pL -0.047 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.047
+	Schedule L1/L0 = 0.003
+ pA -0.220 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.290
+
+	Alpha  e L1dL0 iguais  [  0.003   1.290 ] = [  0.003   1.290 ]
+ Sorteando novas solucoes...
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.050
+ pA -0.090 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.420
+
+ Iter 95 | Best F(x) 0.072 | F(x)  0.239 | Temperatura 10.954 | k = 96
+ 
+ Iter 96 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.050 alpha 1.420
+-------------
+    96         97      0.0721039       0.159152        10.9297
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.190 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.190
+	Schedule Alpha = 1.320
+
+ Iter 96 | Best F(x) 0.072 | F(x)  0.159 | Temperatura 10.930 | k = 97
+ 
+ Iter 97 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.320
+-------------
+    97         98      0.0721039       0.159152        10.9052
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.030
+ pA -0.410 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.410
+	Schedule Alpha = 1.100
+
+ Iter 97 | Best F(x) 0.072 | F(x)  0.159 | Temperatura 10.905 | k = 98
+ 
+ Iter 98 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.030 alpha 1.100
+-------------
+    98         99      0.0721039       0.286198        10.8811
+ pL -0.043 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = -0.043
+	Schedule L1/L0 = 0.007
+ pA -0.460 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.460
+	Schedule Alpha = 1.050
+
+ Iter 98 | Best F(x) 0.072 | F(x)  0.286 | Temperatura 10.881 | k = 99
+ 
+ Iter 99 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.007 alpha 1.050
+-------------
+    99        100      0.0721039       0.308509        10.8574
+ pL 0.450 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.450
+	Schedule L1/L0 = 0.500
+ pA -0.500 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.500
+	Schedule Alpha = 1.010
+
+ Iter 99 | Best F(x) 0.072 | F(x)  0.309 | Temperatura 10.857 | k = 100
+ 
+ Iter 100 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.500 alpha 1.010
+-------------
+   100        101      0.0721039       0.178236         10.834
+ pL 0.020 -
+	Schedule atual L1/L0 = 0.050
+	Pertubacao L1/L0 = 0.020
+	Schedule L1/L0 = 0.070
+ pA -0.010 -
+	Schedule atual Alpha = 1.510
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.500
+
+ Iter 100 | Best F(x) 0.072 | F(x)  0.178 | Temperatura 10.834 | k = 101
+ 
+ Iter 101 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.510 | Novos valores: L1/L0 0.070 alpha 1.500
+-------------
+   101        102      0.0705975      0.0705975        10.8109
+ pL 0.230 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.230
+	Schedule L1/L0 = 0.300
+ pA 0.030 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.030
+	Schedule Alpha = 1.530
+
+ Iter 101 | Best F(x) 0.071 | F(x)  0.071 | Temperatura 10.811 | k = 102
+ 
+ Iter 102 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.300 alpha 1.530
+-------------
+   102        103      0.0705975      0.0705975        10.7881
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.270 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.230
+
+ Iter 102 | Best F(x) 0.071 | F(x)  0.071 | Temperatura 10.788 | k = 103
+ 
+ Iter 103 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.230
+-------------
+   103        104      0.0705975       0.285177        10.7657
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.470 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.470
+	Schedule Alpha = 1.030
+
+ Iter 103 | Best F(x) 0.071 | F(x)  0.285 | Temperatura 10.766 | k = 104
+ 
+ Iter 104 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.030
+-------------
+   104        105      0.0705975       0.312716        10.7435
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA -0.460 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.460
+	Schedule Alpha = 1.040
+
+ Iter 104 | Best F(x) 0.071 | F(x)  0.313 | Temperatura 10.744 | k = 105
+ 
+ Iter 105 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.040
+-------------
+   105        106      0.0705975       0.285317        10.7217
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.370 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.370
+	Schedule Alpha = 1.130
+
+ Iter 105 | Best F(x) 0.071 | F(x)  0.285 | Temperatura 10.722 | k = 106
+ 
+ Iter 106 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.130
+-------------
+   106        107      0.0705975       0.285317        10.7002
+ pL 0.430 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.430
+	Schedule L1/L0 = 0.500
+ pA -0.100 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.400
+
+ Iter 106 | Best F(x) 0.071 | F(x)  0.285 | Temperatura 10.700 | k = 107
+ 
+ Iter 107 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.500 alpha 1.400
+-------------
+   107        108      0.0705975      0.0901796        10.6789
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.270 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.230
+
+ Iter 107 | Best F(x) 0.071 | F(x)  0.090 | Temperatura 10.679 | k = 108
+ 
+ Iter 108 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.230
+-------------
+   108        109      0.0705975      0.0901796        10.6579
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA -0.010 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.490
+
+ Iter 108 | Best F(x) 0.071 | F(x)  0.090 | Temperatura 10.658 | k = 109
+ 
+ Iter 109 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.490
+-------------
+   109        110      0.0705975      0.0901796        10.6372
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.310 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.190
+
+ Iter 109 | Best F(x) 0.071 | F(x)  0.090 | Temperatura 10.637 | k = 110
+ 
+ Iter 110 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.190
+-------------
+   110        111      0.0705975      0.0901796        10.6168
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA -0.310 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.190
+
+ Iter 110 | Best F(x) 0.071 | F(x)  0.090 | Temperatura 10.617 | k = 111
+ 
+ Iter 111 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.190
+-------------
+   111        112      0.0705975       0.255132        10.5966
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA -0.480 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.480
+	Schedule Alpha = 1.020
+
+ Iter 111 | Best F(x) 0.071 | F(x)  0.255 | Temperatura 10.597 | k = 112
+ 
+ Iter 112 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.020
+-------------
+   112        113      0.0705975       0.255132        10.5767
+ pL 0.230 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.230
+	Schedule L1/L0 = 0.300
+ pA -0.040 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.040
+	Schedule Alpha = 1.460
+
+ Iter 112 | Best F(x) 0.071 | F(x)  0.255 | Temperatura 10.577 | k = 113
+ 
+ Iter 113 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.300 alpha 1.460
+-------------
+   113        114      0.0705975      0.0871943         10.557
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.240 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.240
+	Schedule Alpha = 1.260
+
+ Iter 113 | Best F(x) 0.071 | F(x)  0.087 | Temperatura 10.557 | k = 114
+ 
+ Iter 114 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.260
+-------------
+   114        115      0.0705975       0.252597        10.5376
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.050 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.050
+	Schedule Alpha = 1.450
+
+ Iter 114 | Best F(x) 0.071 | F(x)  0.253 | Temperatura 10.538 | k = 115
+ 
+ Iter 115 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.450
+-------------
+   115        116      0.0705975       0.208752        10.5184
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.310 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.190
+
+ Iter 115 | Best F(x) 0.071 | F(x)  0.209 | Temperatura 10.518 | k = 116
+ 
+ Iter 116 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.190
+-------------
+   116        117      0.0705975       0.208752        10.4994
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.420 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.420
+	Schedule Alpha = 1.080
+
+ Iter 116 | Best F(x) 0.071 | F(x)  0.209 | Temperatura 10.499 | k = 117
+ 
+ Iter 117 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.080
+-------------
+   117        118      0.0705975       0.208752        10.4807
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.420 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.420
+	Schedule Alpha = 1.080
+
+ Iter 117 | Best F(x) 0.071 | F(x)  0.209 | Temperatura 10.481 | k = 118
+ 
+ Iter 118 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.080
+-------------
+   118        119      0.0705975       0.208752        10.4622
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.500 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.500
+	Schedule Alpha = 1.000
+
+ Iter 118 | Best F(x) 0.071 | F(x)  0.209 | Temperatura 10.462 | k = 119
+ 
+ Iter 119 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.000
+-------------
+   119        120      0.0705975       0.208752        10.4439
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.390 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.390
+	Schedule Alpha = 1.110
+
+ Iter 119 | Best F(x) 0.071 | F(x)  0.209 | Temperatura 10.444 | k = 120
+ 
+ Iter 120 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.110
+-------------
+   120        121      0.0705975       0.303494        10.4258
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.110 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.110
+	Schedule Alpha = 1.390
+
+ Iter 120 | Best F(x) 0.071 | F(x)  0.303 | Temperatura 10.426 | k = 121
+ 
+ Iter 121 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.390
+-------------
+   121        122      0.0705975       0.246485        10.4079
+ pL 0.230 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.230
+	Schedule L1/L0 = 0.300
+ pA -0.210 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.210
+	Schedule Alpha = 1.290
+
+ Iter 121 | Best F(x) 0.071 | F(x)  0.246 | Temperatura 10.408 | k = 122
+ 
+ Iter 122 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.300 alpha 1.290
+-------------
+   122        123      0.0705975       0.126665        10.3903
+ pL 0.430 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.430
+	Schedule L1/L0 = 0.500
+ pA -0.430 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.430
+	Schedule Alpha = 1.070
+
+ Iter 122 | Best F(x) 0.071 | F(x)  0.127 | Temperatura 10.390 | k = 123
+ 
+ Iter 123 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.500 alpha 1.070
+-------------
+   123        124      0.0705975       0.164588        10.3728
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.340 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.160
+
+ Iter 123 | Best F(x) 0.071 | F(x)  0.165 | Temperatura 10.373 | k = 124
+ 
+ Iter 124 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.160
+-------------
+   124        125      0.0705975       0.295399        10.3556
+ pL 0.930 - pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.290 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.210
+
+ Iter 124 | Best F(x) 0.071 | F(x)  0.295 | Temperatura 10.356 | k = 125
+ 
+ Iter 125 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.210
+-------------
+   125        126      0.0705975       0.287626        10.3385
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.180 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.320
+
+ Iter 125 | Best F(x) 0.071 | F(x)  0.288 | Temperatura 10.339 | k = 126
+ 
+ Iter 126 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.320
+-------------
+   126        127      0.0705975       0.267825        10.3216
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.070
+ pA -0.080 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.080
+	Schedule Alpha = 1.420
+
+ Iter 126 | Best F(x) 0.071 | F(x)  0.268 | Temperatura 10.322 | k = 127
+ 
+ Iter 127 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.070 alpha 1.420
+-------------
+   127        128      0.0705975       0.140306         10.305
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.280 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.280
+	Schedule Alpha = 1.220
+
+ Iter 127 | Best F(x) 0.071 | F(x)  0.140 | Temperatura 10.305 | k = 128
+ 
+ Iter 128 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.220
+-------------
+   128        129      0.0705975       0.140306        10.2885
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.310 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.310
+	Schedule Alpha = 1.190
+
+ Iter 128 | Best F(x) 0.071 | F(x)  0.140 | Temperatura 10.288 | k = 129
+ 
+ Iter 129 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.190
+-------------
+   129        130      0.0705975       0.140306        10.2721
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.290 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.210
+
+ Iter 129 | Best F(x) 0.071 | F(x)  0.140 | Temperatura 10.272 | k = 130
+ 
+ Iter 130 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.210
+-------------
+   130        131      0.0705975       0.140306         10.256
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.220 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.220
+	Schedule Alpha = 1.280
+
+ Iter 130 | Best F(x) 0.071 | F(x)  0.140 | Temperatura 10.256 | k = 131
+ 
+ Iter 131 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.280
+-------------
+   131        132      0.0705975       0.275993          10.24
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.260 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.240
+
+ Iter 131 | Best F(x) 0.071 | F(x)  0.276 | Temperatura 10.240 | k = 132
+ 
+ Iter 132 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.240
+-------------
+   132        133      0.0705975        0.28048        10.2242
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA 0.040 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.040
+	Schedule Alpha = 1.540
+
+ Iter 132 | Best F(x) 0.071 | F(x)  0.280 | Temperatura 10.224 | k = 133
+ 
+ Iter 133 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.540
+-------------
+   133        134      0.0705975      0.0729504        10.2086
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.190 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.190
+	Schedule Alpha = 1.310
+
+ Iter 133 | Best F(x) 0.071 | F(x)  0.073 | Temperatura 10.209 | k = 134
+ 
+ Iter 134 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.310
+-------------
+   134        135      0.0705975      0.0729504        10.1931
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.390 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.390
+	Schedule Alpha = 1.110
+
+ Iter 134 | Best F(x) 0.071 | F(x)  0.073 | Temperatura 10.193 | k = 135
+ 
+ Iter 135 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.110
+-------------
+   135        136      0.0705975      0.0729504        10.1778
+ pL 0.030 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.100
+ pA -0.400 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.400
+	Schedule Alpha = 1.100
+
+ Iter 135 | Best F(x) 0.071 | F(x)  0.073 | Temperatura 10.178 | k = 136
+ 
+ Iter 136 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.100 alpha 1.100
+-------------
+   136        137      0.0705975      0.0729504        10.1626
+ pL 0.030 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.100
+ pA -0.130 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.130
+	Schedule Alpha = 1.370
+
+ Iter 136 | Best F(x) 0.071 | F(x)  0.073 | Temperatura 10.163 | k = 137
+ 
+ Iter 137 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.100 alpha 1.370
+-------------
+   137        138      0.0705975       0.151777        10.1476
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.260 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.240
+
+ Iter 137 | Best F(x) 0.071 | F(x)  0.152 | Temperatura 10.148 | k = 138
+ 
+ Iter 138 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.240
+-------------
+   138        139      0.0705975       0.151777        10.1328
+ pL 0.230 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.230
+	Schedule L1/L0 = 0.300
+ pA -0.010 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.010
+	Schedule Alpha = 1.490
+
+ Iter 138 | Best F(x) 0.071 | F(x)  0.152 | Temperatura 10.133 | k = 139
+ 
+ Iter 139 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.300 alpha 1.490
+-------------
+   139        140      0.0705975       0.151777        10.1181
+ pL 0.030 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.100
+ pA -0.170 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.330
+
+ Iter 139 | Best F(x) 0.071 | F(x)  0.152 | Temperatura 10.118 | k = 140
+ 
+ Iter 140 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.100 alpha 1.330
+-------------
+   140        141      0.0705975       0.151777        10.1035
+ pL 0.930 - pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA 0.030 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.030
+	Schedule Alpha = 1.530
+
+ Iter 140 | Best F(x) 0.071 | F(x)  0.152 | Temperatura 10.104 | k = 141
+ 
+ Iter 141 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.530
+-------------
+   141        142      0.0705975       0.110673        10.0891
+ pL -0.050 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.050
+	Schedule L1/L0 = 0.020
+ pA -0.450 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.450
+	Schedule Alpha = 1.050
+
+ Iter 141 | Best F(x) 0.071 | F(x)  0.111 | Temperatura 10.089 | k = 142
+ 
+ Iter 142 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.020 alpha 1.050
+-------------
+   142        143      0.0705975       0.110673        10.0749
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.180 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.180
+	Schedule Alpha = 1.320
+
+ Iter 142 | Best F(x) 0.071 | F(x)  0.111 | Temperatura 10.075 | k = 143
+ 
+ Iter 143 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.320
+-------------
+   143        144      0.0705975       0.110673        10.0607
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.490 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.490
+	Schedule Alpha = 1.010
+
+ Iter 143 | Best F(x) 0.071 | F(x)  0.111 | Temperatura 10.061 | k = 144
+ 
+ Iter 144 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.010
+-------------
+   144        145      0.0705975       0.110673        10.0468
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.260 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.240
+
+ Iter 144 | Best F(x) 0.071 | F(x)  0.111 | Temperatura 10.047 | k = 145
+ 
+ Iter 145 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.240
+-------------
+   145        146      0.0705975       0.110673        10.0329
+ pL 0.630 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.630
+	Schedule L1/L0 = 0.700
+ pA -0.300 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.300
+	Schedule Alpha = 1.200
+
+ Iter 145 | Best F(x) 0.071 | F(x)  0.111 | Temperatura 10.033 | k = 146
+ 
+ Iter 146 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.700 alpha 1.200
+-------------
+   146        147      0.0705975        0.10946        10.0192
+ pL 0.230 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.230
+	Schedule L1/L0 = 0.300
+ pA -0.260 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.240
+
+ Iter 146 | Best F(x) 0.071 | F(x)  0.109 | Temperatura 10.019 | k = 147
+ 
+ Iter 147 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.300 alpha 1.240
+-------------
+   147        148      0.0705975        0.10946        10.0056
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.160 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.340
+
+ Iter 147 | Best F(x) 0.071 | F(x)  0.109 | Temperatura 10.006 | k = 148
+ 
+ Iter 148 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.340
+-------------
+   148        149      0.0705975        0.10946        9.99211
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA 0.060 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.060
+	Schedule Alpha = 1.560
+
+ Iter 148 | Best F(x) 0.071 | F(x)  0.109 | Temperatura 9.992 | k = 149
+ 
+ Iter 149 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+   149        150      0.0705975        0.10946        9.97877
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.120 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.380
+
+ Iter 149 | Best F(x) 0.071 | F(x)  0.109 | Temperatura 9.979 | k = 150
+ 
+ Iter 150 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.380
+-------------
+   150        151      0.0705975        0.10946        9.96556
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.100 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.400
+
+ Iter 150 | Best F(x) 0.071 | F(x)  0.109 | Temperatura 9.966 | k = 151
+ 
+ Iter 151 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.400
+-------------
+   151        152      0.0705975       0.235458        9.95247
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA -0.290 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.210
+
+ Iter 151 | Best F(x) 0.071 | F(x)  0.235 | Temperatura 9.952 | k = 152
+ 
+ Iter 152 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.210
+-------------
+   152        153      0.0705975       0.250156        9.93949
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA -0.140 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.140
+	Schedule Alpha = 1.360
+
+ Iter 152 | Best F(x) 0.071 | F(x)  0.250 | Temperatura 9.939 | k = 153
+ 
+ Iter 153 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.360
+-------------
+   153        154      0.0705975       0.245435        9.92664
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.270 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.230
+
+ Iter 153 | Best F(x) 0.071 | F(x)  0.245 | Temperatura 9.927 | k = 154
+ 
+ Iter 154 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.230
+-------------
+   154        155      0.0705975       0.245435         9.9139
+ pL -0.069 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.069
+	Schedule L1/L0 = 0.001
+ pA -0.270 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.230
+
+ Iter 154 | Best F(x) 0.071 | F(x)  0.245 | Temperatura 9.914 | k = 155
+ 
+ Iter 155 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.001 alpha 1.230
+-------------
+   155        156      0.0705975       0.245435        9.90127
+ pL 0.630 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.630
+	Schedule L1/L0 = 0.700
+ pA -0.480 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.480
+	Schedule Alpha = 1.020
+
+ Iter 155 | Best F(x) 0.071 | F(x)  0.245 | Temperatura 9.901 | k = 156
+ 
+ Iter 156 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.700 alpha 1.020
+-------------
+   156        157      0.0705975       0.153731        9.88876
+ pL 0.930 - pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.420 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.420
+	Schedule Alpha = 1.080
+
+ Iter 156 | Best F(x) 0.071 | F(x)  0.154 | Temperatura 9.889 | k = 157
+ 
+ Iter 157 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.080
+-------------
+   157        158      0.0705975       0.153731        9.87636
+ pL 0.030 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.100
+ pA -0.360 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.360
+	Schedule Alpha = 1.140
+
+ Iter 157 | Best F(x) 0.071 | F(x)  0.154 | Temperatura 9.876 | k = 158
+ 
+ Iter 158 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.100 alpha 1.140
+-------------
+   158        159      0.0705975       0.153731        9.86406
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA 0.040 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.040
+	Schedule Alpha = 1.540
+
+ Iter 158 | Best F(x) 0.071 | F(x)  0.154 | Temperatura 9.864 | k = 159
+ 
+ Iter 159 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.540
+-------------
+   159        160      0.0705975       0.153731        9.85188
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.430 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.430
+	Schedule Alpha = 1.070
+
+ Iter 159 | Best F(x) 0.071 | F(x)  0.154 | Temperatura 9.852 | k = 160
+ 
+ Iter 160 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.070
+-------------
+   160        161      0.0705975       0.153731         9.8398
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.260 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.240
+
+ Iter 160 | Best F(x) 0.071 | F(x)  0.154 | Temperatura 9.840 | k = 161
+ 
+ Iter 161 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.240
+-------------
+   161        162      0.0705975       0.153731        9.82782
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.210 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.210
+	Schedule Alpha = 1.290
+
+ Iter 161 | Best F(x) 0.071 | F(x)  0.154 | Temperatura 9.828 | k = 162
+ 
+ Iter 162 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.290
+-------------
+   162        163      0.0705975       0.270559        9.81595
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.290 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.290
+	Schedule Alpha = 1.210
+
+ Iter 162 | Best F(x) 0.071 | F(x)  0.271 | Temperatura 9.816 | k = 163
+ 
+ Iter 163 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.210
+-------------
+   163        164      0.0705975       0.285775        9.80418
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.420 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.420
+	Schedule Alpha = 1.080
+
+ Iter 163 | Best F(x) 0.071 | F(x)  0.286 | Temperatura 9.804 | k = 164
+ 
+ Iter 164 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.080
+-------------
+   164        165      0.0705975       0.285775        9.79251
+ pL 0.230 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.230
+	Schedule L1/L0 = 0.300
+ pA -0.250 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.250
+	Schedule Alpha = 1.250
+
+ Iter 164 | Best F(x) 0.071 | F(x)  0.286 | Temperatura 9.793 | k = 165
+ 
+ Iter 165 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.300 alpha 1.250
+-------------
+   165        166      0.0705975       0.142232        9.78093
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA -0.480 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.480
+	Schedule Alpha = 1.020
+
+ Iter 165 | Best F(x) 0.071 | F(x)  0.142 | Temperatura 9.781 | k = 166
+ 
+ Iter 166 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.020
+-------------
+   166        167      0.0705975       0.310969        9.76945
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.440 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.440
+	Schedule Alpha = 1.060
+
+ Iter 166 | Best F(x) 0.071 | F(x)  0.311 | Temperatura 9.769 | k = 167
+ 
+ Iter 167 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.060
+-------------
+   167        168      0.0705975        0.30846        9.75807
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA 0.020 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.020
+	Schedule Alpha = 1.520
+
+ Iter 167 | Best F(x) 0.071 | F(x)  0.308 | Temperatura 9.758 | k = 168
+ 
+ Iter 168 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.520
+-------------
+   168        169      0.0705975       0.115889        9.74678
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA 0.020 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.020
+	Schedule Alpha = 1.520
+
+ Iter 168 | Best F(x) 0.071 | F(x)  0.116 | Temperatura 9.747 | k = 169
+ 
+ Iter 169 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.520
+-------------
+   169        170      0.0705975       0.115889        9.73558
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.380 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.380
+	Schedule Alpha = 1.120
+
+ Iter 169 | Best F(x) 0.071 | F(x)  0.116 | Temperatura 9.736 | k = 170
+ 
+ Iter 170 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.120
+-------------
+   170        171      0.0705975       0.115889        9.72448
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.120 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.380
+
+ Iter 170 | Best F(x) 0.071 | F(x)  0.116 | Temperatura 9.724 | k = 171
+ 
+ Iter 171 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.380
+-------------
+   171        172      0.0705975       0.249907        9.71346
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA -0.230 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.230
+	Schedule Alpha = 1.270
+
+ Iter 171 | Best F(x) 0.071 | F(x)  0.250 | Temperatura 9.713 | k = 172
+ 
+ Iter 172 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.270
+-------------
+   172        173      0.0705975       0.269393        9.70254
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.100 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.100
+	Schedule Alpha = 1.400
+
+ Iter 172 | Best F(x) 0.071 | F(x)  0.269 | Temperatura 9.703 | k = 173
+ 
+ Iter 173 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.400
+-------------
+   173        174      0.0705975       0.244754         9.6917
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.160 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.340
+
+ Iter 173 | Best F(x) 0.071 | F(x)  0.245 | Temperatura 9.692 | k = 174
+ 
+ Iter 174 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.340
+-------------
+   174        175      0.0705975       0.262884        9.68094
+ pL -0.050 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.050
+	Schedule L1/L0 = 0.020
+ pA 0.030 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.030
+	Schedule Alpha = 1.530
+
+ Iter 174 | Best F(x) 0.071 | F(x)  0.263 | Temperatura 9.681 | k = 175
+ 
+ Iter 175 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.020 alpha 1.530
+-------------
+   175        176      0.0705975       0.074866        9.67027
+ pL 0.030 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.030
+	Schedule L1/L0 = 0.100
+ pA -0.410 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.410
+	Schedule Alpha = 1.090
+
+ Iter 175 | Best F(x) 0.071 | F(x)  0.075 | Temperatura 9.670 | k = 176
+ 
+ Iter 176 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.100 alpha 1.090
+-------------
+   176        177      0.0705975       0.074866        9.65969
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA 0.050 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.050
+	Schedule Alpha = 1.550
+
+ Iter 176 | Best F(x) 0.071 | F(x)  0.075 | Temperatura 9.660 | k = 177
+ 
+ Iter 177 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.550
+-------------
+   177        178      0.0705975       0.074866        9.64919
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA -0.160 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.160
+	Schedule Alpha = 1.340
+
+ Iter 177 | Best F(x) 0.071 | F(x)  0.075 | Temperatura 9.649 | k = 178
+ 
+ Iter 178 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.340
+-------------
+   178        179      0.0705975       0.251669        9.63877
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA 0.060 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.060
+	Schedule Alpha = 1.560
+
+ Iter 178 | Best F(x) 0.071 | F(x)  0.252 | Temperatura 9.639 | k = 179
+ 
+ Iter 179 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+   179        180      0.0705975       0.251669        9.62843
+ pL -0.020 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.020
+	Schedule L1/L0 = 0.050
+ pA -0.260 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.240
+
+ Iter 179 | Best F(x) 0.071 | F(x)  0.252 | Temperatura 9.628 | k = 180
+ 
+ Iter 180 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.050 alpha 1.240
+-------------
+   180        181      0.0705975       0.242017        9.61816
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA -0.320 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.180
+
+ Iter 180 | Best F(x) 0.071 | F(x)  0.242 | Temperatura 9.618 | k = 181
+ 
+ Iter 181 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.180
+-------------
+   181        182      0.0705975       0.286611        9.60798
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.340 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.160
+
+ Iter 181 | Best F(x) 0.071 | F(x)  0.287 | Temperatura 9.608 | k = 182
+ 
+ Iter 182 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.160
+-------------
+   182        183      0.0705975       0.286611        9.59788
+ pL -0.060 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.060
+	Schedule L1/L0 = 0.010
+ pA -0.460 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.460
+	Schedule Alpha = 1.040
+
+ Iter 182 | Best F(x) 0.071 | F(x)  0.287 | Temperatura 9.598 | k = 183
+ 
+ Iter 183 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.010 alpha 1.040
+-------------
+   183        184      0.0705975       0.308033        9.58785
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.350 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.150
+
+ Iter 183 | Best F(x) 0.071 | F(x)  0.308 | Temperatura 9.588 | k = 184
+ 
+ Iter 184 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.150
+-------------
+   184        185      0.0705975       0.296993        9.57789
+ pL 0.430 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.430
+	Schedule L1/L0 = 0.500
+ pA -0.090 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.090
+	Schedule Alpha = 1.410
+
+ Iter 184 | Best F(x) 0.071 | F(x)  0.297 | Temperatura 9.578 | k = 185
+ 
+ Iter 185 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.500 alpha 1.410
+-------------
+*  185        186      0.0705975      0.0912844            Inf
+
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.070
+
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.000
+	Schedule Alpha = 1.500
+
+ Iter 185 | Best F(x) 0.071 | F(x)  0.091 | Temperatura Inf | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.070 alpha 1.500
+-------------
+   186        187      0.0705975      0.0705975        72.1348
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.070
+ pA -0.350 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.150
+
+ Iter 186 | Best F(x) 0.071 | F(x)  0.071 | Temperatura 72.135 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.070 alpha 1.150
+-------------
+   187        188      0.0705975      0.0705975         45.512
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.070
+ pA -0.250 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.250
+	Schedule Alpha = 1.250
+
+ Iter 187 | Best F(x) 0.071 | F(x)  0.071 | Temperatura 45.512 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.070 alpha 1.250
+-------------
+   188        189      0.0705975      0.0705975        36.0674
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.070
+ pA -0.460 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.460
+	Schedule Alpha = 1.040
+
+ Iter 188 | Best F(x) 0.071 | F(x)  0.071 | Temperatura 36.067 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.070 alpha 1.040
+-------------
+   189        190      0.0705975        0.27544        31.0667
+ pL -0.068 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.068
+	Schedule L1/L0 = 0.002
+ pA -0.270 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.270
+	Schedule Alpha = 1.230
+
+ Iter 189 | Best F(x) 0.071 | F(x)  0.275 | Temperatura 31.067 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.002 alpha 1.230
+-------------
+   190        191      0.0705975        0.27544        27.9055
+ pL 0.000 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.000
+	Schedule L1/L0 = 0.070
+ pA -0.390 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.390
+	Schedule Alpha = 1.110
+
+ Iter 190 | Best F(x) 0.071 | F(x)  0.275 | Temperatura 27.906 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.070 alpha 1.110
+-------------
+   191        192      0.0705975       0.261607        25.6949
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.320 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.320
+	Schedule Alpha = 1.180
+
+ Iter 191 | Best F(x) 0.071 | F(x)  0.262 | Temperatura 25.695 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.180
+-------------
+   192        193      0.0705975       0.271163        24.0449
+ pL -0.069 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.069
+	Schedule L1/L0 = 0.001
+ pA -0.260 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.260
+	Schedule Alpha = 1.240
+
+ Iter 192 | Best F(x) 0.071 | F(x)  0.271 | Temperatura 24.045 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.001 alpha 1.240
+-------------
+   193        194      0.0705975       0.271163         22.756
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA -0.120 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.380
+
+ Iter 193 | Best F(x) 0.071 | F(x)  0.271 | Temperatura 22.756 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.380
+-------------
+   194        195      0.0705975       0.243157        21.7147
+ pL -0.067 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.067
+	Schedule L1/L0 = 0.003
+ pA -0.120 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.120
+	Schedule Alpha = 1.380
+
+ Iter 194 | Best F(x) 0.071 | F(x)  0.243 | Temperatura 21.715 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.003 alpha 1.380
+-------------
+   195        196      0.0705975       0.249907        20.8516
+ pL -0.065 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.065
+	Schedule L1/L0 = 0.005
+ pA -0.350 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.350
+	Schedule Alpha = 1.150
+
+ Iter 195 | Best F(x) 0.071 | F(x)  0.250 | Temperatura 20.852 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.005 alpha 1.150
+-------------
+   196        197      0.0705975       0.249907        20.1215
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.380 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.380
+	Schedule Alpha = 1.120
+
+ Iter 196 | Best F(x) 0.071 | F(x)  0.250 | Temperatura 20.121 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.120
+-------------
+   197        198      0.0705975       0.249907        19.4936
+ pL 0.430 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = 0.430
+	Schedule L1/L0 = 0.500
+ pA -0.340 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.340
+	Schedule Alpha = 1.160
+
+ Iter 197 | Best F(x) 0.071 | F(x)  0.250 | Temperatura 19.494 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.500 alpha 1.160
+-------------
+   198        199      0.0705975       0.140908        18.9462
+ pL -0.063 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.063
+	Schedule L1/L0 = 0.007
+ pA 0.020 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = 0.020
+	Schedule Alpha = 1.520
+
+ Iter 198 | Best F(x) 0.071 | F(x)  0.141 | Temperatura 18.946 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.007 alpha 1.520
+-------------
+   199        200      0.0705975        0.12531        18.4635
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.170 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.170
+	Schedule Alpha = 1.330
+
+ Iter 199 | Best F(x) 0.071 | F(x)  0.125 | Temperatura 18.463 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.330
+-------------
+   200        201      0.0705975       0.230832        18.0337
+ pL -0.040 -
+	Schedule atual L1/L0 = 0.070
+	Pertubacao L1/L0 = -0.040
+	Schedule L1/L0 = 0.030
+ pA -0.150 -
+	Schedule atual Alpha = 1.500
+	Perturbacao Alpha = -0.150
+	Schedule Alpha = 1.350
+
+ Iter 200 | Best F(x) 0.071 | F(x)  0.231 | Temperatura 18.034 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 0.070 alpha 1.500 | Novos valores: L1/L0 0.030 alpha 1.350
+-------------
+   201        202      0.0705975       0.222983        17.6478
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+    0.0700    1.5000
+
+ 
+	HdL: 1.000  L1dL0: 0.070  t1dt0: 11.000  Alpha: 1.500

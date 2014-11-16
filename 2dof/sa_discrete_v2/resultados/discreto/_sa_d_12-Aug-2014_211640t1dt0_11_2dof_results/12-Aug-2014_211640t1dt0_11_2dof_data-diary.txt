@@ -1,0 +1,727 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.02 1.33 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.3300
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.242246       0.242246            100
+
+ Iter 0 | Best F(x) 0.242 | F(x)  0.242 | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.020 alpha 1.330 | Novos valores: L1/L0 0.500 alpha 1.340
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.3400
+
+
+init_temp =
+
+   100   100
+
+     1          2      0.0848938      0.0848938         144.27
+
+ Iter 1 | Best F(x) 0.085 | F(x)  0.085 | Temperatura 144.270 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.500 alpha 1.340 | Novos valores: L1/L0 0.003 alpha 1.480
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.4800
+
+
+init_temp =
+
+   100   100
+
+     2          3      0.0848938        0.19574        91.0239
+
+ Iter 2 | Best F(x) 0.085 | F(x)  0.196 | Temperatura 91.024 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.500 alpha 1.340 | Novos valores: L1/L0 0.007 alpha 1.380
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.3800
+
+
+init_temp =
+
+   100   100
+
+     3          4      0.0848938        0.19574        72.1348
+
+ Iter 3 | Best F(x) 0.085 | F(x)  0.196 | Temperatura 72.135 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.500 alpha 1.340 | Novos valores: L1/L0 0.300 alpha 1.400
+-------------
+
+vet_4_dof =
+
+    1.0000    0.3000   11.0000    1.4000
+
+
+init_temp =
+
+   100   100
+
+     4          5      0.0792479      0.0792479        62.1335
+
+ Iter 4 | Best F(x) 0.079 | F(x)  0.079 | Temperatura 62.133 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.400 | Novos valores: L1/L0 0.010 alpha 1.090
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.0900
+
+
+init_temp =
+
+   100   100
+
+     5          6      0.0792479      0.0792479        55.8111
+
+ Iter 5 | Best F(x) 0.079 | F(x)  0.079 | Temperatura 55.811 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.400 | Novos valores: L1/L0 0.500 alpha 1.150
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.1500
+
+
+init_temp =
+
+   100   100
+
+     6          7      0.0792479      0.0792479        51.3898
+
+ Iter 6 | Best F(x) 0.079 | F(x)  0.079 | Temperatura 51.390 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.400 | Novos valores: L1/L0 0.010 alpha 1.540
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.5400
+
+
+init_temp =
+
+   100   100
+
+     7          8      0.0729504      0.0729504        48.0898
+
+ Iter 7 | Best F(x) 0.073 | F(x)  0.073 | Temperatura 48.090 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.360
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.3600
+
+
+init_temp =
+
+   100   100
+
+     8          9      0.0729504      0.0729504         45.512
+
+ Iter 8 | Best F(x) 0.073 | F(x)  0.073 | Temperatura 45.512 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.400
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020   11.0000    1.4000
+
+
+init_temp =
+
+   100   100
+
+     9         10      0.0729504      0.0729504        43.4294
+
+ Iter 9 | Best F(x) 0.073 | F(x)  0.073 | Temperatura 43.429 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.070 alpha 1.530
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.5300
+
+
+init_temp =
+
+   100   100
+
+    10         11      0.0729504      0.0729504        41.7032
+
+ Iter 10 | Best F(x) 0.073 | F(x)  0.073 | Temperatura 41.703 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.380
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.3800
+
+
+init_temp =
+
+   100   100
+
+    11         12      0.0729504       0.249907         40.243
+
+ Iter 11 | Best F(x) 0.073 | F(x)  0.250 | Temperatura 40.243 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.390
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.3900
+
+
+init_temp =
+
+   100   100
+
+    12         13      0.0729504       0.218429        38.9871
+
+ Iter 12 | Best F(x) 0.073 | F(x)  0.218 | Temperatura 38.987 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.410
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.4100
+
+
+init_temp =
+
+   100   100
+
+    13         14      0.0729504       0.225402        37.8923
+
+ Iter 13 | Best F(x) 0.073 | F(x)  0.225 | Temperatura 37.892 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.380
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.3800
+
+
+init_temp =
+
+   100   100
+
+    14         15      0.0729504       0.238356        36.9269
+
+ Iter 14 | Best F(x) 0.073 | F(x)  0.238 | Temperatura 36.927 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.350
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050   11.0000    1.3500
+
+
+init_temp =
+
+   100   100
+
+    15         16      0.0729504       0.238356        36.0674
+
+ Iter 15 | Best F(x) 0.073 | F(x)  0.238 | Temperatura 36.067 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.070 alpha 1.380
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.3800
+
+
+init_temp =
+
+   100   100
+
+    16         17      0.0729504       0.166867        35.2956
+
+ Iter 16 | Best F(x) 0.073 | F(x)  0.167 | Temperatura 35.296 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.440
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.4400
+
+
+init_temp =
+
+   100   100
+
+    17         18      0.0729504       0.215258        34.5976
+
+ Iter 17 | Best F(x) 0.073 | F(x)  0.215 | Temperatura 34.598 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.070 alpha 1.350
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0700   11.0000    1.3500
+
+
+init_temp =
+
+   100   100
+
+    18         19      0.0729504       0.184057        33.9623
+
+ Iter 18 | Best F(x) 0.073 | F(x)  0.184 | Temperatura 33.962 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.050 alpha 1.380
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0500   11.0000    1.3800
+
+
+init_temp =
+
+   100   100
+
+    19         20      0.0729504       0.185985        33.3808
+
+ Iter 19 | Best F(x) 0.073 | F(x)  0.186 | Temperatura 33.381 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.340
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.3400
+
+
+init_temp =
+
+   100   100
+
+    20         21      0.0729504       0.261419        32.8459
+
+ Iter 20 | Best F(x) 0.073 | F(x)  0.261 | Temperatura 32.846 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.500
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020   11.0000    1.5000
+
+
+init_temp =
+
+   100   100
+
+    21         22      0.0729504       0.176645        32.3515
+
+ Iter 21 | Best F(x) 0.073 | F(x)  0.177 | Temperatura 32.352 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.002 alpha 1.360
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020   11.0000    1.3600
+
+
+init_temp =
+
+   100   100
+
+    22         23      0.0729504       0.257567        31.8929
+
+ Iter 22 | Best F(x) 0.073 | F(x)  0.258 | Temperatura 31.893 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0050   11.0000    1.5600
+
+
+init_temp =
+
+   100   100
+
+    23         24      0.0729504       0.257567        31.4658
+
+ Iter 23 | Best F(x) 0.073 | F(x)  0.258 | Temperatura 31.466 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.410
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.4100
+
+
+init_temp =
+
+   100   100
+
+    24         25      0.0729504       0.231107        31.0667
+
+ Iter 24 | Best F(x) 0.073 | F(x)  0.231 | Temperatura 31.067 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.490
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.4900
+
+
+init_temp =
+
+   100   100
+
+    25         26      0.0729504       0.185321        30.6928
+
+ Iter 25 | Best F(x) 0.073 | F(x)  0.185 | Temperatura 30.693 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.420
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.4200
+
+
+init_temp =
+
+   100   100
+
+    26         27      0.0729504       0.226319        30.3413
+
+ Iter 26 | Best F(x) 0.073 | F(x)  0.226 | Temperatura 30.341 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.020 alpha 1.470
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0200   11.0000    1.4700
+
+
+init_temp =
+
+   100   100
+
+    27         28      0.0729504       0.160949        30.0102
+
+ Iter 27 | Best F(x) 0.073 | F(x)  0.161 | Temperatura 30.010 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.010 alpha 1.570
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0100   11.0000    1.5700
+
+
+init_temp =
+
+   100   100
+
+    28         29      0.0729504       0.160949        29.6974
+
+ Iter 28 | Best F(x) 0.073 | F(x)  0.161 | Temperatura 29.697 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.030 alpha 1.390
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0300   11.0000    1.3900
+
+
+init_temp =
+
+   100   100
+
+    29         30      0.0729504       0.204173        29.4014
+
+ Iter 29 | Best F(x) 0.073 | F(x)  0.204 | Temperatura 29.401 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.500 alpha 1.440
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.4400
+
+
+init_temp =
+
+   100   100
+
+    30         31      0.0729504       0.204173        29.1207
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 30 | Best F(x) 0.073 | F(x)  0.204 | Temperatura 29.121 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.007 alpha 1.430
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0070   11.0000    1.4300
+
+
+init_temp =
+
+   100   100
+
+    31         32      0.0729504       0.204173        28.8539
+
+ Iter 31 | Best F(x) 0.073 | F(x)  0.204 | Temperatura 28.854 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.003 alpha 1.500
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0030   11.0000    1.5000
+
+
+init_temp =
+
+   100   100
+
+    32         33      0.0729504       0.172866           28.6
+
+ Iter 32 | Best F(x) 0.073 | F(x)  0.173 | Temperatura 28.600 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 0.010 alpha 1.540 | Novos valores: L1/L0 0.500 alpha 1.390
+-------------
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.3900
+
+{Operation terminated by user during jigglemesh (line 105)
+
+
+In pdetoolGA (line 3219)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In cav_y (line 194)
+    pdetoolGA('jiggle')
+
+In sa_cav_y_2dof (line 13)
+       saida =cav_y(vetor);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y2 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy (line 108)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+clear
+clc
+!vim .
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;58r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[58;1H"." é um diretório[>c[1;1H[4m[34m" ============================================================================[m[4m                                                                                                            [m[2;1H[34m" Netrw Directory Listing                                        [m[36m(netrw v149)[m
+[34m"   /mnt/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2
+"   Sorted by[m[33m      name[m
+[34m"   Sort sequence:[m[33m [\/]$[m[34m,[m[33m\<core\%(\.\d\+\)\=\>[m[34m,[m[33m\.h$[m[34m,[m[33m\.c$[m[34m,[m[33m\.cpp$[m[34m,[m[33m\~\=\*$[m[34m,[m[33m*[m[34m,[m[33m\.o$[m[34m,[m[33m\.obj$[m[34m,[m[33m\.info$[m[34m,[m[33m\.swp$[m[34m,[m[33m\.bak$[m[34m,[m[33m\~$[m
+[34m"   Quick Help: [m<F1[36m>[m[35m:[mhelp  [36m-[m[35m:[mgo up dir  [36mD[m[35m:[mdelete  [36mR[m[35m:[mrename  [36ms[m[35m:[msort-by  [36mx[m[35m:[mexec
+[34m" ============================================================================
+..[m[36m/[m
+[34m.[m[36m/[m
+[34mresultados[m[36m/[m
+d_annealing_c2.m
+d_sa_cav_y2.m
+dopt_sa_cavy.m
+initmat.m
+sa_cav_y_2dof.m
+tempboltzexp.m
+testes_sa.m
+var_exec_sa.m
+testes_sa.m~
+[1m[34m~                                                                                                                                                                                         [21;1H~                                                                                                                                                                                         [22;1H~                                                                                                                                                                                         [23;1H~                                                                                                                                                                                         [24;1H~                                                                                                                                                                                         [25;1H~                                                                                                                                                                                         [26;1H~                                                                                                                                                                                         [27;1H~                                                                                                                                                                                         [28;1H~                                                                                                                                                                                         [29;1H~                                                                                                                                                                                         [30;1H~                                                                                                                                                                                         [31;1H~                                                                                                                                                                                         [32;1H~                                                                                                                                                                                         [33;1H~                                                                                                                                                                                         [34;1H~                                                                                                                                                                                         [35;1H~                                                                                                                                                                                         [36;1H~                                                                                                                                                                                         [37;1H~                                                                                                                                                                                         [38;1H~                                                                                                                                                                                         [39;1H~                                                                                                                                                                                         [40;1H~                                                                                                                                                                                         [41;1H~                                                                                                                                                                                         [42;1H~                                                                                                                                                                                         [43;1H~                                                                                                                                                                                         [44;1H~                                                                                                                                                                                         [45;1H~                                                                                                                                                                                         [46;1H~                                                                                                                                                                                         [47;1H~                                                                                                                                                                                         [48;1H~                                                                                                                                                                                         [49;1H~                                                                                                                                                                                         [50;1H~                                                                                                                                                                                         [51;1H~                                                                                                                                                                                         [52;1H~                                                                                                                                                                                         [53;1H~                                                                                                                                                                                         [54;1H~                                                                                                                                                                                         [55;1H~                                                                                                                                                                                         [56;1H~                                                                                                                                                                                         [57;1H~                                                                                                                                                                                         [m[58;169H1,1[10CTudo[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[34m" ============================================================================[m[1;79H[K[2;1H[4m[34m" Netrw Directory Listing                                        [m[4m[36m(netrw v149)[m[4m                                                                                                             [m[58;169H2[2;1H[?12l[?25h[?25l[34m" Netrw Directory Listing                                        [m[36m(netrw v149)[m[2;78H[K[3;1H[4m[34m"   /mnt/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2[m[4m                                                                                [m[58;169H3[3;1H[?12l[?25h[?25l[34m"   /mnt/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2[m[3;107H[K[4;1H[4m[34m"   Sorted by[m[4m[33m      name[m[4m                                                                                                                                                                   [m[58;169H4[4;1H[?12l[?25h[?25l[34m"   Sorted by[m[33m      name[m[4;24H[K[5;1H[4m[34m"   Sort sequence:[m[4m[33m [\/]$[m[4m[34m,[m[4m[33m\<core\%(\.\d\+\)\=\>[m[4m[34m,[m[4m[33m\.h$[m[4m[34m,[m[4m[33m\.c$[m[4m[34m,[m[4m[33m\.cpp$[m[4m[34m,[m[4m[33m\~\=\*$[m[4m[34m,[m[4m[33m*[m[4m[34m,[m[4m[33m\.o$[m[4m[34m,[m[4m[33m\.obj$[m[4m[34m,[m[4m[33m\.info$[m[4m[34m,[m[4m[33m\.swp$[m[4m[34m,[m[4m[33m\.bak$[m[4m[34m,[m[4m[33m\~$[m[4m                                                                           [m[58;169H5[5;1H[?12l[?25h[?25l[34m"   Sort sequence:[m[33m [\/]$[m[34m,[m[33m\<core\%(\.\d\+\)\=\>[m[34m,[m[33m\.h$[m[34m,[m[33m\.c$[m[34m,[m[33m\.cpp$[m[34m,[m[33m\~\=\*$[m[34m,[m[33m*[m[34m,[m[33m\.o$[m[34m,[m[33m\.obj$[m[34m,[m[33m\.info$[m[34m,[m[33m\.swp$[m[34m,[m[33m\.bak$[m[34m,[m[33m\~$[m[5;112H[K[6;1H[4m[34m"   Quick Help: [m[4m<F1[m[4m[36m>[m[4m[35m:[m[4mhelp  [m[4m[36m-[m[4m[35m:[m[4mgo up dir  [m[4m[36mD[m[4m[35m:[m[4mdelete  [m[4m[36mR[m[4m[35m:[m[4mrename  [m[4m[36ms[m[4m[35m:[m[4msort-by  [m[4m[36mx[m[4m[35m:[m[4mexec                                                                                                             [m[58;169H6[6;1H[?12l[?25h[?25l[34m"   Quick Help: [m<F1[36m>[m[35m:[mhelp  [36m-[m[35m:[mgo up dir  [36mD[m[35m:[mdelete  [36mR[m[35m:[mrename  [36ms[m[35m:[msort-by  [36mx[m[35m:[mexec[6;78H[K[7;1H[4m[34m" ============================================================================[m[4m                                                                                                            [m[58;169H7[7;1H[?12l[?25h[?25l[34m" ============================================================================[m[7;79H[K[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                                                                                                                                       [m[58;169H8[8;1H[?12l[?25h[?25l[34m..[m[36m/[m[8;4H[K[9;1H[4m[34m.[m[4m[36m/[m[4m                                                                                                                                                                                        [m[58;169H9[9;1H[?12l[?25h[?25l[34m.[m[36m/[m[9;3H[K[10;1H[4m[34mresultados[m[4m[36m/[m[4m                                                                                                                                                                               [m[58;169H10,1[10;1H[?12l[?25h[?25l[34mresultados[m[36m/[m[10;12H[K[11;1H[4md_annealing_c2.m                                                                                                                                                                          [m[58;170H1[11;1H[?12l[?25h[?25ld_annealing_c2.m[11;17H[K[12;1H[4md_sa_cav_y2.m                                                                                                                                                                             [m[58;170H2[12;1H[?12l[?25h[?25ld_sa_cav_y2.m[12;14H[K[13;1H[4mdopt_sa_cavy.m                                                                                                                                                                            [m[58;170H3[13;1H[?12l[?25h[?25l[12;1H[4md_sa_cav_y2.m                                                                                                                                                                             [m[13;1Hdopt_sa_cavy.m[13;15H[K[58;170H2[12;1H[?12l[?25h[?25l[11;1H[4md_annealing_c2.m                                                                                                                                                                          [m[12;1Hd_sa_cav_y2.m[12;14H[K[58;170H1[11;1H[?12l[?25h[?25l[10;1H[4m[34mresultados[m[4m[36m/[m[4m                                                                                                                                                                               [m[11;1Hd_annealing_c2.m[11;17H[K[58;170H0[10;1H[?12l[?25h[?25l[3;107H[34m/resultados[m[10;1H[4m[34mdiscreto[m[4m[36m/[m[4m  [m
+.swp[11;5H[K[12;1H[1m[34m~                                                                                                                                                                                         [13;1H~                                                                                                                                                                                         [14;1H~                                                                                                                                                                                         [15;1H~                                                                                                                                                                                         [16;1H~                                                                                                                                                                                         [17;1H~                                                                                                                                                                                         [18;1H~                                                                                                                                                                                         [19;1H~                                                                                                                                                                                         [10;1H[?12l[?25h[?25l[m[34mdiscreto[m[36m/[m[10;10H[K[11;1H[4m.swp                                                                                                                                                                                      [m[58;170H1[11;1H[?12l[?25h[?25l[10;1H[4m[34mdiscreto[m[4m[36m/[m[4m                                                                                                                                                                                 [m[11;1H.swp[11;5H[K[58;170H0[10;1H[?12l[?25h[?25l[3;118H[34m/discreto[m[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m
+[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m
+[34m_sa_d_21-Jul-2014_03432t1dt0_11_2dof_results[m[36m/[m[12;46H[K[13;1H[34m_sa_d_21-Jul-2014_03512t1dt0_11_2dof_results[m[36m/[m[13;46H[K[14;1H[34m_sa_d_21-Jul-2014_05341t1dt0_11_2dof_results[m[36m/[m[14;46H[K[15;1H[34m_sa_d_21-Jul-2014_222031t1dt0_3_2dof_results[m[36m/[m[15;46H[K[16;1H[34m_sa_d_21-Jul-2014_222044t1dt0_3_2dof_results[m[36m/[m[16;46H[K[17;1H[34m_sa_d_21-Jul-2014_22219t1dt0_3_2dof_results[m[36m/[m[17;45H[K[18;1H[34m_sa_d_21-Jul-2014_222758t1dt0_3_2dof_results[m[36m/[m[18;46H[K[19;1H[34m_sa_d_21-Jul-2014_223028t1dt0_3_2dof_results[m[36m/[m[19;46H[K[20;1H[34m_sa_d_21-Jul-2014_22314t1dt0_3_2dof_results[m[36m/[m[20;45H[K[21;1H[34m_sa_d_21-Jul-2014_223825t1dt0_3_2dof_results[m[36m/[m[21;46H[K[22;1H[34m_sa_d_21-Jul-2014_224429t1dt0_3_2dof_results[m[36m/[m[22;46H[K[23;1H[34m_sa_d_21-Jul-2014_22452t1dt0_3_2dof_results[m[36m/[m[23;45H[K[24;1H[34m_sa_d_21-Jul-2014_22458t1dt0_3_2dof_results[m[36m/[m[24;45H[K[25;1H[34m_sa_d_21-Jul-2014_22460t1dt0_3_2dof_results[m[36m/[m[25;45H[K[26;1H[34m_sa_d_21-Jul-2014_224633t1dt0_3_2dof_results[m[36m/[m[26;46H[K[27;1H[34m_sa_d_21-Jul-2014_224647t1dt0_3_2dof_results[m[36m/[m[27;46H[K[28;1H[34m_sa_d_21-Jul-2014_224921t1dt0_3_2dof_results[m[36m/[m[28;46H[K[29;1H[34m_sa_d_21-Jul-2014_225022t1dt0_3_2dof_results[m[36m/[m[29;46H[K[30;1H[34m_sa_d_21-Jul-2014_22505t1dt0_3_2dof_results[m[36m/[m[30;45H[K[31;1H[34m_sa_d_21-Jul-2014_22535t1dt0_3_2dof_results[m[36m/[m[31;45H[K[32;1H[34m_sa_d_22-Jul-2014_04220t1dt0_3_2dof_results[m[36m/[m[32;45H[K[33;1H[34m_sa_d_22-Jul-2014_04243t1dt0_3_2dof_results[m[36m/[m[33;45H[K[34;1H[34m_sa_d_22-Jul-2014_04333t1dt0_3_2dof_results[m[36m/[m[34;45H[K[35;1H[34m_sa_d_22-Jul-2014_04354t1dt0_3_2dof_results[m[36m/[m[35;45H[K[36;1H[34m_sa_d_22-Jul-2014_0435t1dt0_3_2dof_results[m[36m/[m[36;44H[K[37;1H[34m_sa_d_22-Jul-2014_04452t1dt0_11_2dof_results[m[36m/[m[37;46H[K[38;1H[34m_sa_d_22-Jul-2014_04539t1dt0_11_2dof_results[m[36m/[m[38;46H[K[39;1H[34m_sa_d_22-Jul-2014_04752t1dt0_11_2dof_results[m[36m/[m[39;46H[K[40;1H[34m_sa_d_22-Jul-2014_1458t1dt0_11_2dof_results[m[36m/[m[40;45H[K[41;1H.swp[41;5H[K[10;1H[?12l[?25h[?25l[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[11;1H[4m[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[4m[36m/[m[4m                                                                                                                                            [m[58;170H1[11;1H[?12l[?25h[?25l[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m[4m                                                                                                                                                                       [m[11;1H[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m[11;47H[K[58;170H0[10;1H[?12l[?25h[?25l[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[11;1H[4m[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[4m[36m/[m[4m                                                                                                                                            [m[58;170H1[11;1H[?12l[?25h[?25l[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m[11;47H[K[12;1H[4m[34m_sa_d_21-Jul-2014_03432t1dt0_11_2dof_results[m[4m[36m/[m[4m                                                                                                                                             [m[58;170H2[12;1H[?12l[?25h[?25l[11;1H[4m[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[4m[36m/[m[4m                                                                                                                                            [m[12;1H[34m_sa_d_21-Jul-2014_03432t1dt0_11_2dof_results[m[36m/[m[12;46H[K[58;170H1[11;1H[?12l[?25h[?25l[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m[4m                                                                                                                                                                       [m[11;1H[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m[11;47H[K[58;170H0[10;1H[?12l[?25h[?25l[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[11;1H[4m[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[4m[36m/[m[4m                                                                                                                                            [m[58;170H1[11;1H[?12l[?25h[?25l[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m[4m                                                                                                                                                                       [m[11;1H[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m[11;47H[K[58;170H0[10;1H[?12l[?25h[?25l[9;1H[4m[34m.[m[4m[36m/[m[4m                                                                                                                                                                                        [m[10;1H[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[58;169H9,1 [9;1H[?12l[?25h[?25l[34m.[m[36m/[m[9;3H[K[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m[4m                                                                                                                                                                       [m[58;169H10,1[10;1H[?12l[?25h[?25l[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[11;1H[4m[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[4m[36m/[m[4m                                                                                                                                            [m[58;170H1[11;1H[?12l[?25h[?25l[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m[4m                                                                                                                                                                       [m[11;1H[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m[11;47H[K[58;170H0[10;1H[?12l[?25h[?25l[9;1H[4m[34m.[m[4m[36m/[m[4m                                                                                                                                                                                        [m[10;1H[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[58;169H9,1 [9;1H[?12l[?25h[?25l[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                                                                                                                                       [m[9;1H[34m.[m[36m/[m[9;3H[K[58;169H8[8;1H[?12l[?25h[?25l[3;118H[K[10;1H[34mdiscreto[m[36m/[m[10;10H[K[11;1H[1m[34m~                                                                                                                                                                                         [12;1H~                                                                                                                                                                                         [13;1H~                                                                                                                                                                                         [14;1H~                                                                                                                                                                                         [15;1H~                                                                                                                                                                                         [16;1H~                                                                                                                                                                                         [17;1H~                                                                                                                                                                                         [18;1H~                                                                                                                                                                                         [19;1H~                                                                                                                                                                                         [20;1H~                                                                                                                                                                                         [21;1H~                                                                                                                                                                                         [22;1H~                                                                                                                                                                                         [23;1H~                                                                                                                                                                                         [24;1H~                                                                                                                                                                                         [25;1H~                                                                                                                                                                                         [26;1H~                                                                                                                                                                                         [27;1H~                                                                                                                                                                                         [28;1H~                                                                                                                                                                                         [29;1H~                                                                                                                                                                                         [30;1H~                                                                                                                                                                                         [31;1H~                                                                                                                                                                                         [32;1H~                                                                                                                                                                                         [33;1H~                                                                                                                                                                                         [34;1H~                                                                                                                                                                                         [35;1H~                                                                                                                                                                                         [36;1H~                                                                                                                                                                                         [37;1H~                                                                                                                                                                                         [38;1H~                                                                                                                                                                                         [39;1H~                                                                                                                                                                                         [40;1H~                                                                                                                                                                                         [41;1H~                                                                                                                                                                                         [8;1H[?12l[?25h[?25l[m[34m..[m[36m/[m[8;4H[K[9;1H[4m[34m.[m[4m[36m/[m[4m                                                                                                                                                                                        [m[58;169H9[9;1H[?12l[?25h[?25l[34m.[m[36m/[m[9;3H[K[10;1H[4m[34mdiscreto[m[4m[36m/[m[4m                                                                                                                                                                                 [m[58;169H10,1[10;1H[?12l[?25h[?25l[3;118H[34m/discreto[m[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m
+[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m[11;47H[K[12;1H[34m_sa_d_21-Jul-2014_03432t1dt0_11_2dof_results[m[36m/[m[12;46H[K[13;1H[34m_sa_d_21-Jul-2014_03512t1dt0_11_2dof_results[m[36m/[m[13;46H[K[14;1H[34m_sa_d_21-Jul-2014_05341t1dt0_11_2dof_results[m[36m/[m[14;46H[K[15;1H[34m_sa_d_21-Jul-2014_222031t1dt0_3_2dof_results[m[36m/[m[15;46H[K[16;1H[34m_sa_d_21-Jul-2014_222044t1dt0_3_2dof_results[m[36m/[m[16;46H[K[17;1H[34m_sa_d_21-Jul-2014_22219t1dt0_3_2dof_results[m[36m/[m[17;45H[K[18;1H[34m_sa_d_21-Jul-2014_222758t1dt0_3_2dof_results[m[36m/[m[18;46H[K[19;1H[34m_sa_d_21-Jul-2014_223028t1dt0_3_2dof_results[m[36m/[m[19;46H[K[20;1H[34m_sa_d_21-Jul-2014_22314t1dt0_3_2dof_results[m[36m/[m[20;45H[K[21;1H[34m_sa_d_21-Jul-2014_223825t1dt0_3_2dof_results[m[36m/[m[21;46H[K[22;1H[34m_sa_d_21-Jul-2014_224429t1dt0_3_2dof_results[m[36m/[m[22;46H[K[23;1H[34m_sa_d_21-Jul-2014_22452t1dt0_3_2dof_results[m[36m/[m[23;45H[K[24;1H[34m_sa_d_21-Jul-2014_22458t1dt0_3_2dof_results[m[36m/[m[24;45H[K[25;1H[34m_sa_d_21-Jul-2014_22460t1dt0_3_2dof_results[m[36m/[m[25;45H[K[26;1H[34m_sa_d_21-Jul-2014_224633t1dt0_3_2dof_results[m[36m/[m[26;46H[K[27;1H[34m_sa_d_21-Jul-2014_224647t1dt0_3_2dof_results[m[36m/[m[27;46H[K[28;1H[34m_sa_d_21-Jul-2014_224921t1dt0_3_2dof_results[m[36m/[m[28;46H[K[29;1H[34m_sa_d_21-Jul-2014_225022t1dt0_3_2dof_results[m[36m/[m[29;46H[K[30;1H[34m_sa_d_21-Jul-2014_22505t1dt0_3_2dof_results[m[36m/[m[30;45H[K[31;1H[34m_sa_d_21-Jul-2014_22535t1dt0_3_2dof_results[m[36m/[m[31;45H[K[32;1H[34m_sa_d_22-Jul-2014_04220t1dt0_3_2dof_results[m[36m/[m[32;45H[K[33;1H[34m_sa_d_22-Jul-2014_04243t1dt0_3_2dof_results[m[36m/[m[33;45H[K[34;1H[34m_sa_d_22-Jul-2014_04333t1dt0_3_2dof_results[m[36m/[m[34;45H[K[35;1H[34m_sa_d_22-Jul-2014_04354t1dt0_3_2dof_results[m[36m/[m[35;45H[K[36;1H[34m_sa_d_22-Jul-2014_0435t1dt0_3_2dof_results[m[36m/[m[36;44H[K[37;1H[34m_sa_d_22-Jul-2014_04452t1dt0_11_2dof_results[m[36m/[m[37;46H[K[38;1H[34m_sa_d_22-Jul-2014_04539t1dt0_11_2dof_results[m[36m/[m[38;46H[K[39;1H[34m_sa_d_22-Jul-2014_04752t1dt0_11_2dof_results[m[36m/[m[39;46H[K[40;1H[34m_sa_d_22-Jul-2014_1458t1dt0_11_2dof_results[m[36m/[m[40;45H[K[41;1H.swp[41;5H[K[10;1H[?12l[?25h[?25l[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[11;1H[4m[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[4m[36m/[m[4m                                                                                                                                            [m[58;170H1[11;1H[?12l[?25h[?25l[10;1H[4m[34m2014-7-28_16_55_20[m[4m[36m/[m[4m                                                                                                                                                                       [m[11;1H[34m_sa_d_12-Aug-2014_211640t1dt0_11_2dof_results[m[36m/[m[11;47H[K[58;170H0[10;1H[?12l[?25h[?25l[9;1H[4m[34m.[m[4m[36m/[m[4m                                                                                                                                                                                        [m[10;1H[34m2014-7-28_16_55_20[m[36m/[m[10;20H[K[58;169H9,1 [9;1H[?12l[?25h[?25l[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                                                                                                                                       [m[9;1H[34m.[m[36m/[m[9;3H[K[58;169H8[8;1H[?12l[?25h[?25l[3;118H[K[10;1H[34mdiscreto[m[36m/[m[10;10H[K[11;1H[1m[34m~                                                                                                                                                                                         [12;1H~                                                                                                                                                                                         [13;1H~                                                                                                                                                                                         [14;1H~                                                                                                                                                                                         [15;1H~                                                                                                                                                                                         [16;1H~                                                                                                                                                                                         [17;1H~                                                                                                                                                                                         [18;1H~                                                                                                                                                                                         [19;1H~                                                                                                                                                                                         [20;1H~                                                                                                                                                                                         [21;1H~                                                                                                                                                                                         [22;1H~                                                                                                                                                                                         [23;1H~                                                                                                                                                                                         [24;1H~                                                                                                                                                                                         [25;1H~                                                                                                                                                                                         [26;1H~                                                                                                                                                                                         [27;1H~                                                                                                                                                                                         [28;1H~                                                                                                                                                                                         [29;1H~                                                                                                                                                                                         [30;1H~                                                                                                                                                                                         [31;1H~                                                                                                                                                                                         [32;1H~                                                                                                                                                                                         [33;1H~                                                                                                                                                                                         [34;1H~                                                                                                                                                                                         [35;1H~                                                                                                                                                                                         [36;1H~                                                                                                                                                                                         [37;1H~                                                                                                                                                                                         [38;1H~                                                                                                                                                                                         [39;1H~                                                                                                                                                                                         [40;1H~                                                                                                                                                                                         [41;1H~                                                                                                                                                                                         [8;1H[?12l[?25h[?25l[m[34m..[m[36m/[m[8;4H[K[9;1H[4m[34m.[m[4m[36m/[m[4m                                                                                                                                                                                        [m[58;169H9[9;1H[?12l[?25h[?25l[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                                                                                                                                       [m[9;1H[34m.[m[36m/[m[9;3H[K[58;169H8[8;1H[?12l[?25h[?25l[3;107H[K[10;1H[34mresultados[m[36m/[m
+d_annealing_c2.m[11;17H[K[12;1Hd_sa_cav_y2.m[12;14H[K[13;1Hdopt_sa_cavy.m[13;15H[K[14;1Hinitmat.m[14;10H[K[15;1Hsa_cav_y_2dof.m[15;16H[K[16;1Htempboltzexp.m[16;15H[K[17;1Htestes_sa.m[17;12H[K[18;1Hvar_exec_sa.m[18;14H[K[19;1Htestes_sa.m~[19;13H[K[8;1H[?12l[?25h[?25l[34m..[m[36m/[m[8;4H[K[9;1H[4m[34m.[m[4m[36m/[m[4m                                                                                                                                                                                        [m[58;169H9[9;1H[?12l[?25h[?25l[34m.[m[36m/[m[9;3H[K[10;1H[4m[34mresultados[m[4m[36m/[m[4m                                                                                                                                                                               [m[58;169H10,1[10;1H[?12l[?25h[?25l[34mresultados[m[36m/[m[10;12H[K[11;1H[4md_annealing_c2.m                                                                                                                                                                          [m[58;170H1[11;1H[?12l[?25h[?25ld_annealing_c2.m[11;17H[K[12;1H[4md_sa_cav_y2.m                                                                                                                                                                             [m[58;170H2[12;1H[?12l[?25h[?25ld_sa_cav_y2.m[12;14H[K[13;1H[4mdopt_sa_cavy.m                                                                                                                                                                            [m[58;170H3[13;1H[?12l[?25h[?25l[58;2H/mnt/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/dopt_sa_cavy.m"[58;169H[K[58;121H[convertido][dos] 136L, 3567C[1;1H[36mfunction[m opt = dopt_sa_cavy(valuet1dt0,modeltemp)    [1;54H[K[2;1H[34m% Otimizando a simulacao de cavidade Y com  SA 2DOF[m[2;53H[K[3;1H     clc[3;9H[K[4;1H  [4;3H[K[5;1H[32mglobal[m i[35m;[m[5;10H[K[6;1H[33mif[m isreal(i)[6;13H[K[7;1H   clc[7;7H[K[8;1H[33melse[m
+    i=[31m0[m[35m;[m
+    t = tic()[35m;[m
+[33mend[m[11;4H[K[12;1H    [12;5H[K[13;1H    [13;5H[K[14;1Hformat short
+[32mglobal[m logsa[35m;[m[15;14H[K[16;1H[32mglobal[m tmax_min[35m;[m
+[32mglobal[m mintmax[35m;[m[18;1H[K[19;1Hlogsa =[36m[][m[35m;[m[19;11H[K[20;1H[K[21;1H[32mglobal[m fi[35m;[m[21;11H[K[22;1H[32mglobal[m psi[35m;[m[22;12H[K[23;1H[32mglobal[m HdL[35m;[m[23;12H[K[24;1H[32mglobal[m t1dt0[35m;[m[24;14H[K[25;1H[K[26;1H[K[27;1H[32mglobal[m vetor[35m;[m[27;14H[K[28;1H[32mglobal[m salpha_c[35m;[m[28;17H[K[29;1H[K[30;1H[K[31;1H[34m%estrutura de diretorios[m[31;25H[K[32;1H[K[33;1H[32mglobal[m folder[35m;[m[33;15H[K[34;1H[32mglobal[m folderz[35m;[m[34;16H[K[35;1H[32mglobal[m folderg[35m;[m[35;16H[K[36;1H[32mglobal[m folderw[35m;[m[36;16H[K[37;1H[K[38;1Hsalpha_c = [31m0[m[35m;[m[38;14H[K[39;1H[K[40;1H[34m% Definindo restricoes de area  e parametros[m[40;45H[K[41;1Hfi = [31m0.05[m[35m;[m[41;11H[K[42;1Hpsi = [31m0.3[m[35m;[m[42;11H[K[43;1H[K[44;1H[34m%Valores de HdL e t1dt0 fixados[m[44;32H[K[45;1HHdL = [31m1.0[m[35m;[m[45;11H[K[46;1Ht1dt0 = valuet1dt0[35m;[m  [46;22H[K[47;1H[K[48;1H[K[49;1H[K[50;1H[34m%Configuracao para 2 graus de liberdade L1dL0 e alfa[m[50;53H[K[51;1H[K[52;1H    [34m% Valores iniciais[m[52;23H[K[53;1H    x0 = [33mzeros[m([31m1[m,[31m2[m)[35m;[m[53;21H[K[54;1H[K[55;1H    [34m%Valores iniciais aleatórios[m[55;33H[K[56;1H    [56;5H[K[57;1H    [34m%L1dL0[m[57;11H[K[58;169H1,1[10CTopo[1;1H[?12l[?25h[?25l[58;169H2[2;1H[?12l[?25h[?25l[58;169H3[3;1H[?12l[?25h[?25l[58;169H4[4;1H[?12l[?25h[?25l[58;169H5[5;1H[?12l[?25h[?25l[58;169H6[6;1H[?12l[?25h[?25l[58;169H7[7;1H[?12l[?25h[?25l[58;169H8[8;1H[?12l[?25h[?25l[58;169H9[9;1H[?12l[?25h[?25l[58;169H10,1[10;1H[?12l[?25h[?25l[58;170H1[11;1H[?12l[?25h[?25l[58;170H2[12;1H[?12l[?25h[?25l[58;170H3[13;1H[?12l[?25h[?25l[58;170H4[14;1H[?12l[?25h[?25l[58;170H5[15;1H[?12l[?25h[?25l[58;170H6[16;1H[?12l[?25h[?25l[58;170H7[17;1H[?12l[?25h[?25l[58;170H8,0-1[18;1H[?12l[?25h[?25l[58;170H9,1  [19;1H[?12l[?25h[?25l[58;169H20,0-1[20;1H[?12l[?25h[?25l[58;170H1,1  [21;1H[?12l[?25h[?25l[58;170H2[22;1H[?12l[?25h[?25l[58;170H3[23;1H[?12l[?25h[?25l[58;170H4[24;1H[?12l[?25h[?25l[58;170H5,0-1[25;1H[?12l[?25h[?25l[58;170H6[26;1H[?12l[?25h[?25l[58;170H7,1  [27;1H[?12l[?25h[?25l[58;170H8[28;1H[?12l[?25h[?25l[58;170H9,0-1[29;1H[?12l[?25h[?25l[58;169H30[30;1H[?12l[?25h[?25l[58;170H1,1  [31;1H[?12l[?25h[?25l[58;170H2,0-1[32;1H[?12l[?25h[?25l[58;170H3,1  [33;1H[?12l[?25h[?25l[58;170H4[34;1H[?12l[?25h[?25l[58;170H5[35;1H[?12l[?25h[?25l[58;170H6[36;1H[?12l[?25h[?25l[58;170H7,0-1[37;1H[?12l[?25h[?25l[58;170H8,1  [38;1H[?12l[?25h[?25l[58;170H9,0-1[39;1H[?12l[?25h[?25l[58;169H40,1  [40;1H[?12l[?25h[?25l[58;170H1[41;1H[?12l[?25h[?25l[58;170H2[42;1H[?12l[?25h[?25l[58;170H3,0-1[43;1H[?12l[?25h[?25l[58;170H4,1  [44;1H[?12l[?25h[?25l[58;170H5[45;1H[?12l[?25h[?25l[58;170H6[46;1H[?12l[?25h[?25l[58;170H7,0-1[47;1H[?12l[?25h[?25l[58;170H8[48;1H[?12l[?25h[?25l[58;170H9[49;1H[?12l[?25h[?25l[58;169H50,1  [50;1H[?12l[?25h[?25l[58;170H1,0-1[51;1H[?12l[?25h[?25l[58;170H2,1  [52;1H[?12l[?25h[?25l[58;170H3[53;1H[?12l[?25h[?25l[58;170H4,0-1[54;1H[?12l[?25h[?25l[58;170H5,1  [55;1H[?12l[?25h[?25l[58;170H6[56;1H[?12l[?25h[?25l[58;170H7[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hpl1dl0 = [36m[[m[31m0.001[m [31m0.002[m [31m0.003[m [31m0.005[m [31m0.007[m [31m0.01[m [31m0.02[m [31m0.03[m [31m0.05[m [31m0.07[m [31m0.1[m [31m0.3[m [31m0.5[m [31m0.7[m [31m1[m[36m][m[35m;[m[58;1H[K[58;169H58,1[11C1%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hr =  (((length(pl1dl0)[33m-[m[31m1[m)[33m-floor[m([33mrand[m()[33m*[m[31m10[m))[33m^[m[31m2[m)[33m^[m([31m1[m[33m/[m[31m2[m)[33m+[m[31m1[m[35m;[m[58;169H[K[58;169H59,1[11C2%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hx0([31m1[m) = pl1dl0(r)[35m;[m[58;169H[K[58;169H60,1[11C3%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H61,1[11C5%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[34m%Alphas[m[58;169H[K[58;169H62,1[11C6%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hupb = [31m1.57[m[35m;[m[58;169H[K[58;169H63,1[11C7%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hlob = [31m1.00[m[35m;[m[58;169H[K[58;169H64,1[11C8%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hstep_a = [31m0.01[m[35m;[m[58;169H[K[58;169H65,1[10C10%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hx0([31m2[m) = ((([33mfloor[m([33mrand[m()[33m/[mstep_a)[33m*[mstep_a[33m+[m[31m1[m)[33m-[mupb)[33m^[m[31m2[m)[33m^[m([31m1[m[33m/[m[31m2[m)[33m+[mlob[35m;[m[58;169H[K[58;169H66,1[10C11%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H67,1[10C12%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;4H[34m% x0 = [0.3 1.56][m[58;169H[K[58;169H68,1[10C13%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H69,1[10C15%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hdisplay(x0)[35m;[m[58;169H[K[58;169H70,1[10C16%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H71,1[10C17%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H72,1[10C18%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[34m%Calcula Geometria Inicial[m[58;169H[K[58;169H73,1[10C20%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[34m%saida, H, L, t1, t0, L1, L0, alfa1[m[58;169H[K[58;169H74,1[10C21%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hmatrizs =[36m[][m[35m;[m[58;169H[K[58;169H75,1[10C22%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[34m%matrizs(1,:) = cav_yd([HdL x0(1) t1dt0 x0(2)]);[m[58;169H[K[58;169H76,1[10C24%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[33mtry[m[58;169H[K[58;169H77,1[10C25%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;11Hmatrizs([31m1[m,:) = cav_y([36m[[mHdL x0([31m1[m) t1dt0 x0([31m2[m)[36m][m)[35m;[m [34m%Nao mostra a simulacao[m[58;169H[K[58;169H78,1[10C26%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[33mcatch[m e[58;169H[K[58;169H79,1[10C27%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;9Hfprintf([31m'\nGeometria inválida para x0 [ %.3f %.3f]\n'[m,x0)[35m;[m[58;169H[K[58;169H80,1[10C29%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;9Hmatrizs([31m1[m,:) = inf[35m;[m[58;169H[K[58;169H81,1[10C30%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[33mend[m[58;169H[K[58;169H82,1[10C31%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5H[34m%Funcao Objtivo[m[58;169H[K[58;169H83,1[10C32%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;5Hfun = @sa_cav_y_2dof[35m;[m [34m% Para 2 graus de liberdade[m[58;169H[K[58;169H84,1[10C34%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H85,1[10C35%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H86,0-1[8C36%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H87,0-1[8C37%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1H[34m%arquivo[m[58;169H[K[58;169H88,1[10C39%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1H[33mif[m isempty(folder)[58;169H[K[58;169H89,1[10C40%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;2Hfoldername = strcat(num2str(i),[31m'_sa_d_'[m,date,[31m'_'[m, num2str(hour(now)), num2str(minute(now)), num2str([33mfloor[m(second(now))),[31m't1dt0_'[m,num2str(t1dt0),[31m'_2dof_results'[m)[35m;[m[58;169H[K[58;169H90,1[10C41%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1H[33melse[m[58;169H[K[58;169H91,1[10C43%[57;1H[?12l[?25h[?25l[1;57r[1;1H[2M[1;58r[56;2Hfoldername = strcat(folder,[31m'/'[m,folderz,[31m'/'[m,folderw,[31m'/'[m,folderg,[31m'/'[m,num2str(i),[31m'_sa_d_'[m,date,[31m'_'[m, num2str(hour(now)), num2str(minute(now)), num2str([33mfloor[m(second(now))),[31m't1dt0_'[m,num2str(tt[57;1H1dt0),[31m'_2dof_results'[m)[35m;[m[58;169H[K[58;169H92,1[10C45%[56;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1H[33mend[m[58;169H[K[58;169H93,1[10C46%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hmkdir(strcat([31m'resultados/discreto/'[m,foldername))[35m;[m[58;169H[K[58;169H94,1[10C47%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hfilename = strcat([31m'resultados/discreto/'[m,foldername,[31m'/'[m,date,[31m'_'[m,  num2str(hour(now)), num2str(minute(now)), num2str([33mfloor[m(second(now))),[31m't1dt0_'[m,num2str(t1dt0),[31m'_2dof_data-diary.txt'[m)[35m;[m[58;169H[K[58;169H95,1[10C48%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hdiary (filename)[35m;[m[58;169H[K[58;169H96,1[10C50%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hdiary on[58;169H[K[58;169H97,1[10C51%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H98,0-1[8C52%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H99,0-1[8C53%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1H[34m% SA para cav_y[m[58;169H[K[58;169H100,1[9C55%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hdisplay([31m'\nSimulated Annealing...Discreted\n'[m)[35m;[m[58;169H[K[58;169H101,1[9C56%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H102,0-1[7C57%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1HoptValue  = mintmax[35m;;[m [34m% Valor de referencia pata t1dt0 = 11[m[58;169H[K[58;169H103,1[9C58%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1H[34m%optValue  = -inf;[m[58;169H[K[58;169H104,1[9C60%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hd = [31m1[m[35m;[m [34m%% Numero iteracoes por amostras[m[58;169H[K[58;169H105,1[9C61%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hs = [31m100[m[35m;[m [34m%% Parametro StallIterLimit - Maximo de iteracoes sem variacoes no otimo conhecido[m[58;169H[K[58;169H106,1[9C62%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hrs = s[35m;[m[58;169H[K[58;169H107,1[9C63%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hvetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp)[35m;[m[58;169H[K[58;169H108,1[9C65%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hvetor[58;169H[K[58;169H109,1[9C66%[57;1H[?12l[?25h[?25l[58;171H8[56;1H[?12l[?25h[?25l[58;171H7[55;1H[?12l[?25h[?25l[58;171H6[54;1H[?12l[?25h[?25l[58;171H5[53;1H[?12l[?25h[?25l[58;171H6[54;1H[?12l[?25h[?25l[58;171H7[55;1H[?12l[?25h[?25l[58;171H8[56;1H[?12l[?25h[?25l[58;171H9[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1Hfprintf([31m'\n\t HdL: %.3f  L1dL0: %.3f  t1dt0: %.3f  Alpha: %.3f\n'[m,HdL,vetor([31m1[m),t1dt0,vetor([31m2[m))[35m;[m[58;169H[K[58;169H110,1[9C67%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H111,0-1[7C68%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[58;169H[K[58;169H112,0-1[7C70%[57;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[57;1H[34m% Montando geometria otima[m[58;169H[K[58;169H113,1[9C71%[57;1H[?12l[?25h[?25l[58;171H2,0-1[56;1H[?12l[?25h[?25l[58;169H[K[58;1H:[?12l[?25he[?25l[?12l[?25h[?25l [?12l[?25hd[?25l[?12l[?25h...[?25l_annealing_c2.m[?12l[?25h[?25l[58;19H[K[58;19H[?12l[?25h[?25l[58;18H[K[58;18H[?12l[?25h[?25l[58;17H[K[58;17H[?12l[?25h[?25l[58;16H[K[58;16H[?12l[?25h[?25l[58;15H[K[58;15H[?12l[?25h[?25l[58;14H[K[58;14H[?12l[?25h[?25l[58;13H[K[58;13H[?12l[?25h[?25l[58;12H[K[58;12H[?12l[?25h[?25l[58;11H[K[58;11H[?12l[?25h[?25l[58;10H[K[58;10H[?12l[?25h[?25l[58;9H[K[58;9H[?12l[?25h[?25l[58;8H[K[58;8H[?12l[?25h[?25l[58;7H[K[58;7H[?12l[?25h[?25l[58;6H[K[58;6H[?12l[?25hs[?25l[?12l[?25ha[?25l[?12l[?25h...[?25l_cav_y2.m[?12l[?25h[?25l"d_sa_cav_y2.m" 24L, 949C[1;1H[36mfunction[m [36m[[mx,fval,exitflag,output[36m][m = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp)[1;82H[K[2;1H[34m% This is an auto generated MATLAB file from Optimization Tool.[m
+[32mglobal[m options[3;15H[K[4;1H[32mglobal[m tmax_min[35m;[m
+[32mglobal[m n_iter[35m;[m
+[34m% Start with the default options[m
+options = saoptimset[35m;[m
+[34m% Modify options setting[m
+options = saoptimset(options,[31m'Display'[m, [31m'diagnose'[m)[35m;[m[9;53H[K[10;1Hoptions = saoptimset(options,[31m'DisplayInterval'[m,d)[35m;[m
+options = saoptimset(options,[31m'StallIterLimit'[m,s)[35m;[m
+options = saoptimset(options,[31m'TemperatureFcn'[m,modeltemp)[35m;[m
+options = saoptimset(options,[31m'ObjectiveLimit'[m,optValue)[35m;[m
+options = saoptimset(options,[31m'DataType'[m,[31m'custom'[m)[35m;[m
+options = saoptimset(options,[31m'InitialTemperature'[m,[36m[[m[31m100[m [31m100[m[36m][m)[35m;[m
+options = saoptimset(options,[31m'AnnealingFcn'[m,@d_annealing_c2)[35m;[m
+options = saoptimset(options,[31m'ReannealInterval '[m,rs)[35m;[m
+options = saoptimset(options,[31m'AcceptanceFcn '[m,@acceptancesa)[35m;[m[19;5H[K[20;1H[36m[[mx,fval,exitflag,output[36m][m = [34m...[m
+simulannealbnd(fun,x0,[36m[][m,[36m[][m,options)[35m;[m[21;38H[K[22;5H[K[23;1Htmax_min = fval[35m;[m[23;17H[K[24;1Hn_iter = output.iterations
+[1m[34m~                                                                                                                                                                                         [26;1H~                                                                                                                                                                                         [27;1H~                                                                                                                                                                                         [28;1H~                                                                                                                                                                                         [29;1H~                                                                                                                                                                                         [30;1H~                                                                                                                                                                                         [31;1H~                                                                                                                                                                                         [32;1H~                                                                                                                                                                                         [33;1H~                                                                                                                                                                                         [34;1H~                                                                                                                                                                                         [35;1H~                                                                                                                                                                                         [36;1H~                                                                                                                                                                                         [37;1H~                                                                                                                                                                                         [38;1H~                                                                                                                                                                                         [39;1H~                                                                                                                                                                                         [40;1H~                                                                                                                                                                                         [41;1H~                                                                                                                                                                                         [42;1H~                                                                                                                                                                                         [43;1H~                                                                                                                                                                                         [44;1H~                                                                                                                                                                                         [45;1H~                                                                                                                                                                                         [46;1H~                                                                                                                                                                                         [47;1H~                                                                                                                                                                                         [48;1H~                                                                                                                                                                                         [49;1H~                                                                                                                                                                                         [50;1H~                                                                                                                                                                                         [51;1H~                                                                                                                                                                                         [52;1H~                                                                                                                                                                                         [53;1H~                                                                                                                                                                                         [54;1H~                                                                                                                                                                                         [55;1H~                                                                                                                                                                                         [56;1H~                                                                                                                                                                                         [57;1H~                                                                                                                                                                                         [m[58;169H1,1[10CTudo[1;1H[?12l[?25h[?25l[58;169H2[2;1H[?12l[?25h[?25l[58;169H3[3;1H[?12l[?25h[?25l[58;169H4[4;1H[?12l[?25h[?25l[58;169H5[5;1H[?12l[?25h[?25l[58;169H6[6;1H[?12l[?25h[?25l[58;169H7[7;1H[?12l[?25h[?25l[58;169H8[8;1H[?12l[?25h[?25l[58;169H9[9;1H[?12l[?25h[?25l[58;169H10,1[10;1H[?12l[?25h[?25l[58;170H1[11;1H[?12l[?25h[?25l[58;170H2[12;1H[?12l[?25h[?25l[58;170H3[13;1H[?12l[?25h[?25l[58;170H4[14;1H[?12l[?25h[?25l[58;170H5[15;1H[?12l[?25h[?25l[58;172H61[15;61H[?12l[?25h[?25l[15;21H[46m([38C)[m[58;173H0[15;60H[?12l[?25h[?25l[15;21H([29C[36m[46m[[7C][m)[58;172H59[15;59H[?12l[?25h[?25l[58;1H[1m-- INSERÇÃO --[m[58;15H[K[58;169H15,60[8CTudo[15;21H[46m([m[29C[36m[[7C][m[46m)[?12l[?25h[?25l[m[15;21H([29C[36m[46m[[7C][m)[58;172H59[15;59H[?12l[?25h[?25l[36m][m[46m)[m[35m;[m[15;61H[K[15;58H[36m[46m][m)[58;173H8[15;58H[?12l[?25h[58;1H[K[15;57H[?25l[36m[[6C][m[58;169H15,57[8CTudo[15;57H[?12l[?25h[?25l[58;169H[K[58;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"d_sa_cav_y2.m" 24L, 948C gravado(s)
+[?1l>[?12l[?25h[?1049ldopt_sa_cavy(11,@tempboltzexp)
+
+x0 =
+
+    0.5000    1.1600
+
+
+vet_4_dof =
+
+    1.0000    0.5000   11.0000    1.1600
+

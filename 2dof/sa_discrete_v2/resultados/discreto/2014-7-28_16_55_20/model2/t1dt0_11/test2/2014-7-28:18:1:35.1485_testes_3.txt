@@ -1,0 +1,31 @@
+
+options = 
+
+          AnnealingFcn: @d_annealing_c2
+        TemperatureFcn: @temperatureexp
+         AcceptanceFcn: @acceptancesa
+                TolFun: []
+        StallIterLimit: 100
+           MaxFunEvals: []
+             TimeLimit: []
+               MaxIter: []
+        ObjectiveLimit: 0.0611
+               Display: 'diagnose'
+       DisplayInterval: 1
+             HybridFcn: []
+        HybridInterval: []
+              PlotFcns: []
+          PlotInterval: []
+            OutputFcns: []
+    InitialTemperature: [100 100]
+      ReannealInterval: 100
+              DataType: 'custom'
+
+
+resultados =
+
+    1.0000    0.7000    1.2800    0.0885  160.0000  274.5466
+    2.0000    1.0000    1.2100    0.0927  197.0000  337.6783
+    3.0000    0.0070    1.5500    0.0611   55.0000   90.0066
+         0         0    3.0000    1.0000   33.3333         0
+

@@ -1,0 +1,5754 @@
+
+Simulated Annealing...
+ Discreted
+
+optValue =
+
+  -Inf
+
+[Warning: cannot use bounds with custom data type: ignoring bounds.] 
+[> In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulannealcommon.m',79,1)">globaloptim\private\simulannealcommon at 79</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m',44,1)">globaloptim\private\simulanneal at 44</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m',122,1)">simulannealbnd at 122</a>
+  In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m',8,1)">d_sa_cav_y at 8</a>
+  In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',51,1)">d_opt_sa_cavy at 51</a>] 
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.001 1 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 300
+	options.Display = 'diagnose'
+	options.DisplayInterval = 1 
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.319246       0.319246            100
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   100
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.1000
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   100
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+     1
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 0.101 alpha 2.000
+     1          2       0.319246       0.319246             50
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    50
+
+
+r =
+
+     7
+
+
+perturbacao =
+
+    0.3500
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    50
+
+
+r =
+
+     7
+
+
+perturbacao =
+
+    3.5000
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 0.351 alpha -2.500
+     2          3       0.319246       0.319246        33.3333
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   33.3333
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.1000
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   33.3333
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+     1
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 0.101 alpha 2.000
+     3          4       0.319246       0.319246             25
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    25
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0250
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    25
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.2500
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 -0.024 alpha 1.250
+     4          5       0.319246       0.319246             20
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    20
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0600
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    20
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.6000
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 0.061 alpha 1.600
+     5          6       0.319246       0.319246        16.6667
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   16.6667
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0833
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   16.6667
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.8333
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 0.084 alpha 1.833
+     6          7       0.319246       0.319246        14.2857
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   14.2857
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0571
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   14.2857
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.5714
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 0.058 alpha 1.571
+     7          8       0.319246       0.319246           12.5
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   12.5000
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0750
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   12.5000
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.7500
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 -0.074 alpha 1.750
+     8          9       0.319246       0.319246        11.1111
+
+schedule =
+
+    0.0010    1.0000
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   11.1111
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0444
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   11.1111
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.4444
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 
+Novos valores: L1/L0 0.045 alpha 1.444
+     9         10       0.145164       0.145164             10
+
+schedule =
+
+    0.0454    1.4444
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    10
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0100
+
+
+ans =
+
+    0.0454
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    10
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.1000
+
+
+ans =
+
+    1.4444
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.045 alpha 1.444 
+Novos valores: L1/L0 0.055 alpha 1.544
+    10         11       0.145164       0.145164        9.09091
+
+schedule =
+
+    0.0454    1.4444
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    9.0909
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0091
+
+
+ans =
+
+    0.0454
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    9.0909
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0909
+
+
+ans =
+
+    1.4444
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.045 alpha 1.444 
+Novos valores: L1/L0 0.036 alpha 1.535
+    11         12      0.0680163      0.0680163        8.33333
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    8.3333
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    8.3333
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.036 alpha 1.535
+    12         13      0.0680163      0.0680163        7.69231
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    7.6923
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.0692
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    7.6923
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.6923
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.106 alpha 2.228
+    13         14      0.0680163      0.0680163        7.14286
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    7.1429
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0214
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    7.1429
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.2143
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.015 alpha 1.750
+    14         15      0.0680163      0.0680163        6.66667
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    6.6667
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0200
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    6.6667
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.2000
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.056 alpha 1.735
+    15         16      0.0680163      0.0680163           6.25
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    6.2500
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0063
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    6.2500
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0625
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.030 alpha 1.473
+    16         17      0.0680163      0.0680163        5.88235
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    5.8824
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0059
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    5.8824
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0588
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.042 alpha 1.594
+    17         18      0.0680163      0.0680163        5.55556
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    5.5556
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    5.5556
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.036 alpha 1.535
+    18         19      0.0680163      0.0680163        5.26316
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    5.2632
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    5.2632
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.036 alpha 1.535
+    19         20      0.0680163      0.0680163              5
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+     5
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.0400
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+     5
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.4000
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.076 alpha 1.935
+    20         21      0.0680163      0.0680163         4.7619
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    4.7619
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0095
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    4.7619
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0952
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.046 alpha 1.631
+    21         22      0.0680163      0.0680163        4.54545
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    4.5455
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0182
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    4.5455
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.1818
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.055 alpha 1.354
+    22         23      0.0680163      0.0680163        4.34783
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    4.3478
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0043
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    4.3478
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0435
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.032 alpha 1.579
+    23         24      0.0680163      0.0680163        4.16667
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    4.1667
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    4.1667
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.036 alpha 1.535
+    24         25      0.0680163      0.0680163              4
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+     4
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0200
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+     4
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.2000
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.016 alpha 1.735
+    25         26      0.0680163      0.0680163        3.84615
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.8462
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0038
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.8462
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0385
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.033 alpha 1.574
+    26         27      0.0680163      0.0680163         3.7037
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.7037
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.0333
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.7037
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.3333
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.003 alpha 1.869
+    27         28      0.0680163      0.0680163        3.57143
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.5714
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0214
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.5714
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.2143
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.015 alpha 1.750
+    28         29      0.0680163      0.0680163        3.44828
+
+schedule =
+
+    0.0364    1.5354
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.4483
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0172
+
+
+ans =
+
+    0.0364
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.4483
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.1724
+
+
+ans =
+
+    1.5354
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.036 alpha 1.535 
+Novos valores: L1/L0 0.019 alpha 1.363
+    29         30      0.0680163       0.231516        3.33333
+
+schedule =
+
+    0.0191    1.3629
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.3333
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0067
+
+
+ans =
+
+    0.0191
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.3333
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0667
+
+
+ans =
+
+    1.3629
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.019 alpha 1.363 
+Novos valores: L1/L0 0.026 alpha 1.296
+    30         31      0.0680163       0.246401        3.22581
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+schedule =
+
+    0.0258    1.2963
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.2258
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0194
+
+
+ans =
+
+    0.0258
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.2258
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.1935
+
+
+ans =
+
+    1.2963
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.026 alpha 1.296 
+Novos valores: L1/L0 0.045 alpha 1.490
+    31         32      0.0680163      0.0992528          3.125
+
+schedule =
+
+    0.0451    1.4898
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.1250
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0031
+
+
+ans =
+
+    0.0451
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.1250
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0313
+
+
+ans =
+
+    1.4898
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.045 alpha 1.490 
+Novos valores: L1/L0 0.048 alpha 1.521
+    32         33      0.0652164      0.0652164         3.0303
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    3.0303
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0091
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    3.0303
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0909
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.039 alpha 1.612
+    33         34      0.0652164      0.0652164        2.94118
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.9412
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0088
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.9412
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0882
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.039 alpha 1.609
+    34         35      0.0652164      0.0652164        2.85714
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.8571
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0114
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.8571
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.1143
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.060 alpha 1.635
+    35         36      0.0652164      0.0652164        2.77778
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.7778
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0139
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.7778
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.1389
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.062 alpha 1.660
+    36         37      0.0652164      0.0652164         2.7027
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.7027
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0054
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.7027
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0541
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.043 alpha 1.575
+    37         38      0.0652164      0.0652164        2.63158
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.6316
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0053
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.6316
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0526
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.043 alpha 1.574
+    38         39      0.0652164      0.0652164         2.5641
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.5641
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.0205
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.5641
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.2051
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.028 alpha 1.726
+    39         40      0.0652164      0.0652164            2.5
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.5000
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0150
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.5000
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.1500
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.063 alpha 1.671
+    40         41      0.0652164      0.0652164        2.43902
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.4390
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.0220
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.4390
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.2195
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.026 alpha 1.741
+    41         42      0.0652164      0.0652164        2.38095
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.3810
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0071
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.3810
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0714
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.055 alpha 1.593
+    42         43      0.0652164      0.0652164        2.32558
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.3256
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0047
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.3256
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0465
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.053 alpha 1.568
+    43         44      0.0652164      0.0652164        2.27273
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.2727
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.2727
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.048 alpha 1.521
+    44         45      0.0652164      0.0652164        2.22222
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.2222
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0133
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.2222
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.1333
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.062 alpha 1.654
+    45         46      0.0652164      0.0652164        2.17391
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.1739
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0043
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.1739
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0435
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.053 alpha 1.565
+    46         47      0.0652164      0.0652164        2.12766
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.1277
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.0191
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.1277
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.1915
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.029 alpha 1.713
+    47         48      0.0652164      0.0652164        2.08333
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.0833
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0125
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.0833
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.1250
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.036 alpha 1.646
+    48         49      0.0652164      0.0652164        2.04082
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    2.0408
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0082
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    2.0408
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0816
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.056 alpha 1.603
+    49         50      0.0652164      0.0652164              2
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+     2
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.0160
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+     2
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.1600
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.064 alpha 1.681
+    50         51      0.0652164      0.0652164        1.96078
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.9608
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0020
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.9608
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0196
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.050 alpha 1.541
+    51         52      0.0652164      0.0652164        1.92308
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.9231
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.0173
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.9231
+
+
+r =
+
+     9
+
+
+perturbacao =
+
+    0.1731
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.066 alpha 1.694
+    52         53      0.0652164      0.0652164        1.88679
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.8868
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0057
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.8868
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0566
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.043 alpha 1.578
+    53         54      0.0652164      0.0652164        1.85185
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.8519
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0056
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.8519
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0556
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.054 alpha 1.577
+    54         55      0.0652164      0.0652164        1.81818
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.8182
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0109
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.8182
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.1091
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.037 alpha 1.630
+    55         56      0.0652164      0.0652164        1.78571
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.7857
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0089
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.7857
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0893
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.039 alpha 1.610
+    56         57      0.0652164      0.0652164        1.75439
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.7544
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0105
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.7544
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.1053
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.038 alpha 1.626
+    57         58      0.0652164      0.0652164        1.72414
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.7241
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0017
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.7241
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0172
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.050 alpha 1.538
+    58         59      0.0652164      0.0652164        1.69492
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.6949
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0051
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.6949
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0508
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.043 alpha 1.572
+    59         60      0.0652164      0.0652164        1.66667
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.6667
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.0133
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.6667
+
+
+r =
+
+     8
+
+
+perturbacao =
+
+    0.1333
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.062 alpha 1.654
+    60         61      0.0652164      0.0652164        1.63934
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.6393
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0082
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.6393
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0820
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.040 alpha 1.603
+    61         62      0.0652164      0.0652164         1.6129
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.6129
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0016
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.6129
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0161
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.047 alpha 1.537
+    62         63      0.0652164      0.0652164         1.5873
+
+schedule =
+
+    0.0483    1.5211
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.5873
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0079
+
+
+ans =
+
+    0.0483
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.5873
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0794
+
+
+ans =
+
+    1.5211
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.521 
+Novos valores: L1/L0 0.056 alpha 1.442
+    63         64      0.0652164       0.135783         1.5625
+
+schedule =
+
+    0.0562    1.4417
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.5625
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0078
+
+
+ans =
+
+    0.0562
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.5625
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0781
+
+
+ans =
+
+    1.4417
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.056 alpha 1.442 
+Novos valores: L1/L0 0.048 alpha 1.520
+    64         65      0.0647868      0.0647868        1.53846
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.5385
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0062
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.5385
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0615
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.055 alpha 1.581
+    65         66      0.0647868      0.0647868        1.51515
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.5152
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0076
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.5152
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0758
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.056 alpha 1.596
+    66         67      0.0647868      0.0647868        1.49254
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.4925
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0015
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.4925
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0149
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.050 alpha 1.535
+    67         68      0.0647868      0.0647868        1.47059
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.4706
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0074
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.4706
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0735
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.041 alpha 1.593
+    68         69      0.0647868      0.0647868        1.44928
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.4493
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0043
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.4493
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0435
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.044 alpha 1.563
+    69         70      0.0647868      0.0647868        1.42857
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.4286
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0057
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.4286
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0571
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.054 alpha 1.577
+    70         71      0.0647868      0.0647868        1.40845
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.4085
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0085
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.4085
+
+
+r =
+
+     6
+
+
+perturbacao =
+
+    0.0845
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.040 alpha 1.604
+    71         72      0.0647868      0.0647868        1.38889
+
+schedule =
+
+    0.0484    1.5198
+
+
+problem = 
+
+    objective: @sa_cav_y_2dof
+           x0: [1.0000e-03 1]
+         nvar: 2
+           lb: [2x1 double]
+           ub: [2x1 double]
+      bounded: 0
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    1.3889
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    0.0484
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    1.3889
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    1.5198
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.048 alpha 1.520 
+Novos valores: L1/L0 0.048 alpha 1.520
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('jigglemesh', 'C:\Program Files\MATLAB\R2012b\toolbox\pde\jigglemesh.m', 107)" style="font-weight:bold">jigglemesh</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\pde\jigglemesh.m',107,0)">line 107</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('pdetoolGA', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\pdetoolGA.m', 3219)" style="font-weight:bold">pdetoolGA</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\pdetoolGA.m',3219,0)">line 3219</a>)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In <a href="matlab:helpUtils.errorDocCallback('cav_y', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\cav_y.m', 193)" style="font-weight:bold">cav_y</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\cav_y.m',193,0)">line 193</a>)
+    pdetoolGA('jiggle')
+
+In <a href="matlab:helpUtils.errorDocCallback('sa_cav_y_2dof', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\sa_cav_y_2dof.m', 10)" style="font-weight:bold">sa_cav_y_2dof</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\sa_cav_y_2dof.m',10,0)">line 10</a>)
+       saida =cav_y(vetor);
+
+In <a href="matlab:helpUtils.errorDocCallback('sanewpoint', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\sanewpoint.m', 25)" style="font-weight:bold">sanewpoint</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\sanewpoint.m',25,0)">line 25</a>)
+newfval = problem.objective(newx);
+
+In <a href="matlab:helpUtils.errorDocCallback('saengine', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\saengine.m', 30)" style="font-weight:bold">saengine</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\saengine.m',30,0)">line 30</a>)
+    solverData = sanewpoint(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulanneal', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m', 51)" style="font-weight:bold">simulanneal</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m',51,0)">line 51</a>)
+solverData = saengine(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulannealbnd', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m', 122)" style="font-weight:bold">simulannealbnd</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m',122,0)">line 122</a>)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In <a href="matlab:helpUtils.errorDocCallback('d_sa_cav_y', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m', 8)" style="font-weight:bold">d_sa_cav_y</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m',8,0)">line 8</a>)
+[x,fval,exitflag,output] = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('d_opt_sa_cavy', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m', 51)" style="font-weight:bold">d_opt_sa_cavy</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',51,0)">line 51</a>)
+vetor = d_sa_cav_y(fun,x0,lb,lu,d,s,optValue);
+} 
+d_opt_sa_cavy

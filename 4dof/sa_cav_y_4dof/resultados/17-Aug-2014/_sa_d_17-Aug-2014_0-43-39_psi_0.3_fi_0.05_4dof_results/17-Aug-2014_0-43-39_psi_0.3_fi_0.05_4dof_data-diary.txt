@@ -1,0 +1,69 @@
+\nSimulated Annealing...Discreted\n
+
+	 Fitness Limit : -Inf
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  0.5 70 0.002 1.03 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @temperatureexp
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 25
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+
+p_memory =
+
+     0     0     0     0
+
+     1          2       0.206956       0.206956          90.25
+     2          3        0.13048        0.13048        85.7375
+     3          4        0.13048        1.78314        81.4506
+     4          5        0.13048       0.245526        77.3781
+     5          6        0.13048       0.138964        73.5092
+{Operation terminated by user during jigglemesh (line 107)
+
+
+In pdetoolGA (line 3219)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In cav_y (line 193)
+    pdetoolGA('jiggle')
+
+In sa_cav_y_4dof (line 6)
+	  saida = cav_y([vetor(1) vetor(3) vetor(2) vetor(4)]);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy_4 (line 101)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+dopt_sa_cavy_4(.3,.05,@temperatureexp)
+
+x0 =
+
+    5.0000   17.0000    0.0050    1.1100
+
+
+Geometria invalida para x0 [5.000 17.000 0.005 1.110]

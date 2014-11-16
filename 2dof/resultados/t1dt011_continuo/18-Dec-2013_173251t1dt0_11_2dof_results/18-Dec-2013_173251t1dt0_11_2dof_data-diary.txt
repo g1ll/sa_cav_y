@@ -1,0 +1,879 @@
+
+Simulated Annealing...
+ Discreted
+
+optValue =
+
+  -Inf
+
+[Warning: cannot use bounds with custom data type: ignoring bounds.] 
+[> In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulannealcommon.m',79,1)">globaloptim\private\simulannealcommon at 79</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m',44,1)">globaloptim\private\simulanneal at 44</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m',122,1)">simulannealbnd at 122</a>
+  In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m',8,1)">d_sa_cav_y at 8</a>
+  In <a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',54,1)">d_opt_sa_cavy at 54</a>] 
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.001 1 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 300
+	options.Display = 'diagnose'
+	options.DisplayInterval = 1 
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.319246       0.319246            100
+
+schedule =
+
+    0.0010    1.0000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   100
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   100
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+     5
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 -0.499 alpha 6.000
+     1          2       0.319246       0.319246             50
+
+schedule =
+
+    0.0010    1.0000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    50
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.1500
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    50
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    1.5000
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 -0.149 alpha 2.500
+     2          3       0.319246       0.319246        33.3333
+
+schedule =
+
+    0.0010    1.0000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   33.3333
+
+
+r =
+
+     7
+
+
+perturbacao =
+
+    0.2333
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   33.3333
+
+
+r =
+
+     7
+
+
+perturbacao =
+
+    2.3333
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.234 alpha 3.333
+     3          4       0.319246       0.319246             25
+
+schedule =
+
+    0.0010    1.0000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    25
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.0500
+
+
+ans =
+
+   1.0000e-03
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    25
+
+
+r =
+
+     2
+
+
+perturbacao =
+
+    0.5000
+
+
+ans =
+
+     1
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.051 alpha 1.500
+     4          5      0.0818669      0.0818669             20
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    20
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.1000
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    20
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+     1
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 -0.049 alpha 2.500
+     5          6      0.0818669      0.0818669        16.6667
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   16.6667
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0167
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   16.6667
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.1667
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 0.068 alpha 1.667
+     6          7      0.0818669      0.0818669        14.2857
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   14.2857
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.0714
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   14.2857
+
+
+r =
+
+     5
+
+
+perturbacao =
+
+    0.7143
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 -0.020 alpha 2.214
+     7          8      0.0818669      0.0818669           12.5
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   12.5000
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0500
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   12.5000
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.5000
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 0.101 alpha 2.000
+     8          9      0.0818669      0.0818669        11.1111
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+   11.1111
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.0333
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+   11.1111
+
+
+r =
+
+     3
+
+
+perturbacao =
+
+    0.3333
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 0.018 alpha 1.833
+     9         10      0.0818669      0.0818669             10
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    10
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.0400
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    10
+
+
+r =
+
+     4
+
+
+perturbacao =
+
+    0.4000
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 0.011 alpha 1.900
+    10         11      0.0818669      0.0818669        9.09091
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    9.0909
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0091
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    9.0909
+
+
+r =
+
+     1
+
+
+perturbacao =
+
+    0.0909
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 0.060 alpha 1.591
+    11         12      0.0818669      0.0818669        8.33333
+
+schedule =
+
+    0.0510    1.5000
+
+
+ans =
+
+   1.0000e-03
+
+
+ans =
+
+    8.3333
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    0.0510
+
+
+c =
+
+     1
+
+
+ans =
+
+    0.0100
+
+
+ans =
+
+    8.3333
+
+
+r =
+
+     0
+
+
+perturbacao =
+
+     0
+
+
+ans =
+
+    1.5000
+
+
+c =
+
+     2
+
+
+Valor atual: L1/L0 0.051 alpha 1.500 | Novos valores: L1/L0 0.051 alpha 1.500
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('pdetriq', 'C:\Program Files\MATLAB\R2012b\toolbox\pde\pdetriq.m', 25)" style="font-weight:bold">pdetriq</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\pde\pdetriq.m',25,0)">line 25</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('jigglemesh', 'C:\Program Files\MATLAB\R2012b\toolbox\pde\jigglemesh.m', 118)" style="font-weight:bold">jigglemesh</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\pde\jigglemesh.m',118,0)">line 118</a>)
+    q=pdetriq(p,t);
+
+In <a href="matlab:helpUtils.errorDocCallback('pdetoolGA', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\pdetoolGA.m', 3219)" style="font-weight:bold">pdetoolGA</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\pdetoolGA.m',3219,0)">line 3219</a>)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In <a href="matlab:helpUtils.errorDocCallback('cav_y', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\cav_y.m', 193)" style="font-weight:bold">cav_y</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\cav_y.m',193,0)">line 193</a>)
+    pdetoolGA('jiggle')
+
+In <a href="matlab:helpUtils.errorDocCallback('sa_cav_y_2dof', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\sa_cav_y_2dof.m', 10)" style="font-weight:bold">sa_cav_y_2dof</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\sa_cav_y_2dof.m',10,0)">line 10</a>)
+       saida =cav_y(vetor);
+
+In <a href="matlab:helpUtils.errorDocCallback('sanewpoint', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\sanewpoint.m', 25)" style="font-weight:bold">sanewpoint</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\sanewpoint.m',25,0)">line 25</a>)
+newfval = problem.objective(newx);
+
+In <a href="matlab:helpUtils.errorDocCallback('saengine', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\saengine.m', 30)" style="font-weight:bold">saengine</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\saengine.m',30,0)">line 30</a>)
+    solverData = sanewpoint(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulanneal', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m', 51)" style="font-weight:bold">simulanneal</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\private\simulanneal.m',51,0)">line 51</a>)
+solverData = saengine(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulannealbnd', 'C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m', 122)" style="font-weight:bold">simulannealbnd</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\globaloptim\globaloptim\simulannealbnd.m',122,0)">line 122</a>)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In <a href="matlab:helpUtils.errorDocCallback('d_sa_cav_y', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m', 8)" style="font-weight:bold">d_sa_cav_y</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_sa_cav_y.m',8,0)">line 8</a>)
+[x,fval,exitflag,output] = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('d_opt_sa_cavy', 'Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m', 54)" style="font-weight:bold">d_opt_sa_cavy</a> (<a href="matlab: opentoline('Z:\media\Dados\Arquivos\Estudos\Mestrado\Projetos\matlab\opt\opt_pde\sa_cav_y\2dof\d_opt_sa_cavy.m',54,0)">line 54</a>)
+vetor = d_sa_cav_y(fun,x0,lb,lu,d,s,optValue);
+} 
+d_opt_sa_cavy

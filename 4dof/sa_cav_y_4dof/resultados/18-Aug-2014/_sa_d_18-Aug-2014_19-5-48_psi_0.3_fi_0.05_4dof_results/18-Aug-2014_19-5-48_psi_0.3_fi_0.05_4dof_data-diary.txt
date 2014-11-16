@@ -1,0 +1,62 @@
+\nSimulated Annealing...Discreted\n
+
+	 Fitness Limit : -Inf
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  10 20 0.001 1.23 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @temperatureexp
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+{Error using fprintf
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in sa_cav_y_4dof (line 17)
+    fprintf(fid,' | Tmax = %.6f\n ',saida);
+
+Error in samakedata (line 21)
+    solverData.currentfval = problem.objective(reshapeinput(problem.x0,solverData.currentx));
+
+Error in simulannealcommon (line 111)
+solverData = samakedata(solverData,problem,options);
+
+Error in simulanneal (line 44)
+[x,fval,exitflag,output,solverData,problem,options] = ...
+
+Error in simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+Error in dopt_sa_cavy_4 (line 107)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+
+Caused by:
+    Failure in initial user-supplied objective function evaluation.
+} 
+pwd
+
+ans =
+
+/mnt/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/4dof/sa_cav_y_4dof
+
+ls
+arquivo.txt	  dopt_sa_cavy_4.m  initmat.m	   logpoint.txt  resultados	  tempboltzexp.m  tempksa.m	testes_sa.m
+d_annealing_c4.m  d_sa_cav_y4.m     logpoint2.txt  rand_vet.m	 sa_cav_y_4dof.m  temphsa.m	  teste_rand.m	var_exec_sa.m
+
+dopt_sa_cavy_4(0.3,0.05,@temperatureexp)
+
+x0 =
+
+    5.0000  120.0000    0.0500    1.0100
+
+
+Geometria invalida para x0 [5.000 120.000 0.050 1.010]

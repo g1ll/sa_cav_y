@@ -1,0 +1,823 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.3 1.56 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1              1              1            100
+
+ Iter 0 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.380
+-------------
+     1          2              1              1             50
+
+ Iter 1 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 50.000 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.300
+-------------
+     2          3              1              1        33.3333
+
+ Iter 2 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 33.333 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.380
+-------------
+     3          4              1              1             25
+
+ Iter 3 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 25.000 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.520
+-------------
+     4          5              1              1             20
+
+ Iter 4 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 20.000 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.510
+-------------
+     5          6              1              1        16.6667
+
+ Iter 5 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 16.667 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.470
+-------------
+     6          7              1              1        14.2857
+
+ Iter 6 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 14.286 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.560
+-------------
+     7          8              1              1           12.5
+
+ Iter 7 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 12.500 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.510
+-------------
+     8          9              1              1        11.1111
+
+ Iter 8 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 11.111 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.540
+-------------
+     9         10              1              1             10
+
+ Iter 9 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 10.000 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.550
+-------------
+    10         11              1              1        9.09091
+
+ Iter 10 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 9.091 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+    11         12              1              1        8.33333
+
+ Iter 11 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 8.333 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.570
+-------------
+    12         13              1              1        7.69231
+
+ Iter 12 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 7.692 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.530
+-------------
+    13         14              1              1        7.14286
+
+ Iter 13 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 7.143 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.560
+-------------
+    14         15              1              1        6.66667
+
+ Iter 14 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 6.667 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.530
+-------------
+    15         16              1              1           6.25
+
+ Iter 15 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 6.250 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    16         17              1              1        5.88235
+
+ Iter 16 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 5.882 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.550
+-------------
+    17         18              1              1        5.55556
+
+ Iter 17 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 5.556 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.530
+-------------
+    18         19              1              1        5.26316
+
+ Iter 18 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 5.263 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.550
+-------------
+    19         20              1              1              5
+
+ Iter 19 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 5.000 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    20         21              1              1         4.7619
+
+ Iter 20 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 4.762 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.550
+-------------
+    21         22              1              1        4.54545
+
+ Iter 21 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 4.545 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.540
+-------------
+    22         23              1              1        4.34783
+
+ Iter 22 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 4.348 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.540
+-------------
+    23         24              1              1        4.16667
+
+ Iter 23 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 4.167 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.560
+-------------
+    24         25              1              1              4
+
+ Iter 24 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 4.000 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.560
+-------------
+    25         26              1              1        3.84615
+
+ Iter 25 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.846 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.550
+-------------
+    26         27              1              1         3.7037
+
+ Iter 26 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.704 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    27         28              1              1        3.57143
+
+ Iter 27 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.571 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.700 alpha 1.540
+-------------
+    28         29              1              1        3.44828
+
+ Iter 28 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.448 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.570
+-------------
+    29         30              1              1        3.33333
+
+ Iter 29 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.333 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.550
+-------------
+    30         31              1              1        3.22581
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 30 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.226 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.560
+-------------
+    31         32              1              1          3.125
+
+ Iter 31 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.125 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.700 alpha 1.550
+-------------
+    32         33              1              1         3.0303
+
+ Iter 32 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 3.030 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.570
+-------------
+    33         34              1              1        2.94118
+
+ Iter 33 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.941 | k = 34
+ 
+ Iter 34 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.570
+-------------
+    34         35              1              1        2.85714
+
+ Iter 34 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.857 | k = 35
+ 
+ Iter 35 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.560
+-------------
+    35         36              1              1        2.77778
+
+ Iter 35 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.778 | k = 36
+ 
+ Iter 36 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.570
+-------------
+    36         37              1              1         2.7027
+
+ Iter 36 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.703 | k = 37
+ 
+ Iter 37 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 1.000 alpha 1.550
+-------------
+    37         38              1              1        2.63158
+
+ Iter 37 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.632 | k = 38
+ 
+ Iter 38 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.550
+-------------
+    38         39              1              1         2.5641
+
+ Iter 38 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.564 | k = 39
+ 
+ Iter 39 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.550
+-------------
+    39         40              1              1            2.5
+
+ Iter 39 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.500 | k = 40
+ 
+ Iter 40 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.570
+-------------
+    40         41              1              1        2.43902
+
+ Iter 40 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.439 | k = 41
+ 
+ Iter 41 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+    41         42              1              1        2.38095
+
+ Iter 41 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.381 | k = 42
+ 
+ Iter 42 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.700 alpha 1.560
+-------------
+    42         43              1              1        2.32558
+
+ Iter 42 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.326 | k = 43
+ 
+ Iter 43 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.570
+-------------
+    43         44              1              1        2.27273
+
+ Iter 43 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.273 | k = 44
+ 
+ Iter 44 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.550
+-------------
+    44         45              1              1        2.22222
+
+ Iter 44 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.222 | k = 45
+ 
+ Iter 45 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.020 alpha 1.550
+-------------
+    45         46              1              1        2.17391
+
+ Iter 45 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.174 | k = 46
+ 
+ Iter 46 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 1.000 alpha 1.570
+-------------
+    46         47              1              1        2.12766
+
+ Iter 46 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.128 | k = 47
+ 
+ Iter 47 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.560
+-------------
+    47         48              1              1        2.08333
+
+ Iter 47 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.083 | k = 48
+ 
+ Iter 48 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.560
+-------------
+    48         49              1              1        2.04082
+
+ Iter 48 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.041 | k = 49
+ 
+ Iter 49 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.570
+-------------
+    49         50              1              1              2
+
+ Iter 49 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 2.000 | k = 50
+ 
+ Iter 50 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.550
+-------------
+    50         51              1              1        1.96078
+
+ Iter 50 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.961 | k = 51
+ 
+ Iter 51 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.560
+-------------
+    51         52              1              1        1.92308
+
+ Iter 51 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.923 | k = 52
+ 
+ Iter 52 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.570
+-------------
+    52         53              1              1        1.88679
+
+ Iter 52 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.887 | k = 53
+ 
+ Iter 53 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.550
+-------------
+    53         54              1              1        1.85185
+
+ Iter 53 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.852 | k = 54
+ 
+ Iter 54 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.570
+-------------
+    54         55              1              1        1.81818
+
+ Iter 54 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.818 | k = 55
+ 
+ Iter 55 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.570
+-------------
+    55         56              1              1        1.78571
+
+ Iter 55 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.786 | k = 56
+ 
+ Iter 56 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.001 alpha 1.570
+-------------
+    56         57              1              1        1.75439
+
+ Iter 56 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.754 | k = 57
+ 
+ Iter 57 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 1.000 alpha 1.560
+-------------
+    57         58              1              1        1.72414
+
+ Iter 57 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.724 | k = 58
+ 
+ Iter 58 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    58         59              1              1        1.69492
+
+ Iter 58 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.695 | k = 59
+ 
+ Iter 59 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    59         60              1              1        1.66667
+
+ Iter 59 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.667 | k = 60
+ 
+ Iter 60 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.070 alpha 1.560
+-------------
+    60         61              1              1        1.63934
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 60 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.639 | k = 61
+ 
+ Iter 61 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    61         62              1              1         1.6129
+
+ Iter 61 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.613 | k = 62
+ 
+ Iter 62 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 1.000 alpha 1.560
+-------------
+    62         63              1              1         1.5873
+
+ Iter 62 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.587 | k = 63
+ 
+ Iter 63 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.560
+-------------
+    63         64              1              1         1.5625
+
+ Iter 63 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.562 | k = 64
+ 
+ Iter 64 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+    64         65              1              1        1.53846
+
+ Iter 64 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.538 | k = 65
+ 
+ Iter 65 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.560
+-------------
+    65         66              1              1        1.51515
+
+ Iter 65 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.515 | k = 66
+ 
+ Iter 66 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    66         67              1              1        1.49254
+
+ Iter 66 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.493 | k = 67
+ 
+ Iter 67 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    67         68              1              1        1.47059
+
+ Iter 67 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.471 | k = 68
+ 
+ Iter 68 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    68         69              1              1        1.44928
+
+ Iter 68 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.449 | k = 69
+ 
+ Iter 69 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    69         70              1              1        1.42857
+
+ Iter 69 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.429 | k = 70
+ 
+ Iter 70 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    70         71              1              1        1.40845
+
+ Iter 70 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.408 | k = 71
+ 
+ Iter 71 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    71         72              1              1        1.38889
+
+ Iter 71 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.389 | k = 72
+ 
+ Iter 72 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    72         73              1              1        1.36986
+
+ Iter 72 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.370 | k = 73
+ 
+ Iter 73 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+    73         74              1              1        1.35135
+
+ Iter 73 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.351 | k = 74
+ 
+ Iter 74 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    74         75              1              1        1.33333
+
+ Iter 74 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.333 | k = 75
+ 
+ Iter 75 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    75         76              1              1        1.31579
+
+ Iter 75 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.316 | k = 76
+ 
+ Iter 76 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.560
+-------------
+    76         77              1              1         1.2987
+
+ Iter 76 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.299 | k = 77
+ 
+ Iter 77 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    77         78              1              1        1.28205
+
+ Iter 77 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.282 | k = 78
+ 
+ Iter 78 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.010 alpha 1.560
+-------------
+    78         79              1              1        1.26582
+
+ Iter 78 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.266 | k = 79
+ 
+ Iter 79 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.560
+-------------
+    79         80              1              1           1.25
+
+ Iter 79 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.250 | k = 80
+ 
+ Iter 80 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    80         81              1              1        1.23457
+
+ Iter 80 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.235 | k = 81
+ 
+ Iter 81 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    81         82              1              1        1.21951
+
+ Iter 81 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.220 | k = 82
+ 
+ Iter 82 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    82         83              1              1        1.20482
+
+ Iter 82 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.205 | k = 83
+ 
+ Iter 83 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    83         84              1              1        1.19048
+
+ Iter 83 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.190 | k = 84
+ 
+ Iter 84 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    84         85              1              1        1.17647
+
+ Iter 84 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.176 | k = 85
+ 
+ Iter 85 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    85         86              1              1        1.16279
+
+ Iter 85 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.163 | k = 86
+ 
+ Iter 86 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.100 alpha 1.560
+-------------
+    86         87              1              1        1.14943
+
+ Iter 86 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.149 | k = 87
+ 
+ Iter 87 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.300 alpha 1.560
+-------------
+    87         88              1              1        1.13636
+
+ Iter 87 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.136 | k = 88
+ 
+ Iter 88 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.500 alpha 1.560
+-------------
+    88         89              1              1         1.1236
+
+ Iter 88 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.124 | k = 89
+ 
+ Iter 89 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    89         90              1              1        1.11111
+
+ Iter 89 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.111 | k = 90
+ 
+ Iter 90 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    90         91              1              1         1.0989
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 90 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.099 | k = 91
+ 
+ Iter 91 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+    91         92              1              1        1.08696
+
+ Iter 91 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.087 | k = 92
+ 
+ Iter 92 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+    92         93              1              1        1.07527
+
+ Iter 92 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.075 | k = 93
+ 
+ Iter 93 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    93         94              1              1        1.06383
+
+ Iter 93 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.064 | k = 94
+ 
+ Iter 94 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    94         95              1              1        1.05263
+
+ Iter 94 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.053 | k = 95
+ 
+ Iter 95 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.003 alpha 1.560
+-------------
+    95         96              1              1        1.04167
+
+ Iter 95 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.042 | k = 96
+ 
+ Iter 96 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.050 alpha 1.560
+-------------
+    96         97              1              1        1.03093
+
+ Iter 96 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.031 | k = 97
+ 
+ Iter 97 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.005 alpha 1.560
+-------------
+    97         98              1              1        1.02041
+
+ Iter 97 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.020 | k = 98
+ 
+ Iter 98 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    98         99              1              1         1.0101
+
+ Iter 98 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.010 | k = 99
+ 
+ Iter 99 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.002 alpha 1.560
+-------------
+    99        100              1              1              1
+
+ Iter 99 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 1.000 | k = 100
+ 
+ Iter 100 | Best F(x) 
+	Valor atual: L1/L0 0.300 alpha 1.560 | Novos valores: L1/L0 0.030 alpha 1.560
+-------------
+   100        101              1              1       0.990099
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+    0.3000    1.5600
+
+
+	 HdL: 1.000  L1dL0: 0.300  t1dt0: 3.000  Alpha: 1.560
+{Attempted to access axesHandle(1); index out of bounds because numel(axesHandle)=0.
+
+Error in btnstate (line 60)
+  axesHandle = axesHandle(1);
+
+Error in pdetoolGA (line 1228)
+  if btnstate(pde_fig,'zoom',1),
+
+Error in pdeinitGA (line 11)
+  pdetoolGA('new');
+
+Error in cav_y (line 67)
+    [pde_fig,ax]=pdeinitGA;
+
+Error in dopt_sa_cavy (line 113)
+matrizs(2,:) = cav_y([HdL vetor(1) t1dt0 vetor(2)]);% Nao mostra a simulacao
+} 
+!vim ../pdetool/
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;51r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[51;1H"../pdetool/" Nome de arquivo inválido[>c[1;1H[1m[4m[36m" ============================================================================[m[4m                                                                                                                  [m[2;1H[1m[36m" Netrw Directory Listing                                        (netrw v149)
+"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool
+"   Sorted by[m[1m[33m      name[m
+[1m[36m"   Sort sequence:[m[1m[33m [\/]$[m[1m[36m,[m[1m[33m\<core\%(\.\d\+\)\=\>[m[1m[36m,[m[1m[33m\.h$[m[1m[36m,[m[1m[33m\.c$[m[1m[36m,[m[1m[33m\.cpp$[m[1m[36m,[m[1m[33m\~\=\*$[m[1m[36m,[m[1m[33m*[m[1m[36m,[m[1m[33m\.o$[m[1m[36m,[m[1m[33m\.obj$[m[1m[36m,[m[1m[33m\.info$[m[1m[36m,[m[1m[33m\.swp$[m[1m[36m,[m[1m[33m\.bak$[m[1m[36m,[m[1m[33m\~$[m
+[1m[36m"   Quick Help: [m<F1[1m[36m>[m[1m[31m:[mhelp  [1m[36m-[m[1m[31m:[mgo up dir  [1m[36mD[m[1m[31m:[mdelete  [1m[36mR[m[1m[31m:[mrename  [1m[36ms[m[1m[31m:[msort-by  [1m[36mx[m[1m[31m:[mexec
+[1m[36m" ============================================================================
+../
+./[m
+09-Jun-2014_185648mesh_test_cav_y.csv
+09-Jun-2014_185648mesh_test_cav_y.ods
+09-Jun-2014_205735mesh_test_cav_y.csv
+10-Jun-2014_2431mesh_test_cav_y.csv
+cav_y.m
+cav_yd.m
+cav_ym.m
+cavy_mesh_test.m
+meshteste.m
+pdeinitGA.m
+pdepolyGA.m
+pdetoolGA.m
+.swp
+[1m[34m~                                                                                                                                                                                               [24;1H~                                                                                                                                                                                               [25;1H~                                                                                                                                                                                               [26;1H~                                                                                                                                                                                               [27;1H~                                                                                                                                                                                               [28;1H~                                                                                                                                                                                               [29;1H~                                                                                                                                                                                               [30;1H~                                                                                                                                                                                               [31;1H~                                                                                                                                                                                               [32;1H~                                                                                                                                                                                               [33;1H~                                                                                                                                                                                               [34;1H~                                                                                                                                                                                               [35;1H~                                                                                                                                                                                               [36;1H~                                                                                                                                                                                               [37;1H~                                                                                                                                                                                               [38;1H~                                                                                                                                                                                               [39;1H~                                                                                                                                                                                               [40;1H~                                                                                                                                                                                               [41;1H~                                                                                                                                                                                               [42;1H~                                                                                                                                                                                               [43;1H~                                                                                                                                                                                               [44;1H~                                                                                                                                                                                               [45;1H~                                                                                                                                                                                               [46;1H~                                                                                                                                                                                               [47;1H~                                                                                                                                                                                               [48;1H~                                                                                                                                                                                               [49;1H~                                                                                                                                                                                               [50;1H~                                                                                                                                                                                               [m[51;175H1,1[10CTudo[1;1H[?12l[?25h[?25l[1m[36m" ============================================================================[m[1;79H[K[2;1H[1m[4m[36m" Netrw Directory Listing                                        (netrw v149)[m[4m                                                                                                                   [m[51;175H2[2;1H[?12l[?25h[?25l[1m[36m" Netrw Directory Listing                                        (netrw v149)[m[2;78H[K[3;1H[1m[4m[36m"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool[m[4m                                                                                                 [m[51;175H3[3;1H[?12l[?25h[?25l[1m[36m"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool[m[3;96H[K[4;1H[1m[4m[36m"   Sorted by[m[1m[4m[33m      name[m[4m                                                                                                                                                                         [m[51;175H4[4;1H[?12l[?25h[?25l[1m[36m"   Sorted by[m[1m[33m      name[m[4;24H[K[5;1H[1m[4m[36m"   Sort sequence:[m[1m[4m[33m [\/]$[m[1m[4m[36m,[m[1m[4m[33m\<core\%(\.\d\+\)\=\>[m[1m[4m[36m,[m[1m[4m[33m\.h$[m[1m[4m[36m,[m[1m[4m[33m\.c$[m[1m[4m[36m,[m[1m[4m[33m\.cpp$[m[1m[4m[36m,[m[1m[4m[33m\~\=\*$[m[1m[4m[36m,[m[1m[4m[33m*[m[1m[4m[36m,[m[1m[4m[33m\.o$[m[1m[4m[36m,[m[1m[4m[33m\.obj$[m[1m[4m[36m,[m[1m[4m[33m\.info$[m[1m[4m[36m,[m[1m[4m[33m\.swp$[m[1m[4m[36m,[m[1m[4m[33m\.bak$[m[1m[4m[36m,[m[1m[4m[33m\~$[m[4m                                                                                 [m[51;175H5[5;1H[?12l[?25h[?25l[1m[36m"   Sort sequence:[m[1m[33m [\/]$[m[1m[36m,[m[1m[33m\<core\%(\.\d\+\)\=\>[m[1m[36m,[m[1m[33m\.h$[m[1m[36m,[m[1m[33m\.c$[m[1m[36m,[m[1m[33m\.cpp$[m[1m[36m,[m[1m[33m\~\=\*$[m[1m[36m,[m[1m[33m*[m[1m[36m,[m[1m[33m\.o$[m[1m[36m,[m[1m[33m\.obj$[m[1m[36m,[m[1m[33m\.info$[m[1m[36m,[m[1m[33m\.swp$[m[1m[36m,[m[1m[33m\.bak$[m[1m[36m,[m[1m[33m\~$[m[5;112H[K[6;1H[1m[4m[36m"   Quick Help: [m[4m<F1[m[1m[4m[36m>[m[1m[4m[31m:[m[4mhelp  [m[1m[4m[36m-[m[1m[4m[31m:[m[4mgo up dir  [m[1m[4m[36mD[m[1m[4m[31m:[m[4mdelete  [m[1m[4m[36mR[m[1m[4m[31m:[m[4mrename  [m[1m[4m[36ms[m[1m[4m[31m:[m[4msort-by  [m[1m[4m[36mx[m[1m[4m[31m:[m[4mexec                                                                                                                   [m[51;175H6[6;1H[?12l[?25h[?25l[1m[36m"   Quick Help: [m<F1[1m[36m>[m[1m[31m:[mhelp  [1m[36m-[m[1m[31m:[mgo up dir  [1m[36mD[m[1m[31m:[mdelete  [1m[36mR[m[1m[31m:[mrename  [1m[36ms[m[1m[31m:[msort-by  [1m[36mx[m[1m[31m:[mexec[6;78H[K[7;1H[1m[4m[36m" ============================================================================[m[4m                                                                                                                  [m[51;175H7[7;1H[?12l[?25h[?25l[1m[36m" ============================================================================[m[7;79H[K[8;1H[1m[4m[36m../[m[4m                                                                                                                                                                                             [m[51;175H8[8;1H[?12l[?25h[?25l[1m[36m../[m[8;4H[K[9;1H[1m[4m[36m./[m[4m                                                                                                                                                                                              [m[51;175H9[9;1H[?12l[?25h[?25l[1m[36m./[m[9;3H[K[10;1H[4m09-Jun-2014_185648mesh_test_cav_y.csv                                                                                                                                                           [m[51;175H10,1[10;1H[?12l[?25h[?25l09-Jun-2014_185648mesh_test_cav_y.csv[10;38H[K[11;1H[4m09-Jun-2014_185648mesh_test_cav_y.ods                                                                                                                                                           [m[51;176H1[11;1H[?12l[?25h[?25l09-Jun-2014_185648mesh_test_cav_y.ods[11;38H[K[12;1H[4m09-Jun-2014_205735mesh_test_cav_y.csv                                                                                                                                                           [m[51;176H2[12;1H[?12l[?25h[?25l09-Jun-2014_205735mesh_test_cav_y.csv[12;38H[K[13;1H[4m10-Jun-2014_2431mesh_test_cav_y.csv                                                                                                                                                             [m[51;176H3[13;1H[?12l[?25h[?25l10-Jun-2014_2431mesh_test_cav_y.csv[13;36H[K[14;1H[4mcav_y.m                                                                                                                                                                                         [m[51;176H4[14;1H[?12l[?25h[?25l[51;2H/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/cav_y.m"[51;175H[K[51;103H[convertido][dos] 232L, 4584C[1;1H[K[2;1H[1m[36mfunction[m saida= cav_y(vet_4_dof)[2;33H[K[3;1H[K[4;1H[1m[36m%Entrada vet_4_dof : Vetor com valores para quatro graus de liberdade [ HdL L1dL0  t1dt0][m[5;1H[K[6;1H[K[7;1HHdL  = vet_4_dof([1m[35m1[m)[1m[31m;[m[7;21H[K[8;1HL1dL0 = vet_4_dof([1m[35m2[m)[1m[31m;[m
+t1dt0 = vet_4_dof([1m[35m3[m)[1m[31m;[m
+alfa1 = vet_4_dof([1m[35m4[m)[1m[31m;[m[10;22H[K[11;1H[K[12;1Hfi = [1m[35m0.05[m[1m[31m;[m[12;11H[K[13;1Hpsi = [1m[35m0.3[m[1m[31m;[m[13;11H[K[14;1H[K[15;1H[1m[36m% x=1.41;
+% HdL = 1.0;
+% t1dt0 = 4.0;[m[17;15H[K[18;1H[1m[36m% L1dL0 = 0.001;
+% alfa1 = x;
+%L1dL0 = x(2);[m[21;1H[K[22;1H[K[23;1HL = ([1m[35m1[m[1m[33m/[mHdL)[1m[33m^[m[1m[35m0.5[m[1m[31m;[m[23;17H[K[24;1HH = HdL[1m[33m*[mL[1m[31m;[m[24;11H[K[25;1HLd2 = L[1m[33m/[m[1m[35m2[m[1m[31m;[m[25;11H[K[26;1H[K[27;1H[1m[36m%alfa = 0.925;[m[27;15H[K[28;1H[1m[36m% resolvendo o sistema de eq. algebricas nao linear[m[28;52H[K[29;1H[1m[36m% chutando t0[m[29;14H[K[30;1H[1m[33mfor[m t0=[1m[35m0.000001[m:[1m[35m0.000001[m:[1m[35m2[m[30;27H[K[31;1HL0 = (fi[1m[33m-[mt0[1m[33m^[m[1m[35m2[m[1m[33m*[m(t1dt0[1m[33m*cos[m(alfa1)[1m[33m-sin[m(alfa1)[1m[33m*cos[m(alfa1)))[1m[33m/[m(t0[1m[33m*[m(L1dL0[1m[33m*[mt1dt0[1m[33m+[m[1m[35m2[m))[1m[31m;[m[31;78H[K[32;1Heq = [1m[35m1[m[1m[33m/[m(t1dt0)[1m[33m*[m(psi[1m[33m/[m(L1dL0[1m[33m*[mL0[1m[33m+[mL0[1m[33m*sin[m(alfa1)[1m[33m+[mt0[1m[33m*cos[m(alfa1))[1m[33m-[m[1m[35m2[m[1m[33m*[mL0[1m[33m*cos[m(alfa1))[1m[33m-[mt0[1m[31m;[m[32;80H[K[33;1Hb = [1m[33mabs[m(eq)[1m[31m;[m[33;13H[K[34;1H[1m[33mif[m b [1m[33m<[m [1m[35m0.00001[m[34;15H[K[35;1H   [1m[33mbreak[m[35;9H[K[36;1H   [1m[33mend[m[36;7H[K[37;1H[1m[33mend[m[37;4H[K[38;1Hb[1m[31m;[m[38;3H[K[39;1HL1 = L1dL0 [1m[33m*[m L0[1m[31m;[m[39;17H[K[40;1HL0[1m[31m;[m[40;4H[K[41;1Ht1 = t1dt0 [1m[33m*[m t0[1m[31m;[m[41;17H[K[42;1Ht0[1m[31m;[m[42;4H[K[43;1Ht1d2 = t1[1m[33m/[m[1m[35m2[m[1m[31m;[m[43;13H[K[44;1Hx1 = t1d2[1m[31m;[m[44;11H[K[45;1Hx3 = x1 [1m[33m+[m L0 [1m[33m*[m [1m[33mcos[m(alfa1)[1m[31m;[m[45;27H[K[46;1Hy3 = L1 [1m[33m+[m L0 [1m[33m*[m [1m[33msin[m(alfa1)[1m[31m;[m[46;27H[K[47;1Hx4 = x3 [1m[33m-[m t0 [1m[33m*[m [1m[33msin[m(alfa1)[1m[31m;[m[47;27H[K[48;1Hy4 = y3 [1m[33m+[m t0 [1m[33m*[m [1m[33mcos[m(alfa1)[1m[31m;[m[48;27H[K[49;1Hy5 = L1 [1m[33m+[m t0 [1m[33m*[m [1m[33mcos[m(alfa1)[1m[31m;[m[49;27H[K[50;1Hx5 = x1 [1m[33m-[m t0 [1m[33m*[m [1m[33msin[m(alfa1)[1m[31m;[m[50;27H[K[51;175H1,0-1[8CTopo[1;1H[?12l[?25h[?25l[51;1H[K[51;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[51;1H[K[51;1H[?1l>[?12l[?25h[?1049l!vim ../pdetool/
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;51r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[51;1H"../pdetool/" Nome de arquivo inválido[>c[1;1H[1m[4m[36m" ============================================================================[m[4m                                                                                                                  [m[2;1H[1m[36m" Netrw Directory Listing                                        (netrw v149)
+"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool
+"   Sorted by[m[1m[33m      name[m
+[1m[36m"   Sort sequence:[m[1m[33m [\/]$[m[1m[36m,[m[1m[33m\<core\%(\.\d\+\)\=\>[m[1m[36m,[m[1m[33m\.h$[m[1m[36m,[m[1m[33m\.c$[m[1m[36m,[m[1m[33m\.cpp$[m[1m[36m,[m[1m[33m\~\=\*$[m[1m[36m,[m[1m[33m*[m[1m[36m,[m[1m[33m\.o$[m[1m[36m,[m[1m[33m\.obj$[m[1m[36m,[m[1m[33m\.info$[m[1m[36m,[m[1m[33m\.swp$[m[1m[36m,[m[1m[33m\.bak$[m[1m[36m,[m[1m[33m\~$[m
+[1m[36m"   Quick Help: [m<F1[1m[36m>[m[1m[31m:[mhelp  [1m[36m-[m[1m[31m:[mgo up dir  [1m[36mD[m[1m[31m:[mdelete  [1m[36mR[m[1m[31m:[mrename  [1m[36ms[m[1m[31m:[msort-by  [1m[36mx[m[1m[31m:[mexec
+[1m[36m" ============================================================================
+../
+./[m
+09-Jun-2014_185648mesh_test_cav_y.csv
+09-Jun-2014_185648mesh_test_cav_y.ods
+09-Jun-2014_205735mesh_test_cav_y.csv
+10-Jun-2014_2431mesh_test_cav_y.csv
+cav_y.m
+cav_yd.m
+cav_ym.m
+cavy_mesh_test.m
+meshteste.m
+pdeinitGA.m
+pdepolyGA.m
+pdetoolGA.m
+.swp
+[1m[34m~                                                                                                                                                                                               [24;1H~                                                                                                                                                                                               [25;1H~                                                                                                                                                                                               [26;1H~                                                                                                                                                                                               [27;1H~                                                                                                                                                                                               [28;1H~                                                                                                                                                                                               [29;1H~                                                                                                                                                                                               [30;1H~                                                                                                                                                                                               [31;1H~                                                                                                                                                                                               [32;1H~                                                                                                                                                                                               [33;1H~                                                                                                                                                                                               [34;1H~                                                                                                                                                                                               [35;1H~                                                                                                                                                                                               [36;1H~                                                                                                                                                                                               [37;1H~                                                                                                                                                                                               [38;1H~                                                                                                                                                                                               [39;1H~                                                                                                                                                                                               [40;1H~                                                                                                                                                                                               [41;1H~                                                                                                                                                                                               [42;1H~                                                                                                                                                                                               [43;1H~                                                                                                                                                                                               [44;1H~                                                                                                                                                                                               [45;1H~                                                                                                                                                                                               [46;1H~                                                                                                                                                                                               [47;1H~                                                                                                                                                                                               [48;1H~                                                                                                                                                                                               [49;1H~                                                                                                                                                                                               [50;1H~                                                                                                                                                                                               [m[51;175H1,1[10CTudo[1;1H[?12l[?25h[?25l[1m[36m" ============================================================================[m[1;79H[K[2;1H[1m[4m[36m" Netrw Directory Listing                                        (netrw v149)[m[4m                                                                                                                   [m[51;175H2[2;1H[?12l[?25h[?25l[1m[36m" Netrw Directory Listing                                        (netrw v149)[m[2;78H[K[3;1H[1m[4m[36m"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool[m[4m                                                                                                 [m[51;175H3[3;1H[?12l[?25h[?25l[1m[36m"   /media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool[m[3;96H[K[4;1H[1m[4m[36m"   Sorted by[m[1m[4m[33m      name[m[4m                                                                                                                                                                         [m[51;175H4[4;1H[?12l[?25h[?25l[1m[36m"   Sorted by[m[1m[33m      name[m[4;24H[K[5;1H[1m[4m[36m"   Sort sequence:[m[1m[4m[33m [\/]$[m[1m[4m[36m,[m[1m[4m[33m\<core\%(\.\d\+\)\=\>[m[1m[4m[36m,[m[1m[4m[33m\.h$[m[1m[4m[36m,[m[1m[4m[33m\.c$[m[1m[4m[36m,[m[1m[4m[33m\.cpp$[m[1m[4m[36m,[m[1m[4m[33m\~\=\*$[m[1m[4m[36m,[m[1m[4m[33m*[m[1m[4m[36m,[m[1m[4m[33m\.o$[m[1m[4m[36m,[m[1m[4m[33m\.obj$[m[1m[4m[36m,[m[1m[4m[33m\.info$[m[1m[4m[36m,[m[1m[4m[33m\.swp$[m[1m[4m[36m,[m[1m[4m[33m\.bak$[m[1m[4m[36m,[m[1m[4m[33m\~$[m[4m                                                                                 [m[51;175H5[5;1H[?12l[?25h[?25l[1m[36m"   Sort sequence:[m[1m[33m [\/]$[m[1m[36m,[m[1m[33m\<core\%(\.\d\+\)\=\>[m[1m[36m,[m[1m[33m\.h$[m[1m[36m,[m[1m[33m\.c$[m[1m[36m,[m[1m[33m\.cpp$[m[1m[36m,[m[1m[33m\~\=\*$[m[1m[36m,[m[1m[33m*[m[1m[36m,[m[1m[33m\.o$[m[1m[36m,[m[1m[33m\.obj$[m[1m[36m,[m[1m[33m\.info$[m[1m[36m,[m[1m[33m\.swp$[m[1m[36m,[m[1m[33m\.bak$[m[1m[36m,[m[1m[33m\~$[m[5;112H[K[6;1H[1m[4m[36m"   Quick Help: [m[4m<F1[m[1m[4m[36m>[m[1m[4m[31m:[m[4mhelp  [m[1m[4m[36m-[m[1m[4m[31m:[m[4mgo up dir  [m[1m[4m[36mD[m[1m[4m[31m:[m[4mdelete  [m[1m[4m[36mR[m[1m[4m[31m:[m[4mrename  [m[1m[4m[36ms[m[1m[4m[31m:[m[4msort-by  [m[1m[4m[36mx[m[1m[4m[31m:[m[4mexec                                                                                                                   [m[51;175H6[6;1H[?12l[?25h[?25l[1m[36m"   Quick Help: [m<F1[1m[36m>[m[1m[31m:[mhelp  [1m[36m-[m[1m[31m:[mgo up dir  [1m[36mD[m[1m[31m:[mdelete  [1m[36mR[m[1m[31m:[mrename  [1m[36ms[m[1m[31m:[msort-by  [1m[36mx[m[1m[31m:[mexec[6;78H[K[7;1H[1m[4m[36m" ============================================================================[m[4m                                                                                                                  [m[51;175H7[7;1H[?12l[?25h[?25l[1m[36m" ============================================================================[m[7;79H[K[8;1H[1m[4m[36m../[m[4m                                                                                                                                                                                             [m[51;175H8[8;1H[?12l[?25h[?25l[1m[36m../[m[8;4H[K[9;1H[1m[4m[36m./[m[4m                                                                                                                                                                                              [m[51;175H9[9;1H[?12l[?25h[?25l[1m[36m./[m[9;3H[K[10;1H[4m09-Jun-2014_185648mesh_test_cav_y.csv                                                                                                                                                           [m[51;175H10,1[10;1H[?12l[?25h[?25l09-Jun-2014_185648mesh_test_cav_y.csv[10;38H[K[11;1H[4m09-Jun-2014_185648mesh_test_cav_y.ods                                                                                                                                                           [m[51;176H1[11;1H[?12l[?25h[?25l09-Jun-2014_185648mesh_test_cav_y.ods[11;38H[K[12;1H[4m09-Jun-2014_205735mesh_test_cav_y.csv                                                                                                                                                           [m[51;176H2[12;1H[?12l[?25h[?25l09-Jun-2014_205735mesh_test_cav_y.csv[12;38H[K[13;1H[4m10-Jun-2014_2431mesh_test_cav_y.csv                                                                                                                                                             [m[51;176H3[13;1H[?12l[?25h[?25l10-Jun-2014_2431mesh_test_cav_y.csv[13;36H[K[14;1H[4mcav_y.m                                                                                                                                                                                         [m[51;176H4[14;1H[?12l[?25h[?25lcav_y.m[14;8H[K[15;1H[4mcav_yd.m                                                                                                                                                                                        [m[51;176H5[15;1H[?12l[?25h[?25lcav_yd.m[15;9H[K[16;1H[4mcav_ym.m                                                                                                                                                                                        [m[51;176H6[16;1H[?12l[?25h[?25l[51;2H/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/cav_ym.m"[51;175H[K[51;104H[sem fim de linha][convertido][dos] 237L, 4696C[1;1H[K[2;1H[1m[36mfunction[m saida = cav_ym(vet_4_dof,num_ref_grid)[2;48H[K[3;1H[K[4;1H[1m[36m%Entrada vet_4_dof : Vetor com valores para quatro graus de liberdade [ HdL L1dL0  t1dt0][m[5;1H[K[6;1H[K[7;1HHdL  = vet_4_dof([1m[35m1[m)[1m[31m;[m[7;21H[K[8;1HL1dL0 = vet_4_dof([1m[35m2[m)[1m[31m;[m
+t1dt0 = vet_4_dof([1m[35m3[m)[1m[31m;[m
+alfa1 = vet_4_dof([1m[35m4[m)[1m[31m;[m[10;22H[K[11;1H[K[12;1H[1m[36m%global parciais;[m[12;18H[K[13;1H[1m[32mglobal[m fi[1m[31m;[m[13;11H[K[14;1H[1m[32mglobal[m psi[1m[31m;[m[15;1H[K[16;1H[1m[36m% x=1.41;[m[16;10H[K[17;1H[1m[36m% HdL = 1.0;[m[17;13H[K[18;1H[1m[36m% t1dt0 = 4.0;
+% L1dL0 = 0.001;
+% alfa1 = x;
+%L1dL0 = x(2);[m[22;1H[K[23;1H[K[24;1HL = ([1m[35m1[m[1m[33m/[mHdL)[1m[33m^[m[1m[35m0.5[m[1m[31m;[m[24;17H[K[25;1HH = HdL[1m[33m*[mL[1m[31m;[m[25;11H[K[26;1HLd2 = L[1m[33m/[m[1m[35m2[m[1m[31m;[m[26;11H[K[27;1H[K[28;1H[1m[36m%alfa = 0.925;[m[28;15H[K[29;1H[1m[36m% resolvendo o sistema de eq. algebricas nao linear[m[29;52H[K[30;1H[1m[36m% chutando t0[m[30;14H[K[31;1H[1m[33mfor[m t0=[1m[35m0.000001[m:[1m[35m0.000001[m:[1m[35m2[m[31;27H[K[32;1HL0 = (fi[1m[33m-[mt0[1m[33m^[m[1m[35m2[m[1m[33m*[m(t1dt0[1m[33m*cos[m(alfa1)[1m[33m-sin[m(alfa1)[1m[33m*cos[m(alfa1)))[1m[33m/[m(t0[1m[33m*[m(L1dL0[1m[33m*[mt1dt0[1m[33m+[m[1m[35m2[m))[1m[31m;[m[32;78H[K[33;1Heq = [1m[35m1[m[1m[33m/[m(t1dt0)[1m[33m*[m(psi[1m[33m/[m(L1dL0[1m[33m*[mL0[1m[33m+[mL0[1m[33m*sin[m(alfa1)[1m[33m+[mt0[1m[33m*cos[m(alfa1))[1m[33m-[m[1m[35m2[m[1m[33m*[mL0[1m[33m*cos[m(alfa1))[1m[33m-[mt0[1m[31m;[m[33;80H[K[34;1Hb = [1m[33mabs[m(eq)[1m[31m;[m[34;13H[K[35;1H[1m[33mif[m b [1m[33m<[m [1m[35m0.00001[m[35;15H[K[36;1H   [1m[33mbreak[m[36;9H[K[37;1H   [1m[33mend[m[37;7H[K[38;1H[1m[33mend[m[38;4H[K[39;1Hb[1m[31m;[m[39;3H[K[40;1HL1 = L1dL0 [1m[33m*[m L0[1m[31m;[m[40;17H[K[41;1HL0[1m[31m;[m[41;4H[K[42;1Ht1 = t1dt0 [1m[33m*[m t0[1m[31m;[m[42;17H[K[43;1Ht0[1m[31m;[m[43;4H[K[44;1Ht1d2 = t1[1m[33m/[m[1m[35m2[m[1m[31m;[m[44;13H[K[45;1Hx1 = t1d2[1m[31m;[m[45;11H[K[46;1Hx3 = x1 [1m[33m+[m L0 [1m[33m*[m [1m[33mcos[m(alfa1)[1m[31m;[m[46;27H[K[47;1Hy3 = L1 [1m[33m+[m L0 [1m[33m*[m [1m[33msin[m(alfa1)[1m[31m;[m[47;27H[K[48;1Hx4 = x3 [1m[33m-[m t0 [1m[33m*[m [1m[33msin[m(alfa1)[1m[31m;[m[48;27H[K[49;1Hy4 = y3 [1m[33m+[m t0 [1m[33m*[m [1m[33mcos[m(alfa1)[1m[31m;[m[49;27H[K[50;1Hy5 = L1 [1m[33m+[m t0 [1m[33m*[m [1m[33mcos[m(alfa1)[1m[31m;[m[50;27H[K[51;175H1,0-1[8CTopo[1;1H[?12l[?25h[?25l[51;175H2,1  [2;1H[?12l[?25h[?25l[51;175H3,0-1[3;1H[?12l[?25h[?25l[51;175H4,1  [4;1H[?12l[?25h[?25l[51;175H5,0-1[5;1H[?12l[?25h[?25l[51;175H6[6;1H[?12l[?25h[?25l[51;175H7,1  [7;1H[?12l[?25h[?25l[51;175H8[8;1H[?12l[?25h[?25l[51;175H9[9;1H[?12l[?25h[?25l[51;175H10,1[10;1H[?12l[?25h[?25l[51;176H1,0-1[11;1H[?12l[?25h[?25l[51;176H2,1  [12;1H[?12l[?25h[?25l[51;176H3[13;1H[?12l[?25h[?25l[51;176H4[14;1H[?12l[?25h[?25l[51;176H5,0-1[15;1H[?12l[?25h[?25l[51;176H4,11 [14;11H[?12l[?25h[?25l[51;179H0[14;10H[?12l[?25h[?25l[51;176H3[13;10H[?12l[?25h[?25l[51;1H[1m-- INSERÇÃO --[m[51;15H[K[51;175H13,11[8CTopo[13;11H[?12l[?25h[?25l[51;179H0[13;10H[?12l[?25h[?25l[51;178H9 [13;9H[?12l[?25h[?25l[51;178H8[13;8H[?12l[?25h[?25lglobalfi[1m[31m;[m[13;10H[K[51;178H7[13;7H[?12l[?25h[?25lfi[1m[31m;[m[13;9H[K[51;178H6[13;6H[?12l[?25h[?25lfi[1m[31m;[m[13;8H[K[51;178H5[13;5H[?12l[?25h[?25lfi[1m[31m;[m[13;7H[K[51;178H4[13;4H[?12l[?25h[?25lfi[1m[31m;[m[13;6H[K[51;178H3[13;3H[?12l[?25h[?25lfi[1m[31m;[m[13;5H[K[51;178H2[13;2H[?12l[?25h[?25lfi[1m[31m;[m[13;4H[K[51;178H1[13;1H[?12l[?25h[?25l[51;176H4[14;1H[?12l[?25h[?25l[51;179H2[14;12H[?12l[?25h[?25l[51;179H1[14;11H[?12l[?25h[?25l[51;179H0[14;10H[?12l[?25h[?25l[51;178H9 [14;9H[?12l[?25h[?25l[51;178H8[14;8H[?12l[?25h[?25lglobalpsi[1m[31m;[m[14;11H[K[51;178H7[14;7H[?12l[?25h[?25lpsi[1m[31m;[m[14;10H[K[51;178H6[14;6H[?12l[?25h[?25lpsi[1m[31m;[m[14;9H[K[51;178H5[14;5H[?12l[?25h[?25lpsi[1m[31m;[m[14;8H[K[51;178H4[14;4H[?12l[?25h[?25lpsi[1m[31m;[m[14;7H[K[51;178H3[14;3H[?12l[?25h[?25lpsi[1m[31m;[m[14;6H[K[51;178H2[14;2H[?12l[?25h[?25lpsi[1m[31m;[m[14;5H[K[51;178H1[14;1H[?12l[?25h[?25l[51;176H3[13;1H[?12l[?25h[?25l[51;178H4[13;4H[?12l[?25h[?25l[51;178H3[13;3H[?12l[?25h[?25l [1m[31m;[m[51;178H4[13;4H[?12l[?25h[?25l=[1m[31m;[m[51;178H5[13;5H[?12l[?25h[?25l [1m[31m;[m[51;178H6[13;6H[?12l[?25h[?25l[1m[35m0[m[1m[31m;[m[51;178H7[13;7H[?12l[?25h[?25l.[1m[31m;[m[51;178H8[13;8H[?12l[?25h[?25l[1m[35m.0[m[1m[31m;[m[51;178H9[13;9H[?12l[?25h[?25l[1m[35m5[m[1m[31m;[m[51;178H10[13;10H[?12l[?25h[?25l[51;176H4,5 [14;5H[?12l[?25h[?25l[51;178H4[14;4H[?12l[?25h[?25l [1m[31m;[m[51;178H5[14;5H[?12l[?25h[?25l=[1m[31m;[m[51;178H6[14;6H[?12l[?25h[?25l [1m[31m;[m[51;178H7[14;7H[?12l[?25h[?25l.[1m[31m;[m[51;178H8[14;8H[?12l[?25h[?25l[1m[35m.3[m[1m[31m;[m[51;178H9[14;9H[?12l[?25h[?25l[51;178H8[14;8H[?12l[?25h[?25l[51;178H7[14;7H[?12l[?25h[?25l[1m[35m0.3[m[1m[31m;[m[51;178H8[14;8H[?12l[?25h[51;1H[K[14;7H[?25l[51;175H14,7[9CTopo[14;7H[?12l[?25h[?25l[51;175H[K[51;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/cav_ym.m" [convertido][dos] 237L, 4697C gravado(s)
+[?1l>[?12l[?25h[?1049ldopt_sa_cavy(3,@temperaturefast)
+
+x0 =
+
+    0.3000    1.5600
+
+
+x0 =
+
+    0.3000    1.5600
+
+
+Geometria inv�lida para x0 [ 0.300 1.560]

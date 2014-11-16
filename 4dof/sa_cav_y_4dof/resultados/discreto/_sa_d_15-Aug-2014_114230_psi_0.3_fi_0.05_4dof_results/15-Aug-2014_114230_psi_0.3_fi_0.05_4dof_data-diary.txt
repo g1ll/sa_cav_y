@@ -1,0 +1,2067 @@
+\nSimulated Annealing...Discreted\n
+
+optValue =
+
+  -Inf
+
+
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  5 20 0.05 1.37 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+
+ Iter 0 | Best F(x) Inf | F(x)  Inf | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 
+	Valor atual:H/L = 5.000 t1dt0 = 20.000 L1/L0 0.050 alpha 1.370
+	 Novos valores: H/L = 0.200 t1dt0 = 200.000  L1/L0 0.500 alpha 1.410
+-------------
+
+init_temp =
+
+   100   100   100   100
+
+
+k =
+
+     2
+     2
+     2
+     2
+
+
+ans =
+
+     4
+
+
+tempsaboltz(:,:,1,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+     0     0
+
+
+tempsaexp(:,:,2,1) =
+
+     0     0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+     0     0
+
+
+tempsa(:,:,2,1) =
+
+     0     0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,1) =
+
+  144.2695         0
+
+
+tempsaboltz(:,:,2,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1729         0
+
+
+tempsaexp(:,:,2,1) =
+
+     0     0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+  144.2695         0
+
+
+tempsa(:,:,2,1) =
+
+     0     0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     1
+
+
+ans =
+
+  144.2695
+
+
+ans =
+
+     1
+
+
+tempsaboltz(:,:,1,1) =
+
+  144.2695  144.2695
+
+
+tempsaboltz(:,:,2,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1729    1.1729
+
+
+tempsaexp(:,:,2,1) =
+
+     0     0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+  144.2695  144.2695
+
+
+tempsa(:,:,2,1) =
+
+     0     0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     2
+
+
+ans =
+
+  144.2695
+
+
+ans =
+
+     1
+
+
+tempsaboltz(:,:,1,1) =
+
+  144.2695  144.2695
+
+
+tempsaboltz(:,:,2,1) =
+
+  144.2695         0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1729    1.1729
+
+
+tempsaexp(:,:,2,1) =
+
+   1.0e+03 *
+
+    1.1729         0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+  144.2695  144.2695
+
+
+tempsa(:,:,2,1) =
+
+  144.2695         0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     3
+
+
+ans =
+
+  144.2695
+
+
+ans =
+
+     1
+
+
+tempsaboltz(:,:,1,1) =
+
+  144.2695  144.2695
+
+
+tempsaboltz(:,:,2,1) =
+
+  144.2695  144.2695
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1729    1.1729
+
+
+tempsaexp(:,:,2,1) =
+
+   1.0e+03 *
+
+    1.1729    1.1729
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+  144.2695  144.2695
+
+
+tempsa(:,:,2,1) =
+
+  144.2695  144.2695
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     4
+
+
+ans =
+
+  144.2695
+
+
+ans =
+
+     1
+
+     1          2            Inf            Inf         144.27
+1.442695e+02    0          0    2.22045e-16    2.22045e-16    2.22045e-16
+2.220446e-16    0          0    2.22045e-16    2.22045e-16   
+ Iter 1 | Best F(x) Inf | F(x)  Inf | Temperatura 144.270 | k = 2
+ 
+ Iter 2 | Best F(x) 2.000 | F(x)  2.000 | Temperatura 
+	Valor atual:H/L = 5.000 t1dt0 = 20.000 L1/L0 0.050 alpha 1.370
+	 Novos valores: H/L = 7.000 t1dt0 = 210.000  L1/L0 0.007 alpha 1.160
+-------------
+
+init_temp =
+
+   100   100   100   100
+
+
+k =
+
+     3
+     3
+     3
+     3
+
+
+ans =
+
+     4
+
+
+tempsaboltz(:,:,1,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+     0     0
+
+
+tempsaexp(:,:,2,1) =
+
+     0     0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+     0     0
+
+
+tempsa(:,:,2,1) =
+
+     0     0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,1) =
+
+   91.0239         0
+
+
+tempsaboltz(:,:,2,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1143         0
+
+
+tempsaexp(:,:,2,1) =
+
+     0     0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+   91.0239         0
+
+
+tempsa(:,:,2,1) =
+
+     0     0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     1
+
+
+ans =
+
+   91.0239
+
+
+ans =
+
+     1
+
+
+tempsaboltz(:,:,1,1) =
+
+   91.0239   91.0239
+
+
+tempsaboltz(:,:,2,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1143    1.1143
+
+
+tempsaexp(:,:,2,1) =
+
+     0     0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+   91.0239   91.0239
+
+
+tempsa(:,:,2,1) =
+
+     0     0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     2
+
+
+ans =
+
+   91.0239
+
+
+ans =
+
+     1
+
+
+tempsaboltz(:,:,1,1) =
+
+   91.0239   91.0239
+
+
+tempsaboltz(:,:,2,1) =
+
+   91.0239         0
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1143    1.1143
+
+
+tempsaexp(:,:,2,1) =
+
+   1.0e+03 *
+
+    1.1143         0
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+   91.0239   91.0239
+
+
+tempsa(:,:,2,1) =
+
+   91.0239         0
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     3
+
+
+ans =
+
+   91.0239
+
+
+ans =
+
+     1
+
+
+tempsaboltz(:,:,1,1) =
+
+   91.0239   91.0239
+
+
+tempsaboltz(:,:,2,1) =
+
+   91.0239   91.0239
+
+
+tempsaboltz(:,:,3,1) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,2) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,3) =
+
+     0     0
+
+
+tempsaboltz(:,:,1,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,2,4) =
+
+     0     0
+
+
+tempsaboltz(:,:,3,4) =
+
+     0     0
+
+
+tempsaexp(:,:,1,1) =
+
+   1.0e+03 *
+
+    1.1143    1.1143
+
+
+tempsaexp(:,:,2,1) =
+
+   1.0e+03 *
+
+    1.1143    1.1143
+
+
+tempsaexp(:,:,3,1) =
+
+     0     0
+
+
+tempsaexp(:,:,1,2) =
+
+     0     0
+
+
+tempsaexp(:,:,2,2) =
+
+     0     0
+
+
+tempsaexp(:,:,3,2) =
+
+     0     0
+
+
+tempsaexp(:,:,1,3) =
+
+     0     0
+
+
+tempsaexp(:,:,2,3) =
+
+     0     0
+
+
+tempsaexp(:,:,3,3) =
+
+     0     0
+
+
+tempsaexp(:,:,1,4) =
+
+     0     0
+
+
+tempsaexp(:,:,2,4) =
+
+     0     0
+
+
+tempsaexp(:,:,3,4) =
+
+     0     0
+
+
+tempsa(:,:,1,1) =
+
+   91.0239   91.0239
+
+
+tempsa(:,:,2,1) =
+
+   91.0239   91.0239
+
+
+tempsa(:,:,3,1) =
+
+     0     0
+
+
+tempsa(:,:,1,2) =
+
+     0     0
+
+
+tempsa(:,:,2,2) =
+
+     0     0
+
+
+tempsa(:,:,3,2) =
+
+     0     0
+
+
+tempsa(:,:,1,3) =
+
+     0     0
+
+
+tempsa(:,:,2,3) =
+
+     0     0
+
+
+tempsa(:,:,3,3) =
+
+     0     0
+
+
+tempsa(:,:,1,4) =
+
+     0     0
+
+
+tempsa(:,:,2,4) =
+
+     0     0
+
+
+tempsa(:,:,3,4) =
+
+     0     0
+
+
+tc =
+
+     4
+
+
+ans =
+
+   91.0239
+
+
+ans =
+
+     1
+
+     2          3            Inf            Inf        91.0239
+9.102392e+01    0          0    2.22045e-16    2.22045e-16    2.22045e-16
+2.220446e-16    0          0    2.22045e-16    2.22045e-16   
+ Iter 2 | Best F(x) Inf | F(x)  Inf | Temperatura 91.024 | k = 3
+ 
+ Iter 3 | Best F(x) 3.000 | F(x)  3.000 | Temperatura 
+	Valor atual:H/L = 5.000 t1dt0 = 20.000 L1/L0 0.050 alpha 1.370
+	 Novos valores: H/L = 0.500 t1dt0 = 5.000  L1/L0 0.001 alpha 1.280
+-------------
+{Operation terminated by user during jigglemesh (line 105)
+
+
+In pdetoolGA (line 3219)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In cav_y (line 193)
+    pdetoolGA('jiggle')
+
+In sa_cav_y_4dof (line 6)
+	  saida = cav_y([vetor(1) vetor(3) vetor(2) vetor(4)]);
+
+In sanewpoint (line 25)
+newfval = problem.objective(newx);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy_4 (line 110)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+clc
+dopt_sa_cavy_4(.3,.05,@tempboltzexp)
+
+x0 =
+
+    1.0000   60.0000    0.5000    1.1800
+

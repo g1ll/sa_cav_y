@@ -1,0 +1,744 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.05 1.35 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @temperatureboltz
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1              1              1            100
+
+ Iter 0 | Best F(x) 1.000 | F(x)  1.000 | Temperatura 100.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 0.050 alpha 1.350 | Novos valores: L1/L0 1.000 alpha 1.030
+-------------
+     1          2       0.130973       0.130973         144.27
+
+ Iter 1 | Best F(x) 0.131 | F(x)  0.131 | Temperatura 144.270 | k = 2
+ 
+ Iter 2 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.370
+-------------
+     2          3       0.130973       0.130973        91.0239
+
+ Iter 2 | Best F(x) 0.131 | F(x)  0.131 | Temperatura 91.024 | k = 3
+ 
+ Iter 3 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.470
+-------------
+     3          4       0.130973       0.130973        72.1348
+
+ Iter 3 | Best F(x) 0.131 | F(x)  0.131 | Temperatura 72.135 | k = 4
+ 
+ Iter 4 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.110
+-------------
+     4          5       0.130973              1        62.1335
+
+ Iter 4 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 62.133 | k = 5
+ 
+ Iter 5 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.002 alpha 1.010
+-------------
+     5          6       0.130973              1        55.8111
+
+ Iter 5 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 55.811 | k = 6
+ 
+ Iter 6 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.110
+-------------
+     6          7       0.130973              1        51.3898
+
+ Iter 6 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 51.390 | k = 7
+ 
+ Iter 7 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.080
+-------------
+     7          8       0.130973              1        48.0898
+
+ Iter 7 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 48.090 | k = 8
+ 
+ Iter 8 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.210
+-------------
+     8          9       0.130973              1         45.512
+
+ Iter 8 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 45.512 | k = 9
+ 
+ Iter 9 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.001 alpha 1.160
+-------------
+     9         10       0.130973              1        43.4294
+
+ Iter 9 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 43.429 | k = 10
+ 
+ Iter 10 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.060
+-------------
+    10         11       0.130973              1        41.7032
+
+ Iter 10 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 41.703 | k = 11
+ 
+ Iter 11 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.050 alpha 1.020
+-------------
+    11         12       0.130973              1         40.243
+
+ Iter 11 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 40.243 | k = 12
+ 
+ Iter 12 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.250
+-------------
+    12         13       0.130973              1        38.9871
+
+ Iter 12 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 38.987 | k = 13
+ 
+ Iter 13 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.030
+-------------
+    13         14       0.130973              1        37.8923
+
+ Iter 13 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 37.892 | k = 14
+ 
+ Iter 14 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.050
+-------------
+    14         15       0.130973              1        36.9269
+
+ Iter 14 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 36.927 | k = 15
+ 
+ Iter 15 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.700 alpha 1.040
+-------------
+    15         16       0.130973       0.155307        36.0674
+
+ Iter 15 | Best F(x) 0.131 | F(x)  0.155 | Temperatura 36.067 | k = 16
+ 
+ Iter 16 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.220
+-------------
+    16         17       0.130973       0.155307        35.2956
+
+ Iter 16 | Best F(x) 0.131 | F(x)  0.155 | Temperatura 35.296 | k = 17
+ 
+ Iter 17 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.100
+-------------
+    17         18       0.130973              1        34.5976
+
+ Iter 17 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 34.598 | k = 18
+ 
+ Iter 18 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.100 alpha 1.140
+-------------
+    18         19       0.130973        0.30402        33.9623
+
+ Iter 18 | Best F(x) 0.131 | F(x)  0.304 | Temperatura 33.962 | k = 19
+ 
+ Iter 19 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.040
+-------------
+    19         20       0.130973              1        33.3808
+
+ Iter 19 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 33.381 | k = 20
+ 
+ Iter 20 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.070
+-------------
+    20         21       0.130973              1        32.8459
+
+ Iter 20 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 32.846 | k = 21
+ 
+ Iter 21 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.000
+-------------
+    21         22       0.130973              1        32.3515
+
+ Iter 21 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 32.352 | k = 22
+ 
+ Iter 22 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.020 alpha 1.170
+-------------
+    22         23       0.130973              1        31.8929
+
+ Iter 22 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 31.893 | k = 23
+ 
+ Iter 23 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.060
+-------------
+    23         24       0.130973              1        31.4658
+
+ Iter 23 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 31.466 | k = 24
+ 
+ Iter 24 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.001 alpha 1.050
+-------------
+    24         25       0.130973              1        31.0667
+
+ Iter 24 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 31.067 | k = 25
+ 
+ Iter 25 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.030
+-------------
+    25         26       0.130973              1        30.6928
+
+ Iter 25 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 30.693 | k = 26
+ 
+ Iter 26 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.000
+-------------
+    26         27       0.130973              1        30.3413
+
+ Iter 26 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 30.341 | k = 27
+ 
+ Iter 27 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.170
+-------------
+    27         28       0.130973              1        30.0102
+
+ Iter 27 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 30.010 | k = 28
+ 
+ Iter 28 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.190
+-------------
+    28         29       0.130973              1        29.6974
+
+ Iter 28 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 29.697 | k = 29
+ 
+ Iter 29 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.060
+-------------
+    29         30       0.130973              1        29.4014
+
+ Iter 29 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 29.401 | k = 30
+ 
+ Iter 30 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.002 alpha 1.180
+-------------
+    30         31       0.130973              1        29.1207
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 30 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 29.121 | k = 31
+ 
+ Iter 31 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.700 alpha 1.060
+-------------
+    31         32       0.130973       0.150786        28.8539
+
+ Iter 31 | Best F(x) 0.131 | F(x)  0.151 | Temperatura 28.854 | k = 32
+ 
+ Iter 32 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.130
+-------------
+    32         33       0.130973       0.150786           28.6
+
+ Iter 32 | Best F(x) 0.131 | F(x)  0.151 | Temperatura 28.600 | k = 33
+ 
+ Iter 33 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.140
+-------------
+    33         34       0.130973       0.150786        28.3578
+
+ Iter 33 | Best F(x) 0.131 | F(x)  0.151 | Temperatura 28.358 | k = 34
+ 
+ Iter 34 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.100
+-------------
+    34         35       0.130973              1        28.1266
+
+ Iter 34 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 28.127 | k = 35
+ 
+ Iter 35 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.160
+-------------
+    35         36       0.130973              1        27.9055
+
+ Iter 35 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 27.906 | k = 36
+ 
+ Iter 36 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.180
+-------------
+    36         37       0.130973              1        27.6938
+
+ Iter 36 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 27.694 | k = 37
+ 
+ Iter 37 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.050 alpha 1.170
+-------------
+    37         38       0.130973              1        27.4908
+
+ Iter 37 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 27.491 | k = 38
+ 
+ Iter 38 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.300 alpha 1.190
+-------------
+    38         39       0.130973       0.182714        27.2958
+
+ Iter 38 | Best F(x) 0.131 | F(x)  0.183 | Temperatura 27.296 | k = 39
+ 
+ Iter 39 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.140
+-------------
+    39         40       0.130973              1        27.1085
+
+ Iter 39 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 27.109 | k = 40
+ 
+ Iter 40 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.150
+-------------
+    40         41       0.130973              1        26.9283
+
+ Iter 40 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 26.928 | k = 41
+ 
+ Iter 41 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.130
+-------------
+    41         42       0.130973              1        26.7546
+
+ Iter 41 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 26.755 | k = 42
+ 
+ Iter 42 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.120
+-------------
+    42         43       0.130973              1        26.5873
+
+ Iter 42 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 26.587 | k = 43
+ 
+ Iter 43 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.110
+-------------
+    43         44       0.130973       0.337908        26.4257
+
+ Iter 43 | Best F(x) 0.131 | F(x)  0.338 | Temperatura 26.426 | k = 44
+ 
+ Iter 44 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.030
+-------------
+    44         45       0.130973       0.344838        26.2697
+
+ Iter 44 | Best F(x) 0.131 | F(x)  0.345 | Temperatura 26.270 | k = 45
+ 
+ Iter 45 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.002 alpha 1.040
+-------------
+    45         46       0.130973              1        26.1189
+
+ Iter 45 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 26.119 | k = 46
+ 
+ Iter 46 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.020 alpha 1.160
+-------------
+    46         47       0.130973              1         25.973
+
+ Iter 46 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.973 | k = 47
+ 
+ Iter 47 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.120
+-------------
+    47         48       0.130973              1        25.8318
+
+ Iter 47 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.832 | k = 48
+ 
+ Iter 48 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.000
+-------------
+    48         49       0.130973              1        25.6949
+
+ Iter 48 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.695 | k = 49
+ 
+ Iter 49 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.060
+-------------
+    49         50       0.130973              1        25.5622
+
+ Iter 49 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.562 | k = 50
+ 
+ Iter 50 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.140
+-------------
+    50         51       0.130973              1        25.4335
+
+ Iter 50 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.433 | k = 51
+ 
+ Iter 51 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.170
+-------------
+    51         52       0.130973              1        25.3085
+
+ Iter 51 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.308 | k = 52
+ 
+ Iter 52 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.010
+-------------
+    52         53       0.130973              1        25.1871
+
+ Iter 52 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.187 | k = 53
+ 
+ Iter 53 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.120
+-------------
+    53         54       0.130973              1         25.069
+
+ Iter 53 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 25.069 | k = 54
+ 
+ Iter 54 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.070
+-------------
+    54         55       0.130973              1        24.9543
+
+ Iter 54 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.954 | k = 55
+ 
+ Iter 55 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.002 alpha 1.030
+-------------
+    55         56       0.130973              1        24.8425
+
+ Iter 55 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.843 | k = 56
+ 
+ Iter 56 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.080
+-------------
+    56         57       0.130973              1        24.7338
+
+ Iter 56 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.734 | k = 57
+ 
+ Iter 57 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.050 alpha 1.170
+-------------
+    57         58       0.130973              1        24.6279
+
+ Iter 57 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.628 | k = 58
+ 
+ Iter 58 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.170
+-------------
+    58         59       0.130973              1        24.5246
+
+ Iter 58 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.525 | k = 59
+ 
+ Iter 59 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.001 alpha 1.120
+-------------
+    59         60       0.130973              1        24.4239
+
+ Iter 59 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.424 | k = 60
+ 
+ Iter 60 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.150
+-------------
+    60         61       0.130973              1        24.3257
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 60 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.326 | k = 61
+ 
+ Iter 61 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.001 alpha 1.030
+-------------
+    61         62       0.130973              1        24.2299
+
+ Iter 61 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.230 | k = 62
+ 
+ Iter 62 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.020 alpha 1.060
+-------------
+    62         63       0.130973              1        24.1363
+
+ Iter 62 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.136 | k = 63
+ 
+ Iter 63 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.130
+-------------
+    63         64       0.130973              1        24.0449
+
+ Iter 63 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 24.045 | k = 64
+ 
+ Iter 64 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.140
+-------------
+    64         65       0.130973       0.335379        23.9556
+
+ Iter 64 | Best F(x) 0.131 | F(x)  0.335 | Temperatura 23.956 | k = 65
+ 
+ Iter 65 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.050 alpha 1.120
+-------------
+    65         66       0.130973              1        23.8683
+
+ Iter 65 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 23.868 | k = 66
+ 
+ Iter 66 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.150
+-------------
+    66         67       0.130973       0.334553         23.783
+
+ Iter 66 | Best F(x) 0.131 | F(x)  0.335 | Temperatura 23.783 | k = 67
+ 
+ Iter 67 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.120
+-------------
+    67         68       0.130973       0.334553        23.6994
+
+ Iter 67 | Best F(x) 0.131 | F(x)  0.335 | Temperatura 23.699 | k = 68
+ 
+ Iter 68 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.002 alpha 1.130
+-------------
+    68         69       0.130973              1        23.6177
+
+ Iter 68 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 23.618 | k = 69
+ 
+ Iter 69 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.040
+-------------
+    69         70       0.130973              1        23.5377
+
+ Iter 69 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 23.538 | k = 70
+ 
+ Iter 70 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.120
+-------------
+    70         71       0.130973              1        23.4594
+
+ Iter 70 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 23.459 | k = 71
+ 
+ Iter 71 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.070
+-------------
+    71         72       0.130973              1        23.3827
+
+ Iter 71 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 23.383 | k = 72
+ 
+ Iter 72 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.040
+-------------
+    72         73       0.130973              1        23.3075
+
+ Iter 72 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 23.308 | k = 73
+ 
+ Iter 73 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.090
+-------------
+    73         74       0.130973              1        23.2338
+
+ Iter 73 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 23.234 | k = 74
+ 
+ Iter 74 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.300 alpha 1.000
+-------------
+    74         75       0.130973       0.232779        23.1616
+
+ Iter 74 | Best F(x) 0.131 | F(x)  0.233 | Temperatura 23.162 | k = 75
+ 
+ Iter 75 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.080
+-------------
+    75         76       0.130973       0.340463        23.0908
+
+ Iter 75 | Best F(x) 0.131 | F(x)  0.340 | Temperatura 23.091 | k = 76
+ 
+ Iter 76 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.300 alpha 1.130
+-------------
+    76         77       0.130973       0.201404        23.0213
+
+ Iter 76 | Best F(x) 0.131 | F(x)  0.201 | Temperatura 23.021 | k = 77
+ 
+ Iter 77 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.010
+-------------
+    77         78       0.130973              1        22.9531
+
+ Iter 77 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.953 | k = 78
+ 
+ Iter 78 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.100 alpha 1.110
+-------------
+    78         79       0.130973       0.308355        22.8862
+
+ Iter 78 | Best F(x) 0.131 | F(x)  0.308 | Temperatura 22.886 | k = 79
+ 
+ Iter 79 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.040
+-------------
+    79         80       0.130973       0.308355        22.8205
+
+ Iter 79 | Best F(x) 0.131 | F(x)  0.308 | Temperatura 22.820 | k = 80
+ 
+ Iter 80 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.070 alpha 1.050
+-------------
+    80         81       0.130973       0.308355         22.756
+
+ Iter 80 | Best F(x) 0.131 | F(x)  0.308 | Temperatura 22.756 | k = 81
+ 
+ Iter 81 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.050 alpha 1.050
+-------------
+    81         82       0.130973              1        22.6926
+
+ Iter 81 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.693 | k = 82
+ 
+ Iter 82 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.500 alpha 1.140
+-------------
+    82         83       0.130973       0.155699        22.6304
+
+ Iter 82 | Best F(x) 0.131 | F(x)  0.156 | Temperatura 22.630 | k = 83
+ 
+ Iter 83 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.007 alpha 1.020
+-------------
+    83         84       0.130973              1        22.5692
+
+ Iter 83 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.569 | k = 84
+ 
+ Iter 84 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.020
+-------------
+    84         85       0.130973              1        22.5091
+
+ Iter 84 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.509 | k = 85
+ 
+ Iter 85 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.002 alpha 1.000
+-------------
+    85         86       0.130973              1          22.45
+
+ Iter 85 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.450 | k = 86
+ 
+ Iter 86 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.160
+-------------
+    86         87       0.130973              1        22.3919
+
+ Iter 86 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.392 | k = 87
+ 
+ Iter 87 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.090
+-------------
+    87         88       0.130973              1        22.3347
+
+ Iter 87 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.335 | k = 88
+ 
+ Iter 88 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.140
+-------------
+    88         89       0.130973              1        22.2785
+
+ Iter 88 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.278 | k = 89
+ 
+ Iter 89 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.030
+-------------
+    89         90       0.130973              1        22.2232
+
+ Iter 89 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.223 | k = 90
+ 
+ Iter 90 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.001 alpha 1.120
+-------------
+    90         91       0.130973              1        22.1687
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+ Iter 90 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.169 | k = 91
+ 
+ Iter 91 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.060
+-------------
+    91         92       0.130973              1        22.1151
+
+ Iter 91 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.115 | k = 92
+ 
+ Iter 92 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.010 alpha 1.020
+-------------
+    92         93       0.130973              1        22.0624
+
+ Iter 92 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.062 | k = 93
+ 
+ Iter 93 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.050 alpha 1.040
+-------------
+    93         94       0.130973              1        22.0105
+
+ Iter 93 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 22.010 | k = 94
+ 
+ Iter 94 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.500 alpha 1.080
+-------------
+    94         95       0.130973       0.171498        21.9593
+
+ Iter 94 | Best F(x) 0.131 | F(x)  0.171 | Temperatura 21.959 | k = 95
+ 
+ Iter 95 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.110
+-------------
+    95         96       0.130973              1        21.9089
+
+ Iter 95 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 21.909 | k = 96
+ 
+ Iter 96 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.002 alpha 1.160
+-------------
+    96         97       0.130973              1        21.8593
+
+ Iter 96 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 21.859 | k = 97
+ 
+ Iter 97 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.005 alpha 1.160
+-------------
+    97         98       0.130973              1        21.8104
+
+ Iter 97 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 21.810 | k = 98
+ 
+ Iter 98 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.100
+-------------
+    98         99       0.130973              1        21.7622
+
+ Iter 98 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 21.762 | k = 99
+ 
+ Iter 99 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.030 alpha 1.110
+-------------
+    99        100       0.130973              1        21.7147
+
+ Iter 99 | Best F(x) 0.131 | F(x)  1.000 | Temperatura 21.715 | k = 100
+ 
+ Iter 100 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.100 alpha 1.130
+-------------
+   100        101       0.130973       0.305454        21.6679
+
+ Iter 100 | Best F(x) 0.131 | F(x)  0.305 | Temperatura 21.668 | k = 101
+ 
+ Iter 101 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.030 | Novos valores: L1/L0 0.003 alpha 1.030
+-------------
+   101        102       0.130973              1        21.6217
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+    1.0000    1.0300
+
+
+	 HdL: 1.000  L1dL0: 1.000  t1dt0: 18.000  Alpha: 1.030

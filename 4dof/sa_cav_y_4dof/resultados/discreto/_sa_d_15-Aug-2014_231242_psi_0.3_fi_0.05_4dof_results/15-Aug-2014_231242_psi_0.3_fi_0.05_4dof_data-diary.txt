@@ -1,0 +1,1128 @@
+\nSimulated Annealing...Discreted\n
+
+optValue =
+
+  -Inf
+
+
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  5 200 0.07 1.53 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @temphsa
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+ 
+| p H/L = 5.000 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 5.000 Pertubacao H/L = 5.000 Schedule H/L = 10.000
+ 
+| p t1/t0 = -180.000 ; steplen = 18.000 : stepmax = 32.000 Schedule atual t1/t0 = 200.000 Pertubacao t1/t0 = -180.000 Schedule t1/t0 = 20.000
+ 
+| p L1/L0 = -0.060 ; steplen = 4.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.070 Pertubacao L1/L0 = -0.060 Schedule L1/L0 = 0.010
+ 
+| p Alpha = -0.480 ; steplen = 0.480 : stepmax = 0.580 Schedule atual Alpha = 1.530 Pertubacao Alpha = -0.480 Schedule Alpha = 1.050
+
+	Valor atual:H/L = 5.000 t1dt0 = 200.000 L1/L0 0.070 alpha 1.530
+	 Novos valores: H/L = 10.000 t1dt0 = 20.000  L1/L0 0.010 alpha 1.050
+-------------
+     1          2            Inf            Inf            100
+ 
+| p H/L = -3.000 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 5.000 Pertubacao H/L = -3.000 Schedule H/L = 2.000
+ 
+| p t1/t0 = -190.000 ; steplen = 25.000 : stepmax = 32.000 Schedule atual t1/t0 = 200.000 Pertubacao t1/t0 = -190.000 Schedule t1/t0 = 10.000
+ 
+| p L1/L0 = 0.430 ; steplen = 3.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.070 Pertubacao L1/L0 = 0.430 Schedule L1/L0 = 0.500
+ 
+| p Alpha = -0.170 ; steplen = 0.170 : stepmax = 0.580 Schedule atual Alpha = 1.530 Pertubacao Alpha = -0.170 Schedule Alpha = 1.360
+
+	Valor atual:H/L = 5.000 t1dt0 = 200.000 L1/L0 0.070 alpha 1.530
+	 Novos valores: H/L = 2.000 t1dt0 = 10.000  L1/L0 0.500 alpha 1.360
+-------------
+     2          3       0.217871       0.217871            100
+ 
+| p H/L = -1.000 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = -1.000 Schedule H/L = 1.000
+ 
+| p t1/t0 = 3.000 ; steplen = 3.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 3.000 Schedule t1/t0 = 13.000
+ 
+| p L1/L0 = -0.480 ; steplen = 6.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.480 Schedule L1/L0 = 0.020
+ 
+| p Alpha = 0.060 ; steplen = 0.060 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = 0.060 Schedule Alpha = 1.420
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 1.000 t1dt0 = 13.000  L1/L0 0.020 alpha 1.420
+-------------
+     3          4       0.217871       0.217871            100
+ 
+| p H/L = 28.000 ; steplen = 9.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = 28.000 Schedule H/L = 30.000
+ 
+| p t1/t0 = 210.000 ; steplen = 27.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 210.000 Schedule t1/t0 = 220.000
+ 
+| p L1/L0 = 0.500 ; steplen = 2.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = 0.500 Schedule L1/L0 = 1.000
+ 
+| p Alpha = -0.360 ; steplen = 0.360 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.360 Schedule Alpha = 1.000
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 30.000 t1dt0 = 220.000  L1/L0 1.000 alpha 1.000
+-------------
+     4          5       0.217871       0.217871            100
+ 
+| p H/L = 18.000 ; steplen = 6.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = 18.000 Schedule H/L = 20.000
+ 
+| p t1/t0 = 120.000 ; steplen = 18.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 120.000 Schedule t1/t0 = 130.000
+ 
+| p L1/L0 = -0.480 ; steplen = 6.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.480 Schedule L1/L0 = 0.020
+ 
+| p Alpha = -0.040 ; steplen = 0.040 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.040 Schedule Alpha = 1.320
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 20.000 t1dt0 = 130.000  L1/L0 0.020 alpha 1.320
+-------------
+     5          6       0.217871       0.217871            100
+ 
+| p H/L = 16.000 ; steplen = 5.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = 16.000 Schedule H/L = 18.000
+ 
+| p t1/t0 = 190.000 ; steplen = 25.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 190.000 Schedule t1/t0 = 200.000
+ 
+| p L1/L0 = -0.470 ; steplen = 5.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.470 Schedule L1/L0 = 0.030
+ 
+| p Alpha = -0.230 ; steplen = 0.230 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.230 Schedule Alpha = 1.130
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 18.000 t1dt0 = 200.000  L1/L0 0.030 alpha 1.130
+-------------
+     6          7       0.217871       0.217871            100
+ 
+| p H/L = -1.500 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = -1.500 Schedule H/L = 0.500
+ 
+| p t1/t0 = 170.000 ; steplen = 23.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 170.000 Schedule t1/t0 = 180.000
+ 
+| p L1/L0 = -0.490 ; steplen = 7.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.490 Schedule L1/L0 = 0.010
+ 
+| p Alpha = 0.000 ; steplen = 0.000 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = 0.000 Schedule Alpha = 1.360
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 0.500 t1dt0 = 180.000  L1/L0 0.010 alpha 1.360
+-------------
+     7          8       0.217871       0.217871            100
+ 
+| p H/L = -1.500 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = -1.500 Schedule H/L = 0.500
+ 
+| p t1/t0 = 180.000 ; steplen = 24.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 180.000 Schedule t1/t0 = 190.000
+ 
+| p L1/L0 = -0.498 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.498 Schedule L1/L0 = 0.002
+ 
+| p Alpha = -0.180 ; steplen = 0.180 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.180 Schedule Alpha = 1.180
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 0.500 t1dt0 = 190.000  L1/L0 0.002 alpha 1.180
+-------------
+     8          9       0.217871       0.217871            100
+ 
+| p H/L = 20.000 ; steplen = 7.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = 20.000 Schedule H/L = 22.000
+ 
+| p t1/t0 = 40.000 ; steplen = 10.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 40.000 Schedule t1/t0 = 50.000
+ 
+| p L1/L0 = 0.200 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = 0.200 Schedule L1/L0 = 0.700
+ 
+| p Alpha = -0.030 ; steplen = 0.030 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.030 Schedule Alpha = 1.330
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 22.000 t1dt0 = 50.000  L1/L0 0.700 alpha 1.330
+-------------
+     9         10       0.217871       0.217871            100
+ 
+| p H/L = 20.000 ; steplen = 7.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = 20.000 Schedule H/L = 22.000
+ 
+| p t1/t0 = 0.000 ; steplen = 0.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 0.000 Schedule t1/t0 = 10.000
+ 
+| p L1/L0 = -0.200 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.200 Schedule L1/L0 = 0.300
+ 
+| p Alpha = -0.240 ; steplen = 0.240 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.240 Schedule Alpha = 1.120
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 22.000 t1dt0 = 10.000  L1/L0 0.300 alpha 1.120
+-------------
+    10         11       0.217871       0.217871            100
+ 
+| p H/L = 13.000 ; steplen = 4.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = 13.000 Schedule H/L = 15.000
+ 
+| p t1/t0 = 110.000 ; steplen = 17.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 110.000 Schedule t1/t0 = 120.000
+ 
+| p L1/L0 = -0.490 ; steplen = 7.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.490 Schedule L1/L0 = 0.010
+ 
+| p Alpha = -0.360 ; steplen = 0.360 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.360 Schedule Alpha = 1.000
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 15.000 t1dt0 = 120.000  L1/L0 0.010 alpha 1.000
+-------------
+    11         12       0.217871       0.217871            100
+ 
+| p H/L = -1.500 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 2.000 Pertubacao H/L = -1.500 Schedule H/L = 0.500
+ 
+| p t1/t0 = 1.000 ; steplen = 1.000 : stepmax = 32.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = 1.000 Schedule t1/t0 = 11.000
+ 
+| p L1/L0 = -0.480 ; steplen = 6.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.500 Pertubacao L1/L0 = -0.480 Schedule L1/L0 = 0.020
+ 
+| p Alpha = -0.100 ; steplen = 0.100 : stepmax = 0.580 Schedule atual Alpha = 1.360 Pertubacao Alpha = -0.100 Schedule Alpha = 1.260
+
+	Valor atual:H/L = 2.000 t1dt0 = 10.000 L1/L0 0.500 alpha 1.360
+	 Novos valores: H/L = 0.500 t1dt0 = 11.000  L1/L0 0.020 alpha 1.260
+-------------
+    12         13       0.124254       0.124254            100
+ 
+| p H/L = 19.500 ; steplen = 8.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 19.500 Schedule H/L = 20.000
+ 
+| p t1/t0 = 59.000 ; steplen = 11.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 59.000 Schedule t1/t0 = 70.000
+
+schedule =
+
+   20.0000   70.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.080 ; steplen = 4.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.080 Schedule L1/L0 = 0.100
+ 
+| p Alpha = 0.150 ; steplen = 0.150 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.150 Schedule Alpha = 1.410
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 20.000 t1dt0 = 70.000  L1/L0 0.100 alpha 1.410
+-------------
+    13         14       0.124254       0.124254            100
+ 
+| p H/L = 21.500 ; steplen = 9.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 21.500 Schedule H/L = 22.000
+ 
+| p t1/t0 = -1.000 ; steplen = 1.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = -1.000 Schedule t1/t0 = 10.000
+
+schedule =
+
+   22.0000   10.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.280 ; steplen = 3.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.280 Schedule L1/L0 = 0.300
+ 
+| p Alpha = -0.220 ; steplen = 0.220 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.220 Schedule Alpha = 1.040
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 22.000 t1dt0 = 10.000  L1/L0 0.300 alpha 1.040
+-------------
+    14         15       0.124254       0.124254            100
+ 
+| p H/L = 6.500 ; steplen = 4.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 6.500 Schedule H/L = 7.000
+ 
+| p t1/t0 = 189.000 ; steplen = 24.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 189.000 Schedule t1/t0 = 200.000
+
+schedule =
+
+    7.0000  200.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.050 ; steplen = 5.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.050 Schedule L1/L0 = 0.070
+ 
+| p Alpha = 0.150 ; steplen = 0.150 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.150 Schedule Alpha = 1.410
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 7.000 t1dt0 = 200.000  L1/L0 0.070 alpha 1.410
+-------------
+    15         16       0.124254       0.124254            100
+ 
+| p H/L = 29.500 ; steplen = 11.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 29.500 Schedule H/L = 30.000
+ 
+| p t1/t0 = 6.000 ; steplen = 4.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 6.000 Schedule t1/t0 = 17.000
+
+schedule =
+
+   30.0000   17.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.013 ; steplen = 10.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.013 Schedule L1/L0 = 0.007
+ 
+| p Alpha = 0.040 ; steplen = 0.040 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.040 Schedule Alpha = 1.300
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 30.000 t1dt0 = 17.000  L1/L0 0.007 alpha 1.300
+-------------
+    16         17       0.124254       0.124254            100
+ 
+| p H/L = 29.500 ; steplen = 11.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 29.500 Schedule H/L = 30.000
+ 
+| p t1/t0 = 169.000 ; steplen = 22.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 169.000 Schedule t1/t0 = 180.000
+
+schedule =
+
+   30.0000  180.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.015 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.015 Schedule L1/L0 = 0.005
+ 
+| p Alpha = -0.260 ; steplen = 0.260 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.260 Schedule Alpha = 1.000
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 30.000 t1dt0 = 180.000  L1/L0 0.005 alpha 1.000
+-------------
+    17         18       0.124254       0.124254            100
+ 
+| p H/L = 29.500 ; steplen = 11.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 29.500 Schedule H/L = 30.000
+ 
+| p t1/t0 = 129.000 ; steplen = 18.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 129.000 Schedule t1/t0 = 140.000
+
+schedule =
+
+   30.0000  140.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.015 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.015 Schedule L1/L0 = 0.005
+ 
+| p Alpha = 0.110 ; steplen = 0.110 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.110 Schedule Alpha = 1.370
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 30.000 t1dt0 = 140.000  L1/L0 0.005 alpha 1.370
+-------------
+    18         19       0.124254       0.124254            100
+ 
+| p H/L = 1.500 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 1.500 Schedule H/L = 2.000
+ 
+| p t1/t0 = 179.000 ; steplen = 23.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 179.000 Schedule t1/t0 = 190.000
+
+schedule =
+
+    2.0000  190.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.015 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.015 Schedule L1/L0 = 0.005
+ 
+| p Alpha = 0.160 ; steplen = 0.160 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.160 Schedule Alpha = 1.420
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 2.000 t1dt0 = 190.000  L1/L0 0.005 alpha 1.420
+-------------
+    19         20       0.124254       0.124254            100
+ 
+| p H/L = 21.500 ; steplen = 9.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 21.500 Schedule H/L = 22.000
+ 
+| p t1/t0 = 179.000 ; steplen = 23.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 179.000 Schedule t1/t0 = 190.000
+
+schedule =
+
+   22.0000  190.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.015 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.015 Schedule L1/L0 = 0.005
+ 
+| p Alpha = 0.150 ; steplen = 0.150 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.150 Schedule Alpha = 1.410
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 22.000 t1dt0 = 190.000  L1/L0 0.005 alpha 1.410
+-------------
+    20         21       0.124254       0.124254            100
+ 
+| p H/L = -0.300 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -0.300 Schedule H/L = 0.200
+ 
+| p t1/t0 = 9.000 ; steplen = 6.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 9.000 Schedule t1/t0 = 20.000
+
+schedule =
+
+    0.2000   20.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.280 ; steplen = 3.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.280 Schedule L1/L0 = 0.300
+ 
+| p Alpha = 0.310 ; steplen = 0.310 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.310 Schedule Alpha = 1.570
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 0.200 t1dt0 = 20.000  L1/L0 0.300 alpha 1.570
+-------------
+    21         22       0.124254       0.124254            100
+ 
+| p H/L = 19.500 ; steplen = 8.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 19.500 Schedule H/L = 20.000
+ 
+| p t1/t0 = 0.000 ; steplen = 0.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 0.000 Schedule t1/t0 = 11.000
+
+schedule =
+
+   20.0000   11.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.480 ; steplen = 2.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.480 Schedule L1/L0 = 0.500
+ 
+| p Alpha = 0.070 ; steplen = 0.070 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.070 Schedule Alpha = 1.330
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 20.000 t1dt0 = 11.000  L1/L0 0.500 alpha 1.330
+-------------
+    22         23       0.124254       0.124254            100
+ 
+| p H/L = 6.500 ; steplen = 4.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 6.500 Schedule H/L = 7.000
+ 
+| p t1/t0 = 29.000 ; steplen = 8.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 29.000 Schedule t1/t0 = 40.000
+
+schedule =
+
+    7.0000   40.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.080 ; steplen = 4.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.080 Schedule L1/L0 = 0.100
+ 
+| p Alpha = 0.250 ; steplen = 0.250 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.250 Schedule Alpha = 1.510
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 7.000 t1dt0 = 40.000  L1/L0 0.100 alpha 1.510
+-------------
+    23         24       0.124254       0.124254            100
+ 
+| p H/L = -0.300 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -0.300 Schedule H/L = 0.200
+ 
+| p t1/t0 = 49.000 ; steplen = 10.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 49.000 Schedule t1/t0 = 60.000
+
+schedule =
+
+    0.2000   60.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.018 ; steplen = 13.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.018 Schedule L1/L0 = 0.002
+ 
+| p Alpha = -0.210 ; steplen = 0.210 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.210 Schedule Alpha = 1.050
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 0.200 t1dt0 = 60.000  L1/L0 0.002 alpha 1.050
+-------------
+    24         25       0.124254       0.124254            100
+ 
+| p H/L = 27.500 ; steplen = 10.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 27.500 Schedule H/L = 28.000
+ 
+| p t1/t0 = 199.000 ; steplen = 25.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 199.000 Schedule t1/t0 = 210.000
+
+schedule =
+
+   28.0000  210.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.015 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.015 Schedule L1/L0 = 0.005
+ 
+| p Alpha = -0.060 ; steplen = 0.060 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.060 Schedule Alpha = 1.200
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 28.000 t1dt0 = 210.000  L1/L0 0.005 alpha 1.200
+-------------
+    25         26       0.124254       0.124254            100
+ 
+| p H/L = -0.300 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -0.300 Schedule H/L = 0.200
+ 
+| p t1/t0 = -9.000 ; steplen = 5.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = -9.000 Schedule t1/t0 = 2.000
+
+schedule =
+
+    0.2000    2.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.015 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.015 Schedule L1/L0 = 0.005
+ 
+| p Alpha = 0.310 ; steplen = 0.310 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.310 Schedule Alpha = 1.570
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 0.200 t1dt0 = 2.000  L1/L0 0.005 alpha 1.570
+-------------
+    26         27       0.124254       0.124254            100
+ 
+| p H/L = 14.500 ; steplen = 6.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 14.500 Schedule H/L = 15.000
+ 
+| p t1/t0 = 69.000 ; steplen = 12.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 69.000 Schedule t1/t0 = 80.000
+
+schedule =
+
+   15.0000   80.0000    0.0200    1.2600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.680 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.680 Schedule L1/L0 = 0.700
+ 
+| p Alpha = 0.250 ; steplen = 0.250 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.250 Schedule Alpha = 1.510
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 15.000 t1dt0 = 80.000  L1/L0 0.700 alpha 1.510
+-------------
+    27         28       0.124254        2.64725            100
+ 
+| p H/L = -5.000 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -5.000 Schedule H/L = 10.000
+ 
+| p t1/t0 = -67.000 ; steplen = 10.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = -67.000 Schedule t1/t0 = 13.000
+ 
+| p L1/L0 = -0.200 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.200 Schedule L1/L0 = 0.500
+ 
+| p Alpha = -0.020 ; steplen = 0.020 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.020 Schedule Alpha = 1.490
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 10.000 t1dt0 = 13.000  L1/L0 0.500 alpha 1.490
+-------------
+    28         29       0.124254        1.77447            100
+ 
+| p H/L = 10.000 ; steplen = 3.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 10.000 Schedule H/L = 20.000
+ 
+| p t1/t0 = 77.000 ; steplen = 11.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 77.000 Schedule t1/t0 = 90.000
+ 
+| p L1/L0 = -0.498 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.498 Schedule L1/L0 = 0.002
+ 
+| p Alpha = -0.270 ; steplen = 0.270 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.270 Schedule Alpha = 1.220
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 20.000 t1dt0 = 90.000  L1/L0 0.002 alpha 1.220
+-------------
+    29         30       0.124254        1.77447            100
+ 
+| p H/L = 20.000 ; steplen = 6.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 20.000 Schedule H/L = 30.000
+ 
+| p t1/t0 = -4.000 ; steplen = 4.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = -4.000 Schedule t1/t0 = 9.000
+ 
+| p L1/L0 = -0.450 ; steplen = 4.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.450 Schedule L1/L0 = 0.050
+ 
+| p Alpha = -0.440 ; steplen = 0.440 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.440 Schedule Alpha = 1.050
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 30.000 t1dt0 = 9.000  L1/L0 0.050 alpha 1.050
+-------------
+    30         31       0.124254        1.77447            100
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+ 
+| p H/L = 8.000 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 8.000 Schedule H/L = 18.000
+ 
+| p t1/t0 = 7.000 ; steplen = 4.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 7.000 Schedule t1/t0 = 20.000
+ 
+| p L1/L0 = -0.200 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.200 Schedule L1/L0 = 0.300
+ 
+| p Alpha = -0.060 ; steplen = 0.060 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.060 Schedule Alpha = 1.430
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 18.000 t1dt0 = 20.000  L1/L0 0.300 alpha 1.430
+-------------
+    31         32       0.124254        1.77447            100
+ 
+| p H/L = -9.500 ; steplen = 5.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -9.500 Schedule H/L = 0.500
+ 
+| p t1/t0 = 167.000 ; steplen = 20.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 167.000 Schedule t1/t0 = 180.000
+ 
+| p L1/L0 = -0.499 ; steplen = 12.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.499 Schedule L1/L0 = 0.001
+ 
+| p Alpha = -0.300 ; steplen = 0.300 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.300 Schedule Alpha = 1.190
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 0.500 t1dt0 = 180.000  L1/L0 0.001 alpha 1.190
+-------------
+    32         33       0.124254        1.77447            100
+ 
+| p H/L = 10.000 ; steplen = 3.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 10.000 Schedule H/L = 20.000
+ 
+| p t1/t0 = 4.000 ; steplen = 2.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 4.000 Schedule t1/t0 = 17.000
+ 
+| p L1/L0 = -0.400 ; steplen = 2.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.400 Schedule L1/L0 = 0.100
+ 
+| p Alpha = -0.160 ; steplen = 0.160 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.160 Schedule Alpha = 1.330
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 20.000 t1dt0 = 17.000  L1/L0 0.100 alpha 1.330
+-------------
+    33         34       0.124254        1.77447            100
+ 
+| p H/L = 12.000 ; steplen = 4.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 12.000 Schedule H/L = 22.000
+ 
+| p t1/t0 = 147.000 ; steplen = 18.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 147.000 Schedule t1/t0 = 160.000
+ 
+| p L1/L0 = -0.490 ; steplen = 7.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.490 Schedule L1/L0 = 0.010
+ 
+| p Alpha = -0.140 ; steplen = 0.140 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.140 Schedule Alpha = 1.350
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 22.000 t1dt0 = 160.000  L1/L0 0.010 alpha 1.350
+-------------
+    34         35       0.124254        1.77447            100
+ 
+| p H/L = 18.000 ; steplen = 5.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 18.000 Schedule H/L = 28.000
+ 
+| p t1/t0 = 57.000 ; steplen = 9.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 57.000 Schedule t1/t0 = 70.000
+ 
+| p L1/L0 = 0.500 ; steplen = 2.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.500 Schedule L1/L0 = 1.000
+ 
+| p Alpha = -0.340 ; steplen = 0.340 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.340 Schedule Alpha = 1.150
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 28.000 t1dt0 = 70.000  L1/L0 1.000 alpha 1.150
+-------------
+    35         36       0.124254        1.77447            100
+ 
+| p H/L = 18.000 ; steplen = 5.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 18.000 Schedule H/L = 28.000
+ 
+| p t1/t0 = 4.000 ; steplen = 2.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 4.000 Schedule t1/t0 = 17.000
+ 
+| p L1/L0 = -0.200 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.200 Schedule L1/L0 = 0.300
+ 
+| p Alpha = -0.350 ; steplen = 0.350 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.350 Schedule Alpha = 1.140
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 28.000 t1dt0 = 17.000  L1/L0 0.300 alpha 1.140
+-------------
+    36         37       0.124254        1.77447            100
+ 
+| p H/L = 0.000 ; steplen = 0.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 0.000 Schedule H/L = 10.000
+ 
+| p t1/t0 = 5.000 ; steplen = 3.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 5.000 Schedule t1/t0 = 18.000
+ 
+| p L1/L0 = -0.493 ; steplen = 8.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.493 Schedule L1/L0 = 0.007
+ 
+| p Alpha = -0.040 ; steplen = 0.040 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.040 Schedule Alpha = 1.450
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 10.000 t1dt0 = 18.000  L1/L0 0.007 alpha 1.450
+-------------
+    37         38       0.124254        1.77447            100
+ 
+| p H/L = 8.000 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 8.000 Schedule H/L = 18.000
+ 
+| p t1/t0 = 0.000 ; steplen = 0.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 0.000 Schedule t1/t0 = 13.000
+ 
+| p L1/L0 = 0.200 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.200 Schedule L1/L0 = 0.700
+ 
+| p Alpha = -0.180 ; steplen = 0.180 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.180 Schedule Alpha = 1.310
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 18.000 t1dt0 = 13.000  L1/L0 0.700 alpha 1.310
+-------------
+    38         39       0.124254        1.77447            100
+ 
+| p H/L = -9.500 ; steplen = 5.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -9.500 Schedule H/L = 0.500
+ 
+| p t1/t0 = 5.000 ; steplen = 3.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 5.000 Schedule t1/t0 = 18.000
+ 
+| p L1/L0 = -0.480 ; steplen = 6.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.480 Schedule L1/L0 = 0.020
+ 
+| p Alpha = -0.320 ; steplen = 0.320 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.320 Schedule Alpha = 1.170
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 0.500 t1dt0 = 18.000  L1/L0 0.020 alpha 1.170
+-------------
+    39         40       0.124254       0.174316            100
+ 
+| p H/L = 4.500 ; steplen = 3.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 4.500 Schedule H/L = 5.000
+ 
+| p t1/t0 = 72.000 ; steplen = 8.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 72.000 Schedule t1/t0 = 90.000
+
+schedule =
+
+    5.0000   90.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.680 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.680 Schedule L1/L0 = 0.700
+ 
+| p Alpha = 0.230 ; steplen = 0.230 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.230 Schedule Alpha = 1.400
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 5.000 t1dt0 = 90.000  L1/L0 0.700 alpha 1.400
+-------------
+    40         41       0.124254       0.174316            100
+ 
+| p H/L = -0.300 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -0.300 Schedule H/L = 0.200
+ 
+| p t1/t0 = -8.000 ; steplen = 6.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = -8.000 Schedule t1/t0 = 10.000
+
+schedule =
+
+    0.2000   10.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.000 ; steplen = 8.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.000 Schedule L1/L0 = 0.020
+ 
+| p Alpha = 0.000 ; steplen = 0.000 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.000 Schedule Alpha = 1.170
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 0.200 t1dt0 = 10.000  L1/L0 0.020 alpha 1.170
+-------------
+    41         42       0.124254       0.174316            100
+ 
+| p H/L = 1.500 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 1.500 Schedule H/L = 2.000
+ 
+| p t1/t0 = 52.000 ; steplen = 6.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 52.000 Schedule t1/t0 = 70.000
+
+schedule =
+
+    2.0000   70.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.480 ; steplen = 2.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.480 Schedule L1/L0 = 0.500
+ 
+| p Alpha = 0.190 ; steplen = 0.190 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.190 Schedule Alpha = 1.360
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 2.000 t1dt0 = 70.000  L1/L0 0.500 alpha 1.360
+-------------
+    42         43       0.124254       0.174316            100
+ 
+| p H/L = 6.500 ; steplen = 4.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 6.500 Schedule H/L = 7.000
+ 
+| p t1/t0 = 32.000 ; steplen = 4.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 32.000 Schedule t1/t0 = 50.000
+
+schedule =
+
+    7.0000   50.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.680 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.680 Schedule L1/L0 = 0.700
+ 
+| p Alpha = -0.010 ; steplen = 0.010 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.010 Schedule Alpha = 1.160
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 7.000 t1dt0 = 50.000  L1/L0 0.700 alpha 1.160
+-------------
+    43         44       0.124254       0.174316            100
+ 
+| p H/L = -0.300 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -0.300 Schedule H/L = 0.200
+ 
+| p t1/t0 = 122.000 ; steplen = 13.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 122.000 Schedule t1/t0 = 140.000
+
+schedule =
+
+    0.2000  140.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.019 ; steplen = 14.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.019 Schedule L1/L0 = 0.001
+ 
+| p Alpha = 0.070 ; steplen = 0.070 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.070 Schedule Alpha = 1.240
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 0.200 t1dt0 = 140.000  L1/L0 0.001 alpha 1.240
+-------------
+    44         45       0.124254       0.174316            100
+ 
+| p H/L = 17.500 ; steplen = 7.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 17.500 Schedule H/L = 18.000
+ 
+| p t1/t0 = 2.000 ; steplen = 1.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 2.000 Schedule t1/t0 = 20.000
+
+schedule =
+
+   18.0000   20.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.480 ; steplen = 2.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.480 Schedule L1/L0 = 0.500
+ 
+| p Alpha = -0.140 ; steplen = 0.140 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.140 Schedule Alpha = 1.030
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 18.000 t1dt0 = 20.000  L1/L0 0.500 alpha 1.030
+-------------
+    45         46       0.124254       0.174316            100
+ 
+| p H/L = 29.500 ; steplen = 11.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 29.500 Schedule H/L = 30.000
+ 
+| p t1/t0 = 22.000 ; steplen = 3.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = 22.000 Schedule t1/t0 = 40.000
+
+schedule =
+
+   30.0000   40.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.480 ; steplen = 2.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.480 Schedule L1/L0 = 0.500
+ 
+| p Alpha = -0.100 ; steplen = 0.100 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = -0.100 Schedule Alpha = 1.070
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 30.000 t1dt0 = 40.000  L1/L0 0.500 alpha 1.070
+-------------
+    46         47       0.124254       0.174316            100
+ 
+| p H/L = 0.500 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = 0.500 Schedule H/L = 1.000
+ 
+| p t1/t0 = -3.000 ; steplen = 2.000 : stepmax = 32.000 Schedule atual t1/t0 = 11.000 Pertubacao t1/t0 = -3.000 Schedule t1/t0 = 15.000
+
+schedule =
+
+    1.0000   15.0000    0.0200    1.1700
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.680 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = 0.680 Schedule L1/L0 = 0.700
+ 
+| p Alpha = 0.160 ; steplen = 0.160 : stepmax = 0.580 Schedule atual Alpha = 1.260 Pertubacao Alpha = 0.160 Schedule Alpha = 1.330
+
+	Valor atual:H/L = 0.500 t1dt0 = 11.000 L1/L0 0.020 alpha 1.260
+	 Novos valores: H/L = 1.000 t1dt0 = 15.000  L1/L0 0.700 alpha 1.330
+-------------
+    47         48      0.0899691      0.0899691            100
+ 
+| p H/L = 27.000 ; steplen = 9.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 27.000 Schedule H/L = 28.000
+ 
+| p t1/t0 = -4.000 ; steplen = 3.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = -4.000 Schedule t1/t0 = 11.000
+ 
+| p L1/L0 = -0.697 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.697 Schedule L1/L0 = 0.003
+ 
+| p Alpha = 0.040 ; steplen = 0.040 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.040 Schedule Alpha = 1.370
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 28.000 t1dt0 = 11.000  L1/L0 0.003 alpha 1.370
+-------------
+    48         49      0.0899691      0.0899691            100
+ 
+| p H/L = 1.000 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 1.000 Schedule H/L = 2.000
+ 
+| p t1/t0 = 45.000 ; steplen = 7.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = 45.000 Schedule t1/t0 = 60.000
+ 
+| p L1/L0 = -0.600 ; steplen = 3.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.600 Schedule L1/L0 = 0.100
+ 
+| p Alpha = -0.240 ; steplen = 0.240 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = -0.240 Schedule Alpha = 1.090
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 2.000 t1dt0 = 60.000  L1/L0 0.100 alpha 1.090
+-------------
+    49         50      0.0899691      0.0899691            100
+ 
+| p H/L = 0.000 ; steplen = 0.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 0.000 Schedule H/L = 1.000
+ 
+| p t1/t0 = -10.000 ; steplen = 6.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = -10.000 Schedule t1/t0 = 5.000
+ 
+| p L1/L0 = -0.680 ; steplen = 7.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.680 Schedule L1/L0 = 0.020
+ 
+| p Alpha = -0.270 ; steplen = 0.270 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = -0.270 Schedule Alpha = 1.060
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 1.000 t1dt0 = 5.000  L1/L0 0.020 alpha 1.060
+-------------
+    50         51      0.0899691       0.218134            100
+ 
+| p H/L = 17.000 ; steplen = 6.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 17.000 Schedule H/L = 18.000
+ 
+| p t1/t0 = 8.000 ; steplen = 5.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = 8.000 Schedule t1/t0 = 13.000
+
+schedule =
+
+   18.0000   13.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.013 ; steplen = 10.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.013 Schedule L1/L0 = 0.007
+ 
+| p Alpha = 0.040 ; steplen = 0.040 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.040 Schedule Alpha = 1.100
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 18.000 t1dt0 = 13.000  L1/L0 0.007 alpha 1.100
+-------------
+    51         52      0.0899691       0.218134            100
+ 
+| p H/L = 27.000 ; steplen = 9.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 27.000 Schedule H/L = 28.000
+ 
+| p t1/t0 = 6.000 ; steplen = 3.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = 6.000 Schedule t1/t0 = 11.000
+
+schedule =
+
+   28.0000   11.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.980 ; steplen = 0.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = 0.980 Schedule L1/L0 = 1.000
+ 
+| p Alpha = 0.130 ; steplen = 0.130 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.130 Schedule Alpha = 1.190
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 28.000 t1dt0 = 11.000  L1/L0 1.000 alpha 1.190
+-------------
+    52         53      0.0899691       0.218134            100
+ 
+| p H/L = 14.000 ; steplen = 5.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 14.000 Schedule H/L = 15.000
+ 
+| p t1/t0 = -3.000 ; steplen = 2.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = -3.000 Schedule t1/t0 = 2.000
+
+schedule =
+
+   15.0000    2.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.010 ; steplen = 9.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.010 Schedule L1/L0 = 0.010
+ 
+| p Alpha = 0.180 ; steplen = 0.180 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.180 Schedule Alpha = 1.240
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 15.000 t1dt0 = 2.000  L1/L0 0.010 alpha 1.240
+-------------
+    53         54      0.0899691       0.218134            100
+ 
+| p H/L = 17.000 ; steplen = 6.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 17.000 Schedule H/L = 18.000
+ 
+| p t1/t0 = 205.000 ; steplen = 28.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = 205.000 Schedule t1/t0 = 210.000
+
+schedule =
+
+   18.0000  210.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.680 ; steplen = 1.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = 0.680 Schedule L1/L0 = 0.700
+ 
+| p Alpha = 0.240 ; steplen = 0.240 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.240 Schedule Alpha = 1.300
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 18.000 t1dt0 = 210.000  L1/L0 0.700 alpha 1.300
+-------------
+    54         55      0.0899691       0.218134            100
+ 
+| p H/L = 19.000 ; steplen = 7.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 19.000 Schedule H/L = 20.000
+ 
+| p t1/t0 = 115.000 ; steplen = 19.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = 115.000 Schedule t1/t0 = 120.000
+
+schedule =
+
+   20.0000  120.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.019 ; steplen = 14.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.019 Schedule L1/L0 = 0.001
+ 
+| p Alpha = -0.010 ; steplen = 0.010 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = -0.010 Schedule Alpha = 1.050
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 20.000 t1dt0 = 120.000  L1/L0 0.001 alpha 1.050
+-------------
+    55         56      0.0899691       0.218134            100
+ 
+| p H/L = 9.000 ; steplen = 4.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 9.000 Schedule H/L = 10.000
+ 
+| p t1/t0 = -1.000 ; steplen = 1.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = -1.000 Schedule t1/t0 = 4.000
+
+schedule =
+
+   10.0000    4.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = 0.280 ; steplen = 3.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = 0.280 Schedule L1/L0 = 0.300
+ 
+| p Alpha = 0.250 ; steplen = 0.250 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.250 Schedule Alpha = 1.310
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 10.000 t1dt0 = 4.000  L1/L0 0.300 alpha 1.310
+-------------
+    56         57      0.0899691       0.218134            100
+ 
+| p H/L = 9.000 ; steplen = 4.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = 9.000 Schedule H/L = 10.000
+ 
+| p t1/t0 = 65.000 ; steplen = 14.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = 65.000 Schedule t1/t0 = 70.000
+
+schedule =
+
+   10.0000   70.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.015 ; steplen = 11.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.015 Schedule L1/L0 = 0.005
+ 
+| p Alpha = 0.200 ; steplen = 0.200 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.200 Schedule Alpha = 1.260
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 10.000 t1dt0 = 70.000  L1/L0 0.005 alpha 1.260
+-------------
+    57         58      0.0899691       0.218134            100
+ 
+| p H/L = -0.800 ; steplen = 2.000 : stepmax = 13.000 Schedule atual H/L = 1.000 Pertubacao H/L = -0.800 Schedule H/L = 0.200
+ 
+| p t1/t0 = 25.000 ; steplen = 10.000 : stepmax = 32.000 Schedule atual t1/t0 = 15.000 Pertubacao t1/t0 = 25.000 Schedule t1/t0 = 30.000
+
+schedule =
+
+    0.2000   30.0000    0.0200    1.0600
+
+
+p_vet =
+
+   Empty matrix: 1-by-0
+
+ 
+| p L1/L0 = -0.017 ; steplen = 12.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = -0.017 Schedule L1/L0 = 0.003
+ 
+| p Alpha = 0.100 ; steplen = 0.100 : stepmax = 0.580 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.100 Schedule Alpha = 1.160
+
+	Valor atual:H/L = 1.000 t1dt0 = 15.000 L1/L0 0.700 alpha 1.330
+	 Novos valores: H/L = 0.200 t1dt0 = 30.000  L1/L0 0.003 alpha 1.160
+-------------
+    58         59      0.0883622      0.0883622            100
+{Error using ^
+Inputs must be a scalar and a square matrix.
+To compute elementwise POWER, use POWER (.^) instead.
+
+Error in d_annealing_c4 (line 88)
+				  steplen = ((dist_p)^2)^(1/2);%DISTANCIA (PASSO) DO PONTO ATUAL PARA O PONTO PROPOSTO
+
+Error in sanewpoint (line 18)
+     newx(:) = options.AnnealingFcn(optimvalues,problem);
+
+Error in saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+Error in simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+Error in simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+Error in dopt_sa_cavy_4 (line 110)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+
+Caused by:
+    Failure in AnnealingFcn evaluation.
+} 
+dopt_sa_cavy_4(psi,fi,@temphsa)
+
+x0 =
+
+   10.0000  110.0000    0.0020    1.2000
+
+
+Geometria invalida para x0 [10.000 110.000 0.002 1.200]

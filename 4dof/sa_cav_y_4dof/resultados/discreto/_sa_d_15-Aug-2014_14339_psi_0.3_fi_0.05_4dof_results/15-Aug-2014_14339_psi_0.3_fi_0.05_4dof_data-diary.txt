@@ -1,0 +1,119 @@
+\nSimulated Annealing...Discreted\n
+
+optValue =
+
+  -Inf
+
+
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  1 11 0.05 1.23 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @tempboltzexp
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 50
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.244804       0.244804            100
+ 
+| p H/L = -0.500 ; steplen = 1.000 : stepmax = 13.000 Schedule atual H/L = 0.500 Pertubacao H/L = -0.500 Schedule H/L = 0.500
+ 
+| p t1/t0 = -9.000 ; steplen = 5.000 : stepmax = 32.000 Schedule atual t1/t0 = 2.000 Pertubacao t1/t0 = -9.000 Schedule t1/t0 = 2.000
+ 
+| p L1/L0 = -0.045 ; steplen = 5.000 : stepmax = 15.000 Schedule atual L1/L0 = 0.005 Pertubacao L1/L0 = -0.045 Schedule L1/L0 = 0.005
+ 
+| p Alpha = 0.170 ; steplen = 0.170 : stepmax = 0.580 Schedule atual Alpha = 1.400 Pertubacao Alpha = 0.170 Schedule Alpha = 1.400
+
+	Valor atual:H/L = 1.000 t1dt0 = 11.000 L1/L0 0.050 alpha 1.230
+	 Novos valores: H/L = 0.500 t1dt0 = 2.000  L1/L0 0.005 alpha 1.400
+-------------
+     1          2       0.244804       0.244804         144.27
+ 
+| p H/L = 14.000 ; steplen = 5.000 : stepmax = 19.000 Schedule atual H/L = 15.000 Pertubacao H/L = 14.000 Schedule H/L = 15.000
+ 
+| p t1/t0 = -1.000 ; steplen = 1.000 : stepmax = 47.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = -1.000 Schedule t1/t0 = 10.000
+ 
+| p L1/L0 = 0.950 ; steplen = 6.000 : stepmax = 22.000 Schedule atual L1/L0 = 1.000 Pertubacao L1/L0 = 0.950 Schedule L1/L0 = 1.000
+ 
+| p Alpha = -0.100 ; steplen = 0.100 : stepmax = 0.830 Schedule atual Alpha = 1.130 Pertubacao Alpha = -0.100 Schedule Alpha = 1.130
+
+	Valor atual:H/L = 1.000 t1dt0 = 11.000 L1/L0 0.050 alpha 1.230
+	 Novos valores: H/L = 15.000 t1dt0 = 10.000  L1/L0 1.000 alpha 1.130
+-------------
+     2          3       0.244804       0.244804        91.0239
+ 
+| p H/L = 0.000 ; steplen = 0.000 : stepmax = 12.000 Schedule atual H/L = 1.000 Pertubacao H/L = 0.000 Schedule H/L = 1.000
+ 
+| p t1/t0 = 109.000 ; steplen = 16.000 : stepmax = 30.000 Schedule atual t1/t0 = 120.000 Pertubacao t1/t0 = 109.000 Schedule t1/t0 = 120.000
+ 
+| p L1/L0 = -0.049 ; steplen = 8.000 : stepmax = 14.000 Schedule atual L1/L0 = 0.001 Pertubacao L1/L0 = -0.049 Schedule L1/L0 = 0.001
+ 
+| p Alpha = 0.320 ; steplen = 0.320 : stepmax = 0.520 Schedule atual Alpha = 1.550 Pertubacao Alpha = 0.320 Schedule Alpha = 1.550
+
+	Valor atual:H/L = 1.000 t1dt0 = 11.000 L1/L0 0.050 alpha 1.230
+	 Novos valores: H/L = 1.000 t1dt0 = 120.000  L1/L0 0.001 alpha 1.550
+-------------
+     3          4       0.244804       0.244804        72.1348
+ 
+| p H/L = 27.000 ; steplen = 9.000 : stepmax = 10.000 Schedule atual H/L = 28.000 Pertubacao H/L = 27.000 Schedule H/L = 28.000
+ 
+| p t1/t0 = -1.000 ; steplen = 1.000 : stepmax = 24.000 Schedule atual t1/t0 = 10.000 Pertubacao t1/t0 = -1.000 Schedule t1/t0 = 10.000
+ 
+| p L1/L0 = 0.650 ; steplen = 5.000 : stepmax = 11.000 Schedule atual L1/L0 = 0.700 Pertubacao L1/L0 = 0.650 Schedule L1/L0 = 0.700
+ 
+| p Alpha = 0.060 ; steplen = 0.060 : stepmax = 0.420 Schedule atual Alpha = 1.290 Pertubacao Alpha = 0.060 Schedule Alpha = 1.290
+
+	Valor atual:H/L = 1.000 t1dt0 = 11.000 L1/L0 0.050 alpha 1.230
+	 Novos valores: H/L = 28.000 t1dt0 = 10.000  L1/L0 0.700 alpha 1.290
+-------------
+     4          5       0.244804       0.244804        62.1335
+ 
+| p H/L = 0.000 ; steplen = 0.000 : stepmax = 9.000 Schedule atual H/L = 1.000 Pertubacao H/L = 0.000 Schedule H/L = 1.000
+ 
+| p t1/t0 = 79.000 ; steplen = 13.000 : stepmax = 20.000 Schedule atual t1/t0 = 90.000 Pertubacao t1/t0 = 79.000 Schedule t1/t0 = 90.000
+ 
+| p L1/L0 = -0.030 ; steplen = 2.000 : stepmax = 10.000 Schedule atual L1/L0 = 0.020 Pertubacao L1/L0 = -0.030 Schedule L1/L0 = 0.020
+ 
+| p Alpha = 0.100 ; steplen = 0.100 : stepmax = 0.360 Schedule atual Alpha = 1.330 Pertubacao Alpha = 0.100 Schedule Alpha = 1.330
+
+	Valor atual:H/L = 1.000 t1dt0 = 11.000 L1/L0 0.050 alpha 1.230
+	 Novos valores: H/L = 1.000 t1dt0 = 90.000  L1/L0 0.020 alpha 1.330
+-------------
+     5          6       0.244804       0.244804        55.8111
+{Operation terminated by user during d_annealing_c4 (line 73)
+
+
+In sanewpoint (line 18)
+     newx(:) = options.AnnealingFcn(optimvalues,problem);
+
+In saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+In simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+In simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+In dopt_sa_cavy_4 (line 110)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+} 
+dopt_sa_cavy_4(.3,.05,@temphsa)
+
+x0 =
+
+    1.0000  120.0000    0.0700    1.3900
+
+
+Geometria inv�lida para x0 [ 1.000 120.000 0.070 1.390]

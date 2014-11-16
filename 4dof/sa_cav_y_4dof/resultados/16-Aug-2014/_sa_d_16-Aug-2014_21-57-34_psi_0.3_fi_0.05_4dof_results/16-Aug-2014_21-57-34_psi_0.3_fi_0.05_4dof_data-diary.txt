@@ -1,0 +1,59 @@
+\nSimulated Annealing...Discreted\n
+
+	 Fitness Limit : -Inf
+Diagnostic information.
+	objective function = @sa_cav_y_4dof
+	X0 = [  0.5 160 0.01 1.32 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c4
+	options.TemperatureFcn = @tempksa
+	options.StallIterLimit = 1000
+	options.InitialTemperature = [  100 100 100 100 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 10
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1            Inf            Inf            100
+ 
+| p H/L = 14.500 ; steplen = 6.000 : stepmax = 13.000{Undefined function 'sfprintf' for input arguments of type 'char'.
+
+Error in d_annealing_c4 (line 128)
+			  sfprintf(' Schedule atual %s = %.3f',strvar,atual(c));
+
+Error in sanewpoint (line 18)
+     newx(:) = options.AnnealingFcn(optimvalues,problem);
+
+Error in saengine (line 30)
+    solverData = sanewpoint(solverData,problem,options);
+
+Error in simulanneal (line 51)
+solverData = saengine(solverData,problem,options);
+
+Error in simulannealbnd (line 122)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+Error in d_sa_cav_y4 (line 20)
+[x,fval,exitflag,output] = ...
+
+Error in dopt_sa_cavy_4 (line 101)
+vetor = d_sa_cav_y4(fun,x0,d,s,rs,optValue,modeltemp);
+
+Error in testes_sa (line 89)
+dopt_sa_cavy_4(.3,.05,@tempksa);
+
+Caused by:
+    Failure in AnnealingFcn evaluation.
+} 
+testes_sa
+
+x0 =
+
+   15.0000  200.0000    0.0050    1.0300
+
+
+Geometria invalida para x0 [15.000 200.000 0.005 1.030]

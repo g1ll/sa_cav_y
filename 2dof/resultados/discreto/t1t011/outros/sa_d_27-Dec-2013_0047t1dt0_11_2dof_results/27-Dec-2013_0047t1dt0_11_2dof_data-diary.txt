@@ -1,0 +1,2989 @@
+Simulated Annealing...Discreted
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.001 1 ]
+Modified options:
+	options.AnnealingFcn = @discrete_annealing
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 300
+	options.Display = 'diagnose'
+	options.DisplayInterval = 1 
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.319246       0.319246            100
+
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.801 alpha 10.000
+-------------
+     1          2       0.319246       0.319246             50
+
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.201 alpha 3.000
+-------------
+     2          3       0.319246       0.319246        33.3333
+
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 -0.232 alpha 1.333
+-------------
+     3          4       0.319246       0.319246             25
+
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.001 alpha 2.750
+-------------
+     4          5       0.319246       0.319246             20
+
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.121 alpha 1.800
+-------------
+     5          6       0.319246       0.319246        16.6667
+
+	Valor atual: L1/L0 0.001 alpha 1.000 | Novos valores: L1/L0 0.151 alpha 1.167
+-------------
+     6          7       0.211849       0.211849        14.2857
+
+	Valor atual: L1/L0 0.151 alpha 1.167 | Novos valores: L1/L0 0.180 alpha 1.595
+-------------
+     7          8       0.211849       0.211849           12.5
+
+	Valor atual: L1/L0 0.151 alpha 1.167 | Novos valores: L1/L0 0.151 alpha 2.042
+-------------
+     8          9       0.211849       0.211849        11.1111
+
+	Valor atual: L1/L0 0.151 alpha 1.167 | Novos valores: L1/L0 0.095 alpha 1.389
+-------------
+     9         10       0.143233       0.143233             10
+
+	Valor atual: L1/L0 0.095 alpha 1.389 | Novos valores: L1/L0 0.015 alpha 1.389
+-------------
+    10         11       0.143233       0.225952        9.09091
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 0.034 alpha 0.571
+-------------
+    11         12       0.143233       0.225952        8.33333
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 -0.035 alpha 1.722
+-------------
+    12         13       0.143233       0.225952        7.69231
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 0.046 alpha 2.081
+-------------
+    13         14       0.143233       0.225952        7.14286
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 0.080 alpha 1.532
+-------------
+    14         15       0.143233       0.225952        6.66667
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 -0.018 alpha 1.456
+-------------
+    15         16       0.143233       0.225952           6.25
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 0.040 alpha 1.701
+-------------
+    16         17       0.143233       0.225952        5.88235
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 -0.032 alpha 1.683
+-------------
+    17         18       0.143233       0.225952        5.55556
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 -0.007 alpha 1.611
+-------------
+    18         19       0.143233       0.225952        5.26316
+
+	Valor atual: L1/L0 0.015 alpha 1.389 | Novos valores: L1/L0 0.047 alpha 1.442
+-------------
+    19         20       0.143233       0.145777              5
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.092 alpha 1.692
+-------------
+    20         21       0.143233       0.145777         4.7619
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.033 alpha 1.442
+-------------
+    21         22       0.143233       0.145777        4.54545
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.052 alpha 1.760
+-------------
+    22         23       0.143233       0.145777        4.34783
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.064 alpha 1.702
+-------------
+    23         24       0.143233       0.145777        4.16667
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.085 alpha 1.608
+-------------
+    24         25       0.143233       0.145777              4
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.051 alpha 1.802
+-------------
+    25         26       0.143233       0.145777        3.84615
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.078 alpha 1.557
+-------------
+    26         27       0.143233       0.145777         3.7037
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.051 alpha 1.590
+-------------
+    27         28       0.143233       0.145777        3.57143
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.061 alpha 1.692
+-------------
+    28         29       0.143233       0.145777        3.44828
+
+	Valor atual: L1/L0 0.047 alpha 1.442 | Novos valores: L1/L0 0.064 alpha 1.476
+-------------
+    29         30      0.0964084      0.0964084        3.33333
+
+	Valor atual: L1/L0 0.064 alpha 1.476 | Novos valores: L1/L0 0.078 alpha 1.643
+-------------
+    30         31      0.0964084      0.0964084        3.22581
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.064 alpha 1.476 | Novos valores: L1/L0 0.042 alpha 1.508
+-------------
+    31         32      0.0804451      0.0804451          3.125
+
+	Valor atual: L1/L0 0.042 alpha 1.508 | Novos valores: L1/L0 0.039 alpha 1.508
+-------------
+    32         33      0.0804451      0.0804451         3.0303
+
+	Valor atual: L1/L0 0.042 alpha 1.508 | Novos valores: L1/L0 0.024 alpha 1.720
+-------------
+    33         34      0.0804451      0.0804451        2.94118
+
+	Valor atual: L1/L0 0.042 alpha 1.508 | Novos valores: L1/L0 0.039 alpha 1.655
+-------------
+    34         35      0.0804451      0.0804451        2.85714
+
+	Valor atual: L1/L0 0.042 alpha 1.508 | Novos valores: L1/L0 0.059 alpha 1.565
+-------------
+    35         36      0.0804451      0.0804451        2.77778
+
+	Valor atual: L1/L0 0.042 alpha 1.508 | Novos valores: L1/L0 0.017 alpha 1.619
+-------------
+    36         37      0.0804451      0.0804451         2.7027
+
+	Valor atual: L1/L0 0.042 alpha 1.508 | Novos valores: L1/L0 0.039 alpha 1.535
+-------------
+    37         38      0.0691932      0.0691932        2.63158
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.052 alpha 1.641
+-------------
+    38         39      0.0691932      0.0691932         2.5641
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.024 alpha 1.689
+-------------
+    39         40      0.0691932      0.0691932            2.5
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.051 alpha 1.610
+-------------
+    40         41      0.0691932      0.0691932        2.43902
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.051 alpha 1.511
+-------------
+    41         42      0.0691932      0.0691932        2.38095
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.060 alpha 1.678
+-------------
+    42         43      0.0691932      0.0691932        2.32558
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.032 alpha 1.582
+-------------
+    43         44      0.0691932      0.0691932        2.27273
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.055 alpha 1.603
+-------------
+    44         45      0.0691932      0.0691932        2.22222
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.057 alpha 1.580
+-------------
+    45         46      0.0691932      0.0691932        2.17391
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.019 alpha 1.644
+-------------
+    46         47      0.0691932      0.0691932        2.12766
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.037 alpha 1.450
+-------------
+    47         48      0.0691932      0.0691932        2.08333
+
+	Valor atual: L1/L0 0.039 alpha 1.535 | Novos valores: L1/L0 0.022 alpha 1.535
+-------------
+    48         49      0.0649993      0.0649993        2.04082
+
+	Valor atual: L1/L0 0.022 alpha 1.535 | Novos valores: L1/L0 0.004 alpha 1.392
+-------------
+    49         50      0.0649993      0.0649993              2
+
+	Valor atual: L1/L0 0.022 alpha 1.535 | Novos valores: L1/L0 0.008 alpha 1.635
+-------------
+    50         51      0.0649993      0.0649993        1.96078
+
+	Valor atual: L1/L0 0.022 alpha 1.535 | Novos valores: L1/L0 0.034 alpha 1.614
+-------------
+    51         52      0.0649993      0.0649993        1.92308
+
+	Valor atual: L1/L0 0.022 alpha 1.535 | Novos valores: L1/L0 0.011 alpha 1.612
+-------------
+    52         53      0.0649993      0.0649993        1.88679
+
+	Valor atual: L1/L0 0.022 alpha 1.535 | Novos valores: L1/L0 0.026 alpha 1.554
+-------------
+    53         54      0.0649993      0.0649993        1.85185
+
+	Valor atual: L1/L0 0.022 alpha 1.535 | Novos valores: L1/L0 0.007 alpha 1.683
+-------------
+    54         55      0.0649993      0.0649993        1.81818
+
+	Valor atual: L1/L0 0.022 alpha 1.535 | Novos valores: L1/L0 0.017 alpha 1.535
+-------------
+    55         56      0.0649993      0.0705645        1.78571
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.003 alpha 1.625
+-------------
+    56         57      0.0649993      0.0705645        1.75439
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.012 alpha 1.588
+-------------
+    57         58      0.0649993      0.0705645        1.72414
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.008 alpha 1.570
+-------------
+    58         59      0.0649993      0.0705645        1.69492
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.015 alpha 1.603
+-------------
+    59         60      0.0649993      0.0705645        1.66667
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.027 alpha 1.652
+-------------
+    60         61      0.0649993      0.0705645        1.63934
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.027 alpha 1.650
+-------------
+    61         62      0.0649993      0.0705645         1.6129
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.027 alpha 1.551
+-------------
+    62         63      0.0649993      0.0705645         1.5873
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.031 alpha 1.646
+-------------
+    63         64      0.0649993      0.0705645         1.5625
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.028 alpha 1.535
+-------------
+    64         65      0.0635795      0.0635795        1.53846
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.017 alpha 1.612
+-------------
+    65         66      0.0635795      0.0635795        1.51515
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.028 alpha 1.550
+-------------
+    66         67      0.0635795      0.0635795        1.49254
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.029 alpha 1.565
+-------------
+    67         68      0.0635795      0.0635795        1.47059
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.019 alpha 1.638
+-------------
+    68         69      0.0635795      0.0635795        1.44928
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.029 alpha 1.521
+-------------
+    69         70      0.0635795      0.0635795        1.42857
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.038 alpha 1.564
+-------------
+    70         71      0.0635795      0.0635795        1.40845
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.031 alpha 1.620
+-------------
+    71         72      0.0635795      0.0635795        1.38889
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.032 alpha 1.605
+-------------
+    72         73      0.0635795      0.0635795        1.36986
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.033 alpha 1.535
+-------------
+    73         74      0.0635795      0.0635795        1.35135
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.037 alpha 1.616
+-------------
+    74         75      0.0635795      0.0635795        1.33333
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.018 alpha 1.602
+-------------
+    75         76      0.0635795      0.0635795        1.31579
+
+	Valor atual: L1/L0 0.028 alpha 1.535 | Novos valores: L1/L0 0.023 alpha 1.535
+-------------
+    76         77      0.0635795      0.0648372         1.2987
+
+	Valor atual: L1/L0 0.023 alpha 1.535 | Novos valores: L1/L0 0.032 alpha 1.626
+-------------
+    77         78      0.0635795      0.0648372        1.28205
+
+	Valor atual: L1/L0 0.023 alpha 1.535 | Novos valores: L1/L0 0.012 alpha 1.651
+-------------
+    78         79      0.0635795      0.0648372        1.26582
+
+	Valor atual: L1/L0 0.023 alpha 1.535 | Novos valores: L1/L0 0.026 alpha 1.586
+-------------
+    79         80      0.0635795      0.0648372           1.25
+
+	Valor atual: L1/L0 0.023 alpha 1.535 | Novos valores: L1/L0 0.011 alpha 1.535
+-------------
+    80         81      0.0635795      0.0802678        1.23457
+
+	Valor atual: L1/L0 0.011 alpha 1.535 | Novos valores: L1/L0 0.022 alpha 1.634
+-------------
+    81         82      0.0635795      0.0802678        1.21951
+
+	Valor atual: L1/L0 0.011 alpha 1.535 | Novos valores: L1/L0 0.000 alpha 1.535
+-------------
+    82         83      0.0635795      0.0802678        1.20482
+
+	Valor atual: L1/L0 0.011 alpha 1.535 | Novos valores: L1/L0 0.021 alpha 1.511
+-------------
+    83         84      0.0635795      0.0802678        1.19048
+
+	Valor atual: L1/L0 0.011 alpha 1.535 | Novos valores: L1/L0 0.018 alpha 1.571
+-------------
+    84         85      0.0635795      0.0802678        1.17647
+
+	Valor atual: L1/L0 0.011 alpha 1.535 | Novos valores: L1/L0 0.017 alpha 1.535
+-------------
+    85         86      0.0635795      0.0701548        1.16279
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.015 alpha 1.617
+-------------
+    86         87      0.0635795      0.0701548        1.14943
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.009 alpha 1.604
+-------------
+    87         88      0.0635795      0.0701548        1.13636
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.017 alpha 1.626
+-------------
+    88         89      0.0635795      0.0701548         1.1236
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.027 alpha 1.569
+-------------
+    89         90      0.0635795      0.0701548        1.11111
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.027 alpha 1.602
+-------------
+    90         91      0.0635795      0.0701548         1.0989
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.014 alpha 1.590
+-------------
+    91         92      0.0635795      0.0701548        1.08696
+
+	Valor atual: L1/L0 0.017 alpha 1.535 | Novos valores: L1/L0 0.008 alpha 1.535
+-------------
+    92         93      0.0635795      0.0870797        1.07527
+
+	Valor atual: L1/L0 0.008 alpha 1.535 | Novos valores: L1/L0 0.012 alpha 1.611
+-------------
+    93         94      0.0635795      0.0870797        1.06383
+
+	Valor atual: L1/L0 0.008 alpha 1.535 | Novos valores: L1/L0 0.003 alpha 1.567
+-------------
+    94         95      0.0635795      0.0870797        1.05263
+
+	Valor atual: L1/L0 0.008 alpha 1.535 | Novos valores: L1/L0 0.015 alpha 1.535
+-------------
+    95         96      0.0635795      0.0736517        1.04167
+
+	Valor atual: L1/L0 0.015 alpha 1.535 | Novos valores: L1/L0 0.016 alpha 1.619
+-------------
+    96         97      0.0635795      0.0736517        1.03093
+
+	Valor atual: L1/L0 0.015 alpha 1.535 | Novos valores: L1/L0 0.007 alpha 1.535
+-------------
+    97         98      0.0635795      0.0926421        1.02041
+
+	Valor atual: L1/L0 0.007 alpha 1.535 | Novos valores: L1/L0 0.012 alpha 1.454
+-------------
+    98         99      0.0635795       0.194958         1.0101
+
+	Valor atual: L1/L0 0.012 alpha 1.454 | Novos valores: L1/L0 0.008 alpha 1.524
+-------------
+    99        100      0.0635795       0.114458              1
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 0.016 alpha 1.604
+-------------
+   100        101      0.0635795       0.114458       0.990099
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 -0.001 alpha 1.554
+-------------
+   101        102      0.0635795       0.114458       0.980392
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 0.016 alpha 1.593
+-------------
+   102        103      0.0635795       0.114458       0.970874
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 -0.001 alpha 1.534
+-------------
+   103        104      0.0635795       0.114458       0.961538
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 0.009 alpha 1.592
+-------------
+   104        105      0.0635795       0.114458       0.952381
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 0.005 alpha 1.601
+-------------
+   105        106      0.0635795       0.114458       0.943396
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 0.005 alpha 1.572
+-------------
+   106        107      0.0635795       0.114458       0.934579
+
+	Valor atual: L1/L0 0.008 alpha 1.524 | Novos valores: L1/L0 0.008 alpha 1.552
+-------------
+   107        108      0.0635795      0.0645022       0.925926
+
+	Valor atual: L1/L0 0.008 alpha 1.552 | Novos valores: L1/L0 0.012 alpha 1.599
+-------------
+   108        109      0.0635795      0.0645022       0.917431
+
+	Valor atual: L1/L0 0.008 alpha 1.552 | Novos valores: L1/L0 0.002 alpha 1.635
+-------------
+   109        110      0.0635795      0.0645022       0.909091
+
+	Valor atual: L1/L0 0.008 alpha 1.552 | Novos valores: L1/L0 0.004 alpha 1.607
+-------------
+   110        111      0.0635795      0.0645022       0.900901
+
+	Valor atual: L1/L0 0.008 alpha 1.552 | Novos valores: L1/L0 0.015 alpha 1.516
+-------------
+   111        112      0.0635795       0.109881       0.892857
+
+	Valor atual: L1/L0 0.015 alpha 1.516 | Novos valores: L1/L0 0.017 alpha 1.516
+-------------
+   112        113      0.0635795       0.103704       0.884956
+
+	Valor atual: L1/L0 0.017 alpha 1.516 | Novos valores: L1/L0 0.013 alpha 1.472
+-------------
+   113        114      0.0635795       0.103704       0.877193
+
+	Valor atual: L1/L0 0.017 alpha 1.516 | Novos valores: L1/L0 0.017 alpha 1.560
+-------------
+   114        115      0.0635795       0.103704       0.869565
+
+	Valor atual: L1/L0 0.017 alpha 1.516 | Novos valores: L1/L0 0.017 alpha 1.577
+-------------
+   115        116      0.0635795       0.103704       0.862069
+
+	Valor atual: L1/L0 0.017 alpha 1.516 | Novos valores: L1/L0 0.021 alpha 1.559
+-------------
+   116        117      0.0635795       0.103704       0.854701
+
+	Valor atual: L1/L0 0.017 alpha 1.516 | Novos valores: L1/L0 0.021 alpha 1.491
+-------------
+   117        118      0.0635795       0.135184       0.847458
+
+	Valor atual: L1/L0 0.021 alpha 1.491 | Novos valores: L1/L0 0.024 alpha 1.550
+-------------
+   118        119      0.0635795       0.135184       0.840336
+
+	Valor atual: L1/L0 0.021 alpha 1.491 | Novos valores: L1/L0 0.020 alpha 1.566
+-------------
+   119        120      0.0635795       0.135184       0.833333
+
+	Valor atual: L1/L0 0.021 alpha 1.491 | Novos valores: L1/L0 0.013 alpha 1.549
+-------------
+   120        121      0.0635795      0.0656593       0.826446
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.016 alpha 1.582
+-------------
+   121        122      0.0635795      0.0656593       0.819672
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.013 alpha 1.557
+-------------
+   122        123      0.0635795      0.0656593       0.813008
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.622
+-------------
+   123        124      0.0635795      0.0656593       0.806452
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.017 alpha 1.589
+-------------
+   124        125      0.0635795      0.0656593            0.8
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.013 alpha 1.581
+-------------
+   125        126      0.0635795      0.0656593       0.793651
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.009 alpha 1.549
+-------------
+   126        127      0.0614641      0.0614641       0.787402
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.008 alpha 1.565
+-------------
+   127        128      0.0614641      0.0614641        0.78125
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.580
+-------------
+   128        129      0.0614641      0.0614641       0.775194
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.611
+-------------
+   129        130      0.0614641      0.0614641       0.769231
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.008 alpha 1.611
+-------------
+   130        131      0.0614641      0.0614641       0.763359
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.602
+-------------
+   131        132      0.0614641      0.0614641       0.757576
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.008 alpha 1.617
+-------------
+   132        133      0.0614641      0.0614641        0.75188
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.587
+-------------
+   133        134      0.0614641      0.0614641       0.746269
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.009 alpha 1.557
+-------------
+   134        135      0.0614641      0.0614641       0.740741
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.003 alpha 1.601
+-------------
+   135        136      0.0614641      0.0614641       0.735294
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.014 alpha 1.601
+-------------
+   136        137      0.0614641      0.0614641       0.729927
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.578
+-------------
+   137        138      0.0614641      0.0614641       0.724638
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.014 alpha 1.578
+-------------
+   138        139      0.0614641      0.0614641       0.719424
+
+	Valor atual: L1/L0 0.009 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.549
+-------------
+   139        140      0.0614641      0.0646873       0.714286
+
+	Valor atual: L1/L0 0.012 alpha 1.549 | Novos valores: L1/L0 0.007 alpha 1.563
+-------------
+   140        141      0.0614641      0.0646873        0.70922
+
+	Valor atual: L1/L0 0.012 alpha 1.549 | Novos valores: L1/L0 0.009 alpha 1.577
+-------------
+   141        142      0.0614641      0.0646873       0.704225
+
+	Valor atual: L1/L0 0.012 alpha 1.549 | Novos valores: L1/L0 0.010 alpha 1.598
+-------------
+   142        143      0.0614641      0.0646873       0.699301
+
+	Valor atual: L1/L0 0.012 alpha 1.549 | Novos valores: L1/L0 0.009 alpha 1.591
+-------------
+   143        144      0.0614641      0.0646873       0.694444
+
+	Valor atual: L1/L0 0.012 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.549
+-------------
+   144        145      0.0614641      0.0669482       0.689655
+
+	Valor atual: L1/L0 0.015 alpha 1.549 | Novos valores: L1/L0 0.018 alpha 1.577
+-------------
+   145        146      0.0614641      0.0669482       0.684932
+
+	Valor atual: L1/L0 0.015 alpha 1.549 | Novos valores: L1/L0 0.019 alpha 1.604
+-------------
+   146        147      0.0614641      0.0669482       0.680272
+
+	Valor atual: L1/L0 0.015 alpha 1.549 | Novos valores: L1/L0 0.018 alpha 1.576
+-------------
+   147        148      0.0614641      0.0669482       0.675676
+
+	Valor atual: L1/L0 0.015 alpha 1.549 | Novos valores: L1/L0 0.019 alpha 1.603
+-------------
+   148        149      0.0614641      0.0669482       0.671141
+
+	Valor atual: L1/L0 0.015 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.596
+-------------
+   149        150      0.0614641      0.0669482       0.666667
+
+	Valor atual: L1/L0 0.015 alpha 1.549 | Novos valores: L1/L0 0.018 alpha 1.602
+-------------
+   150        151      0.0614641      0.0669482       0.662252
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.015 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.542
+-------------
+   151        152      0.0614641      0.0651052       0.657895
+
+	Valor atual: L1/L0 0.012 alpha 1.542 | Novos valores: L1/L0 0.007 alpha 1.575
+-------------
+   152        153      0.0614641      0.0651052       0.653595
+
+	Valor atual: L1/L0 0.012 alpha 1.542 | Novos valores: L1/L0 0.016 alpha 1.484
+-------------
+   153        154      0.0614641       0.155403       0.649351
+
+	Valor atual: L1/L0 0.016 alpha 1.484 | Novos valores: L1/L0 0.016 alpha 1.497
+-------------
+   154        155      0.0614641       0.139062       0.645161
+
+	Valor atual: L1/L0 0.016 alpha 1.497 | Novos valores: L1/L0 0.021 alpha 1.529
+-------------
+   155        156      0.0614641      0.0747152       0.641026
+
+	Valor atual: L1/L0 0.021 alpha 1.529 | Novos valores: L1/L0 0.026 alpha 1.574
+-------------
+   156        157      0.0614641      0.0747152       0.636943
+
+	Valor atual: L1/L0 0.021 alpha 1.529 | Novos valores: L1/L0 0.022 alpha 1.561
+-------------
+   157        158      0.0614641      0.0747152       0.632911
+
+	Valor atual: L1/L0 0.021 alpha 1.529 | Novos valores: L1/L0 0.016 alpha 1.529
+-------------
+   158        159      0.0614641      0.0840929       0.628931
+
+	Valor atual: L1/L0 0.016 alpha 1.529 | Novos valores: L1/L0 0.014 alpha 1.579
+-------------
+   159        160      0.0614641      0.0840929          0.625
+
+	Valor atual: L1/L0 0.016 alpha 1.529 | Novos valores: L1/L0 0.013 alpha 1.579
+-------------
+   160        161      0.0614641      0.0840929       0.621118
+
+	Valor atual: L1/L0 0.016 alpha 1.529 | Novos valores: L1/L0 0.014 alpha 1.560
+-------------
+   161        162      0.0614641      0.0840929       0.617284
+
+	Valor atual: L1/L0 0.016 alpha 1.529 | Novos valores: L1/L0 0.021 alpha 1.572
+-------------
+   162        163      0.0614641      0.0840929       0.613497
+
+	Valor atual: L1/L0 0.016 alpha 1.529 | Novos valores: L1/L0 0.020 alpha 1.541
+-------------
+   163        164      0.0614641      0.0630832       0.609756
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.015 alpha 1.584
+-------------
+   164        165      0.0614641      0.0630832       0.606061
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.025 alpha 1.541
+-------------
+   165        166      0.0614641      0.0630832        0.60241
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.020 alpha 1.541
+-------------
+   166        167      0.0614641      0.0630832       0.598802
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.021 alpha 1.583
+-------------
+   167        168      0.0614641      0.0630832       0.595238
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.019 alpha 1.571
+-------------
+   168        169      0.0614641      0.0630832       0.591716
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.024 alpha 1.553
+-------------
+   169        170      0.0614641      0.0630832       0.588235
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.018 alpha 1.559
+-------------
+   170        171      0.0614641      0.0630832       0.584795
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.020 alpha 1.594
+-------------
+   171        172      0.0614641      0.0630832       0.581395
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.019 alpha 1.489
+-------------
+   172        173      0.0614641      0.0630832       0.578035
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.015 alpha 1.582
+-------------
+   173        174      0.0614641      0.0630832       0.574713
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.025 alpha 1.570
+-------------
+   174        175      0.0614641      0.0630832       0.571429
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.025 alpha 1.575
+-------------
+   175        176      0.0614641      0.0630832       0.568182
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.018 alpha 1.570
+-------------
+   176        177      0.0614641      0.0630832       0.564972
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.019 alpha 1.564
+-------------
+   177        178      0.0614641      0.0630832       0.561798
+
+	Valor atual: L1/L0 0.020 alpha 1.541 | Novos valores: L1/L0 0.019 alpha 1.541
+-------------
+   178        179      0.0614641       0.062319       0.558659
+
+	Valor atual: L1/L0 0.019 alpha 1.541 | Novos valores: L1/L0 0.019 alpha 1.541
+-------------
+   179        180      0.0614641       0.062319       0.555556
+
+	Valor atual: L1/L0 0.019 alpha 1.541 | Novos valores: L1/L0 0.016 alpha 1.541
+-------------
+   180        181      0.0614641      0.0637915       0.552486
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.016 alpha 1.541 | Novos valores: L1/L0 0.014 alpha 1.580
+-------------
+   181        182      0.0614641      0.0637915       0.549451
+
+	Valor atual: L1/L0 0.016 alpha 1.541 | Novos valores: L1/L0 0.017 alpha 1.574
+-------------
+   182        183      0.0614641      0.0637915       0.546448
+
+	Valor atual: L1/L0 0.016 alpha 1.541 | Novos valores: L1/L0 0.021 alpha 1.574
+-------------
+   183        184      0.0614641      0.0637915       0.543478
+
+	Valor atual: L1/L0 0.016 alpha 1.541 | Novos valores: L1/L0 0.012 alpha 1.552
+-------------
+   184        185      0.0614641      0.0637915       0.540541
+
+	Valor atual: L1/L0 0.016 alpha 1.541 | Novos valores: L1/L0 0.016 alpha 1.584
+-------------
+   185        186      0.0614641      0.0637915       0.537634
+
+	Valor atual: L1/L0 0.016 alpha 1.541 | Novos valores: L1/L0 0.018 alpha 1.573
+-------------
+   186        187      0.0614641      0.0637915       0.534759
+
+	Valor atual: L1/L0 0.016 alpha 1.541 | Novos valores: L1/L0 0.013 alpha 1.546
+-------------
+   187        188      0.0614641      0.0625389       0.531915
+
+	Valor atual: L1/L0 0.013 alpha 1.546 | Novos valores: L1/L0 0.017 alpha 1.546
+-------------
+   188        189      0.0614641       0.065444       0.529101
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.020 alpha 1.562
+-------------
+   189        190      0.0614641       0.065444       0.526316
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.019 alpha 1.589
+-------------
+   190        191      0.0614641       0.065444        0.52356
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.019 alpha 1.562
+-------------
+   191        192      0.0614641       0.065444       0.520833
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.021 alpha 1.557
+-------------
+   192        193      0.0614641       0.065444       0.518135
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.017 alpha 1.552
+-------------
+   193        194      0.0614641       0.065444       0.515464
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.018 alpha 1.588
+-------------
+   194        195      0.0614641       0.065444       0.512821
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.020 alpha 1.582
+-------------
+   195        196      0.0614641       0.065444       0.510204
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.017 alpha 1.567
+-------------
+   196        197      0.0614641       0.065444       0.507614
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.013 alpha 1.577
+-------------
+   197        198      0.0614641       0.065444       0.505051
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.019 alpha 1.587
+-------------
+   198        199      0.0614641       0.065444       0.502513
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.013 alpha 1.551
+-------------
+   199        200      0.0614641       0.065444            0.5
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.020 alpha 1.566
+-------------
+   200        201      0.0614641       0.065444       0.497512
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.017 alpha 1.586
+-------------
+   201        202      0.0614641       0.065444        0.49505
+
+	Valor atual: L1/L0 0.017 alpha 1.546 | Novos valores: L1/L0 0.016 alpha 1.546
+-------------
+   202        203      0.0614641      0.0647007       0.492611
+
+	Valor atual: L1/L0 0.016 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.581
+-------------
+   203        204      0.0614641      0.0647007       0.490196
+
+	Valor atual: L1/L0 0.016 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.546
+-------------
+   204        205      0.0614641      0.0615442       0.487805
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.008 alpha 1.590
+-------------
+   205        206      0.0614641      0.0615442       0.485437
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.556
+-------------
+   206        207      0.0614641      0.0615442       0.483092
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.011 alpha 1.556
+-------------
+   207        208      0.0614641      0.0615442       0.480769
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.013 alpha 1.566
+-------------
+   208        209      0.0614641      0.0615442       0.478469
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.014 alpha 1.566
+-------------
+   209        210      0.0614641      0.0615442        0.47619
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.009 alpha 1.589
+-------------
+   210        211      0.0614641      0.0615442       0.473934
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.013 alpha 1.556
+-------------
+   211        212      0.0614641      0.0615442       0.471698
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.015 alpha 1.546
+-------------
+   212        213      0.0614641      0.0615442       0.469484
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.013 alpha 1.565
+-------------
+   213        214      0.0614641      0.0615442        0.46729
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.015 alpha 1.570
+-------------
+   214        215      0.0614641      0.0615442       0.465116
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.560
+-------------
+   215        216      0.0614641      0.0615442       0.462963
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.015 alpha 1.570
+-------------
+   216        217      0.0614641      0.0615442       0.460829
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.009 alpha 1.574
+-------------
+   217        218      0.0614641      0.0615442       0.458716
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.015 alpha 1.565
+-------------
+   218        219      0.0614641      0.0615442       0.456621
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.009 alpha 1.565
+-------------
+   219        220      0.0614641      0.0615442       0.454545
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.008 alpha 1.583
+-------------
+   220        221      0.0614641      0.0615442       0.452489
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.010 alpha 1.546
+-------------
+   221        222      0.0614641      0.0615442        0.45045
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.016 alpha 1.555
+-------------
+   222        223      0.0614641      0.0615442        0.44843
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.011 alpha 1.573
+-------------
+   223        224      0.0614641      0.0615442       0.446429
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.551
+-------------
+   224        225      0.0614641      0.0615442       0.444444
+
+	Valor atual: L1/L0 0.012 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.520
+-------------
+   225        226      0.0614641       0.111396       0.442478
+
+	Valor atual: L1/L0 0.012 alpha 1.520 | Novos valores: L1/L0 0.008 alpha 1.555
+-------------
+   226        227      0.0614641       0.111396       0.440529
+
+	Valor atual: L1/L0 0.012 alpha 1.520 | Novos valores: L1/L0 0.012 alpha 1.524
+-------------
+   227        228      0.0614641        0.10155       0.438596
+
+	Valor atual: L1/L0 0.012 alpha 1.524 | Novos valores: L1/L0 0.013 alpha 1.555
+-------------
+   228        229      0.0614641        0.10155       0.436681
+
+	Valor atual: L1/L0 0.012 alpha 1.524 | Novos valores: L1/L0 0.010 alpha 1.524
+-------------
+   229        230      0.0614641       0.108783       0.434783
+
+	Valor atual: L1/L0 0.010 alpha 1.524 | Novos valores: L1/L0 0.010 alpha 1.550
+-------------
+   230        231      0.0614641      0.0645243         0.4329
+
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.010 alpha 1.572
+-------------
+   231        232      0.0614641      0.0645243       0.431034
+
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.013 alpha 1.589
+-------------
+   232        233      0.0614641      0.0645243       0.429185
+
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.013 alpha 1.563
+-------------
+   233        234      0.0614641      0.0645243        0.42735
+
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.009 alpha 1.576
+-------------
+   234        235      0.0614641      0.0645243       0.425532
+
+	Valor atual: L1/L0 0.010 alpha 1.550 | Novos valores: L1/L0 0.013 alpha 1.516
+-------------
+   235        236      0.0614641       0.115836       0.423729
+
+	Valor atual: L1/L0 0.013 alpha 1.516 | Novos valores: L1/L0 0.013 alpha 1.482
+-------------
+   236        237      0.0614641       0.115836       0.421941
+
+	Valor atual: L1/L0 0.013 alpha 1.516 | Novos valores: L1/L0 0.011 alpha 1.516
+-------------
+   237        238      0.0614641       0.115836       0.420168
+
+	Valor atual: L1/L0 0.013 alpha 1.516 | Novos valores: L1/L0 0.009 alpha 1.520
+-------------
+   238        239      0.0614641       0.118702        0.41841
+
+	Valor atual: L1/L0 0.009 alpha 1.520 | Novos valores: L1/L0 0.011 alpha 1.537
+-------------
+   239        240      0.0614641      0.0762838       0.416667
+
+	Valor atual: L1/L0 0.011 alpha 1.537 | Novos valores: L1/L0 0.013 alpha 1.546
+-------------
+   240        241      0.0614641      0.0616492       0.414938
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.013 alpha 1.546 | Novos valores: L1/L0 0.013 alpha 1.558
+-------------
+   241        242      0.0614641      0.0616492       0.413223
+
+	Valor atual: L1/L0 0.013 alpha 1.546 | Novos valores: L1/L0 0.015 alpha 1.546
+-------------
+   242        243      0.0614641      0.0629677       0.411523
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.016 alpha 1.554
+-------------
+   243        244      0.0614641      0.0629677       0.409836
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.014 alpha 1.570
+-------------
+   244        245      0.0614641      0.0629677       0.408163
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.574
+-------------
+   245        246      0.0614641      0.0629677       0.406504
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.018 alpha 1.554
+-------------
+   246        247      0.0614641      0.0629677       0.404858
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.012 alpha 1.550
+-------------
+   247        248      0.0614641      0.0629677       0.403226
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.018 alpha 1.550
+-------------
+   248        249      0.0614641      0.0629677       0.401606
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.015 alpha 1.554
+-------------
+   249        250      0.0614641      0.0629677            0.4
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.011 alpha 1.562
+-------------
+   250        251      0.0614641      0.0629677       0.398406
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.013 alpha 1.577
+-------------
+   251        252      0.0614641      0.0629677       0.396825
+
+	Valor atual: L1/L0 0.015 alpha 1.546 | Novos valores: L1/L0 0.014 alpha 1.549
+-------------
+   252        253      0.0614641       0.066794       0.395257
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.017 alpha 1.549
+-------------
+   253        254      0.0614641       0.066794       0.393701
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.557
+-------------
+   254        255      0.0614641       0.066794       0.392157
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.565
+-------------
+   255        256      0.0614641       0.066794       0.390625
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.017 alpha 1.581
+-------------
+   256        257      0.0614641       0.066794       0.389105
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.013 alpha 1.573
+-------------
+   257        258      0.0614641       0.066794       0.387597
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.557
+-------------
+   258        259      0.0614641       0.066794         0.3861
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.557
+-------------
+   259        260      0.0614641       0.066794       0.384615
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.565
+-------------
+   260        261      0.0614641       0.066794       0.383142
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.016 alpha 1.565
+-------------
+   261        262      0.0614641       0.066794       0.381679
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.584
+-------------
+   262        263      0.0614641       0.066794       0.380228
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.553
+-------------
+   263        264      0.0614641       0.066794       0.378788
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.553
+-------------
+   264        265      0.0614641       0.066794       0.377358
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.568
+-------------
+   265        266      0.0614641       0.066794        0.37594
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.017 alpha 1.516
+-------------
+   266        267      0.0614641       0.066794       0.374532
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.013 alpha 1.568
+-------------
+   267        268      0.0614641       0.066794       0.373134
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.579
+-------------
+   268        269      0.0614641       0.066794       0.371747
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.016 alpha 1.549
+-------------
+   269        270      0.0614641       0.066794        0.37037
+
+	Valor atual: L1/L0 0.014 alpha 1.549 | Novos valores: L1/L0 0.013 alpha 1.549
+-------------
+   270        271      0.0614641       0.065581       0.369004
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.557
+-------------
+   271        272      0.0614641       0.065581       0.367647
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.538
+-------------
+   272        273      0.0614641       0.065581         0.3663
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.011 alpha 1.571
+-------------
+   273        274      0.0614641       0.065581       0.364964
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.015 alpha 1.579
+-------------
+   274        275      0.0614641       0.065581       0.363636
+
+	Valor atual: L1/L0 0.013 alpha 1.549 | Novos valores: L1/L0 0.012 alpha 1.517
+-------------
+   275        276      0.0614641       0.117439       0.362319
+
+	Valor atual: L1/L0 0.012 alpha 1.517 | Novos valores: L1/L0 0.009 alpha 1.539
+-------------
+   276        277      0.0614641      0.0780889       0.361011
+
+	Valor atual: L1/L0 0.009 alpha 1.539 | Novos valores: L1/L0 0.011 alpha 1.571
+-------------
+   277        278      0.0614641      0.0780889       0.359712
+
+	Valor atual: L1/L0 0.009 alpha 1.539 | Novos valores: L1/L0 0.008 alpha 1.560
+-------------
+   278        279      0.0614641      0.0780889       0.358423
+
+	Valor atual: L1/L0 0.009 alpha 1.539 | Novos valores: L1/L0 0.009 alpha 1.539
+-------------
+   279        280      0.0614641      0.0780889       0.357143
+
+	Valor atual: L1/L0 0.009 alpha 1.539 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+   280        281      0.0614641      0.0780889       0.355872
+
+	Valor atual: L1/L0 0.009 alpha 1.539 | Novos valores: L1/L0 0.008 alpha 1.567
+-------------
+   281        282      0.0614641      0.0780889        0.35461
+
+	Valor atual: L1/L0 0.009 alpha 1.539 | Novos valores: L1/L0 0.011 alpha 1.539
+-------------
+   282        283      0.0614641      0.0737062       0.353357
+
+	Valor atual: L1/L0 0.011 alpha 1.539 | Novos valores: L1/L0 0.012 alpha 1.542
+-------------
+   283        284      0.0614641      0.0666492       0.352113
+
+	Valor atual: L1/L0 0.012 alpha 1.542 | Novos valores: L1/L0 0.011 alpha 1.542
+-------------
+   284        285      0.0614641      0.0681199       0.350877
+
+	Valor atual: L1/L0 0.011 alpha 1.542 | Novos valores: L1/L0 0.012 alpha 1.560
+-------------
+   285        286      0.0614641      0.0681199        0.34965
+
+	Valor atual: L1/L0 0.011 alpha 1.542 | Novos valores: L1/L0 0.009 alpha 1.514
+-------------
+   286        287      0.0614641        0.12961       0.348432
+
+	Valor atual: L1/L0 0.009 alpha 1.514 | Novos valores: L1/L0 0.007 alpha 1.535
+-------------
+   287        288      0.0614641      0.0919321       0.347222
+
+	Valor atual: L1/L0 0.007 alpha 1.535 | Novos valores: L1/L0 0.008 alpha 1.507
+-------------
+   288        289      0.0614641      0.0919321       0.346021
+
+	Valor atual: L1/L0 0.007 alpha 1.535 | Novos valores: L1/L0 0.009 alpha 1.538
+-------------
+   289        290      0.0614641      0.0790339       0.344828
+
+	Valor atual: L1/L0 0.009 alpha 1.538 | Novos valores: L1/L0 0.012 alpha 1.556
+-------------
+   290        291      0.0614641      0.0790339       0.343643
+
+	Valor atual: L1/L0 0.009 alpha 1.538 | Novos valores: L1/L0 0.010 alpha 1.559
+-------------
+   291        292      0.0614641      0.0790339       0.342466
+
+	Valor atual: L1/L0 0.009 alpha 1.538 | Novos valores: L1/L0 0.008 alpha 1.542
+-------------
+   292        293      0.0614641      0.0721449       0.341297
+
+	Valor atual: L1/L0 0.008 alpha 1.542 | Novos valores: L1/L0 0.007 alpha 1.562
+-------------
+   293        294      0.0614641      0.0721449       0.340136
+
+	Valor atual: L1/L0 0.008 alpha 1.542 | Novos valores: L1/L0 0.006 alpha 1.572
+-------------
+   294        295      0.0614641      0.0721449       0.338983
+
+	Valor atual: L1/L0 0.008 alpha 1.542 | Novos valores: L1/L0 0.006 alpha 1.532
+-------------
+   295        296      0.0614641      0.0721449       0.337838
+
+	Valor atual: L1/L0 0.008 alpha 1.542 | Novos valores: L1/L0 0.011 alpha 1.572
+-------------
+   296        297      0.0614641      0.0721449         0.3367
+
+	Valor atual: L1/L0 0.008 alpha 1.542 | Novos valores: L1/L0 0.009 alpha 1.555
+-------------
+   297        298      0.0614641      0.0721449        0.33557
+
+	Valor atual: L1/L0 0.008 alpha 1.542 | Novos valores: L1/L0 0.009 alpha 1.565
+-------------
+   298        299      0.0614641      0.0721449       0.334448
+
+	Valor atual: L1/L0 0.008 alpha 1.542 | Novos valores: L1/L0 0.008 alpha 1.545
+-------------
+   299        300      0.0614641      0.0656614       0.333333
+
+	Valor atual: L1/L0 0.008 alpha 1.545 | Novos valores: L1/L0 0.010 alpha 1.572
+-------------
+   300        301      0.0614641      0.0656614       0.332226
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.008 alpha 1.545 | Novos valores: L1/L0 0.010 alpha 1.565
+-------------
+   301        302      0.0614641      0.0656614       0.331126
+
+	Valor atual: L1/L0 0.008 alpha 1.545 | Novos valores: L1/L0 0.009 alpha 1.572
+-------------
+   302        303      0.0614641      0.0656614       0.330033
+
+	Valor atual: L1/L0 0.008 alpha 1.545 | Novos valores: L1/L0 0.008 alpha 1.545
+-------------
+   303        304      0.0614641      0.0656614       0.328947
+
+	Valor atual: L1/L0 0.008 alpha 1.545 | Novos valores: L1/L0 0.011 alpha 1.548
+-------------
+   304        305      0.0614641      0.0633198       0.327869
+
+	Valor atual: L1/L0 0.011 alpha 1.548 | Novos valores: L1/L0 0.014 alpha 1.575
+-------------
+   305        306      0.0614641      0.0633198       0.326797
+
+	Valor atual: L1/L0 0.011 alpha 1.548 | Novos valores: L1/L0 0.010 alpha 1.571
+-------------
+   306        307      0.0614641      0.0633198       0.325733
+
+	Valor atual: L1/L0 0.011 alpha 1.548 | Novos valores: L1/L0 0.011 alpha 1.575
+-------------
+   307        308      0.0614641      0.0633198       0.324675
+
+	Valor atual: L1/L0 0.011 alpha 1.548 | Novos valores: L1/L0 0.014 alpha 1.542
+-------------
+   308        309      0.0614641      0.0643996       0.323625
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.016 alpha 1.542
+-------------
+   309        310      0.0614641      0.0627158       0.322581
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.013 alpha 1.571
+-------------
+   310        311      0.0614641      0.0627158       0.321543
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.014 alpha 1.542
+-------------
+   311        312      0.0614641      0.0627158       0.320513
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.016 alpha 1.542
+-------------
+   312        313      0.0614641      0.0627158       0.319489
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.013 alpha 1.548
+-------------
+   313        314      0.0614641      0.0627158       0.318471
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.017 alpha 1.520
+-------------
+   314        315      0.0614641      0.0627158        0.31746
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.016 alpha 1.545
+-------------
+   315        316      0.0614641      0.0627158       0.316456
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.014 alpha 1.542
+-------------
+   316        317      0.0614641      0.0627158       0.315457
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.017 alpha 1.548
+-------------
+   317        318      0.0614641      0.0627158       0.314465
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.015 alpha 1.561
+-------------
+   318        319      0.0614641      0.0627158        0.31348
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.016 alpha 1.567
+-------------
+   319        320      0.0614641      0.0627158         0.3125
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.015 alpha 1.561
+-------------
+   320        321      0.0614641      0.0627158       0.311526
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.018 alpha 1.551
+-------------
+   321        322      0.0614641      0.0627158       0.310559
+
+	Valor atual: L1/L0 0.016 alpha 1.542 | Novos valores: L1/L0 0.014 alpha 1.542
+-------------
+   322        323      0.0614641      0.0637868       0.309598
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.014 alpha 1.567
+-------------
+   323        324      0.0614641      0.0637868       0.308642
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.012 alpha 1.561
+-------------
+   324        325      0.0614641      0.0637868       0.307692
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.013 alpha 1.570
+-------------
+   325        326      0.0614641      0.0637868       0.306748
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.013 alpha 1.551
+-------------
+   326        327      0.0614641      0.0637868        0.30581
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.015 alpha 1.566
+-------------
+   327        328      0.0614641      0.0637868       0.304878
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.015 alpha 1.551
+-------------
+   328        329      0.0614641      0.0637868       0.303951
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.014 alpha 1.542
+-------------
+   329        330      0.0614641      0.0637868        0.30303
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.016 alpha 1.545
+-------------
+   330        331      0.0614641      0.0637868       0.302115
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.014 alpha 1.542 | Novos valores: L1/L0 0.016 alpha 1.545
+-------------
+   331        332      0.0614641      0.0632416       0.301205
+
+	Valor atual: L1/L0 0.016 alpha 1.545 | Novos valores: L1/L0 0.017 alpha 1.569
+-------------
+   332        333      0.0614641      0.0632416         0.3003
+
+	Valor atual: L1/L0 0.016 alpha 1.545 | Novos valores: L1/L0 0.014 alpha 1.566
+-------------
+   333        334      0.0614641      0.0632416       0.299401
+
+	Valor atual: L1/L0 0.016 alpha 1.545 | Novos valores: L1/L0 0.016 alpha 1.566
+-------------
+   334        335      0.0614641      0.0632416       0.298507
+
+	Valor atual: L1/L0 0.016 alpha 1.545 | Novos valores: L1/L0 0.013 alpha 1.521
+-------------
+   335        336      0.0614641       0.105025       0.297619
+
+	Valor atual: L1/L0 0.013 alpha 1.521 | Novos valores: L1/L0 0.013 alpha 1.527
+-------------
+   336        337      0.0614641      0.0946131       0.296736
+
+	Valor atual: L1/L0 0.013 alpha 1.527 | Novos valores: L1/L0 0.013 alpha 1.551
+-------------
+   337        338      0.0614641      0.0946131       0.295858
+
+	Valor atual: L1/L0 0.013 alpha 1.527 | Novos valores: L1/L0 0.010 alpha 1.539
+-------------
+   338        339      0.0614641        0.07478       0.294985
+
+	Valor atual: L1/L0 0.010 alpha 1.539 | Novos valores: L1/L0 0.012 alpha 1.551
+-------------
+   339        340      0.0614641      0.0664191       0.294118
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.568
+-------------
+   340        341      0.0614641      0.0664191       0.293255
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.014 alpha 1.557
+-------------
+   341        342      0.0614641      0.0664191       0.292398
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.013 alpha 1.559
+-------------
+   342        343      0.0614641      0.0664191       0.291545
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.568
+-------------
+   343        344      0.0614641      0.0664191       0.290698
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.012 alpha 1.577
+-------------
+   344        345      0.0614641      0.0664191       0.289855
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.015 alpha 1.574
+-------------
+   345        346      0.0614641      0.0664191       0.289017
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.559
+-------------
+   346        347      0.0614641      0.0664191       0.288184
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.554
+-------------
+   347        348      0.0614641      0.0664191       0.287356
+
+	Valor atual: L1/L0 0.012 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.548
+-------------
+   348        349      0.0613764      0.0613764       0.286533
+
+	Valor atual: L1/L0 0.010 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.571
+-------------
+   349        350      0.0613764      0.0613764       0.285714
+
+	Valor atual: L1/L0 0.010 alpha 1.548 | Novos valores: L1/L0 0.010 alpha 1.574
+-------------
+   350        351      0.0613764      0.0613764         0.2849
+
+	Valor atual: L1/L0 0.010 alpha 1.548 | Novos valores: L1/L0 0.007 alpha 1.548
+-------------
+   351        352      0.0613764       0.062907       0.284091
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.006 alpha 1.565
+-------------
+   352        353      0.0613764       0.062907       0.283286
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.008 alpha 1.562
+-------------
+   353        354      0.0613764       0.062907       0.282486
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.006 alpha 1.565
+-------------
+   354        355      0.0613764       0.062907        0.28169
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.008 alpha 1.565
+-------------
+   355        356      0.0613764       0.062907       0.280899
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.570
+-------------
+   356        357      0.0613764       0.062907       0.280112
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.007 alpha 1.556
+-------------
+   357        358      0.0613764       0.062907        0.27933
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.010 alpha 1.548
+-------------
+   358        359      0.0613764      0.0613965       0.278552
+
+	Valor atual: L1/L0 0.010 alpha 1.548 | Novos valores: L1/L0 0.011 alpha 1.562
+-------------
+   359        360      0.0613764      0.0613965       0.277778
+
+	Valor atual: L1/L0 0.010 alpha 1.548 | Novos valores: L1/L0 0.011 alpha 1.556
+-------------
+   360        361      0.0613764      0.0613965       0.277008
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.010 alpha 1.548 | Novos valores: L1/L0 0.010 alpha 1.551
+-------------
+   361        362      0.0613764      0.0647124       0.276243
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.573
+-------------
+   362        363      0.0613764      0.0647124       0.275482
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.575
+-------------
+   363        364      0.0613764      0.0647124       0.274725
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.551
+-------------
+   364        365      0.0613764      0.0647124       0.273973
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.556
+-------------
+   365        366      0.0613764      0.0647124       0.273224
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.012 alpha 1.572
+-------------
+   366        367      0.0613764      0.0647124        0.27248
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.567
+-------------
+   367        368      0.0613764      0.0647124       0.271739
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.556
+-------------
+   368        369      0.0613764      0.0647124       0.271003
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.559
+-------------
+   369        370      0.0613764      0.0647124        0.27027
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.564
+-------------
+   370        371      0.0613764      0.0647124       0.269542
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.564
+-------------
+   371        372      0.0613764      0.0647124       0.268817
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.559
+-------------
+   372        373      0.0613764      0.0647124       0.268097
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.012 alpha 1.551
+-------------
+   373        374      0.0613764      0.0647124        0.26738
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.561
+-------------
+   374        375      0.0613764      0.0647124       0.266667
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.012 alpha 1.553
+-------------
+   375        376      0.0613764      0.0647124       0.265957
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.569
+-------------
+   376        377      0.0613764      0.0647124       0.265252
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.561
+-------------
+   377        378      0.0613764      0.0647124        0.26455
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.564
+-------------
+   378        379      0.0613764      0.0647124       0.263852
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.551
+-------------
+   379        380      0.0613764      0.0642302       0.263158
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.012 alpha 1.566
+-------------
+   380        381      0.0613764      0.0642302       0.262467
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.566
+-------------
+   381        382      0.0613764      0.0642302        0.26178
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.551
+-------------
+   382        383      0.0613764      0.0642302       0.261097
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.572
+-------------
+   383        384      0.0613764      0.0642302       0.260417
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.566
+-------------
+   384        385      0.0613764      0.0642302        0.25974
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.571
+-------------
+   385        386      0.0613764      0.0642302       0.259067
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.556
+-------------
+   386        387      0.0613764      0.0642302       0.258398
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.556
+-------------
+   387        388      0.0613764      0.0642302       0.257732
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.012 alpha 1.569
+-------------
+   388        389      0.0613764      0.0642302       0.257069
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.566
+-------------
+   389        390      0.0613764      0.0642302        0.25641
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.566
+-------------
+   390        391      0.0613764      0.0642302       0.255754
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.569
+-------------
+   391        392      0.0613764      0.0642302       0.255102
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.556
+-------------
+   392        393      0.0613764      0.0642302       0.254453
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.553
+-------------
+   393        394      0.0613764      0.0642302       0.253807
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.568
+-------------
+   394        395      0.0613764      0.0642302       0.253165
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.563
+-------------
+   395        396      0.0613764      0.0642302       0.252525
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.571
+-------------
+   396        397      0.0613764      0.0642302       0.251889
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.563
+-------------
+   397        398      0.0613764      0.0642302       0.251256
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.551
+-------------
+   398        399      0.0613764      0.0642302       0.250627
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.568
+-------------
+   399        400      0.0613764      0.0642302           0.25
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.007 alpha 1.561
+-------------
+   400        401      0.0613764      0.0642302       0.249377
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.556
+-------------
+   401        402      0.0613764      0.0642302       0.248756
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.571
+-------------
+   402        403      0.0613764      0.0642302       0.248139
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.566
+-------------
+   403        404      0.0613764      0.0642302       0.247525
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.528
+-------------
+   404        405      0.0613764      0.0642302       0.246914
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.561
+-------------
+   405        406      0.0613764      0.0642302       0.246305
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.570
+-------------
+   406        407      0.0613764      0.0642302         0.2457
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.011 alpha 1.556
+-------------
+   407        408      0.0613764      0.0642302       0.245098
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.010 alpha 1.558
+-------------
+   408        409      0.0613764      0.0642302       0.244499
+
+	Valor atual: L1/L0 0.010 alpha 1.551 | Novos valores: L1/L0 0.009 alpha 1.548
+-------------
+   409        410      0.0613764      0.0613797       0.243902
+
+	Valor atual: L1/L0 0.009 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.553
+-------------
+   410        411      0.0613764      0.0613797       0.243309
+
+	Valor atual: L1/L0 0.009 alpha 1.548 | Novos valores: L1/L0 0.011 alpha 1.555
+-------------
+   411        412      0.0613764      0.0613797       0.242718
+
+	Valor atual: L1/L0 0.009 alpha 1.548 | Novos valores: L1/L0 0.007 alpha 1.548
+-------------
+   412        413      0.0613764      0.0624439       0.242131
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.007 alpha 1.570
+-------------
+   413        414      0.0613764      0.0624439       0.241546
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.007 alpha 1.560
+-------------
+   414        415      0.0613764      0.0624439       0.240964
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.008 alpha 1.555
+-------------
+   415        416      0.0613764      0.0624439       0.240385
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.567
+-------------
+   416        417      0.0613764      0.0624439       0.239808
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.551
+-------------
+   417        418      0.0613764      0.0624439       0.239234
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.551
+-------------
+   418        419      0.0613764      0.0624439       0.238663
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.008 alpha 1.560
+-------------
+   419        420      0.0613764      0.0624439       0.238095
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.008 alpha 1.570
+-------------
+   420        421      0.0613764      0.0624439        0.23753
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.555
+-------------
+   421        422      0.0613764      0.0624439       0.236967
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.006 alpha 1.548
+-------------
+   422        423      0.0613764      0.0624439       0.236407
+
+	Valor atual: L1/L0 0.007 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.548
+-------------
+   423        424      0.0613078      0.0613078       0.235849
+
+	Valor atual: L1/L0 0.009 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.567
+-------------
+   424        425      0.0613078      0.0613078       0.235294
+
+	Valor atual: L1/L0 0.009 alpha 1.548 | Novos valores: L1/L0 0.009 alpha 1.551
+-------------
+   425        426      0.0613078      0.0636235       0.234742
+
+	Valor atual: L1/L0 0.009 alpha 1.551 | Novos valores: L1/L0 0.008 alpha 1.551
+-------------
+   426        427      0.0613078      0.0624996       0.234192
+
+	Valor atual: L1/L0 0.008 alpha 1.551 | Novos valores: L1/L0 0.007 alpha 1.553
+-------------
+   427        428      0.0613078      0.0645551       0.233645
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.558
+-------------
+   428        429      0.0613078      0.0645551         0.2331
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.553
+-------------
+   429        430      0.0613078      0.0645551       0.232558
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.562
+-------------
+   430        431      0.0613078      0.0645551       0.232019
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.567
+-------------
+   431        432      0.0613078      0.0645551       0.231481
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.009 alpha 1.560
+-------------
+   432        433      0.0613078      0.0645551       0.230947
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.009 alpha 1.567
+-------------
+   433        434      0.0613078      0.0645551       0.230415
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.567
+-------------
+   434        435      0.0613078      0.0645551       0.229885
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.564
+-------------
+   435        436      0.0613078      0.0645551       0.229358
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.555
+-------------
+   436        437      0.0613078      0.0645551       0.228833
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.555
+-------------
+   437        438      0.0613078      0.0645551       0.228311
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.555
+-------------
+   438        439      0.0613078      0.0645551        0.22779
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.555
+-------------
+   439        440      0.0613078      0.0645551       0.227273
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.553
+-------------
+   440        441      0.0613078      0.0659154       0.226757
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.569
+-------------
+   441        442      0.0613078      0.0659154       0.226244
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.009 alpha 1.562
+-------------
+   442        443      0.0613078      0.0659154       0.225734
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.564
+-------------
+   443        444      0.0613078      0.0659154       0.225225
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.573
+-------------
+   444        445      0.0613078      0.0659154       0.224719
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.010 alpha 1.569
+-------------
+   445        446      0.0613078      0.0659154       0.224215
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.010 alpha 1.569
+-------------
+   446        447      0.0613078      0.0659154       0.223714
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.566
+-------------
+   447        448      0.0613078      0.0659154       0.223214
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.010 alpha 1.566
+-------------
+   448        449      0.0613078      0.0659154       0.222717
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.553
+-------------
+   449        450      0.0613078      0.0652569       0.222222
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.553
+-------------
+   450        451      0.0613078      0.0650354       0.221729
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.560
+-------------
+   451        452      0.0613078      0.0650354       0.221239
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.009 alpha 1.573
+-------------
+   452        453      0.0613078      0.0650354       0.220751
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.564
+-------------
+   453        454      0.0613078      0.0650354       0.220264
+
+	Valor atual: L1/L0 0.007 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.546
+-------------
+   454        455      0.0613078      0.0651369        0.21978
+
+	Valor atual: L1/L0 0.007 alpha 1.546 | Novos valores: L1/L0 0.009 alpha 1.526
+-------------
+   455        456      0.0613078       0.105442       0.219298
+
+	Valor atual: L1/L0 0.009 alpha 1.526 | Novos valores: L1/L0 0.008 alpha 1.526
+-------------
+   456        457      0.0613078       0.105442       0.218818
+
+	Valor atual: L1/L0 0.009 alpha 1.526 | Novos valores: L1/L0 0.009 alpha 1.535
+-------------
+   457        458      0.0613078      0.0846195       0.218341
+
+	Valor atual: L1/L0 0.009 alpha 1.535 | Novos valores: L1/L0 0.009 alpha 1.540
+-------------
+   458        459      0.0613078      0.0748432       0.217865
+
+	Valor atual: L1/L0 0.009 alpha 1.540 | Novos valores: L1/L0 0.011 alpha 1.553
+-------------
+   459        460      0.0613078      0.0748432       0.217391
+
+	Valor atual: L1/L0 0.009 alpha 1.540 | Novos valores: L1/L0 0.008 alpha 1.553
+-------------
+   460        461      0.0613078      0.0653941        0.21692
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.566
+-------------
+   461        462      0.0613078      0.0653941        0.21645
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.557
+-------------
+   462        463      0.0613078      0.0653941       0.215983
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.563
+-------------
+   463        464      0.0613078      0.0653941       0.215517
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.009 alpha 1.570
+-------------
+   464        465      0.0613078      0.0653941       0.215054
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.570
+-------------
+   465        466      0.0613078      0.0653941       0.214592
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.009 alpha 1.566
+-------------
+   466        467      0.0613078      0.0653941       0.214133
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.010 alpha 1.565
+-------------
+   467        468      0.0613078      0.0653941       0.213675
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.559
+-------------
+   468        469      0.0613078      0.0653941        0.21322
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.559
+-------------
+   469        470      0.0613078      0.0653941       0.212766
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.542
+-------------
+   470        471      0.0613078       0.074121       0.212314
+
+	Valor atual: L1/L0 0.007 alpha 1.542 | Novos valores: L1/L0 0.008 alpha 1.553
+-------------
+   471        472      0.0613078      0.0651525       0.211864
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.561
+-------------
+   472        473      0.0613078      0.0651525       0.211416
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.010 alpha 1.561
+-------------
+   473        474      0.0613078      0.0651525        0.21097
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.009 alpha 1.561
+-------------
+   474        475      0.0613078      0.0651525       0.210526
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.553
+-------------
+   475        476      0.0613078      0.0649451       0.210084
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.008 alpha 1.563
+-------------
+   476        477      0.0613078      0.0649451       0.209644
+
+	Valor atual: L1/L0 0.008 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.553
+-------------
+   477        478      0.0613078      0.0632254       0.209205
+
+	Valor atual: L1/L0 0.006 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.563
+-------------
+   478        479      0.0613078      0.0632254       0.208768
+
+	Valor atual: L1/L0 0.006 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.557
+-------------
+   479        480      0.0613078      0.0632254       0.208333
+
+	Valor atual: L1/L0 0.006 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.565
+-------------
+   480        481      0.0613078      0.0632254         0.2079
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.006 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.571
+-------------
+   481        482      0.0613078      0.0632254       0.207469
+
+	Valor atual: L1/L0 0.006 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.563
+-------------
+   482        483      0.0613078      0.0632254       0.207039
+
+	Valor atual: L1/L0 0.006 alpha 1.553 | Novos valores: L1/L0 0.007 alpha 1.561
+-------------
+   483        484      0.0613078      0.0632254       0.206612
+
+	Valor atual: L1/L0 0.006 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.553
+-------------
+   484        485      0.0613078      0.0623383       0.206186
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.555
+-------------
+   485        486      0.0613078      0.0623383       0.205761
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.542
+-------------
+   486        487      0.0613078      0.0623383       0.205339
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.563
+-------------
+   487        488      0.0613078      0.0623383       0.204918
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.563
+-------------
+   488        489      0.0613078      0.0623383       0.204499
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.571
+-------------
+   489        490      0.0613078      0.0623383       0.204082
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.569
+-------------
+   490        491      0.0613078      0.0623383       0.203666
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.004 alpha 1.571
+-------------
+   491        492      0.0613078      0.0623383       0.203252
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.563
+-------------
+   492        493      0.0613078      0.0623383        0.20284
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.567
+-------------
+   493        494      0.0613078      0.0623383       0.202429
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.561
+-------------
+   494        495      0.0613078      0.0623383        0.20202
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.559
+-------------
+   495        496      0.0613078      0.0623383       0.201613
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.004 alpha 1.571
+-------------
+   496        497      0.0613078      0.0623383       0.201207
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.559
+-------------
+   497        498      0.0613078      0.0623383       0.200803
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.004 alpha 1.571
+-------------
+   498        499      0.0613078      0.0623383       0.200401
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.006 alpha 1.567
+-------------
+   499        500      0.0613078      0.0623383            0.2
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.004 alpha 1.565
+-------------
+   500        501      0.0613078      0.0623383       0.199601
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.569
+-------------
+   501        502      0.0613078      0.0623383       0.199203
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.553
+-------------
+   502        503      0.0613078      0.0623383       0.198807
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 1.553
+-------------
+*  503        504      0.0613078      0.0616795            100
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.005 alpha 2.553
+-------------
+   504        505      0.0613078      0.0616795             50
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 -0.045 alpha 2.053
+-------------
+   505        506      0.0613078      0.0616795        33.3333
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 -0.195 alpha 3.553
+-------------
+   506        507      0.0613078      0.0616795             25
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 -0.195 alpha 3.053
+-------------
+   507        508      0.0613078      0.0616795             20
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.065 alpha 1.553
+-------------
+   508        509      0.0613078      0.0616795        16.6667
+
+	Valor atual: L1/L0 0.005 alpha 1.553 | Novos valores: L1/L0 0.088 alpha 1.053
+-------------
+   509        510      0.0613078       0.264957        14.2857
+
+	Valor atual: L1/L0 0.088 alpha 1.053 | Novos valores: L1/L0 0.202 alpha 1.767
+-------------
+   510        511      0.0613078       0.264957           12.5
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.088 alpha 1.053 | Novos valores: L1/L0 -0.012 alpha 1.553
+-------------
+   511        512      0.0613078       0.264957        11.1111
+
+	Valor atual: L1/L0 0.088 alpha 1.053 | Novos valores: L1/L0 0.188 alpha 1.719
+-------------
+   512        513      0.0613078       0.264957             10
+
+	Valor atual: L1/L0 0.088 alpha 1.053 | Novos valores: L1/L0 0.168 alpha 1.453
+-------------
+   513        514      0.0613078      0.0738712        9.09091
+
+	Valor atual: L1/L0 0.168 alpha 1.453 | Novos valores: L1/L0 0.204 alpha 1.634
+-------------
+   514        515      0.0613078      0.0738712        8.33333
+
+	Valor atual: L1/L0 0.168 alpha 1.453 | Novos valores: L1/L0 0.093 alpha 1.453
+-------------
+   515        516      0.0613078      0.0738712        7.69231
+
+	Valor atual: L1/L0 0.168 alpha 1.453 | Novos valores: L1/L0 0.145 alpha 1.453
+-------------
+   516        517      0.0613078      0.0786429        7.14286
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.145 alpha 2.024
+-------------
+   517        518      0.0613078      0.0786429        6.66667
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.125 alpha 0.919
+-------------
+   518        519      0.0613078      0.0786429           6.25
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.189 alpha 1.953
+-------------
+   519        520      0.0613078      0.0786429        5.88235
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.192 alpha 1.982
+-------------
+   520        521      0.0613078      0.0786429        5.55556
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.123 alpha 1.453
+-------------
+   521        522      0.0613078      0.0786429        5.26316
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.166 alpha 1.768
+-------------
+   522        523      0.0613078      0.0786429              5
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.100 alpha 1.603
+-------------
+   523        524      0.0613078      0.0786429         4.7619
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.126 alpha 1.738
+-------------
+   524        525      0.0613078      0.0786429        4.54545
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.181 alpha 1.725
+-------------
+   525        526      0.0613078      0.0786429        4.34783
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.114 alpha 1.670
+-------------
+   526        527      0.0613078      0.0786429        4.16667
+
+	Valor atual: L1/L0 0.145 alpha 1.453 | Novos valores: L1/L0 0.124 alpha 1.078
+-------------
+   527        528      0.0613078       0.244893              4
+
+	Valor atual: L1/L0 0.124 alpha 1.078 | Novos valores: L1/L0 0.140 alpha 1.078
+-------------
+   528        529      0.0613078       0.239084        3.84615
+
+	Valor atual: L1/L0 0.140 alpha 1.078 | Novos valores: L1/L0 0.167 alpha 1.193
+-------------
+   529        530      0.0613078       0.197852         3.7037
+
+	Valor atual: L1/L0 0.167 alpha 1.193 | Novos valores: L1/L0 0.167 alpha 1.378
+-------------
+   530        531      0.0613078       0.117299        3.57143
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.142 alpha 1.521
+-------------
+   531        532      0.0613078       0.117299        3.44828
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.136 alpha 1.620
+-------------
+   532        533      0.0613078       0.117299        3.33333
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.144 alpha 1.345
+-------------
+   533        534      0.0613078       0.117299        3.22581
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.161 alpha 1.507
+-------------
+   534        535      0.0613078       0.117299          3.125
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.139 alpha 1.566
+-------------
+   535        536      0.0613078       0.117299         3.0303
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.143 alpha 1.378
+-------------
+   536        537      0.0613078       0.117299        2.94118
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.155 alpha 1.643
+-------------
+   537        538      0.0613078       0.117299        2.85714
+
+	Valor atual: L1/L0 0.167 alpha 1.378 | Novos valores: L1/L0 0.187 alpha 1.435
+-------------
+   538        539      0.0613078      0.0791452        2.77778
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.165 alpha 1.630
+-------------
+   539        540      0.0613078      0.0791452         2.7027
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.187 alpha 1.516
+-------------
+   540        541      0.0613078      0.0791452        2.63158
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.192 alpha 1.514
+-------------
+   541        542      0.0613078      0.0791452         2.5641
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.164 alpha 1.307
+-------------
+   542        543      0.0613078      0.0791452            2.5
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.174 alpha 1.510
+-------------
+   543        544      0.0613078      0.0791452        2.43902
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.207 alpha 1.606
+-------------
+   544        545      0.0613078      0.0791452        2.38095
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.192 alpha 1.650
+-------------
+   545        546      0.0613078      0.0791452        2.32558
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.196 alpha 1.552
+-------------
+   546        547      0.0613078      0.0791452        2.27273
+
+	Valor atual: L1/L0 0.187 alpha 1.435 | Novos valores: L1/L0 0.203 alpha 1.458
+-------------
+   547        548      0.0613078       0.077896        2.22222
+
+	Valor atual: L1/L0 0.203 alpha 1.458 | Novos valores: L1/L0 0.214 alpha 1.614
+-------------
+   548        549      0.0613078       0.077896        2.17391
+
+	Valor atual: L1/L0 0.203 alpha 1.458 | Novos valores: L1/L0 0.216 alpha 1.610
+-------------
+   549        550      0.0613078       0.077896        2.12766
+
+	Valor atual: L1/L0 0.203 alpha 1.458 | Novos valores: L1/L0 0.192 alpha 1.607
+-------------
+   550        551      0.0613078       0.077896        2.08333
+
+	Valor atual: L1/L0 0.203 alpha 1.458 | Novos valores: L1/L0 0.203 alpha 1.521
+-------------
+   551        552      0.0613078       0.077896        2.04082
+
+	Valor atual: L1/L0 0.203 alpha 1.458 | Novos valores: L1/L0 0.185 alpha 1.458
+-------------
+   552        553      0.0613078      0.0757305              2
+
+	Valor atual: L1/L0 0.185 alpha 1.458 | Novos valores: L1/L0 0.199 alpha 1.538
+-------------
+   553        554      0.0613078      0.0757305        1.96078
+
+	Valor atual: L1/L0 0.185 alpha 1.458 | Novos valores: L1/L0 0.183 alpha 1.635
+-------------
+   554        555      0.0613078      0.0757305        1.92308
+
+	Valor atual: L1/L0 0.185 alpha 1.458 | Novos valores: L1/L0 0.183 alpha 1.497
+-------------
+   555        556      0.0613078      0.0757305        1.88679
+
+	Valor atual: L1/L0 0.185 alpha 1.458 | Novos valores: L1/L0 0.190 alpha 1.477
+-------------
+   556        557      0.0613078      0.0802482        1.85185
+
+	Valor atual: L1/L0 0.190 alpha 1.477 | Novos valores: L1/L0 0.194 alpha 1.588
+-------------
+   557        558      0.0613078      0.0802482        1.81818
+
+	Valor atual: L1/L0 0.190 alpha 1.477 | Novos valores: L1/L0 0.194 alpha 1.568
+-------------
+   558        559      0.0613078      0.0802482        1.78571
+
+	Valor atual: L1/L0 0.190 alpha 1.477 | Novos valores: L1/L0 0.179 alpha 1.548
+-------------
+   559        560      0.0613078      0.0802482        1.75439
+
+	Valor atual: L1/L0 0.190 alpha 1.477 | Novos valores: L1/L0 0.187 alpha 1.372
+-------------
+   560        561      0.0613078       0.114766        1.72414
+
+	Valor atual: L1/L0 0.187 alpha 1.372 | Novos valores: L1/L0 0.178 alpha 1.510
+-------------
+   561        562      0.0613078       0.114766        1.69492
+
+	Valor atual: L1/L0 0.187 alpha 1.372 | Novos valores: L1/L0 0.185 alpha 1.490
+-------------
+   562        563      0.0613078       0.114766        1.66667
+
+	Valor atual: L1/L0 0.187 alpha 1.372 | Novos valores: L1/L0 0.175 alpha 1.405
+-------------
+   563        564      0.0613078      0.0992148        1.63934
+
+	Valor atual: L1/L0 0.175 alpha 1.405 | Novos valores: L1/L0 0.160 alpha 1.487
+-------------
+   564        565      0.0613078       0.078786         1.6129
+
+	Valor atual: L1/L0 0.160 alpha 1.487 | Novos valores: L1/L0 0.167 alpha 1.616
+-------------
+   565        566      0.0613078       0.078786         1.5873
+
+	Valor atual: L1/L0 0.160 alpha 1.487 | Novos valores: L1/L0 0.162 alpha 1.614
+-------------
+   566        567      0.0613078       0.078786         1.5625
+
+	Valor atual: L1/L0 0.160 alpha 1.487 | Novos valores: L1/L0 0.162 alpha 1.503
+-------------
+   567        568      0.0613078       0.078786        1.53846
+
+	Valor atual: L1/L0 0.160 alpha 1.487 | Novos valores: L1/L0 0.154 alpha 1.625
+-------------
+   568        569      0.0613078       0.078786        1.51515
+
+	Valor atual: L1/L0 0.160 alpha 1.487 | Novos valores: L1/L0 0.162 alpha 1.487
+-------------
+   569        570      0.0613078      0.0789998        1.49254
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.171 alpha 1.487
+-------------
+   570        571      0.0613078      0.0789998        1.47059
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.159 alpha 1.619
+-------------
+   571        572      0.0613078      0.0789998        1.44928
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.156 alpha 1.545
+-------------
+   572        573      0.0613078      0.0789998        1.42857
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.160 alpha 1.401
+-------------
+   573        574      0.0613078      0.0789998        1.40845
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.167 alpha 1.571
+-------------
+   574        575      0.0613078      0.0789998        1.38889
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.155 alpha 1.529
+-------------
+   575        576      0.0613078      0.0789998        1.36986
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.163 alpha 1.610
+-------------
+   576        577      0.0613078      0.0789998        1.35135
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.162 alpha 1.582
+-------------
+   577        578      0.0613078      0.0789998        1.33333
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.159 alpha 1.527
+-------------
+   578        579      0.0613078      0.0789998        1.31579
+
+	Valor atual: L1/L0 0.162 alpha 1.487 | Novos valores: L1/L0 0.155 alpha 1.487
+-------------
+   579        580      0.0613078      0.0780608         1.2987
+
+	Valor atual: L1/L0 0.155 alpha 1.487 | Novos valores: L1/L0 0.163 alpha 1.565
+-------------
+   580        581      0.0613078      0.0780608        1.28205
+
+	Valor atual: L1/L0 0.155 alpha 1.487 | Novos valores: L1/L0 0.148 alpha 1.577
+-------------
+   581        582      0.0613078      0.0780608        1.26582
+
+	Valor atual: L1/L0 0.155 alpha 1.487 | Novos valores: L1/L0 0.155 alpha 1.601
+-------------
+   582        583      0.0613078      0.0780608           1.25
+
+	Valor atual: L1/L0 0.155 alpha 1.487 | Novos valores: L1/L0 0.145 alpha 1.549
+-------------
+   583        584      0.0613078      0.0780608        1.23457
+
+	Valor atual: L1/L0 0.155 alpha 1.487 | Novos valores: L1/L0 0.151 alpha 1.487
+-------------
+   584        585      0.0613078      0.0775124        1.21951
+
+	Valor atual: L1/L0 0.151 alpha 1.487 | Novos valores: L1/L0 0.143 alpha 1.511
+-------------
+   585        586      0.0613078      0.0775124        1.20482
+
+	Valor atual: L1/L0 0.151 alpha 1.487 | Novos valores: L1/L0 0.142 alpha 1.511
+-------------
+   586        587      0.0613078      0.0775124        1.19048
+
+	Valor atual: L1/L0 0.151 alpha 1.487 | Novos valores: L1/L0 0.151 alpha 1.594
+-------------
+   587        588      0.0613078      0.0775124        1.17647
+
+	Valor atual: L1/L0 0.151 alpha 1.487 | Novos valores: L1/L0 0.159 alpha 1.463
+-------------
+   588        589      0.0613078      0.0732967        1.16279
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.161 alpha 1.522
+-------------
+   589        590      0.0613078      0.0732967        1.14943
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.168 alpha 1.567
+-------------
+   590        591      0.0613078      0.0732967        1.13636
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.167 alpha 1.509
+-------------
+   591        592      0.0613078      0.0732967         1.1236
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.153 alpha 1.565
+-------------
+   592        593      0.0613078      0.0732967        1.11111
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.159 alpha 1.508
+-------------
+   593        594      0.0613078      0.0732967         1.0989
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.161 alpha 1.529
+-------------
+   594        595      0.0613078      0.0732967        1.08696
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.161 alpha 1.485
+-------------
+   595        596      0.0613078      0.0732967        1.07527
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.163 alpha 1.549
+-------------
+   596        597      0.0613078      0.0732967        1.06383
+
+	Valor atual: L1/L0 0.159 alpha 1.463 | Novos valores: L1/L0 0.160 alpha 1.463
+-------------
+   597        598      0.0613078      0.0734431        1.05263
+
+	Valor atual: L1/L0 0.160 alpha 1.463 | Novos valores: L1/L0 0.161 alpha 1.495
+-------------
+   598        599      0.0613078      0.0734431        1.04167
+
+	Valor atual: L1/L0 0.160 alpha 1.463 | Novos valores: L1/L0 0.166 alpha 1.505
+-------------
+   599        600      0.0613078      0.0734431        1.03093
+
+	Valor atual: L1/L0 0.160 alpha 1.463 | Novos valores: L1/L0 0.167 alpha 1.515
+-------------
+   600        601      0.0613078      0.0734431        1.02041
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.160 alpha 1.463 | Novos valores: L1/L0 0.156 alpha 1.525
+-------------
+   601        602      0.0613078      0.0734431         1.0101
+
+	Valor atual: L1/L0 0.160 alpha 1.463 | Novos valores: L1/L0 0.162 alpha 1.484
+-------------
+   602        603      0.0613078      0.0781374              1
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.168 alpha 1.564
+-------------
+   603        604      0.0613078      0.0781374       0.990099
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.167 alpha 1.523
+-------------
+   604        605      0.0613078      0.0781374       0.980392
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.163 alpha 1.533
+-------------
+   605        606      0.0613078      0.0781374       0.970874
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.162 alpha 1.561
+-------------
+   606        607      0.0613078      0.0781374       0.961538
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.164 alpha 1.532
+-------------
+   607        608      0.0613078      0.0781374       0.952381
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.160 alpha 1.512
+-------------
+   608        609      0.0613078      0.0781374       0.943396
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.162 alpha 1.559
+-------------
+   609        610      0.0613078      0.0781374       0.934579
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.164 alpha 1.549
+-------------
+   610        611      0.0613078      0.0781374       0.925926
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.166 alpha 1.521
+-------------
+   611        612      0.0613078      0.0781374       0.917431
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.165 alpha 1.557
+-------------
+   612        613      0.0613078      0.0781374       0.909091
+
+	Valor atual: L1/L0 0.162 alpha 1.484 | Novos valores: L1/L0 0.162 alpha 1.493
+-------------
+   613        614      0.0613078      0.0805489       0.900901
+
+	Valor atual: L1/L0 0.162 alpha 1.493 | Novos valores: L1/L0 0.167 alpha 1.502
+-------------
+   614        615      0.0613078      0.0805489       0.892857
+
+	Valor atual: L1/L0 0.162 alpha 1.493 | Novos valores: L1/L0 0.162 alpha 1.520
+-------------
+   615        616      0.0613078      0.0805489       0.884956
+
+	Valor atual: L1/L0 0.162 alpha 1.493 | Novos valores: L1/L0 0.159 alpha 1.519
+-------------
+   616        617      0.0613078      0.0805489       0.877193
+
+	Valor atual: L1/L0 0.162 alpha 1.493 | Novos valores: L1/L0 0.166 alpha 1.545
+-------------
+   617        618      0.0613078      0.0805489       0.869565
+
+	Valor atual: L1/L0 0.162 alpha 1.493 | Novos valores: L1/L0 0.167 alpha 1.528
+-------------
+   618        619      0.0613078      0.0805489       0.862069
+
+	Valor atual: L1/L0 0.162 alpha 1.493 | Novos valores: L1/L0 0.162 alpha 1.510
+-------------
+   619        620      0.0613078      0.0805489       0.854701
+
+	Valor atual: L1/L0 0.162 alpha 1.493 | Novos valores: L1/L0 0.161 alpha 1.493
+-------------
+   620        621      0.0613078      0.0804293       0.847458
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.161 alpha 1.535
+-------------
+   621        622      0.0613078      0.0804293       0.840336
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.160 alpha 1.510
+-------------
+   622        623      0.0613078      0.0804293       0.833333
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.157 alpha 1.568
+-------------
+   623        624      0.0613078      0.0804293       0.826446
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.160 alpha 1.526
+-------------
+   624        625      0.0613078      0.0804293       0.819672
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.159 alpha 1.558
+-------------
+   625        626      0.0613078      0.0804293       0.813008
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.158 alpha 1.566
+-------------
+   626        627      0.0613078      0.0804293       0.806452
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.164 alpha 1.557
+-------------
+   627        628      0.0613078      0.0804293            0.8
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.156 alpha 1.525
+-------------
+   628        629      0.0613078      0.0804293       0.793651
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.156 alpha 1.509
+-------------
+   629        630      0.0613078      0.0804293       0.787402
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.165 alpha 1.532
+-------------
+   630        631      0.0613078      0.0804293        0.78125
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.155 alpha 1.532
+-------------
+   631        632      0.0613078      0.0804293       0.775194
+
+	Valor atual: L1/L0 0.161 alpha 1.493 | Novos valores: L1/L0 0.155 alpha 1.493
+-------------
+   632        633      0.0613078      0.0796449       0.769231
+
+	Valor atual: L1/L0 0.155 alpha 1.493 | Novos valores: L1/L0 0.155 alpha 1.562
+-------------
+   633        634      0.0613078      0.0796449       0.763359
+
+	Valor atual: L1/L0 0.155 alpha 1.493 | Novos valores: L1/L0 0.154 alpha 1.539
+-------------
+   634        635      0.0613078      0.0796449       0.757576
+
+	Valor atual: L1/L0 0.155 alpha 1.493 | Novos valores: L1/L0 0.155 alpha 1.546
+-------------
+   635        636      0.0613078      0.0796449        0.75188
+
+	Valor atual: L1/L0 0.155 alpha 1.493 | Novos valores: L1/L0 0.153 alpha 1.515
+-------------
+   636        637      0.0613078      0.0796449       0.746269
+
+	Valor atual: L1/L0 0.155 alpha 1.493 | Novos valores: L1/L0 0.151 alpha 1.493
+-------------
+   637        638      0.0613078       0.078982       0.740741
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.144 alpha 1.515
+-------------
+   638        639      0.0613078       0.078982       0.735294
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.157 alpha 1.529
+-------------
+   639        640      0.0613078       0.078982       0.729927
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.147 alpha 1.507
+-------------
+   640        641      0.0613078       0.078982       0.724638
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.157 alpha 1.529
+-------------
+   641        642      0.0613078       0.078982       0.719424
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.154 alpha 1.493
+-------------
+   642        643      0.0613078       0.078982       0.714286
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.156 alpha 1.521
+-------------
+   643        644      0.0613078       0.078982        0.70922
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.157 alpha 1.557
+-------------
+   644        645      0.0613078       0.078982       0.704225
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.146 alpha 1.500
+-------------
+   645        646      0.0613078       0.078982       0.699301
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.147 alpha 1.507
+-------------
+   646        647      0.0613078       0.078982       0.694444
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.151 alpha 1.527
+-------------
+   647        648      0.0613078       0.078982       0.689655
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.152 alpha 1.548
+-------------
+   648        649      0.0613078       0.078982       0.684932
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.150 alpha 1.500
+-------------
+   649        650      0.0613078       0.078982       0.680272
+
+	Valor atual: L1/L0 0.151 alpha 1.493 | Novos valores: L1/L0 0.152 alpha 1.493
+-------------
+   650        651      0.0613078      0.0791857       0.675676
+
+	Valor atual: L1/L0 0.152 alpha 1.493 | Novos valores: L1/L0 0.152 alpha 1.506
+-------------
+   651        652      0.0613078      0.0791857       0.671141
+
+	Valor atual: L1/L0 0.152 alpha 1.493 | Novos valores: L1/L0 0.157 alpha 1.540
+-------------
+   652        653      0.0613078      0.0791857       0.666667
+
+	Valor atual: L1/L0 0.152 alpha 1.493 | Novos valores: L1/L0 0.148 alpha 1.493
+-------------
+   653        654      0.0613078      0.0784803       0.662252
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.150 alpha 1.493
+-------------
+   654        655      0.0613078      0.0784803       0.657895
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.146 alpha 1.526
+-------------
+   655        656      0.0613078      0.0784803       0.653595
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.151 alpha 1.506
+-------------
+   656        657      0.0613078      0.0784803       0.649351
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.149 alpha 1.519
+-------------
+   657        658      0.0613078      0.0784803       0.645161
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.144 alpha 1.531
+-------------
+   658        659      0.0613078      0.0784803       0.641026
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.148 alpha 1.538
+-------------
+   659        660      0.0613078      0.0784803       0.636943
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.142 alpha 1.544
+-------------
+   660        661      0.0613078      0.0784803       0.632911
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.151 alpha 1.543
+-------------
+   661        662      0.0613078      0.0784803       0.628931
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.149 alpha 1.549
+-------------
+   662        663      0.0613078      0.0784803          0.625
+
+	Valor atual: L1/L0 0.148 alpha 1.493 | Novos valores: L1/L0 0.144 alpha 1.493
+-------------
+   663        664      0.0613078      0.0778996       0.621118
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.143 alpha 1.499
+-------------
+   664        665      0.0613078      0.0778996       0.617284
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.139 alpha 1.542
+-------------
+   665        666      0.0613078      0.0778996       0.613497
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.144 alpha 1.548
+-------------
+   666        667      0.0613078      0.0778996       0.609756
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.143 alpha 1.511
+-------------
+   667        668      0.0613078      0.0778996       0.606061
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.142 alpha 1.529
+-------------
+   668        669      0.0613078      0.0778996        0.60241
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.149 alpha 1.535
+-------------
+   669        670      0.0613078      0.0778996       0.598802
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.147 alpha 1.493
+-------------
+   670        671      0.0613078      0.0778996       0.595238
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.141 alpha 1.445
+-------------
+   671        672      0.0613078      0.0778996       0.591716
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.141 alpha 1.522
+-------------
+   672        673      0.0613078      0.0778996       0.588235
+
+	Valor atual: L1/L0 0.144 alpha 1.493 | Novos valores: L1/L0 0.141 alpha 1.493
+-------------
+   673        674      0.0613078      0.0774337       0.584795
+
+	Valor atual: L1/L0 0.141 alpha 1.493 | Novos valores: L1/L0 0.141 alpha 1.493
+-------------
+   674        675      0.0613078      0.0774337       0.581395
+
+	Valor atual: L1/L0 0.141 alpha 1.493 | Novos valores: L1/L0 0.139 alpha 1.510
+-------------
+   675        676      0.0613078      0.0774337       0.578035
+
+	Valor atual: L1/L0 0.141 alpha 1.493 | Novos valores: L1/L0 0.141 alpha 1.527
+-------------
+   676        677      0.0613078      0.0774337       0.574713
+
+	Valor atual: L1/L0 0.141 alpha 1.493 | Novos valores: L1/L0 0.139 alpha 1.498
+-------------
+   677        678      0.0613078      0.0774337       0.571429
+
+	Valor atual: L1/L0 0.141 alpha 1.493 | Novos valores: L1/L0 0.145 alpha 1.521
+-------------
+   678        679      0.0613078      0.0774337       0.568182
+
+	Valor atual: L1/L0 0.141 alpha 1.493 | Novos valores: L1/L0 0.141 alpha 1.544
+-------------
+   679        680      0.0613078      0.0774337       0.564972
+
+	Valor atual: L1/L0 0.141 alpha 1.493 | Novos valores: L1/L0 0.145 alpha 1.476
+-------------
+   680        681      0.0613078      0.0739077       0.561798
+
+	Valor atual: L1/L0 0.145 alpha 1.476 | Novos valores: L1/L0 0.147 alpha 1.481
+-------------
+   681        682      0.0613078      0.0739077       0.558659
+
+	Valor atual: L1/L0 0.145 alpha 1.476 | Novos valores: L1/L0 0.147 alpha 1.487
+-------------
+   682        683      0.0613078      0.0767596       0.555556
+
+	Valor atual: L1/L0 0.147 alpha 1.487 | Novos valores: L1/L0 0.150 alpha 1.526
+-------------
+   683        684      0.0613078      0.0767596       0.552486
+
+	Valor atual: L1/L0 0.147 alpha 1.487 | Novos valores: L1/L0 0.143 alpha 1.492
+-------------
+   684        685      0.0613078      0.0777317       0.549451
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.145 alpha 1.531
+-------------
+   685        686      0.0613078      0.0777317       0.546448
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.138 alpha 1.536
+-------------
+   686        687      0.0613078      0.0777317       0.543478
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.142 alpha 1.503
+-------------
+   687        688      0.0613078      0.0777317       0.540541
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.146 alpha 1.503
+-------------
+   688        689      0.0613078      0.0777317       0.537634
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.143 alpha 1.514
+-------------
+   689        690      0.0613078      0.0777317       0.534759
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.144 alpha 1.503
+-------------
+   690        691      0.0613078      0.0777317       0.531915
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.141 alpha 1.514
+-------------
+   691        692      0.0613078      0.0777317       0.529101
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.140 alpha 1.508
+-------------
+   692        693      0.0613078      0.0777317       0.526316
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.143 alpha 1.514
+-------------
+   693        694      0.0613078      0.0777317        0.52356
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.142 alpha 1.513
+-------------
+   694        695      0.0613078      0.0777317       0.520833
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.141 alpha 1.539
+-------------
+   695        696      0.0613078      0.0777317       0.518135
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.144 alpha 1.513
+-------------
+   696        697      0.0613078      0.0777317       0.515464
+
+	Valor atual: L1/L0 0.143 alpha 1.492 | Novos valores: L1/L0 0.144 alpha 1.492
+-------------
+   697        698      0.0613078       0.077812       0.512821
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.145 alpha 1.492
+-------------
+   698        699      0.0613078       0.077812       0.510204
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.140 alpha 1.518
+-------------
+   699        700      0.0613078       0.077812       0.507614
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.144 alpha 1.538
+-------------
+   700        701      0.0613078       0.077812       0.505051
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.143 alpha 1.533
+-------------
+   701        702      0.0613078       0.077812       0.502513
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.143 alpha 1.518
+-------------
+   702        703      0.0613078       0.077812            0.5
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.148 alpha 1.537
+-------------
+   703        704      0.0613078       0.077812       0.497512
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.144 alpha 1.512
+-------------
+   704        705      0.0613078       0.077812        0.49505
+
+	Valor atual: L1/L0 0.144 alpha 1.492 | Novos valores: L1/L0 0.144 alpha 1.497
+-------------
+   705        706      0.0613078      0.0792628       0.492611
+
+	Valor atual: L1/L0 0.144 alpha 1.497 | Novos valores: L1/L0 0.143 alpha 1.493
+-------------
+   706        707      0.0613078       0.077742       0.490196
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.143 alpha 1.517
+-------------
+   707        708      0.0613078       0.077742       0.487805
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.147 alpha 1.512
+-------------
+   708        709      0.0613078       0.077742       0.485437
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.148 alpha 1.536
+-------------
+   709        710      0.0613078       0.077742       0.483092
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.142 alpha 1.507
+-------------
+   710        711      0.0613078       0.077742       0.480769
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.144 alpha 1.536
+-------------
+   711        712      0.0613078       0.077742       0.478469
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.143 alpha 1.512
+-------------
+   712        713      0.0613078       0.077742        0.47619
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.141 alpha 1.516
+-------------
+   713        714      0.0613078       0.077742       0.473934
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.139 alpha 1.507
+-------------
+   714        715      0.0613078       0.077742       0.471698
+
+	Valor atual: L1/L0 0.143 alpha 1.493 | Novos valores: L1/L0 0.146 alpha 1.459
+-------------
+   715        716      0.0613078      0.0744702       0.469484
+
+	Valor atual: L1/L0 0.146 alpha 1.459 | Novos valores: L1/L0 0.143 alpha 1.474
+-------------
+   716        717      0.0613078      0.0730153        0.46729
+
+	Valor atual: L1/L0 0.143 alpha 1.474 | Novos valores: L1/L0 0.140 alpha 1.478
+-------------
+   717        718      0.0613078      0.0736893       0.465116
+
+	Valor atual: L1/L0 0.140 alpha 1.478 | Novos valores: L1/L0 0.139 alpha 1.450
+-------------
+   718        719      0.0613078      0.0815883       0.462963
+
+	Valor atual: L1/L0 0.139 alpha 1.450 | Novos valores: L1/L0 0.140 alpha 1.473
+-------------
+   719        720      0.0613078      0.0724751       0.460829
+
+	Valor atual: L1/L0 0.140 alpha 1.473 | Novos valores: L1/L0 0.142 alpha 1.510
+-------------
+   720        721      0.0613078      0.0724751       0.458716
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+
+	Valor atual: L1/L0 0.140 alpha 1.473 | Novos valores: L1/L0 0.139 alpha 1.469
+-------------
+   721        722      0.0613078      0.0713528       0.456621
+
+	Valor atual: L1/L0 0.139 alpha 1.469 | Novos valores: L1/L0 0.134 alpha 1.483
+-------------
+   722        723      0.0613078      0.0737512       0.454545
+
+	Valor atual: L1/L0 0.134 alpha 1.483 | Novos valores: L1/L0 0.131 alpha 1.514
+-------------
+   723        724      0.0613078      0.0737512       0.452489
+Optimization terminated: change in best function value less than options.TolFun.
+
+vetor =
+
+    0.0094    1.5482
+
+ 
+	HdL: 1.000  L1dL0: 0.009  t1dt0: 11.000  Alpha: 1.548

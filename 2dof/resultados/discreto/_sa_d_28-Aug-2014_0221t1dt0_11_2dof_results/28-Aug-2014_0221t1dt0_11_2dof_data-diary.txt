@@ -1,0 +1,66 @@
+\nSimulated Annealing...Discreted\n
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  1 1.04 ]
+Modified options:
+	options.AnnealingFcn = @d_annealing_c2
+	options.TemperatureFcn = @tempksa
+	options.StallIterLimit = 100
+	options.InitialTemperature = [  100 10 ]
+	options.Display = 'diagnose'
+	options.ReannealInterval = 100
+	options.DisplayInterval = 1 
+	options.AcceptanceFcn = @acceptancesa
+End of diagnostic information.
+
+
+vet_4_dof =
+
+    1.0000    1.0000   11.0000    1.0400
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.125405       0.125405             55
+
+ Iter 0 | Best F(x) 0.125 | F(x)  0.125 | Temperatura 10.000 | k = 1
+ 
+ Iter 1 | Best F(x) 
+	Valor atual: L1/L0 1.000 alpha 1.040 | Novos valores: L1/L0 0.002 alpha 1.010
+-------------
+
+vet_4_dof =
+
+    1.0000    0.0020   11.0000    1.0100
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('jigglemesh', '/usr/local/MATLAB/R2013a/toolbox/pde/jigglemesh.m', 107)" style="font-weight:bold">jigglemesh</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/pde/jigglemesh.m',107,0)">line 107</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('pdetoolGA', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/pdetoolGA.m', 3219)" style="font-weight:bold">pdetoolGA</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/pdetoolGA.m',3219,0)">line 3219</a>)
+    p=jigglemesh(p,e,t,'opt',jiggleopt);
+
+In <a href="matlab:helpUtils.errorDocCallback('cav_y', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/cav_y.m', 194)" style="font-weight:bold">cav_y</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/pdetool/cav_y.m',194,0)">line 194</a>)
+    pdetoolGA('jiggle')
+
+In <a href="matlab:helpUtils.errorDocCallback('sa_cav_y_2dof', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/sa_cav_y_2dof.m', 13)" style="font-weight:bold">sa_cav_y_2dof</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/sa_cav_y_2dof.m',13,0)">line 13</a>)
+       saida =cav_y(vetor);
+
+In <a href="matlab:helpUtils.errorDocCallback('sanewpoint', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/sanewpoint.m', 25)" style="font-weight:bold">sanewpoint</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/sanewpoint.m',25,0)">line 25</a>)
+newfval = problem.objective(newx);
+
+In <a href="matlab:helpUtils.errorDocCallback('saengine', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saengine.m', 30)" style="font-weight:bold">saengine</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/saengine.m',30,0)">line 30</a>)
+    solverData = sanewpoint(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulanneal', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/simulanneal.m', 51)" style="font-weight:bold">simulanneal</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/private/simulanneal.m',51,0)">line 51</a>)
+solverData = saengine(solverData,problem,options);
+
+In <a href="matlab:helpUtils.errorDocCallback('simulannealbnd', '/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/simulannealbnd.m', 122)" style="font-weight:bold">simulannealbnd</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2013a/toolbox/globaloptim/globaloptim/simulannealbnd.m',122,0)">line 122</a>)
+[x, fval, exitflag, output] = simulanneal(FUN, x0, [], [], [], [], lb, ub, options);
+
+In <a href="matlab:helpUtils.errorDocCallback('d_sa_cav_y2', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/d_sa_cav_y2.m', 20)" style="font-weight:bold">d_sa_cav_y2</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/d_sa_cav_y2.m',20,0)">line 20</a>)
+[x,fval,exitflag,output] = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('dopt_sa_cavy', '/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/dopt_sa_cavy.m', 108)" style="font-weight:bold">dopt_sa_cavy</a> (<a href="matlab: opentoline('/media/Dados/Arquivos/Estudos/Mestrado/Projetos/matlab/opt/opt_pde/01_sa_cav_y/2dof/sa_discrete_v2/dopt_sa_cavy.m',108,0)">line 108</a>)
+vetor = d_sa_cav_y2(fun,x0,d,s,rs,optValue,modeltemp);
+} 

@@ -1,0 +1,51 @@
+
+Valores Encontrados:
+
+	Tmax: 0.319246.3
+	H: 1.000
+	L: 1.000
+	t1: 0.562
+	t0: 0.051
+	L1: 0.000
+	L0: 0.347
+	alfa1: 1.000
+
+
+Simulated Annealing...
+
+Diagnostic information.
+	objective function = @sa_cav_y_2dof
+	X0 = [  0.001 1 ]
+Modified options:
+	options.TemperatureFcn = @temperaturefast
+	options.StallIterLimit = 500
+	options.Display = 'diagnose'
+	options.DisplayInterval = 100
+End of diagnostic information.
+
+
+                           Best        Current           Mean
+Iteration   f-count         f(x)         f(x)         temperature
+     0          1       0.319246       0.319246            100
+   100        101      0.0649014       0.312566       0.990099
+*  181        184      0.0611665       0.240444        20.7486
+   200        203      0.0611665      0.0978352        4.19461
+   300        303      0.0611665       0.100032       0.807465
+*  351        356      0.0611665       0.133665        20.6626
+   400        405      0.0611665      0.0967897        1.85678
+   500        505      0.0611665       0.179847       0.649951
+*  531        538      0.0611665       0.109428        18.4826
+   600        607      0.0611665       0.100227        1.34377
+Optimization terminated: change in best function value less than options.TolFun.
+
+Valores Encontrados:
+
+	Tmax: 0.061166.3
+	H: 1.000
+	L: 1.000
+	t1: 0.292
+	t0: 0.027
+	L1: 0.007
+	L0: 0.902
+	alfa1: 1.550
+
